@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<minMaxTemperature issuedAt="00UTC 27 Oct 2016" basedOn="BEST(RDPS+GDPS+EPSG)" updatedOn="13:25LST" mdls="RDPS+GDPS+EPSG">
+ <regionGroup grCode="0" grName="수도권청(서울)">
+  <stn hasWeightData="true" stnName="서울" stnNo="47108">
+   <dataSet lst="10/27_15" val="20.2" weight="GDPS_PMOS:11.18 ECMW_PMOS:51.09 GDPS_NPPM:5.66 RDPS_PMOS:10.16 RDPS_NPPM:8.04 EPSG_PMOS:13.86 " />
+   <dataSet lst="10/28_06" val="13.3" weight="GDPS_PMOS:11.37 ECMW_PMOS:19.97 GDPS_NPPM:8.52 RDPS_PMOS:12.67 RDPS_NPPM:32.03 EPSG_PMOS:15.44 " />
+   <dataSet lst="10/28_15" val="16.1" weight="GDPS_PMOS:14.89 ECMW_PMOS:32.65 GDPS_NPPM:9.01 RDPS_PMOS:16.44 RDPS_NPPM:11.51 EPSG_PMOS:15.5 " />
+   <dataSet lst="10/29_06" val="7.5" weight="GDPS_PMOS:10.69 ECMW_PMOS:27.45 GDPS_NPPM:9.51 RDPS_PMOS:12.74 RDPS_NPPM:25.86 EPSG_PMOS:13.74 " />
+   <dataSet lst="10/29_15" val="12.2" weight="GDPS_PMOS:15.41 ECMW_PMOS:42.55 GDPS_NPPM:8.63 RDPS_PMOS:11.59 RDPS_NPPM:9.56 EPSG_PMOS:12.26 " />
+   <dataSet lst="10/30_06" val="2.6" weight="GDPS_PMOS:10.89 ECMW_PMOS:35.54 GDPS_NPPM:7.44 RDPS_PMOS:13.26 RDPS_NPPM:17.08 EPSG_PMOS:15.79 " />
+   <dataSet lst="10/30_15" val="13.4" weight="GDPS_PMOS:15.0 ECMW_PMOS:27.65 GDPS_NPPM:11.88 RDPS_PMOS:16.21 RDPS_NPPM:12.21 EPSG_PMOS:17.05 " />
+   <dataSet lst="10/31_06" val="6.6" weight="GDPS_PMOS:21.37 ECMW_PMOS:34.93 GDPS_NPPM:15.53 EPSG_PMOS:28.16 " />
+   <dataSet lst="10/31_15" val="12.5" weight="GDPS_PMOS:23.12 ECMW_PMOS:40.09 GDPS_NPPM:17.63 EPSG_PMOS:19.17 " />
+   <dataSet lst="11/01_06" val="1.9" weight="GDPS_PMOS:22.68 ECMW_PMOS:41.62 GDPS_NPPM:12.86 EPSG_PMOS:22.84 " />
+   <dataSet lst="11/01_15" val="9.8" weight="GDPS_PMOS:18.68 ECMW_PMOS:37.84 GDPS_NPPM:16.49 EPSG_PMOS:26.99 " />
+   <dataSet lst="11/02_06" val="1.6" weight="GDPS_PMOS:21.82 ECMW_PMOS:32.73 GDPS_NPPM:15.16 EPSG_PMOS:30.29 " />
+   <dataSet lst="11/02_15" val="11.1" weight="GDPS_PMOS:24.74 ECMW_PMOS:31.08 GDPS_NPPM:15.74 EPSG_PMOS:28.43 " />
+   <dataSet lst="11/03_06" val="5.3" weight="GDPS_PMOS:27.06 ECMW_PMOS:27.28 GDPS_NPPM:17.87 EPSG_PMOS:27.8 " />
+   <dataSet lst="11/03_15" val="13.1" weight="GDPS_PMOS:22.48 ECMW_PMOS:28.78 GDPS_NPPM:22.01 EPSG_PMOS:26.74 " />
+   <dataSet lst="11/04_06" val="5.7" weight="GDPS_PMOS:20.24 ECMW_PMOS:32.45 GDPS_NPPM:16.17 EPSG_PMOS:31.14 " />
+   <dataSet lst="11/04_15" val="15.2" weight="GDPS_PMOS:17.69 ECMW_PMOS:35.67 GDPS_NPPM:22.19 EPSG_PMOS:24.45 " />
+   <dataSet lst="11/05_06" val="9.0" weight="GDPS_PMOS:23.37 ECMW_PMOS:33.64 GDPS_NPPM:16.11 EPSG_PMOS:26.88 " />
+   <dataSet lst="11/05_15" val="16.0" weight="GDPS_PMOS:16.61 ECMW_PMOS:39.52 GDPS_NPPM:20.37 EPSG_PMOS:23.5 " />
+   <dataSet lst="11/06_06" val="10.4" weight="GDPS_PMOS:27.63 ECMW_PMOS:28.36 GDPS_NPPM:17.13 EPSG_PMOS:26.89 " />
+   <dataSet lst="11/06_15" val="15.6" weight="GDPS_PMOS:41.41 EPSG_PMOS:58.59 " />
+   <dataSet lst="11/07_06" val="8.0" weight="GDPS_PMOS:46.68 EPSG_PMOS:53.32 " />
+   <dataSet lst="11/07_15" val="15.1" weight="GDPS_PMOS:40.19 EPSG_PMOS:59.81 " />
+  </stn>
+  <stn hasWeightData="true" stnName="인천" stnNo="47112">
+   <dataSet lst="10/27_15" val="19.6" weight="GDPS_PMOS:5.57 ECMW_PMOS:47.72 GDPS_NPPM:4.53 RDPS_PMOS:9.71 RDPS_NPPM:13.83 EPSG_PMOS:18.64 " />
+   <dataSet lst="10/28_06" val="13.8" weight="GDPS_PMOS:9.02 ECMW_PMOS:39.13 GDPS_NPPM:12.86 RDPS_PMOS:15.15 RDPS_NPPM:5.7 EPSG_PMOS:18.15 " />
+   <dataSet lst="10/28_15" val="16.0" weight="GDPS_PMOS:8.74 ECMW_PMOS:40.16 GDPS_NPPM:6.23 RDPS_PMOS:12.49 RDPS_NPPM:13.91 EPSG_PMOS:18.49 " />
+   <dataSet lst="10/29_06" val="7.6" weight="GDPS_PMOS:10.34 ECMW_PMOS:43.19 GDPS_NPPM:13.68 RDPS_PMOS:12.67 RDPS_NPPM:6.32 EPSG_PMOS:13.81 " />
+   <dataSet lst="10/29_15" val="11.6" weight="GDPS_PMOS:10.29 ECMW_PMOS:40.42 GDPS_NPPM:7.05 RDPS_PMOS:13.9 RDPS_NPPM:11.64 EPSG_PMOS:16.7 " />
+   <dataSet lst="10/30_06" val="4.1" weight="GDPS_PMOS:11.32 ECMW_PMOS:37.14 GDPS_NPPM:13.36 RDPS_PMOS:12.67 RDPS_NPPM:6.48 EPSG_PMOS:19.02 " />
+   <dataSet lst="10/30_15" val="12.7" weight="GDPS_PMOS:12.73 ECMW_PMOS:30.03 GDPS_NPPM:9.79 RDPS_PMOS:15.16 RDPS_NPPM:12.18 EPSG_PMOS:20.1 " />
+   <dataSet lst="10/31_06" val="8.2" weight="GDPS_PMOS:22.79 ECMW_PMOS:33.68 GDPS_NPPM:21.59 EPSG_PMOS:21.94 " />
+   <dataSet lst="10/31_15" val="12.2" weight="GDPS_PMOS:17.29 ECMW_PMOS:40.82 GDPS_NPPM:14.35 EPSG_PMOS:27.54 " />
+   <dataSet lst="11/01_06" val="2.6" weight="GDPS_PMOS:24.22 ECMW_PMOS:36.78 GDPS_NPPM:16.76 EPSG_PMOS:22.23 " />
+   <dataSet lst="11/01_15" val="9.4" weight="GDPS_PMOS:18.25 ECMW_PMOS:35.98 GDPS_NPPM:18.42 EPSG_PMOS:27.35 " />
+   <dataSet lst="11/02_06" val="3.7" weight="GDPS_PMOS:24.62 ECMW_PMOS:33.68 GDPS_NPPM:16.97 EPSG_PMOS:24.73 " />
+   <dataSet lst="11/02_15" val="11.3" weight="GDPS_PMOS:24.92 ECMW_PMOS:30.64 GDPS_NPPM:15.93 EPSG_PMOS:28.51 " />
+   <dataSet lst="11/03_06" val="7.8" weight="GDPS_PMOS:30.1 ECMW_PMOS:25.93 GDPS_NPPM:21.55 EPSG_PMOS:22.42 " />
+   <dataSet lst="11/03_15" val="13.0" weight="GDPS_PMOS:21.68 ECMW_PMOS:26.71 GDPS_NPPM:21.72 EPSG_PMOS:29.9 " />
+   <dataSet lst="11/04_06" val="7.6" weight="GDPS_PMOS:23.26 ECMW_PMOS:33.06 GDPS_NPPM:18.07 EPSG_PMOS:25.62 " />
+   <dataSet lst="11/04_15" val="14.8" weight="GDPS_PMOS:19.11 ECMW_PMOS:36.25 GDPS_NPPM:20.93 EPSG_PMOS:23.7 " />
+   <dataSet lst="11/05_06" val="10.4" weight="GDPS_PMOS:20.96 ECMW_PMOS:37.79 GDPS_NPPM:16.58 EPSG_PMOS:24.66 " />
+   <dataSet lst="11/05_15" val="16.3" weight="GDPS_PMOS:19.2 ECMW_PMOS:39.15 GDPS_NPPM:20.09 EPSG_PMOS:21.56 " />
+   <dataSet lst="11/06_06" val="12.0" weight="GDPS_PMOS:29.5 ECMW_PMOS:27.18 GDPS_NPPM:17.39 EPSG_PMOS:25.93 " />
+   <dataSet lst="11/06_15" val="15.5" weight="GDPS_PMOS:43.28 EPSG_PMOS:56.72 " />
+   <dataSet lst="11/07_06" val="9.4" weight="GDPS_PMOS:51.69 EPSG_PMOS:48.31 " />
+   <dataSet lst="11/07_15" val="15.2" weight="GDPS_PMOS:43.01 EPSG_PMOS:56.99 " />
+  </stn>
+  <stn hasWeightData="true" stnName="수원" stnNo="47119">
+   <dataSet lst="10/27_15" val="19.9" weight="GDPS_PMOS:12.58 ECMW_PMOS:37.69 GDPS_NPPM:7.98 RDPS_PMOS:13.53 RDPS_NPPM:9.05 EPSG_PMOS:19.17 " />
+   <dataSet lst="10/28_06" val="12.8" weight="GDPS_PMOS:14.28 ECMW_PMOS:31.12 GDPS_NPPM:9.62 RDPS_PMOS:12.81 RDPS_NPPM:17.45 EPSG_PMOS:14.73 " />
+   <dataSet lst="10/28_15" val="16.1" weight="GDPS_PMOS:17.14 ECMW_PMOS:30.46 GDPS_NPPM:10.62 RDPS_PMOS:15.25 RDPS_NPPM:10.98 EPSG_PMOS:15.55 " />
+   <dataSet lst="10/29_06" val="7.1" weight="GDPS_PMOS:11.13 ECMW_PMOS:31.86 GDPS_NPPM:11.47 RDPS_PMOS:12.84 RDPS_NPPM:18.66 EPSG_PMOS:14.04 " />
+   <dataSet lst="10/29_15" val="12.1" weight="GDPS_PMOS:15.28 ECMW_PMOS:38.44 GDPS_NPPM:11.1 RDPS_PMOS:12.88 RDPS_NPPM:9.69 EPSG_PMOS:12.61 " />
+   <dataSet lst="10/30_06" val="2.3" weight="GDPS_PMOS:8.43 ECMW_PMOS:31.54 GDPS_NPPM:9.92 RDPS_PMOS:14.37 RDPS_NPPM:17.48 EPSG_PMOS:18.26 " />
+   <dataSet lst="10/30_15" val="13.8" weight="GDPS_PMOS:18.65 ECMW_PMOS:27.08 GDPS_NPPM:12.6 RDPS_PMOS:13.0 RDPS_NPPM:11.25 EPSG_PMOS:17.42 " />
+   <dataSet lst="10/31_06" val="5.2" weight="GDPS_PMOS:17.08 ECMW_PMOS:39.4 GDPS_NPPM:17.49 EPSG_PMOS:26.02 " />
+   <dataSet lst="10/31_15" val="13.3" weight="GDPS_PMOS:20.21 ECMW_PMOS:41.29 GDPS_NPPM:17.47 EPSG_PMOS:21.02 " />
+   <dataSet lst="11/01_06" val="0.7" weight="GDPS_PMOS:17.41 ECMW_PMOS:50.45 GDPS_NPPM:11.79 EPSG_PMOS:20.35 " />
+   <dataSet lst="11/01_15" val="10.3" weight="GDPS_PMOS:15.92 ECMW_PMOS:41.07 GDPS_NPPM:16.59 EPSG_PMOS:26.42 " />
+   <dataSet lst="11/02_06" val="0.5" weight="GDPS_PMOS:20.68 ECMW_PMOS:40.19 GDPS_NPPM:15.13 EPSG_PMOS:23.99 " />
+   <dataSet lst="11/02_15" val="11.8" weight="GDPS_PMOS:22.16 ECMW_PMOS:31.01 GDPS_NPPM:14.8 EPSG_PMOS:32.04 " />
+   <dataSet lst="11/03_06" val="5.0" weight="GDPS_PMOS:20.87 ECMW_PMOS:33.2 GDPS_NPPM:18.48 EPSG_PMOS:27.45 " />
+   <dataSet lst="11/03_15" val="13.3" weight="GDPS_PMOS:23.71 ECMW_PMOS:28.44 GDPS_NPPM:19.69 EPSG_PMOS:28.16 " />
+   <dataSet lst="11/04_06" val="4.3" weight="GDPS_PMOS:20.08 ECMW_PMOS:32.39 GDPS_NPPM:15.86 EPSG_PMOS:31.66 " />
+   <dataSet lst="11/04_15" val="15.0" weight="GDPS_PMOS:17.39 ECMW_PMOS:38.35 GDPS_NPPM:19.56 EPSG_PMOS:24.69 " />
+   <dataSet lst="11/05_06" val="7.6" weight="GDPS_PMOS:19.98 ECMW_PMOS:34.79 GDPS_NPPM:16.4 EPSG_PMOS:28.83 " />
+   <dataSet lst="11/05_15" val="16.6" weight="GDPS_PMOS:20.33 ECMW_PMOS:37.2 GDPS_NPPM:18.03 EPSG_PMOS:24.44 " />
+   <dataSet lst="11/06_06" val="8.0" weight="GDPS_PMOS:25.63 ECMW_PMOS:29.53 GDPS_NPPM:16.93 EPSG_PMOS:27.92 " />
+   <dataSet lst="11/06_15" val="15.8" weight="GDPS_PMOS:42.13 EPSG_PMOS:57.87 " />
+   <dataSet lst="11/07_06" val="6.7" weight="GDPS_PMOS:45.91 EPSG_PMOS:54.09 " />
+   <dataSet lst="11/07_15" val="15.5" weight="GDPS_PMOS:40.45 EPSG_PMOS:59.55 " />
+  </stn>
+  <stn hasWeightData="true" stnName="파주" stnNo="47099">
+   <dataSet lst="10/27_15" val="19.9" weight="GDPS_PMOS:15.7 ECMW_PMOS:30.89 GDPS_NPPM:11.56 RDPS_PMOS:14.38 RDPS_NPPM:11.24 EPSG_PMOS:16.23 " />
+   <dataSet lst="10/28_06" val="11.2" weight="GDPS_PMOS:9.88 ECMW_PMOS:30.86 GDPS_NPPM:12.51 RDPS_PMOS:13.25 RDPS_NPPM:15.05 EPSG_PMOS:18.45 " />
+   <dataSet lst="10/28_15" val="16.2" weight="GDPS_PMOS:14.38 ECMW_PMOS:27.91 GDPS_NPPM:13.27 RDPS_PMOS:15.22 RDPS_NPPM:13.17 EPSG_PMOS:16.04 " />
+   <dataSet lst="10/29_06" val="4.7" weight="GDPS_PMOS:11.67 ECMW_PMOS:30.37 GDPS_NPPM:15.39 RDPS_PMOS:12.53 RDPS_NPPM:14.67 EPSG_PMOS:15.37 " />
+   <dataSet lst="10/29_15" val="11.9" weight="GDPS_PMOS:14.86 ECMW_PMOS:30.94 GDPS_NPPM:13.88 RDPS_PMOS:14.14 RDPS_NPPM:11.96 EPSG_PMOS:14.22 " />
+   <dataSet lst="10/30_06" val="-0.4" weight="GDPS_PMOS:9.82 ECMW_PMOS:27.69 GDPS_NPPM:13.6 RDPS_PMOS:14.77 RDPS_NPPM:16.94 EPSG_PMOS:17.18 " />
+   <dataSet lst="10/30_15" val="13.2" weight="GDPS_PMOS:12.11 ECMW_PMOS:25.65 GDPS_NPPM:15.72 RDPS_PMOS:16.03 RDPS_NPPM:12.54 EPSG_PMOS:17.94 " />
+   <dataSet lst="10/31_06" val="3.6" weight="GDPS_PMOS:18.41 ECMW_PMOS:33.08 GDPS_NPPM:22.64 EPSG_PMOS:25.86 " />
+   <dataSet lst="10/31_15" val="12.1" weight="GDPS_PMOS:18.35 ECMW_PMOS:36.9 GDPS_NPPM:20.47 EPSG_PMOS:24.28 " />
+   <dataSet lst="11/01_06" val="-2.4" weight="GDPS_PMOS:18.69 ECMW_PMOS:42.88 GDPS_NPPM:16.13 EPSG_PMOS:22.3 " />
+   <dataSet lst="11/01_15" val="9.7" weight="GDPS_PMOS:21.08 ECMW_PMOS:36.3 GDPS_NPPM:16.04 EPSG_PMOS:26.59 " />
+   <dataSet lst="11/02_06" val="-2.9" weight="GDPS_PMOS:18.83 ECMW_PMOS:37.02 GDPS_NPPM:19.96 EPSG_PMOS:24.19 " />
+   <dataSet lst="11/02_15" val="11.4" weight="GDPS_PMOS:25.49 ECMW_PMOS:26.0 GDPS_NPPM:17.97 EPSG_PMOS:30.54 " />
+   <dataSet lst="11/03_06" val="2.2" weight="GDPS_PMOS:20.48 ECMW_PMOS:30.09 GDPS_NPPM:22.49 EPSG_PMOS:26.93 " />
+   <dataSet lst="11/03_15" val="12.7" weight="GDPS_PMOS:22.24 ECMW_PMOS:27.25 GDPS_NPPM:21.74 EPSG_PMOS:28.77 " />
+   <dataSet lst="11/04_06" val="1.7" weight="GDPS_PMOS:19.18 ECMW_PMOS:33.46 GDPS_NPPM:18.8 EPSG_PMOS:28.56 " />
+   <dataSet lst="11/04_15" val="14.0" weight="GDPS_PMOS:16.27 ECMW_PMOS:38.07 GDPS_NPPM:22.54 EPSG_PMOS:23.12 " />
+   <dataSet lst="11/05_06" val="6.1" weight="GDPS_PMOS:20.91 ECMW_PMOS:32.8 GDPS_NPPM:20.35 EPSG_PMOS:25.95 " />
+   <dataSet lst="11/05_15" val="16.6" weight="GDPS_PMOS:20.73 ECMW_PMOS:36.91 GDPS_NPPM:18.99 EPSG_PMOS:23.36 " />
+   <dataSet lst="11/06_06" val="7.6" weight="GDPS_PMOS:27.32 ECMW_PMOS:25.13 GDPS_NPPM:20.95 EPSG_PMOS:26.6 " />
+   <dataSet lst="11/06_15" val="15.6" weight="GDPS_PMOS:41.32 EPSG_PMOS:58.68 " />
+   <dataSet lst="11/07_06" val="4.0" weight="GDPS_PMOS:48.4 EPSG_PMOS:51.6 " />
+   <dataSet lst="11/07_15" val="15.6" weight="GDPS_PMOS:39.7 EPSG_PMOS:60.3 " />
+  </stn>
+  <stn hasWeightData="true" stnName="동두천" stnNo="47098">
+   <dataSet lst="10/27_15" val="20.8" weight="GDPS_PMOS:20.1 ECMW_PMOS:36.75 GDPS_NPPM:7.82 RDPS_PMOS:12.4 RDPS_NPPM:6.3 EPSG_PMOS:16.63 " />
+   <dataSet lst="10/28_06" val="11.6" weight="GDPS_PMOS:10.7 ECMW_PMOS:28.66 GDPS_NPPM:17.71 RDPS_PMOS:11.59 RDPS_NPPM:21.02 EPSG_PMOS:10.32 " />
+   <dataSet lst="10/28_15" val="16.5" weight="GDPS_PMOS:14.2 ECMW_PMOS:32.11 GDPS_NPPM:10.34 RDPS_PMOS:16.15 RDPS_NPPM:8.51 EPSG_PMOS:18.69 " />
+   <dataSet lst="10/29_06" val="5.2" weight="GDPS_PMOS:12.74 ECMW_PMOS:27.84 GDPS_NPPM:16.82 RDPS_PMOS:10.14 RDPS_NPPM:18.16 EPSG_PMOS:14.3 " />
+   <dataSet lst="10/29_15" val="12.7" weight="GDPS_PMOS:16.48 ECMW_PMOS:33.99 GDPS_NPPM:11.47 RDPS_PMOS:12.68 RDPS_NPPM:8.64 EPSG_PMOS:16.74 " />
+   <dataSet lst="10/30_06" val="0.3" weight="GDPS_PMOS:11.71 ECMW_PMOS:25.23 GDPS_NPPM:16.97 RDPS_PMOS:12.86 RDPS_NPPM:20.53 EPSG_PMOS:12.7 " />
+   <dataSet lst="10/30_15" val="13.9" weight="GDPS_PMOS:17.86 ECMW_PMOS:25.98 GDPS_NPPM:13.66 RDPS_PMOS:14.79 RDPS_NPPM:9.42 EPSG_PMOS:18.3 " />
+   <dataSet lst="10/31_06" val="4.5" weight="GDPS_PMOS:19.82 ECMW_PMOS:32.44 GDPS_NPPM:24.55 EPSG_PMOS:23.19 " />
+   <dataSet lst="10/31_15" val="12.6" weight="GDPS_PMOS:22.33 ECMW_PMOS:37.4 GDPS_NPPM:16.74 EPSG_PMOS:23.53 " />
+   <dataSet lst="11/01_06" val="-1.1" weight="GDPS_PMOS:21.26 ECMW_PMOS:38.74 GDPS_NPPM:18.23 EPSG_PMOS:21.78 " />
+   <dataSet lst="11/01_15" val="10.4" weight="GDPS_PMOS:18.27 ECMW_PMOS:38.36 GDPS_NPPM:14.91 EPSG_PMOS:28.46 " />
+   <dataSet lst="11/02_06" val="-1.3" weight="GDPS_PMOS:21.69 ECMW_PMOS:32.82 GDPS_NPPM:21.37 EPSG_PMOS:24.12 " />
+   <dataSet lst="11/02_15" val="11.6" weight="GDPS_PMOS:24.89 ECMW_PMOS:28.41 GDPS_NPPM:16.52 EPSG_PMOS:30.18 " />
+   <dataSet lst="11/03_06" val="3.3" weight="GDPS_PMOS:21.82 ECMW_PMOS:29.83 GDPS_NPPM:23.77 EPSG_PMOS:24.58 " />
+   <dataSet lst="11/03_15" val="13.2" weight="GDPS_PMOS:22.54 ECMW_PMOS:27.31 GDPS_NPPM:20.75 EPSG_PMOS:29.39 " />
+   <dataSet lst="11/04_06" val="2.7" weight="GDPS_PMOS:21.01 ECMW_PMOS:29.54 GDPS_NPPM:19.66 EPSG_PMOS:29.78 " />
+   <dataSet lst="11/04_15" val="13.8" weight="GDPS_PMOS:20.47 ECMW_PMOS:34.52 GDPS_NPPM:22.01 EPSG_PMOS:23.0 " />
+   <dataSet lst="11/05_06" val="6.9" weight="GDPS_PMOS:21.49 ECMW_PMOS:32.61 GDPS_NPPM:20.09 EPSG_PMOS:25.81 " />
+   <dataSet lst="11/05_15" val="16.9" weight="GDPS_PMOS:16.79 ECMW_PMOS:38.26 GDPS_NPPM:20.09 EPSG_PMOS:24.86 " />
+   <dataSet lst="11/06_06" val="7.8" weight="GDPS_PMOS:29.37 ECMW_PMOS:24.61 GDPS_NPPM:22.06 EPSG_PMOS:23.96 " />
+   <dataSet lst="11/06_15" val="16.5" weight="GDPS_PMOS:40.13 EPSG_PMOS:59.87 " />
+   <dataSet lst="11/07_06" val="5.6" weight="GDPS_PMOS:50.89 EPSG_PMOS:49.11 " />
+   <dataSet lst="11/07_15" val="15.2" weight="GDPS_PMOS:37.02 EPSG_PMOS:62.98 " />
+  </stn>
+  <stn hasWeightData="true" stnName="이천" stnNo="47203">
+   <dataSet lst="10/27_15" val="18.5" weight="GDPS_PMOS:17.51 ECMW_PMOS:20.08 GDPS_NPPM:13.37 RDPS_PMOS:17.72 RDPS_NPPM:11.32 EPSG_PMOS:20.0 " />
+   <dataSet lst="10/28_06" val="11.6" weight="GDPS_PMOS:12.11 ECMW_PMOS:15.42 GDPS_NPPM:18.59 RDPS_PMOS:17.45 RDPS_NPPM:21.93 EPSG_PMOS:14.51 " />
+   <dataSet lst="10/28_15" val="15.8" weight="GDPS_PMOS:15.96 ECMW_PMOS:17.8 GDPS_NPPM:15.24 RDPS_PMOS:19.49 RDPS_NPPM:15.53 EPSG_PMOS:15.97 " />
+   <dataSet lst="10/29_06" val="6.8" weight="GDPS_PMOS:9.48 ECMW_PMOS:22.43 GDPS_NPPM:19.21 RDPS_PMOS:14.3 RDPS_NPPM:22.36 EPSG_PMOS:12.23 " />
+   <dataSet lst="10/29_15" val="12.9" weight="GDPS_PMOS:15.6 ECMW_PMOS:30.49 GDPS_NPPM:15.82 RDPS_PMOS:13.93 RDPS_NPPM:11.82 EPSG_PMOS:12.33 " />
+   <dataSet lst="10/30_06" val="0.6" weight="GDPS_PMOS:8.32 ECMW_PMOS:24.98 GDPS_NPPM:17.29 RDPS_PMOS:14.59 RDPS_NPPM:19.8 EPSG_PMOS:15.02 " />
+   <dataSet lst="10/30_15" val="13.6" weight="GDPS_PMOS:15.54 ECMW_PMOS:24.15 GDPS_NPPM:15.26 RDPS_PMOS:16.6 RDPS_NPPM:14.99 EPSG_PMOS:13.46 " />
+   <dataSet lst="10/31_06" val="2.7" weight="GDPS_PMOS:13.29 ECMW_PMOS:32.45 GDPS_NPPM:25.89 EPSG_PMOS:28.38 " />
+   <dataSet lst="10/31_15" val="12.9" weight="GDPS_PMOS:20.81 ECMW_PMOS:37.11 GDPS_NPPM:22.45 EPSG_PMOS:19.63 " />
+   <dataSet lst="11/01_06" val="0.0" weight="GDPS_PMOS:19.72 ECMW_PMOS:39.73 GDPS_NPPM:16.91 EPSG_PMOS:23.65 " />
+   <dataSet lst="11/01_15" val="10.0" weight="GDPS_PMOS:12.27 ECMW_PMOS:40.61 GDPS_NPPM:21.87 EPSG_PMOS:25.25 " />
+   <dataSet lst="11/02_06" val="-1.4" weight="GDPS_PMOS:19.91 ECMW_PMOS:31.49 GDPS_NPPM:22.21 EPSG_PMOS:26.39 " />
+   <dataSet lst="11/02_15" val="11.1" weight="GDPS_PMOS:19.55 ECMW_PMOS:32.38 GDPS_NPPM:19.18 EPSG_PMOS:28.89 " />
+   <dataSet lst="11/03_06" val="3.0" weight="GDPS_PMOS:14.94 ECMW_PMOS:35.69 GDPS_NPPM:22.17 EPSG_PMOS:27.2 " />
+   <dataSet lst="11/03_15" val="12.9" weight="GDPS_PMOS:18.55 ECMW_PMOS:33.53 GDPS_NPPM:20.42 EPSG_PMOS:27.5 " />
+   <dataSet lst="11/04_06" val="2.4" weight="GDPS_PMOS:18.32 ECMW_PMOS:30.12 GDPS_NPPM:20.89 EPSG_PMOS:30.67 " />
+   <dataSet lst="11/04_15" val="13.4" weight="GDPS_PMOS:17.43 ECMW_PMOS:33.28 GDPS_NPPM:21.0 EPSG_PMOS:28.29 " />
+   <dataSet lst="11/05_06" val="5.9" weight="GDPS_PMOS:21.64 ECMW_PMOS:30.37 GDPS_NPPM:18.64 EPSG_PMOS:29.36 " />
+   <dataSet lst="11/05_15" val="15.4" weight="GDPS_PMOS:21.09 ECMW_PMOS:34.27 GDPS_NPPM:20.54 EPSG_PMOS:24.1 " />
+   <dataSet lst="11/06_06" val="6.5" weight="GDPS_PMOS:25.51 ECMW_PMOS:26.62 GDPS_NPPM:19.12 EPSG_PMOS:28.75 " />
+   <dataSet lst="11/06_15" val="15.5" weight="GDPS_PMOS:38.96 EPSG_PMOS:61.04 " />
+   <dataSet lst="11/07_06" val="4.9" weight="GDPS_PMOS:43.4 EPSG_PMOS:56.6 " />
+   <dataSet lst="11/07_15" val="13.7" weight="GDPS_PMOS:37.6 EPSG_PMOS:62.4 " />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="1" grName="부산청(부산)">
+  <stn hasWeightData="true" stnName="부산" stnNo="47159">
+   <dataSet lst="10/27_15" val="20.8" weight="GDPS_PMOS:14.81 ECMW_PMOS:25.29 GDPS_NPPM:10.12 RDPS_PMOS:13.23 RDPS_NPPM:14.69 EPSG_PMOS:21.87 " />
+   <dataSet lst="10/28_06" val="14.9" weight="GDPS_PMOS:15.83 ECMW_PMOS:40.18 GDPS_NPPM:7.29 RDPS_PMOS:15.94 RDPS_NPPM:3.07 EPSG_PMOS:17.68 " />
+   <dataSet lst="10/28_15" val="18.4" weight="GDPS_PMOS:13.3 ECMW_PMOS:27.08 GDPS_NPPM:12.28 RDPS_PMOS:11.85 RDPS_NPPM:13.45 EPSG_PMOS:22.04 " />
+   <dataSet lst="10/29_06" val="13.2" weight="GDPS_PMOS:17.55 ECMW_PMOS:38.74 GDPS_NPPM:10.14 RDPS_PMOS:14.22 RDPS_NPPM:3.5 EPSG_PMOS:15.85 " />
+   <dataSet lst="10/29_15" val="17.7" weight="GDPS_PMOS:12.22 ECMW_PMOS:30.43 GDPS_NPPM:14.13 RDPS_PMOS:14.34 RDPS_NPPM:11.02 EPSG_PMOS:17.86 " />
+   <dataSet lst="10/30_06" val="11.3" weight="GDPS_PMOS:21.51 ECMW_PMOS:32.61 GDPS_NPPM:8.57 RDPS_PMOS:16.91 RDPS_NPPM:4.18 EPSG_PMOS:16.22 " />
+   <dataSet lst="10/30_15" val="18.8" weight="GDPS_PMOS:11.9 ECMW_PMOS:29.76 GDPS_NPPM:12.14 RDPS_PMOS:14.31 RDPS_NPPM:8.98 EPSG_PMOS:22.91 " />
+   <dataSet lst="10/31_06" val="12.1" weight="GDPS_PMOS:22.05 ECMW_PMOS:45.7 GDPS_NPPM:8.54 EPSG_PMOS:23.71 " />
+   <dataSet lst="10/31_15" val="17.8" weight="GDPS_PMOS:18.11 ECMW_PMOS:47.17 GDPS_NPPM:12.31 EPSG_PMOS:22.41 " />
+   <dataSet lst="11/01_06" val="9.9" weight="GDPS_PMOS:20.81 ECMW_PMOS:43.53 GDPS_NPPM:10.17 EPSG_PMOS:25.49 " />
+   <dataSet lst="11/01_15" val="16.5" weight="GDPS_PMOS:20.15 ECMW_PMOS:32.91 GDPS_NPPM:17.88 EPSG_PMOS:29.06 " />
+   <dataSet lst="11/02_06" val="7.5" weight="GDPS_PMOS:23.33 ECMW_PMOS:35.32 GDPS_NPPM:11.95 EPSG_PMOS:29.4 " />
+   <dataSet lst="11/02_15" val="17.0" weight="GDPS_PMOS:18.03 ECMW_PMOS:26.5 GDPS_NPPM:24.81 EPSG_PMOS:30.67 " />
+   <dataSet lst="11/03_06" val="9.6" weight="GDPS_PMOS:23.17 ECMW_PMOS:29.84 GDPS_NPPM:9.16 EPSG_PMOS:37.83 " />
+   <dataSet lst="11/03_15" val="17.5" weight="GDPS_PMOS:18.44 ECMW_PMOS:25.57 GDPS_NPPM:23.6 EPSG_PMOS:32.38 " />
+   <dataSet lst="11/04_06" val="10.0" weight="GDPS_PMOS:24.98 ECMW_PMOS:29.96 GDPS_NPPM:12.26 EPSG_PMOS:32.81 " />
+   <dataSet lst="11/04_15" val="18.5" weight="GDPS_PMOS:24.53 ECMW_PMOS:28.2 GDPS_NPPM:21.3 EPSG_PMOS:25.97 " />
+   <dataSet lst="11/05_06" val="12.5" weight="GDPS_PMOS:20.76 ECMW_PMOS:36.56 GDPS_NPPM:13.3 EPSG_PMOS:29.38 " />
+   <dataSet lst="11/05_15" val="20.0" weight="GDPS_PMOS:21.28 ECMW_PMOS:33.58 GDPS_NPPM:20.46 EPSG_PMOS:24.68 " />
+   <dataSet lst="11/06_06" val="13.6" weight="GDPS_PMOS:28.52 ECMW_PMOS:29.88 GDPS_NPPM:14.95 EPSG_PMOS:26.65 " />
+   <dataSet lst="11/06_15" val="20.2" weight="GDPS_PMOS:46.37 EPSG_PMOS:53.63 " />
+   <dataSet lst="11/07_06" val="12.6" weight="GDPS_PMOS:45.08 EPSG_PMOS:54.92 " />
+   <dataSet lst="11/07_15" val="19.7" weight="GDPS_PMOS:42.41 EPSG_PMOS:57.59 " />
+  </stn>
+  <stn hasWeightData="true" stnName="울산" stnNo="47152">
+   <dataSet lst="10/27_15" val="19.1" weight="GDPS_PMOS:11.9 ECMW_PMOS:28.92 GDPS_NPPM:9.96 RDPS_PMOS:17.54 RDPS_NPPM:17.09 EPSG_PMOS:14.58 " />
+   <dataSet lst="10/28_06" val="13.7" weight="GDPS_PMOS:12.32 ECMW_PMOS:24.95 GDPS_NPPM:11.22 RDPS_PMOS:16.64 RDPS_NPPM:14.08 EPSG_PMOS:20.79 " />
+   <dataSet lst="10/28_15" val="17.0" weight="GDPS_PMOS:13.53 ECMW_PMOS:28.85 GDPS_NPPM:10.81 RDPS_PMOS:14.59 RDPS_NPPM:13.96 EPSG_PMOS:18.27 " />
+   <dataSet lst="10/29_06" val="12.0" weight="GDPS_PMOS:13.61 ECMW_PMOS:31.79 GDPS_NPPM:11.43 RDPS_PMOS:15.52 RDPS_NPPM:11.76 EPSG_PMOS:15.9 " />
+   <dataSet lst="10/29_15" val="15.4" weight="GDPS_PMOS:15.0 ECMW_PMOS:29.62 GDPS_NPPM:12.95 RDPS_PMOS:14.36 RDPS_NPPM:11.3 EPSG_PMOS:16.77 " />
+   <dataSet lst="10/30_06" val="9.0" weight="GDPS_PMOS:17.25 ECMW_PMOS:28.61 GDPS_NPPM:11.63 RDPS_PMOS:18.01 RDPS_NPPM:11.66 EPSG_PMOS:12.83 " />
+   <dataSet lst="10/30_15" val="17.7" weight="GDPS_PMOS:11.71 ECMW_PMOS:30.93 GDPS_NPPM:11.61 RDPS_PMOS:12.51 RDPS_NPPM:11.02 EPSG_PMOS:22.22 " />
+   <dataSet lst="10/31_06" val="8.7" weight="GDPS_PMOS:22.74 ECMW_PMOS:45.01 GDPS_NPPM:10.12 EPSG_PMOS:22.12 " />
+   <dataSet lst="10/31_15" val="17.2" weight="GDPS_PMOS:17.23 ECMW_PMOS:48.57 GDPS_NPPM:11.39 EPSG_PMOS:22.81 " />
+   <dataSet lst="11/01_06" val="6.8" weight="GDPS_PMOS:22.39 ECMW_PMOS:44.41 GDPS_NPPM:10.67 EPSG_PMOS:22.53 " />
+   <dataSet lst="11/01_15" val="15.6" weight="GDPS_PMOS:18.45 ECMW_PMOS:33.61 GDPS_NPPM:14.3 EPSG_PMOS:33.63 " />
+   <dataSet lst="11/02_06" val="6.1" weight="GDPS_PMOS:24.33 ECMW_PMOS:38.9 GDPS_NPPM:11.11 EPSG_PMOS:25.67 " />
+   <dataSet lst="11/02_15" val="15.6" weight="GDPS_PMOS:18.24 ECMW_PMOS:30.59 GDPS_NPPM:23.94 EPSG_PMOS:27.23 " />
+   <dataSet lst="11/03_06" val="6.5" weight="GDPS_PMOS:26.99 ECMW_PMOS:26.66 GDPS_NPPM:9.99 EPSG_PMOS:36.35 " />
+   <dataSet lst="11/03_15" val="16.9" weight="GDPS_PMOS:19.83 ECMW_PMOS:30.61 GDPS_NPPM:18.35 EPSG_PMOS:31.21 " />
+   <dataSet lst="11/04_06" val="6.6" weight="GDPS_PMOS:25.29 ECMW_PMOS:28.22 GDPS_NPPM:11.46 EPSG_PMOS:35.03 " />
+   <dataSet lst="11/04_15" val="19.0" weight="GDPS_PMOS:20.75 ECMW_PMOS:34.75 GDPS_NPPM:17.3 EPSG_PMOS:27.2 " />
+   <dataSet lst="11/05_06" val="7.0" weight="GDPS_PMOS:19.07 ECMW_PMOS:33.51 GDPS_NPPM:11.01 EPSG_PMOS:36.41 " />
+   <dataSet lst="11/05_15" val="18.6" weight="GDPS_PMOS:21.55 ECMW_PMOS:32.55 GDPS_NPPM:15.8 EPSG_PMOS:30.11 " />
+   <dataSet lst="11/06_06" val="10.0" weight="GDPS_PMOS:30.4 ECMW_PMOS:31.0 GDPS_NPPM:11.23 EPSG_PMOS:27.37 " />
+   <dataSet lst="11/06_15" val="19.8" weight="GDPS_PMOS:44.31 EPSG_PMOS:55.69 " />
+   <dataSet lst="11/07_06" val="9.8" weight="GDPS_PMOS:47.07 EPSG_PMOS:52.93 " />
+   <dataSet lst="11/07_15" val="18.4" weight="GDPS_PMOS:39.65 EPSG_PMOS:60.35 " />
+  </stn>
+  <stn hasWeightData="true" stnName="창원" stnNo="47155">
+   <dataSet lst="10/27_15" val="19.9" weight="GDPS_PMOS:10.93 ECMW_PMOS:25.97 GDPS_NPPM:17.03 RDPS_PMOS:14.4 RDPS_NPPM:14.6 EPSG_PMOS:17.07 " />
+   <dataSet lst="10/28_06" val="13.1" weight="GDPS_PMOS:14.45 ECMW_PMOS:32.75 GDPS_NPPM:3.59 RDPS_PMOS:18.2 RDPS_NPPM:16.95 EPSG_PMOS:14.06 " />
+   <dataSet lst="10/28_15" val="16.3" weight="GDPS_PMOS:11.57 ECMW_PMOS:32.91 GDPS_NPPM:13.9 RDPS_PMOS:11.1 RDPS_NPPM:12.33 EPSG_PMOS:18.19 " />
+   <dataSet lst="10/29_06" val="12.3" weight="GDPS_PMOS:16.38 ECMW_PMOS:33.93 GDPS_NPPM:5.43 RDPS_PMOS:16.34 RDPS_NPPM:13.03 EPSG_PMOS:14.89 " />
+   <dataSet lst="10/29_15" val="16.0" weight="GDPS_PMOS:12.8 ECMW_PMOS:25.77 GDPS_NPPM:16.44 RDPS_PMOS:15.02 RDPS_NPPM:11.18 EPSG_PMOS:18.79 " />
+   <dataSet lst="10/30_06" val="9.7" weight="GDPS_PMOS:16.11 ECMW_PMOS:31.84 GDPS_NPPM:4.88 RDPS_PMOS:16.91 RDPS_NPPM:14.21 EPSG_PMOS:16.06 " />
+   <dataSet lst="10/30_15" val="16.4" weight="GDPS_PMOS:12.78 ECMW_PMOS:27.59 GDPS_NPPM:14.42 RDPS_PMOS:16.05 RDPS_NPPM:9.99 EPSG_PMOS:19.18 " />
+   <dataSet lst="10/31_06" val="8.7" weight="GDPS_PMOS:19.18 ECMW_PMOS:46.64 GDPS_NPPM:5.66 EPSG_PMOS:28.52 " />
+   <dataSet lst="10/31_15" val="15.8" weight="GDPS_PMOS:15.36 ECMW_PMOS:46.8 GDPS_NPPM:13.47 EPSG_PMOS:24.37 " />
+   <dataSet lst="11/01_06" val="8.2" weight="GDPS_PMOS:21.66 ECMW_PMOS:47.4 GDPS_NPPM:6.9 EPSG_PMOS:24.04 " />
+   <dataSet lst="11/01_15" val="14.6" weight="GDPS_PMOS:18.93 ECMW_PMOS:31.79 GDPS_NPPM:19.27 EPSG_PMOS:30.0 " />
+   <dataSet lst="11/02_06" val="5.8" weight="GDPS_PMOS:21.66 ECMW_PMOS:43.08 GDPS_NPPM:6.71 EPSG_PMOS:28.55 " />
+   <dataSet lst="11/02_15" val="14.8" weight="GDPS_PMOS:18.05 ECMW_PMOS:29.35 GDPS_NPPM:21.05 EPSG_PMOS:31.54 " />
+   <dataSet lst="11/03_06" val="6.8" weight="GDPS_PMOS:22.12 ECMW_PMOS:28.98 GDPS_NPPM:6.05 EPSG_PMOS:42.86 " />
+   <dataSet lst="11/03_15" val="15.7" weight="GDPS_PMOS:23.63 ECMW_PMOS:27.2 GDPS_NPPM:19.44 EPSG_PMOS:29.73 " />
+   <dataSet lst="11/04_06" val="8.3" weight="GDPS_PMOS:27.45 ECMW_PMOS:29.53 GDPS_NPPM:7.06 EPSG_PMOS:35.96 " />
+   <dataSet lst="11/04_15" val="17.8" weight="GDPS_PMOS:24.23 ECMW_PMOS:33.1 GDPS_NPPM:17.86 EPSG_PMOS:24.8 " />
+   <dataSet lst="11/05_06" val="8.9" weight="GDPS_PMOS:21.67 ECMW_PMOS:35.74 GDPS_NPPM:8.21 EPSG_PMOS:34.39 " />
+   <dataSet lst="11/05_15" val="18.6" weight="GDPS_PMOS:24.86 ECMW_PMOS:32.55 GDPS_NPPM:15.87 EPSG_PMOS:26.72 " />
+   <dataSet lst="11/06_06" val="10.8" weight="GDPS_PMOS:30.35 ECMW_PMOS:30.28 GDPS_NPPM:8.01 EPSG_PMOS:31.36 " />
+   <dataSet lst="11/06_15" val="18.9" weight="GDPS_PMOS:45.7 EPSG_PMOS:54.3 " />
+   <dataSet lst="11/07_06" val="10.4" weight="GDPS_PMOS:47.52 EPSG_PMOS:52.48 " />
+   <dataSet lst="11/07_15" val="18.0" weight="GDPS_PMOS:43.07 EPSG_PMOS:56.93 " />
+  </stn>
+  <stn hasWeightData="true" stnName="통영" stnNo="47162">
+   <dataSet lst="10/27_15" val="20.9" weight="GDPS_PMOS:20.71 ECMW_PMOS:24.7 GDPS_NPPM:18.59 RDPS_PMOS:8.21 RDPS_NPPM:10.48 EPSG_PMOS:17.31 " />
+   <dataSet lst="10/28_06" val="15.1" weight="GDPS_PMOS:18.86 ECMW_PMOS:26.28 GDPS_NPPM:21.17 RDPS_PMOS:12.82 RDPS_NPPM:8.28 EPSG_PMOS:12.59 " />
+   <dataSet lst="10/28_15" val="18.0" weight="GDPS_PMOS:14.32 ECMW_PMOS:29.74 GDPS_NPPM:18.0 RDPS_PMOS:13.35 RDPS_NPPM:9.04 EPSG_PMOS:15.54 " />
+   <dataSet lst="10/29_06" val="12.7" weight="GDPS_PMOS:17.97 ECMW_PMOS:27.41 GDPS_NPPM:21.15 RDPS_PMOS:9.13 RDPS_NPPM:7.92 EPSG_PMOS:16.42 " />
+   <dataSet lst="10/29_15" val="17.2" weight="GDPS_PMOS:11.43 ECMW_PMOS:24.15 GDPS_NPPM:21.13 RDPS_PMOS:15.03 RDPS_NPPM:9.35 EPSG_PMOS:18.91 " />
+   <dataSet lst="10/30_06" val="11.0" weight="GDPS_PMOS:16.39 ECMW_PMOS:31.69 GDPS_NPPM:15.59 RDPS_PMOS:10.98 RDPS_NPPM:7.54 EPSG_PMOS:17.82 " />
+   <dataSet lst="10/30_15" val="17.8" weight="GDPS_PMOS:15.34 ECMW_PMOS:24.04 GDPS_NPPM:15.96 RDPS_PMOS:16.51 RDPS_NPPM:10.4 EPSG_PMOS:17.76 " />
+   <dataSet lst="10/31_06" val="10.8" weight="GDPS_PMOS:18.8 ECMW_PMOS:44.13 GDPS_NPPM:14.24 EPSG_PMOS:22.84 " />
+   <dataSet lst="10/31_15" val="17.2" weight="GDPS_PMOS:16.59 ECMW_PMOS:43.11 GDPS_NPPM:16.14 EPSG_PMOS:24.16 " />
+   <dataSet lst="11/01_06" val="10.3" weight="GDPS_PMOS:19.41 ECMW_PMOS:44.2 GDPS_NPPM:13.55 EPSG_PMOS:22.85 " />
+   <dataSet lst="11/01_15" val="16.0" weight="GDPS_PMOS:17.85 ECMW_PMOS:32.26 GDPS_NPPM:21.88 EPSG_PMOS:28.01 " />
+   <dataSet lst="11/02_06" val="7.0" weight="GDPS_PMOS:21.47 ECMW_PMOS:38.98 GDPS_NPPM:14.03 EPSG_PMOS:25.52 " />
+   <dataSet lst="11/02_15" val="15.8" weight="GDPS_PMOS:17.35 ECMW_PMOS:25.2 GDPS_NPPM:25.17 EPSG_PMOS:32.28 " />
+   <dataSet lst="11/03_06" val="9.4" weight="GDPS_PMOS:20.95 ECMW_PMOS:35.16 GDPS_NPPM:12.99 EPSG_PMOS:30.9 " />
+   <dataSet lst="11/03_15" val="16.6" weight="GDPS_PMOS:20.38 ECMW_PMOS:28.34 GDPS_NPPM:23.03 EPSG_PMOS:28.26 " />
+   <dataSet lst="11/04_06" val="8.9" weight="GDPS_PMOS:22.11 ECMW_PMOS:31.99 GDPS_NPPM:13.1 EPSG_PMOS:32.8 " />
+   <dataSet lst="11/04_15" val="18.1" weight="GDPS_PMOS:23.57 ECMW_PMOS:30.39 GDPS_NPPM:20.44 EPSG_PMOS:25.6 " />
+   <dataSet lst="11/05_06" val="11.4" weight="GDPS_PMOS:21.27 ECMW_PMOS:32.99 GDPS_NPPM:15.17 EPSG_PMOS:30.56 " />
+   <dataSet lst="11/05_15" val="18.6" weight="GDPS_PMOS:23.71 ECMW_PMOS:33.86 GDPS_NPPM:18.77 EPSG_PMOS:23.66 " />
+   <dataSet lst="11/06_06" val="13.3" weight="GDPS_PMOS:27.08 ECMW_PMOS:29.93 GDPS_NPPM:15.82 EPSG_PMOS:27.16 " />
+   <dataSet lst="11/06_15" val="19.8" weight="GDPS_PMOS:46.9 EPSG_PMOS:53.1 " />
+   <dataSet lst="11/07_06" val="12.4" weight="GDPS_PMOS:44.06 EPSG_PMOS:55.94 " />
+   <dataSet lst="11/07_15" val="18.7" weight="GDPS_PMOS:45.22 EPSG_PMOS:54.78 " />
+  </stn>
+  <stn hasWeightData="true" stnName="진주" stnNo="47192">
+   <dataSet lst="10/27_15" val="19.9" weight="GDPS_PMOS:12.41 ECMW_PMOS:34.32 GDPS_NPPM:10.44 RDPS_PMOS:15.07 RDPS_NPPM:13.13 EPSG_PMOS:14.63 " />
+   <dataSet lst="10/28_06" val="12.9" weight="GDPS_PMOS:13.65 ECMW_PMOS:21.89 GDPS_NPPM:20.23 RDPS_PMOS:17.63 RDPS_NPPM:12.93 EPSG_PMOS:13.67 " />
+   <dataSet lst="10/28_15" val="16.6" weight="GDPS_PMOS:13.66 ECMW_PMOS:33.01 GDPS_NPPM:12.99 RDPS_PMOS:11.91 RDPS_NPPM:12.43 EPSG_PMOS:16.0 " />
+   <dataSet lst="10/29_06" val="10.2" weight="GDPS_PMOS:14.08 ECMW_PMOS:21.01 GDPS_NPPM:20.57 RDPS_PMOS:16.09 RDPS_NPPM:13.77 EPSG_PMOS:14.49 " />
+   <dataSet lst="10/29_15" val="15.8" weight="GDPS_PMOS:12.7 ECMW_PMOS:27.18 GDPS_NPPM:16.3 RDPS_PMOS:13.56 RDPS_NPPM:13.48 EPSG_PMOS:16.79 " />
+   <dataSet lst="10/30_06" val="8.2" weight="GDPS_PMOS:15.68 ECMW_PMOS:24.07 GDPS_NPPM:18.41 RDPS_PMOS:14.39 RDPS_NPPM:13.73 EPSG_PMOS:13.72 " />
+   <dataSet lst="10/30_15" val="17.1" weight="GDPS_PMOS:15.9 ECMW_PMOS:29.21 GDPS_NPPM:12.31 RDPS_PMOS:15.45 RDPS_NPPM:12.28 EPSG_PMOS:14.85 " />
+   <dataSet lst="10/31_06" val="5.6" weight="GDPS_PMOS:18.46 ECMW_PMOS:37.37 GDPS_NPPM:21.23 EPSG_PMOS:22.94 " />
+   <dataSet lst="10/31_15" val="15.9" weight="GDPS_PMOS:15.43 ECMW_PMOS:46.08 GDPS_NPPM:13.43 EPSG_PMOS:25.06 " />
+   <dataSet lst="11/01_06" val="5.2" weight="GDPS_PMOS:17.12 ECMW_PMOS:38.18 GDPS_NPPM:19.64 EPSG_PMOS:25.05 " />
+   <dataSet lst="11/01_15" val="15.2" weight="GDPS_PMOS:15.49 ECMW_PMOS:38.13 GDPS_NPPM:20.44 EPSG_PMOS:25.93 " />
+   <dataSet lst="11/02_06" val="1.0" weight="GDPS_PMOS:16.41 ECMW_PMOS:44.65 GDPS_NPPM:16.66 EPSG_PMOS:22.28 " />
+   <dataSet lst="11/02_15" val="15.7" weight="GDPS_PMOS:16.35 ECMW_PMOS:34.16 GDPS_NPPM:19.7 EPSG_PMOS:29.78 " />
+   <dataSet lst="11/03_06" val="3.4" weight="GDPS_PMOS:15.05 ECMW_PMOS:36.83 GDPS_NPPM:17.13 EPSG_PMOS:30.99 " />
+   <dataSet lst="11/03_15" val="16.0" weight="GDPS_PMOS:24.53 ECMW_PMOS:26.03 GDPS_NPPM:20.65 EPSG_PMOS:28.8 " />
+   <dataSet lst="11/04_06" val="3.1" weight="GDPS_PMOS:19.21 ECMW_PMOS:35.84 GDPS_NPPM:17.17 EPSG_PMOS:27.78 " />
+   <dataSet lst="11/04_15" val="17.6" weight="GDPS_PMOS:23.49 ECMW_PMOS:34.24 GDPS_NPPM:18.48 EPSG_PMOS:23.79 " />
+   <dataSet lst="11/05_06" val="4.1" weight="GDPS_PMOS:19.88 ECMW_PMOS:29.64 GDPS_NPPM:16.37 EPSG_PMOS:34.1 " />
+   <dataSet lst="11/05_15" val="18.1" weight="GDPS_PMOS:23.75 ECMW_PMOS:31.41 GDPS_NPPM:17.17 EPSG_PMOS:27.67 " />
+   <dataSet lst="11/06_06" val="7.0" weight="GDPS_PMOS:22.67 ECMW_PMOS:30.37 GDPS_NPPM:16.74 EPSG_PMOS:30.22 " />
+   <dataSet lst="11/06_15" val="18.5" weight="GDPS_PMOS:47.13 EPSG_PMOS:52.87 " />
+   <dataSet lst="11/07_06" val="6.6" weight="GDPS_PMOS:41.13 EPSG_PMOS:58.87 " />
+   <dataSet lst="11/07_15" val="18.6" weight="GDPS_PMOS:43.01 EPSG_PMOS:56.99 " />
+  </stn>
+  <stn hasWeightData="true" stnName="거창" stnNo="47284">
+   <dataSet lst="10/27_15" val="18.5" weight="GDPS_PMOS:13.36 ECMW_PMOS:33.5 GDPS_NPPM:9.18 RDPS_PMOS:15.44 RDPS_NPPM:13.26 EPSG_PMOS:15.27 " />
+   <dataSet lst="10/28_06" val="13.3" weight="GDPS_PMOS:14.82 ECMW_PMOS:23.93 GDPS_NPPM:12.44 RDPS_PMOS:19.79 RDPS_NPPM:8.88 EPSG_PMOS:20.14 " />
+   <dataSet lst="10/28_15" val="16.1" weight="GDPS_PMOS:12.76 ECMW_PMOS:27.49 GDPS_NPPM:13.35 RDPS_PMOS:13.81 RDPS_NPPM:12.82 EPSG_PMOS:19.78 " />
+   <dataSet lst="10/29_06" val="8.0" weight="GDPS_PMOS:13.98 ECMW_PMOS:31.15 GDPS_NPPM:13.75 RDPS_PMOS:18.84 RDPS_NPPM:11.07 EPSG_PMOS:11.21 " />
+   <dataSet lst="10/29_15" val="14.2" weight="GDPS_PMOS:14.9 ECMW_PMOS:26.64 GDPS_NPPM:14.06 RDPS_PMOS:14.63 RDPS_NPPM:12.5 EPSG_PMOS:17.28 " />
+   <dataSet lst="10/30_06" val="4.7" weight="GDPS_PMOS:13.5 ECMW_PMOS:31.58 GDPS_NPPM:12.28 RDPS_PMOS:15.63 RDPS_NPPM:11.05 EPSG_PMOS:15.96 " />
+   <dataSet lst="10/30_15" val="15.8" weight="GDPS_PMOS:16.14 ECMW_PMOS:28.16 GDPS_NPPM:13.18 RDPS_PMOS:16.26 RDPS_NPPM:11.51 EPSG_PMOS:14.75 " />
+   <dataSet lst="10/31_06" val="3.3" weight="GDPS_PMOS:15.96 ECMW_PMOS:47.53 GDPS_NPPM:16.77 EPSG_PMOS:19.74 " />
+   <dataSet lst="10/31_15" val="15.5" weight="GDPS_PMOS:16.37 ECMW_PMOS:46.04 GDPS_NPPM:14.17 EPSG_PMOS:23.42 " />
+   <dataSet lst="11/01_06" val="2.4" weight="GDPS_PMOS:15.71 ECMW_PMOS:42.57 GDPS_NPPM:16.88 EPSG_PMOS:24.84 " />
+   <dataSet lst="11/01_15" val="13.0" weight="GDPS_PMOS:18.8 ECMW_PMOS:36.65 GDPS_NPPM:18.89 EPSG_PMOS:25.66 " />
+   <dataSet lst="11/02_06" val="-1.6" weight="GDPS_PMOS:16.98 ECMW_PMOS:39.23 GDPS_NPPM:16.35 EPSG_PMOS:27.44 " />
+   <dataSet lst="11/02_15" val="14.0" weight="GDPS_PMOS:17.88 ECMW_PMOS:34.47 GDPS_NPPM:18.11 EPSG_PMOS:29.54 " />
+   <dataSet lst="11/03_06" val="2.0" weight="GDPS_PMOS:15.87 ECMW_PMOS:29.1 GDPS_NPPM:18.27 EPSG_PMOS:36.77 " />
+   <dataSet lst="11/03_15" val="15.0" weight="GDPS_PMOS:19.13 ECMW_PMOS:31.04 GDPS_NPPM:22.06 EPSG_PMOS:27.77 " />
+   <dataSet lst="11/04_06" val="1.5" weight="GDPS_PMOS:19.23 ECMW_PMOS:34.47 GDPS_NPPM:18.37 EPSG_PMOS:27.92 " />
+   <dataSet lst="11/04_15" val="16.3" weight="GDPS_PMOS:23.22 ECMW_PMOS:33.48 GDPS_NPPM:18.52 EPSG_PMOS:24.79 " />
+   <dataSet lst="11/05_06" val="2.4" weight="GDPS_PMOS:19.17 ECMW_PMOS:26.68 GDPS_NPPM:19.82 EPSG_PMOS:34.33 " />
+   <dataSet lst="11/05_15" val="17.2" weight="GDPS_PMOS:22.89 ECMW_PMOS:33.32 GDPS_NPPM:18.91 EPSG_PMOS:24.88 " />
+   <dataSet lst="11/06_06" val="5.0" weight="GDPS_PMOS:22.33 ECMW_PMOS:26.61 GDPS_NPPM:19.13 EPSG_PMOS:31.93 " />
+   <dataSet lst="11/06_15" val="18.3" weight="GDPS_PMOS:46.02 EPSG_PMOS:53.98 " />
+   <dataSet lst="11/07_06" val="5.1" weight="GDPS_PMOS:42.57 EPSG_PMOS:57.43 " />
+   <dataSet lst="11/07_15" val="17.2" weight="GDPS_PMOS:40.96 EPSG_PMOS:59.04 " />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="6" grName="부산청(대구)">
+  <stn hasWeightData="true" stnName="대구" stnNo="47143">
+   <dataSet lst="10/27_15" val="19.4" weight="GDPS_PMOS:17.12 ECMW_PMOS:27.72 GDPS_NPPM:12.74 RDPS_PMOS:12.88 RDPS_NPPM:8.91 EPSG_PMOS:20.63 " />
+   <dataSet lst="10/28_06" val="12.8" weight="GDPS_PMOS:15.37 ECMW_PMOS:21.52 GDPS_NPPM:15.71 RDPS_PMOS:12.9 RDPS_NPPM:17.92 EPSG_PMOS:16.58 " />
+   <dataSet lst="10/28_15" val="16.2" weight="GDPS_PMOS:14.19 ECMW_PMOS:26.91 GDPS_NPPM:14.8 RDPS_PMOS:11.78 RDPS_NPPM:11.29 EPSG_PMOS:21.04 " />
+   <dataSet lst="10/29_06" val="10.9" weight="GDPS_PMOS:12.71 ECMW_PMOS:23.09 GDPS_NPPM:16.41 RDPS_PMOS:14.01 RDPS_NPPM:17.66 EPSG_PMOS:16.12 " />
+   <dataSet lst="10/29_15" val="14.7" weight="GDPS_PMOS:17.9 ECMW_PMOS:23.04 GDPS_NPPM:15.12 RDPS_PMOS:14.52 RDPS_NPPM:12.43 EPSG_PMOS:17.0 " />
+   <dataSet lst="10/30_06" val="8.0" weight="GDPS_PMOS:14.22 ECMW_PMOS:31.0 GDPS_NPPM:14.14 RDPS_PMOS:15.34 RDPS_NPPM:15.01 EPSG_PMOS:10.29 " />
+   <dataSet lst="10/30_15" val="15.9" weight="GDPS_PMOS:15.5 ECMW_PMOS:27.47 GDPS_NPPM:13.71 RDPS_PMOS:14.5 RDPS_NPPM:11.53 EPSG_PMOS:17.29 " />
+   <dataSet lst="10/31_06" val="6.8" weight="GDPS_PMOS:20.96 ECMW_PMOS:40.57 GDPS_NPPM:15.18 EPSG_PMOS:23.29 " />
+   <dataSet lst="10/31_15" val="15.5" weight="GDPS_PMOS:17.52 ECMW_PMOS:46.07 GDPS_NPPM:11.42 EPSG_PMOS:24.99 " />
+   <dataSet lst="11/01_06" val="5.7" weight="GDPS_PMOS:19.95 ECMW_PMOS:38.02 GDPS_NPPM:15.34 EPSG_PMOS:26.7 " />
+   <dataSet lst="11/01_15" val="13.9" weight="GDPS_PMOS:19.45 ECMW_PMOS:38.92 GDPS_NPPM:13.42 EPSG_PMOS:28.21 " />
+   <dataSet lst="11/02_06" val="3.0" weight="GDPS_PMOS:24.78 ECMW_PMOS:31.0 GDPS_NPPM:14.19 EPSG_PMOS:30.03 " />
+   <dataSet lst="11/02_15" val="14.0" weight="GDPS_PMOS:16.94 ECMW_PMOS:37.86 GDPS_NPPM:16.75 EPSG_PMOS:28.44 " />
+   <dataSet lst="11/03_06" val="5.2" weight="GDPS_PMOS:20.19 ECMW_PMOS:28.33 GDPS_NPPM:14.09 EPSG_PMOS:37.39 " />
+   <dataSet lst="11/03_15" val="15.6" weight="GDPS_PMOS:22.23 ECMW_PMOS:31.89 GDPS_NPPM:18.99 EPSG_PMOS:26.9 " />
+   <dataSet lst="11/04_06" val="6.0" weight="GDPS_PMOS:21.84 ECMW_PMOS:30.18 GDPS_NPPM:13.02 EPSG_PMOS:34.96 " />
+   <dataSet lst="11/04_15" val="17.1" weight="GDPS_PMOS:24.33 ECMW_PMOS:36.04 GDPS_NPPM:14.63 EPSG_PMOS:25.0 " />
+   <dataSet lst="11/05_06" val="5.7" weight="GDPS_PMOS:24.61 ECMW_PMOS:28.36 GDPS_NPPM:12.84 EPSG_PMOS:34.18 " />
+   <dataSet lst="11/05_15" val="17.3" weight="GDPS_PMOS:24.33 ECMW_PMOS:35.23 GDPS_NPPM:14.29 EPSG_PMOS:26.15 " />
+   <dataSet lst="11/06_06" val="9.3" weight="GDPS_PMOS:25.91 ECMW_PMOS:29.88 GDPS_NPPM:12.28 EPSG_PMOS:31.92 " />
+   <dataSet lst="11/06_15" val="18.5" weight="GDPS_PMOS:48.13 EPSG_PMOS:51.87 " />
+   <dataSet lst="11/07_06" val="8.9" weight="GDPS_PMOS:44.7 EPSG_PMOS:55.3 " />
+   <dataSet lst="11/07_15" val="17.2" weight="GDPS_PMOS:38.56 EPSG_PMOS:61.44 " />
+  </stn>
+  <stn hasWeightData="true" stnName="포항" stnNo="47138">
+   <dataSet lst="10/27_15" val="18.9" weight="GDPS_PMOS:7.82 ECMW_PMOS:42.71 GDPS_NPPM:8.31 RDPS_PMOS:16.18 RDPS_NPPM:12.63 EPSG_PMOS:12.36 " />
+   <dataSet lst="10/28_06" val="14.4" weight="GDPS_PMOS:9.54 ECMW_PMOS:31.6 GDPS_NPPM:14.31 RDPS_PMOS:24.56 RDPS_NPPM:10.7 EPSG_PMOS:9.3 " />
+   <dataSet lst="10/28_15" val="17.5" weight="GDPS_PMOS:10.96 ECMW_PMOS:32.22 GDPS_NPPM:10.87 RDPS_PMOS:16.83 RDPS_NPPM:12.68 EPSG_PMOS:16.43 " />
+   <dataSet lst="10/29_06" val="12.9" weight="GDPS_PMOS:14.18 ECMW_PMOS:23.41 GDPS_NPPM:15.34 RDPS_PMOS:22.94 RDPS_NPPM:10.26 EPSG_PMOS:13.87 " />
+   <dataSet lst="10/29_15" val="15.1" weight="GDPS_PMOS:13.12 ECMW_PMOS:22.17 GDPS_NPPM:17.42 RDPS_PMOS:15.81 RDPS_NPPM:14.48 EPSG_PMOS:17.0 " />
+   <dataSet lst="10/30_06" val="9.4" weight="GDPS_PMOS:14.56 ECMW_PMOS:35.1 GDPS_NPPM:12.17 RDPS_PMOS:17.93 RDPS_NPPM:7.23 EPSG_PMOS:13.0 " />
+   <dataSet lst="10/30_15" val="17.3" weight="GDPS_PMOS:12.16 ECMW_PMOS:32.65 GDPS_NPPM:11.46 RDPS_PMOS:14.01 RDPS_NPPM:10.39 EPSG_PMOS:19.34 " />
+   <dataSet lst="10/31_06" val="9.3" weight="GDPS_PMOS:17.15 ECMW_PMOS:46.08 GDPS_NPPM:12.6 EPSG_PMOS:24.17 " />
+   <dataSet lst="10/31_15" val="16.5" weight="GDPS_PMOS:15.11 ECMW_PMOS:49.17 GDPS_NPPM:12.92 EPSG_PMOS:22.79 " />
+   <dataSet lst="11/01_06" val="7.8" weight="GDPS_PMOS:20.87 ECMW_PMOS:44.52 GDPS_NPPM:11.61 EPSG_PMOS:23.0 " />
+   <dataSet lst="11/01_15" val="15.4" weight="GDPS_PMOS:19.4 ECMW_PMOS:35.39 GDPS_NPPM:12.94 EPSG_PMOS:32.27 " />
+   <dataSet lst="11/02_06" val="6.8" weight="GDPS_PMOS:23.41 ECMW_PMOS:37.57 GDPS_NPPM:12.85 EPSG_PMOS:26.17 " />
+   <dataSet lst="11/02_15" val="15.3" weight="GDPS_PMOS:18.04 ECMW_PMOS:32.29 GDPS_NPPM:21.82 EPSG_PMOS:27.85 " />
+   <dataSet lst="11/03_06" val="7.2" weight="GDPS_PMOS:22.96 ECMW_PMOS:29.39 GDPS_NPPM:11.87 EPSG_PMOS:35.78 " />
+   <dataSet lst="11/03_15" val="16.4" weight="GDPS_PMOS:19.62 ECMW_PMOS:29.48 GDPS_NPPM:19.31 EPSG_PMOS:31.59 " />
+   <dataSet lst="11/04_06" val="7.9" weight="GDPS_PMOS:21.13 ECMW_PMOS:29.94 GDPS_NPPM:12.34 EPSG_PMOS:36.59 " />
+   <dataSet lst="11/04_15" val="18.5" weight="GDPS_PMOS:20.22 ECMW_PMOS:33.37 GDPS_NPPM:16.24 EPSG_PMOS:30.17 " />
+   <dataSet lst="11/05_06" val="8.8" weight="GDPS_PMOS:18.7 ECMW_PMOS:34.26 GDPS_NPPM:13.04 EPSG_PMOS:34.01 " />
+   <dataSet lst="11/05_15" val="18.2" weight="GDPS_PMOS:23.25 ECMW_PMOS:33.24 GDPS_NPPM:14.96 EPSG_PMOS:28.56 " />
+   <dataSet lst="11/06_06" val="11.0" weight="GDPS_PMOS:28.42 ECMW_PMOS:28.2 GDPS_NPPM:12.51 EPSG_PMOS:30.87 " />
+   <dataSet lst="11/06_15" val="18.7" weight="GDPS_PMOS:47.57 EPSG_PMOS:52.43 " />
+   <dataSet lst="11/07_06" val="10.7" weight="GDPS_PMOS:40.93 EPSG_PMOS:59.07 " />
+   <dataSet lst="11/07_15" val="18.1" weight="GDPS_PMOS:41.78 EPSG_PMOS:58.22 " />
+  </stn>
+  <stn hasWeightData="true" stnName="안동" stnNo="47136">
+   <dataSet lst="10/27_15" val="18.3" weight="GDPS_PMOS:15.48 ECMW_PMOS:31.5 GDPS_NPPM:12.77 RDPS_PMOS:14.01 RDPS_NPPM:8.61 EPSG_PMOS:17.64 " />
+   <dataSet lst="10/28_06" val="11.9" weight="GDPS_PMOS:8.52 ECMW_PMOS:21.46 GDPS_NPPM:11.6 RDPS_PMOS:19.98 RDPS_NPPM:27.02 EPSG_PMOS:11.41 " />
+   <dataSet lst="10/28_15" val="15.1" weight="GDPS_PMOS:13.37 ECMW_PMOS:29.93 GDPS_NPPM:13.82 RDPS_PMOS:12.3 RDPS_NPPM:11.93 EPSG_PMOS:18.66 " />
+   <dataSet lst="10/29_06" val="9.2" weight="GDPS_PMOS:9.91 ECMW_PMOS:28.21 GDPS_NPPM:11.87 RDPS_PMOS:18.24 RDPS_NPPM:23.42 EPSG_PMOS:8.36 " />
+   <dataSet lst="10/29_15" val="12.9" weight="GDPS_PMOS:15.51 ECMW_PMOS:29.49 GDPS_NPPM:14.38 RDPS_PMOS:13.8 RDPS_NPPM:11.48 EPSG_PMOS:15.34 " />
+   <dataSet lst="10/30_06" val="6.9" weight="GDPS_PMOS:10.42 ECMW_PMOS:24.03 GDPS_NPPM:12.36 RDPS_PMOS:19.44 RDPS_NPPM:21.54 EPSG_PMOS:12.21 " />
+   <dataSet lst="10/30_15" val="14.8" weight="GDPS_PMOS:16.89 ECMW_PMOS:25.77 GDPS_NPPM:14.97 RDPS_PMOS:15.5 RDPS_NPPM:13.23 EPSG_PMOS:13.64 " />
+   <dataSet lst="10/31_06" val="3.3" weight="GDPS_PMOS:15.59 ECMW_PMOS:42.25 GDPS_NPPM:19.68 EPSG_PMOS:22.48 " />
+   <dataSet lst="10/31_15" val="13.2" weight="GDPS_PMOS:18.47 ECMW_PMOS:42.46 GDPS_NPPM:17.49 EPSG_PMOS:21.58 " />
+   <dataSet lst="11/01_06" val="2.3" weight="GDPS_PMOS:15.54 ECMW_PMOS:41.41 GDPS_NPPM:17.87 EPSG_PMOS:25.19 " />
+   <dataSet lst="11/01_15" val="12.1" weight="GDPS_PMOS:18.59 ECMW_PMOS:36.57 GDPS_NPPM:18.9 EPSG_PMOS:25.94 " />
+   <dataSet lst="11/02_06" val="0.3" weight="GDPS_PMOS:18.2 ECMW_PMOS:38.47 GDPS_NPPM:14.37 EPSG_PMOS:28.96 " />
+   <dataSet lst="11/02_15" val="12.3" weight="GDPS_PMOS:16.07 ECMW_PMOS:36.56 GDPS_NPPM:18.16 EPSG_PMOS:29.22 " />
+   <dataSet lst="11/03_06" val="3.0" weight="GDPS_PMOS:16.82 ECMW_PMOS:29.37 GDPS_NPPM:20.0 EPSG_PMOS:33.81 " />
+   <dataSet lst="11/03_15" val="13.5" weight="GDPS_PMOS:21.68 ECMW_PMOS:31.29 GDPS_NPPM:20.45 EPSG_PMOS:26.58 " />
+   <dataSet lst="11/04_06" val="3.2" weight="GDPS_PMOS:17.84 ECMW_PMOS:32.75 GDPS_NPPM:18.31 EPSG_PMOS:31.09 " />
+   <dataSet lst="11/04_15" val="15.8" weight="GDPS_PMOS:20.9 ECMW_PMOS:34.58 GDPS_NPPM:19.0 EPSG_PMOS:25.52 " />
+   <dataSet lst="11/05_06" val="3.8" weight="GDPS_PMOS:18.44 ECMW_PMOS:30.07 GDPS_NPPM:16.72 EPSG_PMOS:34.77 " />
+   <dataSet lst="11/05_15" val="16.2" weight="GDPS_PMOS:24.91 ECMW_PMOS:30.42 GDPS_NPPM:20.33 EPSG_PMOS:24.34 " />
+   <dataSet lst="11/06_06" val="6.6" weight="GDPS_PMOS:27.26 ECMW_PMOS:24.41 GDPS_NPPM:18.48 EPSG_PMOS:29.85 " />
+   <dataSet lst="11/06_15" val="15.5" weight="GDPS_PMOS:43.13 EPSG_PMOS:56.87 " />
+   <dataSet lst="11/07_06" val="7.6" weight="GDPS_PMOS:43.64 EPSG_PMOS:56.36 " />
+   <dataSet lst="11/07_15" val="15.1" weight="GDPS_PMOS:40.53 EPSG_PMOS:59.47 " />
+  </stn>
+  <stn hasWeightData="true" stnName="울진" stnNo="47130">
+   <dataSet lst="10/27_15" val="17.4" weight="GDPS_PMOS:8.75 ECMW_PMOS:32.42 GDPS_NPPM:10.03 RDPS_PMOS:17.23 RDPS_NPPM:15.22 EPSG_PMOS:16.34 " />
+   <dataSet lst="10/28_06" val="12.4" weight="GDPS_PMOS:10.32 ECMW_PMOS:28.75 GDPS_NPPM:13.85 RDPS_PMOS:20.74 RDPS_NPPM:14.27 EPSG_PMOS:12.06 " />
+   <dataSet lst="10/28_15" val="17.0" weight="GDPS_PMOS:9.49 ECMW_PMOS:34.47 GDPS_NPPM:11.86 RDPS_PMOS:14.96 RDPS_NPPM:10.97 EPSG_PMOS:18.26 " />
+   <dataSet lst="10/29_06" val="9.9" weight="GDPS_PMOS:14.68 ECMW_PMOS:25.27 GDPS_NPPM:17.97 RDPS_PMOS:15.9 RDPS_NPPM:12.8 EPSG_PMOS:13.39 " />
+   <dataSet lst="10/29_15" val="12.7" weight="GDPS_PMOS:9.98 ECMW_PMOS:30.16 GDPS_NPPM:15.22 RDPS_PMOS:16.66 RDPS_NPPM:14.0 EPSG_PMOS:13.98 " />
+   <dataSet lst="10/30_06" val="7.1" weight="GDPS_PMOS:14.68 ECMW_PMOS:25.56 GDPS_NPPM:15.59 RDPS_PMOS:15.85 RDPS_NPPM:12.42 EPSG_PMOS:15.9 " />
+   <dataSet lst="10/30_15" val="16.0" weight="GDPS_PMOS:9.94 ECMW_PMOS:31.34 GDPS_NPPM:14.17 RDPS_PMOS:15.78 RDPS_NPPM:12.57 EPSG_PMOS:16.2 " />
+   <dataSet lst="10/31_06" val="7.4" weight="GDPS_PMOS:20.33 ECMW_PMOS:34.55 GDPS_NPPM:20.81 EPSG_PMOS:24.31 " />
+   <dataSet lst="10/31_15" val="15.4" weight="GDPS_PMOS:14.7 ECMW_PMOS:47.24 GDPS_NPPM:17.81 EPSG_PMOS:20.25 " />
+   <dataSet lst="11/01_06" val="6.1" weight="GDPS_PMOS:20.14 ECMW_PMOS:33.44 GDPS_NPPM:21.31 EPSG_PMOS:25.11 " />
+   <dataSet lst="11/01_15" val="13.6" weight="GDPS_PMOS:16.58 ECMW_PMOS:38.55 GDPS_NPPM:20.46 EPSG_PMOS:24.41 " />
+   <dataSet lst="11/02_06" val="5.5" weight="GDPS_PMOS:19.8 ECMW_PMOS:31.17 GDPS_NPPM:20.25 EPSG_PMOS:28.79 " />
+   <dataSet lst="11/02_15" val="14.2" weight="GDPS_PMOS:14.63 ECMW_PMOS:35.25 GDPS_NPPM:21.22 EPSG_PMOS:28.9 " />
+   <dataSet lst="11/03_06" val="6.2" weight="GDPS_PMOS:23.25 ECMW_PMOS:26.75 GDPS_NPPM:17.9 EPSG_PMOS:32.1 " />
+   <dataSet lst="11/03_15" val="15.5" weight="GDPS_PMOS:18.0 ECMW_PMOS:34.42 GDPS_NPPM:17.84 EPSG_PMOS:29.75 " />
+   <dataSet lst="11/04_06" val="6.5" weight="GDPS_PMOS:18.77 ECMW_PMOS:29.84 GDPS_NPPM:20.71 EPSG_PMOS:30.68 " />
+   <dataSet lst="11/04_15" val="16.0" weight="GDPS_PMOS:18.06 ECMW_PMOS:38.55 GDPS_NPPM:13.7 EPSG_PMOS:29.69 " />
+   <dataSet lst="11/05_06" val="7.8" weight="GDPS_PMOS:22.15 ECMW_PMOS:33.07 GDPS_NPPM:16.04 EPSG_PMOS:28.74 " />
+   <dataSet lst="11/05_15" val="17.1" weight="GDPS_PMOS:21.64 ECMW_PMOS:33.9 GDPS_NPPM:14.85 EPSG_PMOS:29.61 " />
+   <dataSet lst="11/06_06" val="8.6" weight="GDPS_PMOS:23.46 ECMW_PMOS:28.14 GDPS_NPPM:19.6 EPSG_PMOS:28.8 " />
+   <dataSet lst="11/06_15" val="18.4" weight="GDPS_PMOS:39.63 EPSG_PMOS:60.37 " />
+   <dataSet lst="11/07_06" val="9.0" weight="GDPS_PMOS:44.54 EPSG_PMOS:55.46 " />
+   <dataSet lst="11/07_15" val="16.5" weight="GDPS_PMOS:39.47 EPSG_PMOS:60.53 " />
+  </stn>
+  <stn hasWeightData="true" stnName="상주" stnNo="47137">
+   <dataSet lst="10/27_15" val="18.9" weight="GDPS_PMOS:16.02 ECMW_PMOS:33.9 GDPS_NPPM:8.95 RDPS_PMOS:17.42 RDPS_NPPM:10.47 EPSG_PMOS:13.24 " />
+   <dataSet lst="10/28_06" val="11.4" weight="GDPS_PMOS:14.35 ECMW_PMOS:22.56 GDPS_NPPM:18.32 RDPS_PMOS:16.37 RDPS_NPPM:17.86 EPSG_PMOS:10.54 " />
+   <dataSet lst="10/28_15" val="15.6" weight="GDPS_PMOS:11.87 ECMW_PMOS:34.39 GDPS_NPPM:11.01 RDPS_PMOS:15.98 RDPS_NPPM:13.22 EPSG_PMOS:13.53 " />
+   <dataSet lst="10/29_06" val="9.4" weight="GDPS_PMOS:13.43 ECMW_PMOS:23.54 GDPS_NPPM:18.9 RDPS_PMOS:13.43 RDPS_NPPM:15.68 EPSG_PMOS:15.02 " />
+   <dataSet lst="10/29_15" val="13.8" weight="GDPS_PMOS:17.84 ECMW_PMOS:27.42 GDPS_NPPM:13.18 RDPS_PMOS:16.56 RDPS_NPPM:11.71 EPSG_PMOS:13.3 " />
+   <dataSet lst="10/30_06" val="4.9" weight="GDPS_PMOS:12.06 ECMW_PMOS:28.91 GDPS_NPPM:15.45 RDPS_PMOS:13.83 RDPS_NPPM:14.55 EPSG_PMOS:15.19 " />
+   <dataSet lst="10/30_15" val="15.1" weight="GDPS_PMOS:15.39 ECMW_PMOS:25.97 GDPS_NPPM:12.68 RDPS_PMOS:19.32 RDPS_NPPM:13.27 EPSG_PMOS:13.37 " />
+   <dataSet lst="10/31_06" val="5.2" weight="GDPS_PMOS:17.49 ECMW_PMOS:42.45 GDPS_NPPM:18.09 EPSG_PMOS:21.97 " />
+   <dataSet lst="10/31_15" val="14.8" weight="GDPS_PMOS:18.87 ECMW_PMOS:43.66 GDPS_NPPM:15.99 EPSG_PMOS:21.48 " />
+   <dataSet lst="11/01_06" val="3.7" weight="GDPS_PMOS:17.88 ECMW_PMOS:39.92 GDPS_NPPM:18.53 EPSG_PMOS:23.67 " />
+   <dataSet lst="11/01_15" val="12.5" weight="GDPS_PMOS:18.58 ECMW_PMOS:38.06 GDPS_NPPM:17.09 EPSG_PMOS:26.27 " />
+   <dataSet lst="11/02_06" val="-0.1" weight="GDPS_PMOS:21.44 ECMW_PMOS:36.29 GDPS_NPPM:18.7 EPSG_PMOS:23.57 " />
+   <dataSet lst="11/02_15" val="12.8" weight="GDPS_PMOS:18.29 ECMW_PMOS:39.35 GDPS_NPPM:15.77 EPSG_PMOS:26.59 " />
+   <dataSet lst="11/03_06" val="3.5" weight="GDPS_PMOS:16.3 ECMW_PMOS:28.69 GDPS_NPPM:24.48 EPSG_PMOS:30.53 " />
+   <dataSet lst="11/03_15" val="14.6" weight="GDPS_PMOS:22.44 ECMW_PMOS:32.71 GDPS_NPPM:20.23 EPSG_PMOS:24.61 " />
+   <dataSet lst="11/04_06" val="3.1" weight="GDPS_PMOS:14.16 ECMW_PMOS:33.45 GDPS_NPPM:19.39 EPSG_PMOS:33.01 " />
+   <dataSet lst="11/04_15" val="16.0" weight="GDPS_PMOS:21.09 ECMW_PMOS:35.63 GDPS_NPPM:18.29 EPSG_PMOS:24.99 " />
+   <dataSet lst="11/05_06" val="4.1" weight="GDPS_PMOS:23.01 ECMW_PMOS:27.7 GDPS_NPPM:18.73 EPSG_PMOS:30.56 " />
+   <dataSet lst="11/05_15" val="16.4" weight="GDPS_PMOS:23.71 ECMW_PMOS:31.56 GDPS_NPPM:17.6 EPSG_PMOS:27.13 " />
+   <dataSet lst="11/06_06" val="6.8" weight="GDPS_PMOS:27.61 ECMW_PMOS:22.86 GDPS_NPPM:18.81 EPSG_PMOS:30.71 " />
+   <dataSet lst="11/06_15" val="16.3" weight="GDPS_PMOS:44.94 EPSG_PMOS:55.06 " />
+   <dataSet lst="11/07_06" val="6.0" weight="GDPS_PMOS:46.32 EPSG_PMOS:53.68 " />
+   <dataSet lst="11/07_15" val="15.8" weight="GDPS_PMOS:41.13 EPSG_PMOS:58.87 " />
+  </stn>
+  <stn hasWeightData="true" stnName="구미" stnNo="47279">
+   <dataSet lst="10/27_15" val="18.5" weight="GDPS_PMOS:15.03 ECMW_PMOS:35.72 GDPS_NPPM:10.88 RDPS_PMOS:12.71 RDPS_NPPM:9.19 EPSG_PMOS:16.46 " />
+   <dataSet lst="10/28_06" val="12.9" weight="GDPS_PMOS:13.06 ECMW_PMOS:26.49 GDPS_NPPM:16.67 RDPS_PMOS:15.3 RDPS_NPPM:16.49 EPSG_PMOS:11.98 " />
+   <dataSet lst="10/28_15" val="15.7" weight="GDPS_PMOS:10.64 ECMW_PMOS:34.83 GDPS_NPPM:12.32 RDPS_PMOS:12.47 RDPS_NPPM:11.69 EPSG_PMOS:18.05 " />
+   <dataSet lst="10/29_06" val="10.2" weight="GDPS_PMOS:10.52 ECMW_PMOS:29.68 GDPS_NPPM:15.66 RDPS_PMOS:13.53 RDPS_NPPM:16.14 EPSG_PMOS:14.48 " />
+   <dataSet lst="10/29_15" val="13.8" weight="GDPS_PMOS:15.08 ECMW_PMOS:25.84 GDPS_NPPM:14.74 RDPS_PMOS:15.94 RDPS_NPPM:13.12 EPSG_PMOS:15.28 " />
+   <dataSet lst="10/30_06" val="6.7" weight="GDPS_PMOS:12.95 ECMW_PMOS:30.91 GDPS_NPPM:13.89 RDPS_PMOS:12.7 RDPS_NPPM:15.72 EPSG_PMOS:13.84 " />
+   <dataSet lst="10/30_15" val="15.3" weight="GDPS_PMOS:15.1 ECMW_PMOS:28.5 GDPS_NPPM:13.0 RDPS_PMOS:15.57 RDPS_NPPM:11.91 EPSG_PMOS:15.92 " />
+   <dataSet lst="10/31_06" val="6.2" weight="GDPS_PMOS:15.79 ECMW_PMOS:45.36 GDPS_NPPM:15.81 EPSG_PMOS:23.05 " />
+   <dataSet lst="10/31_15" val="14.1" weight="GDPS_PMOS:15.67 ECMW_PMOS:47.02 GDPS_NPPM:12.83 EPSG_PMOS:24.48 " />
+   <dataSet lst="11/01_06" val="5.2" weight="GDPS_PMOS:18.91 ECMW_PMOS:39.62 GDPS_NPPM:18.85 EPSG_PMOS:22.62 " />
+   <dataSet lst="11/01_15" val="12.3" weight="GDPS_PMOS:18.41 ECMW_PMOS:43.89 GDPS_NPPM:13.25 EPSG_PMOS:24.45 " />
+   <dataSet lst="11/02_06" val="0.7" weight="GDPS_PMOS:21.79 ECMW_PMOS:36.28 GDPS_NPPM:16.52 EPSG_PMOS:25.41 " />
+   <dataSet lst="11/02_15" val="13.0" weight="GDPS_PMOS:16.7 ECMW_PMOS:37.54 GDPS_NPPM:16.54 EPSG_PMOS:29.23 " />
+   <dataSet lst="11/03_06" val="3.3" weight="GDPS_PMOS:16.86 ECMW_PMOS:31.98 GDPS_NPPM:19.91 EPSG_PMOS:31.24 " />
+   <dataSet lst="11/03_15" val="15.1" weight="GDPS_PMOS:23.07 ECMW_PMOS:31.64 GDPS_NPPM:19.1 EPSG_PMOS:26.2 " />
+   <dataSet lst="11/04_06" val="3.9" weight="GDPS_PMOS:19.45 ECMW_PMOS:33.85 GDPS_NPPM:17.62 EPSG_PMOS:29.08 " />
+   <dataSet lst="11/04_15" val="16.8" weight="GDPS_PMOS:21.4 ECMW_PMOS:36.47 GDPS_NPPM:15.09 EPSG_PMOS:27.05 " />
+   <dataSet lst="11/05_06" val="4.5" weight="GDPS_PMOS:19.34 ECMW_PMOS:29.21 GDPS_NPPM:18.25 EPSG_PMOS:33.2 " />
+   <dataSet lst="11/05_15" val="16.2" weight="GDPS_PMOS:24.38 ECMW_PMOS:36.02 GDPS_NPPM:14.84 EPSG_PMOS:24.76 " />
+   <dataSet lst="11/06_06" val="7.1" weight="GDPS_PMOS:25.27 ECMW_PMOS:26.3 GDPS_NPPM:17.77 EPSG_PMOS:30.66 " />
+   <dataSet lst="11/06_15" val="16.4" weight="GDPS_PMOS:45.0 EPSG_PMOS:55.0 " />
+   <dataSet lst="11/07_06" val="7.6" weight="GDPS_PMOS:44.98 EPSG_PMOS:55.02 " />
+   <dataSet lst="11/07_15" val="15.5" weight="GDPS_PMOS:37.34 EPSG_PMOS:62.66 " />
+  </stn>
+  <stn hasWeightData="true" stnName="울릉도" stnNo="47115">
+   <dataSet lst="10/27_15" val="14.5" weight="GDPS_PMOS:13.97 ECMW_PMOS:38.94 GDPS_NPPM:3.38 RDPS_PMOS:16.06 RDPS_NPPM:4.29 EPSG_PMOS:23.36 " />
+   <dataSet lst="10/28_06" val="12.5" weight="GDPS_PMOS:16.47 ECMW_PMOS:45.23 GDPS_NPPM:2.98 RDPS_PMOS:14.75 RDPS_NPPM:3.84 EPSG_PMOS:16.73 " />
+   <dataSet lst="10/28_15" val="14.8" weight="GDPS_PMOS:13.76 ECMW_PMOS:41.8 GDPS_NPPM:4.84 RDPS_PMOS:13.75 RDPS_NPPM:5.3 EPSG_PMOS:20.54 " />
+   <dataSet lst="10/29_06" val="9.5" weight="GDPS_PMOS:21.04 ECMW_PMOS:42.5 GDPS_NPPM:3.79 RDPS_PMOS:13.05 RDPS_NPPM:5.19 EPSG_PMOS:14.44 " />
+   <dataSet lst="10/29_15" val="9.5" weight="GDPS_PMOS:13.04 ECMW_PMOS:28.86 GDPS_NPPM:5.44 RDPS_PMOS:17.32 RDPS_NPPM:6.54 EPSG_PMOS:28.8 " />
+   <dataSet lst="10/30_06" val="8.9" weight="GDPS_PMOS:19.09 ECMW_PMOS:33.52 GDPS_NPPM:3.27 RDPS_PMOS:20.78 RDPS_NPPM:4.54 EPSG_PMOS:18.8 " />
+   <dataSet lst="10/30_15" val="13.9" weight="GDPS_PMOS:14.27 ECMW_PMOS:32.24 GDPS_NPPM:6.65 RDPS_PMOS:15.75 RDPS_NPPM:8.36 EPSG_PMOS:22.73 " />
+   <dataSet lst="10/31_06" val="11.0" weight="GDPS_PMOS:24.0 ECMW_PMOS:48.3 GDPS_NPPM:4.68 EPSG_PMOS:23.02 " />
+   <dataSet lst="10/31_15" val="13.9" weight="GDPS_PMOS:21.44 ECMW_PMOS:43.33 GDPS_NPPM:10.97 EPSG_PMOS:24.26 " />
+   <dataSet lst="11/01_06" val="8.3" weight="GDPS_PMOS:26.98 ECMW_PMOS:43.46 GDPS_NPPM:6.21 EPSG_PMOS:23.35 " />
+   <dataSet lst="11/01_15" val="11.1" weight="GDPS_PMOS:25.18 ECMW_PMOS:39.72 GDPS_NPPM:11.85 EPSG_PMOS:23.26 " />
+   <dataSet lst="11/02_06" val="6.8" weight="GDPS_PMOS:21.06 ECMW_PMOS:45.45 GDPS_NPPM:6.22 EPSG_PMOS:27.27 " />
+   <dataSet lst="11/02_15" val="11.6" weight="GDPS_PMOS:19.28 ECMW_PMOS:34.64 GDPS_NPPM:13.09 EPSG_PMOS:32.99 " />
+   <dataSet lst="11/03_06" val="9.3" weight="GDPS_PMOS:21.25 ECMW_PMOS:36.44 GDPS_NPPM:8.28 EPSG_PMOS:34.03 " />
+   <dataSet lst="11/03_15" val="13.1" weight="GDPS_PMOS:24.21 ECMW_PMOS:32.49 GDPS_NPPM:18.49 EPSG_PMOS:24.81 " />
+   <dataSet lst="11/04_06" val="10.0" weight="GDPS_PMOS:20.67 ECMW_PMOS:34.21 GDPS_NPPM:7.85 EPSG_PMOS:37.26 " />
+   <dataSet lst="11/04_15" val="14.7" weight="GDPS_PMOS:20.18 ECMW_PMOS:31.88 GDPS_NPPM:16.62 EPSG_PMOS:31.32 " />
+   <dataSet lst="11/05_06" val="11.8" weight="GDPS_PMOS:24.94 ECMW_PMOS:32.91 GDPS_NPPM:8.52 EPSG_PMOS:33.63 " />
+   <dataSet lst="11/05_15" val="15.6" weight="GDPS_PMOS:22.21 ECMW_PMOS:31.44 GDPS_NPPM:18.54 EPSG_PMOS:27.82 " />
+   <dataSet lst="11/06_06" val="12.0" weight="GDPS_PMOS:27.69 ECMW_PMOS:31.25 GDPS_NPPM:9.7 EPSG_PMOS:31.36 " />
+   <dataSet lst="11/06_15" val="16.8" weight="GDPS_PMOS:45.83 EPSG_PMOS:54.17 " />
+   <dataSet lst="11/07_06" val="10.1" weight="GDPS_PMOS:46.45 EPSG_PMOS:53.55 " />
+   <dataSet lst="11/07_15" val="13.9" weight="GDPS_PMOS:37.14 EPSG_PMOS:62.86 " />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="13" grName="광주청(광주)">
+  <stn hasWeightData="true" stnName="광주" stnNo="47156">
+   <dataSet lst="10/27_15" val="20.6" weight="GDPS_PMOS:12.96 ECMW_PMOS:32.89 GDPS_NPPM:10.06 RDPS_PMOS:15.13 RDPS_NPPM:11.91 EPSG_PMOS:17.04 " />
+   <dataSet lst="10/28_06" val="13.4" weight="GDPS_PMOS:15.12 ECMW_PMOS:17.71 GDPS_NPPM:11.36 RDPS_PMOS:24.97 RDPS_NPPM:15.76 EPSG_PMOS:15.08 " />
+   <dataSet lst="10/28_15" val="16.9" weight="GDPS_PMOS:10.21 ECMW_PMOS:29.26 GDPS_NPPM:13.05 RDPS_PMOS:14.43 RDPS_NPPM:14.08 EPSG_PMOS:18.97 " />
+   <dataSet lst="10/29_06" val="10.5" weight="GDPS_PMOS:15.34 ECMW_PMOS:23.15 GDPS_NPPM:11.21 RDPS_PMOS:21.09 RDPS_NPPM:12.84 EPSG_PMOS:16.37 " />
+   <dataSet lst="10/29_15" val="13.6" weight="GDPS_PMOS:11.93 ECMW_PMOS:21.53 GDPS_NPPM:19.37 RDPS_PMOS:14.83 RDPS_NPPM:17.65 EPSG_PMOS:14.69 " />
+   <dataSet lst="10/30_06" val="6.4" weight="GDPS_PMOS:16.58 ECMW_PMOS:32.03 GDPS_NPPM:9.98 RDPS_PMOS:15.0 RDPS_NPPM:10.67 EPSG_PMOS:15.73 " />
+   <dataSet lst="10/30_15" val="14.9" weight="GDPS_PMOS:14.24 ECMW_PMOS:24.57 GDPS_NPPM:12.49 RDPS_PMOS:17.1 RDPS_NPPM:15.85 EPSG_PMOS:15.75 " />
+   <dataSet lst="10/31_06" val="7.6" weight="GDPS_PMOS:25.08 ECMW_PMOS:40.95 GDPS_NPPM:14.1 EPSG_PMOS:19.87 " />
+   <dataSet lst="10/31_15" val="15.4" weight="GDPS_PMOS:16.64 ECMW_PMOS:37.42 GDPS_NPPM:18.8 EPSG_PMOS:27.15 " />
+   <dataSet lst="11/01_06" val="5.5" weight="GDPS_PMOS:20.06 ECMW_PMOS:40.51 GDPS_NPPM:10.94 EPSG_PMOS:28.49 " />
+   <dataSet lst="11/01_15" val="12.6" weight="GDPS_PMOS:16.37 ECMW_PMOS:29.23 GDPS_NPPM:22.63 EPSG_PMOS:31.78 " />
+   <dataSet lst="11/02_06" val="3.2" weight="GDPS_PMOS:19.87 ECMW_PMOS:38.9 GDPS_NPPM:10.44 EPSG_PMOS:30.79 " />
+   <dataSet lst="11/02_15" val="13.5" weight="GDPS_PMOS:20.81 ECMW_PMOS:31.33 GDPS_NPPM:16.27 EPSG_PMOS:31.59 " />
+   <dataSet lst="11/03_06" val="5.3" weight="GDPS_PMOS:21.25 ECMW_PMOS:30.29 GDPS_NPPM:11.55 EPSG_PMOS:36.91 " />
+   <dataSet lst="11/03_15" val="15.2" weight="GDPS_PMOS:22.06 ECMW_PMOS:31.05 GDPS_NPPM:22.94 EPSG_PMOS:23.95 " />
+   <dataSet lst="11/04_06" val="6.1" weight="GDPS_PMOS:22.86 ECMW_PMOS:31.41 GDPS_NPPM:12.04 EPSG_PMOS:33.68 " />
+   <dataSet lst="11/04_15" val="17.0" weight="GDPS_PMOS:22.34 ECMW_PMOS:35.36 GDPS_NPPM:19.42 EPSG_PMOS:22.88 " />
+   <dataSet lst="11/05_06" val="6.9" weight="GDPS_PMOS:27.15 ECMW_PMOS:31.39 GDPS_NPPM:13.81 EPSG_PMOS:27.64 " />
+   <dataSet lst="11/05_15" val="17.5" weight="GDPS_PMOS:23.61 ECMW_PMOS:32.69 GDPS_NPPM:23.28 EPSG_PMOS:20.42 " />
+   <dataSet lst="11/06_06" val="9.3" weight="GDPS_PMOS:24.65 ECMW_PMOS:34.63 GDPS_NPPM:12.16 EPSG_PMOS:28.56 " />
+   <dataSet lst="11/06_15" val="18.3" weight="GDPS_PMOS:48.39 EPSG_PMOS:51.61 " />
+   <dataSet lst="11/07_06" val="8.9" weight="GDPS_PMOS:41.33 EPSG_PMOS:58.67 " />
+   <dataSet lst="11/07_15" val="17.1" weight="GDPS_PMOS:48.92 EPSG_PMOS:51.08 " />
+  </stn>
+  <stn hasWeightData="true" stnName="목포" stnNo="47165">
+   <dataSet lst="10/27_15" val="20.5" weight="GDPS_PMOS:13.17 ECMW_PMOS:34.49 GDPS_NPPM:7.12 RDPS_PMOS:9.62 RDPS_NPPM:12.57 EPSG_PMOS:23.03 " />
+   <dataSet lst="10/28_06" val="14.8" weight="GDPS_PMOS:11.29 ECMW_PMOS:37.52 GDPS_NPPM:13.68 RDPS_PMOS:11.98 RDPS_NPPM:6.62 EPSG_PMOS:18.9 " />
+   <dataSet lst="10/28_15" val="17.0" weight="GDPS_PMOS:12.72 ECMW_PMOS:33.26 GDPS_NPPM:10.86 RDPS_PMOS:9.78 RDPS_NPPM:13.53 EPSG_PMOS:19.85 " />
+   <dataSet lst="10/29_06" val="11.2" weight="GDPS_PMOS:16.88 ECMW_PMOS:30.88 GDPS_NPPM:14.16 RDPS_PMOS:11.73 RDPS_NPPM:6.53 EPSG_PMOS:19.81 " />
+   <dataSet lst="10/29_15" val="13.5" weight="GDPS_PMOS:12.79 ECMW_PMOS:22.11 GDPS_NPPM:16.37 RDPS_PMOS:13.85 RDPS_NPPM:16.38 EPSG_PMOS:18.49 " />
+   <dataSet lst="10/30_06" val="7.1" weight="GDPS_PMOS:13.91 ECMW_PMOS:37.25 GDPS_NPPM:13.03 RDPS_PMOS:13.95 RDPS_NPPM:4.83 EPSG_PMOS:17.03 " />
+   <dataSet lst="10/30_15" val="14.7" weight="GDPS_PMOS:14.33 ECMW_PMOS:25.93 GDPS_NPPM:13.99 RDPS_PMOS:14.21 RDPS_NPPM:15.63 EPSG_PMOS:15.92 " />
+   <dataSet lst="10/31_06" val="9.5" weight="GDPS_PMOS:21.22 ECMW_PMOS:36.78 GDPS_NPPM:17.49 EPSG_PMOS:24.51 " />
+   <dataSet lst="10/31_15" val="15.4" weight="GDPS_PMOS:19.01 ECMW_PMOS:34.59 GDPS_NPPM:20.03 EPSG_PMOS:26.37 " />
+   <dataSet lst="11/01_06" val="8.7" weight="GDPS_PMOS:18.33 ECMW_PMOS:41.98 GDPS_NPPM:15.46 EPSG_PMOS:24.24 " />
+   <dataSet lst="11/01_15" val="12.5" weight="GDPS_PMOS:17.6 ECMW_PMOS:28.67 GDPS_NPPM:22.37 EPSG_PMOS:31.36 " />
+   <dataSet lst="11/02_06" val="6.5" weight="GDPS_PMOS:17.2 ECMW_PMOS:37.77 GDPS_NPPM:15.49 EPSG_PMOS:29.53 " />
+   <dataSet lst="11/02_15" val="13.2" weight="GDPS_PMOS:24.18 ECMW_PMOS:30.76 GDPS_NPPM:19.73 EPSG_PMOS:25.33 " />
+   <dataSet lst="11/03_06" val="10.0" weight="GDPS_PMOS:22.93 ECMW_PMOS:24.21 GDPS_NPPM:19.07 EPSG_PMOS:33.79 " />
+   <dataSet lst="11/03_15" val="15.8" weight="GDPS_PMOS:23.57 ECMW_PMOS:27.42 GDPS_NPPM:23.88 EPSG_PMOS:25.13 " />
+   <dataSet lst="11/04_06" val="8.9" weight="GDPS_PMOS:21.11 ECMW_PMOS:27.1 GDPS_NPPM:20.86 EPSG_PMOS:30.92 " />
+   <dataSet lst="11/04_15" val="16.7" weight="GDPS_PMOS:23.18 ECMW_PMOS:32.82 GDPS_NPPM:20.17 EPSG_PMOS:23.84 " />
+   <dataSet lst="11/05_06" val="10.8" weight="GDPS_PMOS:22.67 ECMW_PMOS:35.14 GDPS_NPPM:19.75 EPSG_PMOS:22.45 " />
+   <dataSet lst="11/05_15" val="17.2" weight="GDPS_PMOS:24.18 ECMW_PMOS:31.87 GDPS_NPPM:21.16 EPSG_PMOS:22.78 " />
+   <dataSet lst="11/06_06" val="11.9" weight="GDPS_PMOS:24.25 ECMW_PMOS:28.52 GDPS_NPPM:17.45 EPSG_PMOS:29.78 " />
+   <dataSet lst="11/06_15" val="18.0" weight="GDPS_PMOS:48.59 EPSG_PMOS:51.41 " />
+   <dataSet lst="11/07_06" val="11.0" weight="GDPS_PMOS:39.24 EPSG_PMOS:60.76 " />
+   <dataSet lst="11/07_15" val="16.9" weight="GDPS_PMOS:48.37 EPSG_PMOS:51.63 " />
+  </stn>
+  <stn hasWeightData="true" stnName="여수" stnNo="47168">
+   <dataSet lst="10/27_15" val="19.2" weight="GDPS_PMOS:11.23 ECMW_PMOS:37.78 GDPS_NPPM:4.75 RDPS_PMOS:18.1 RDPS_NPPM:10.32 EPSG_PMOS:17.82 " />
+   <dataSet lst="10/28_06" val="14.7" weight="GDPS_PMOS:9.91 ECMW_PMOS:37.25 GDPS_NPPM:16.72 RDPS_PMOS:20.19 RDPS_NPPM:0.74 EPSG_PMOS:15.19 " />
+   <dataSet lst="10/28_15" val="17.2" weight="GDPS_PMOS:13.76 ECMW_PMOS:33.68 GDPS_NPPM:7.63 RDPS_PMOS:17.81 RDPS_NPPM:9.98 EPSG_PMOS:17.15 " />
+   <dataSet lst="10/29_06" val="13.2" weight="GDPS_PMOS:11.74 ECMW_PMOS:35.44 GDPS_NPPM:20.25 RDPS_PMOS:15.99 RDPS_NPPM:1.07 EPSG_PMOS:15.51 " />
+   <dataSet lst="10/29_15" val="16.0" weight="GDPS_PMOS:15.76 ECMW_PMOS:27.33 GDPS_NPPM:10.32 RDPS_PMOS:17.67 RDPS_NPPM:10.28 EPSG_PMOS:18.65 " />
+   <dataSet lst="10/30_06" val="11.0" weight="GDPS_PMOS:13.7 ECMW_PMOS:34.83 GDPS_NPPM:17.64 RDPS_PMOS:13.48 RDPS_NPPM:1.27 EPSG_PMOS:19.07 " />
+   <dataSet lst="10/30_15" val="16.8" weight="GDPS_PMOS:14.55 ECMW_PMOS:26.27 GDPS_NPPM:9.94 RDPS_PMOS:21.89 RDPS_NPPM:12.05 EPSG_PMOS:15.3 " />
+   <dataSet lst="10/31_06" val="11.9" weight="GDPS_PMOS:18.54 ECMW_PMOS:45.43 GDPS_NPPM:18.57 EPSG_PMOS:17.46 " />
+   <dataSet lst="10/31_15" val="16.2" weight="GDPS_PMOS:16.84 ECMW_PMOS:42.07 GDPS_NPPM:15.76 EPSG_PMOS:25.33 " />
+   <dataSet lst="11/01_06" val="9.6" weight="GDPS_PMOS:20.14 ECMW_PMOS:36.19 GDPS_NPPM:18.88 EPSG_PMOS:24.79 " />
+   <dataSet lst="11/01_15" val="15.2" weight="GDPS_PMOS:18.81 ECMW_PMOS:33.55 GDPS_NPPM:18.65 EPSG_PMOS:28.99 " />
+   <dataSet lst="11/02_06" val="7.1" weight="GDPS_PMOS:15.72 ECMW_PMOS:42.38 GDPS_NPPM:14.83 EPSG_PMOS:27.07 " />
+   <dataSet lst="11/02_15" val="15.4" weight="GDPS_PMOS:19.66 ECMW_PMOS:28.6 GDPS_NPPM:18.95 EPSG_PMOS:32.8 " />
+   <dataSet lst="11/03_06" val="8.8" weight="GDPS_PMOS:21.47 ECMW_PMOS:25.46 GDPS_NPPM:14.54 EPSG_PMOS:38.53 " />
+   <dataSet lst="11/03_15" val="15.9" weight="GDPS_PMOS:22.34 ECMW_PMOS:27.28 GDPS_NPPM:22.86 EPSG_PMOS:27.51 " />
+   <dataSet lst="11/04_06" val="10.0" weight="GDPS_PMOS:24.62 ECMW_PMOS:29.45 GDPS_NPPM:16.67 EPSG_PMOS:29.26 " />
+   <dataSet lst="11/04_15" val="17.2" weight="GDPS_PMOS:22.69 ECMW_PMOS:32.45 GDPS_NPPM:22.16 EPSG_PMOS:22.7 " />
+   <dataSet lst="11/05_06" val="11.3" weight="GDPS_PMOS:20.29 ECMW_PMOS:35.53 GDPS_NPPM:16.36 EPSG_PMOS:27.83 " />
+   <dataSet lst="11/05_15" val="17.4" weight="GDPS_PMOS:24.08 ECMW_PMOS:33.96 GDPS_NPPM:18.06 EPSG_PMOS:23.91 " />
+   <dataSet lst="11/06_06" val="13.2" weight="GDPS_PMOS:27.62 ECMW_PMOS:30.49 GDPS_NPPM:17.75 EPSG_PMOS:24.14 " />
+   <dataSet lst="11/06_15" val="18.5" weight="GDPS_PMOS:46.38 EPSG_PMOS:53.62 " />
+   <dataSet lst="11/07_06" val="12.7" weight="GDPS_PMOS:49.85 EPSG_PMOS:50.15 " />
+   <dataSet lst="11/07_15" val="17.8" weight="GDPS_PMOS:46.46 EPSG_PMOS:53.54 " />
+  </stn>
+  <stn hasWeightData="true" stnName="완도" stnNo="47170">
+   <dataSet lst="10/27_15" val="19.4" weight="GDPS_PMOS:12.11 ECMW_PMOS:42.35 GDPS_NPPM:3.55 RDPS_PMOS:10.56 RDPS_NPPM:11.51 EPSG_PMOS:19.91 " />
+   <dataSet lst="10/28_06" val="16.1" weight="GDPS_PMOS:13.5 ECMW_PMOS:29.85 GDPS_NPPM:11.12 RDPS_PMOS:17.06 RDPS_NPPM:9.21 EPSG_PMOS:19.27 " />
+   <dataSet lst="10/28_15" val="18.1" weight="GDPS_PMOS:10.57 ECMW_PMOS:39.3 GDPS_NPPM:7.21 RDPS_PMOS:10.29 RDPS_NPPM:12.54 EPSG_PMOS:20.09 " />
+   <dataSet lst="10/29_06" val="12.3" weight="GDPS_PMOS:13.02 ECMW_PMOS:29.93 GDPS_NPPM:13.17 RDPS_PMOS:15.11 RDPS_NPPM:9.08 EPSG_PMOS:19.69 " />
+   <dataSet lst="10/29_15" val="14.5" weight="GDPS_PMOS:12.91 ECMW_PMOS:34.74 GDPS_NPPM:10.38 RDPS_PMOS:11.14 RDPS_NPPM:13.39 EPSG_PMOS:17.44 " />
+   <dataSet lst="10/30_06" val="7.7" weight="GDPS_PMOS:12.73 ECMW_PMOS:33.93 GDPS_NPPM:14.18 RDPS_PMOS:14.02 RDPS_NPPM:7.56 EPSG_PMOS:17.58 " />
+   <dataSet lst="10/30_15" val="15.7" weight="GDPS_PMOS:11.51 ECMW_PMOS:30.33 GDPS_NPPM:9.85 RDPS_PMOS:13.52 RDPS_NPPM:16.89 EPSG_PMOS:17.9 " />
+   <dataSet lst="10/31_06" val="9.8" weight="GDPS_PMOS:21.2 ECMW_PMOS:39.29 GDPS_NPPM:18.03 EPSG_PMOS:21.48 " />
+   <dataSet lst="10/31_15" val="15.7" weight="GDPS_PMOS:16.22 ECMW_PMOS:38.65 GDPS_NPPM:16.63 EPSG_PMOS:28.5 " />
+   <dataSet lst="11/01_06" val="8.9" weight="GDPS_PMOS:20.93 ECMW_PMOS:38.19 GDPS_NPPM:17.6 EPSG_PMOS:23.28 " />
+   <dataSet lst="11/01_15" val="13.2" weight="GDPS_PMOS:18.44 ECMW_PMOS:29.56 GDPS_NPPM:20.16 EPSG_PMOS:31.84 " />
+   <dataSet lst="11/02_06" val="6.1" weight="GDPS_PMOS:21.4 ECMW_PMOS:33.4 GDPS_NPPM:17.28 EPSG_PMOS:27.92 " />
+   <dataSet lst="11/02_15" val="14.0" weight="GDPS_PMOS:19.97 ECMW_PMOS:32.1 GDPS_NPPM:19.97 EPSG_PMOS:27.96 " />
+   <dataSet lst="11/03_06" val="9.5" weight="GDPS_PMOS:20.65 ECMW_PMOS:26.61 GDPS_NPPM:18.03 EPSG_PMOS:34.71 " />
+   <dataSet lst="11/03_15" val="15.7" weight="GDPS_PMOS:23.67 ECMW_PMOS:29.59 GDPS_NPPM:20.31 EPSG_PMOS:26.43 " />
+   <dataSet lst="11/04_06" val="8.6" weight="GDPS_PMOS:18.1 ECMW_PMOS:32.61 GDPS_NPPM:19.55 EPSG_PMOS:29.74 " />
+   <dataSet lst="11/04_15" val="17.0" weight="GDPS_PMOS:21.51 ECMW_PMOS:35.09 GDPS_NPPM:20.51 EPSG_PMOS:22.88 " />
+   <dataSet lst="11/05_06" val="10.4" weight="GDPS_PMOS:19.9 ECMW_PMOS:31.68 GDPS_NPPM:18.86 EPSG_PMOS:29.56 " />
+   <dataSet lst="11/05_15" val="17.6" weight="GDPS_PMOS:22.52 ECMW_PMOS:32.94 GDPS_NPPM:21.33 EPSG_PMOS:23.21 " />
+   <dataSet lst="11/06_06" val="12.3" weight="GDPS_PMOS:24.87 ECMW_PMOS:27.94 GDPS_NPPM:17.42 EPSG_PMOS:29.77 " />
+   <dataSet lst="11/06_15" val="19.0" weight="GDPS_PMOS:49.48 EPSG_PMOS:50.52 " />
+   <dataSet lst="11/07_06" val="11.6" weight="GDPS_PMOS:48.05 EPSG_PMOS:51.95 " />
+   <dataSet lst="11/07_15" val="17.6" weight="GDPS_PMOS:47.68 EPSG_PMOS:52.32 " />
+  </stn>
+  <stn hasWeightData="true" stnName="순천" stnNo="47174">
+   <dataSet lst="10/27_15" val="19.4" weight="GDPS_PMOS:13.25 ECMW_PMOS:42.04 GDPS_NPPM:11.96 RDPS_PMOS:10.07 RDPS_NPPM:9.89 EPSG_PMOS:12.78 " />
+   <dataSet lst="10/28_06" val="12.9" weight="GDPS_PMOS:11.08 ECMW_PMOS:25.2 GDPS_NPPM:12.71 RDPS_PMOS:20.68 RDPS_NPPM:12.77 EPSG_PMOS:17.56 " />
+   <dataSet lst="10/28_15" val="16.3" weight="GDPS_PMOS:12.11 ECMW_PMOS:34.77 GDPS_NPPM:13.79 RDPS_PMOS:11.09 RDPS_NPPM:10.57 EPSG_PMOS:17.67 " />
+   <dataSet lst="10/29_06" val="9.8" weight="GDPS_PMOS:12.99 ECMW_PMOS:24.71 GDPS_NPPM:16.59 RDPS_PMOS:16.18 RDPS_NPPM:13.8 EPSG_PMOS:15.73 " />
+   <dataSet lst="10/29_15" val="15.1" weight="GDPS_PMOS:12.41 ECMW_PMOS:25.19 GDPS_NPPM:18.16 RDPS_PMOS:12.02 RDPS_NPPM:14.83 EPSG_PMOS:17.39 " />
+   <dataSet lst="10/30_06" val="5.2" weight="GDPS_PMOS:14.35 ECMW_PMOS:27.8 GDPS_NPPM:15.52 RDPS_PMOS:13.58 RDPS_NPPM:13.79 EPSG_PMOS:14.95 " />
+   <dataSet lst="10/30_15" val="15.5" weight="GDPS_PMOS:14.17 ECMW_PMOS:29.15 GDPS_NPPM:13.68 RDPS_PMOS:13.12 RDPS_NPPM:14.29 EPSG_PMOS:15.6 " />
+   <dataSet lst="10/31_06" val="5.2" weight="GDPS_PMOS:21.3 ECMW_PMOS:34.29 GDPS_NPPM:20.92 EPSG_PMOS:23.49 " />
+   <dataSet lst="10/31_15" val="15.1" weight="GDPS_PMOS:15.39 ECMW_PMOS:43.38 GDPS_NPPM:16.02 EPSG_PMOS:25.21 " />
+   <dataSet lst="11/01_06" val="4.8" weight="GDPS_PMOS:17.89 ECMW_PMOS:38.49 GDPS_NPPM:18.98 EPSG_PMOS:24.65 " />
+   <dataSet lst="11/01_15" val="13.6" weight="GDPS_PMOS:16.33 ECMW_PMOS:32.13 GDPS_NPPM:22.85 EPSG_PMOS:28.69 " />
+   <dataSet lst="11/02_06" val="0.1" weight="GDPS_PMOS:20.38 ECMW_PMOS:36.72 GDPS_NPPM:19.14 EPSG_PMOS:23.76 " />
+   <dataSet lst="11/02_15" val="14.2" weight="GDPS_PMOS:19.85 ECMW_PMOS:32.37 GDPS_NPPM:18.37 EPSG_PMOS:29.41 " />
+   <dataSet lst="11/03_06" val="2.4" weight="GDPS_PMOS:17.81 ECMW_PMOS:28.95 GDPS_NPPM:17.97 EPSG_PMOS:35.27 " />
+   <dataSet lst="11/03_15" val="14.9" weight="GDPS_PMOS:20.83 ECMW_PMOS:31.74 GDPS_NPPM:20.55 EPSG_PMOS:26.88 " />
+   <dataSet lst="11/04_06" val="2.9" weight="GDPS_PMOS:20.35 ECMW_PMOS:30.71 GDPS_NPPM:17.47 EPSG_PMOS:31.47 " />
+   <dataSet lst="11/04_15" val="16.7" weight="GDPS_PMOS:21.77 ECMW_PMOS:35.4 GDPS_NPPM:20.65 EPSG_PMOS:22.17 " />
+   <dataSet lst="11/05_06" val="3.9" weight="GDPS_PMOS:20.1 ECMW_PMOS:27.96 GDPS_NPPM:19.6 EPSG_PMOS:32.34 " />
+   <dataSet lst="11/05_15" val="17.3" weight="GDPS_PMOS:22.19 ECMW_PMOS:34.41 GDPS_NPPM:21.19 EPSG_PMOS:22.21 " />
+   <dataSet lst="11/06_06" val="7.4" weight="GDPS_PMOS:23.25 ECMW_PMOS:28.7 GDPS_NPPM:15.74 EPSG_PMOS:32.31 " />
+   <dataSet lst="11/06_15" val="18.1" weight="GDPS_PMOS:45.41 EPSG_PMOS:54.59 " />
+   <dataSet lst="11/07_06" val="6.9" weight="GDPS_PMOS:40.9 EPSG_PMOS:59.1 " />
+   <dataSet lst="11/07_15" val="17.3" weight="GDPS_PMOS:43.93 EPSG_PMOS:56.07 " />
+  </stn>
+  <stn hasWeightData="true" stnName="진도군" stnNo="47268">
+   <dataSet lst="10/27_15" val="19.9" weight="GDPS_PMOS:7.13 ECMW_PMOS:38.49 GDPS_NPPM:23.28 RDPS_PMOS:6.47 RDPS_NPPM:11.29 EPSG_PMOS:13.33 " />
+   <dataSet lst="10/28_06" val="16.3" weight="GDPS_PMOS:10.39 ECMW_PMOS:24.32 GDPS_NPPM:15.43 RDPS_PMOS:10.57 RDPS_NPPM:27.3 EPSG_PMOS:11.99 " />
+   <dataSet lst="10/28_15" val="17.6" weight="GDPS_PMOS:10.15 ECMW_PMOS:35.26 GDPS_NPPM:19.37 RDPS_PMOS:7.78 RDPS_NPPM:14.32 EPSG_PMOS:13.12 " />
+   <dataSet lst="10/29_06" val="12.7" weight="GDPS_PMOS:12.11 ECMW_PMOS:26.75 GDPS_NPPM:15.36 RDPS_PMOS:10.22 RDPS_NPPM:20.63 EPSG_PMOS:14.93 " />
+   <dataSet lst="10/29_15" val="14.0" weight="GDPS_PMOS:9.3 ECMW_PMOS:35.56 GDPS_NPPM:23.61 RDPS_PMOS:7.56 RDPS_NPPM:10.58 EPSG_PMOS:13.39 " />
+   <dataSet lst="10/30_06" val="8.6" weight="GDPS_PMOS:11.3 ECMW_PMOS:31.29 GDPS_NPPM:15.81 RDPS_PMOS:12.62 RDPS_NPPM:14.37 EPSG_PMOS:14.62 " />
+   <dataSet lst="10/30_15" val="0.8" weight="GDPS_PMOS:9.61 ECMW_PMOS:37.65 GDPS_NPPM:17.16 RDPS_PMOS:8.12 RDPS_NPPM:13.53 EPSG_PMOS:13.92 " />
+   <dataSet lst="10/31_06" val="9.6" weight="GDPS_PMOS:17.51 ECMW_PMOS:36.39 GDPS_NPPM:22.45 EPSG_PMOS:23.65 " />
+   <dataSet lst="10/31_15" val="15.8" weight="GDPS_PMOS:15.78 ECMW_PMOS:37.61 GDPS_NPPM:24.92 EPSG_PMOS:21.69 " />
+   <dataSet lst="11/01_06" val="9.4" weight="GDPS_PMOS:17.12 ECMW_PMOS:36.09 GDPS_NPPM:21.01 EPSG_PMOS:25.78 " />
+   <dataSet lst="11/01_15" val="-4.2" weight="GDPS_PMOS:20.79 ECMW_PMOS:29.23 GDPS_NPPM:23.99 EPSG_PMOS:25.99 " />
+   <dataSet lst="11/02_06" val="6.7" weight="GDPS_PMOS:20.3 ECMW_PMOS:36.78 GDPS_NPPM:18.96 EPSG_PMOS:23.96 " />
+   <dataSet lst="11/02_15" val="-6.6" weight="GDPS_PMOS:19.8 ECMW_PMOS:33.88 GDPS_NPPM:18.6 EPSG_PMOS:27.73 " />
+   <dataSet lst="11/03_06" val="9.4" weight="GDPS_PMOS:15.85 ECMW_PMOS:33.19 GDPS_NPPM:20.35 EPSG_PMOS:30.62 " />
+   <dataSet lst="11/03_15" val="-5.3" weight="GDPS_PMOS:13.82 ECMW_PMOS:40.3 GDPS_NPPM:23.48 EPSG_PMOS:22.39 " />
+   <dataSet lst="11/04_06" val="8.4" weight="GDPS_PMOS:14.4 ECMW_PMOS:33.35 GDPS_NPPM:21.65 EPSG_PMOS:30.6 " />
+   <dataSet lst="11/04_15" val="15.9" weight="GDPS_PMOS:32.59 GDPS_NPPM:36.25 EPSG_PMOS:31.16 " />
+   <dataSet lst="11/05_06" val="-6.4" weight="GDPS_PMOS:14.7 ECMW_PMOS:30.78 GDPS_NPPM:22.23 EPSG_PMOS:32.29 " />
+   <dataSet lst="11/05_15" val="17.5" weight="GDPS_PMOS:38.33 GDPS_NPPM:31.45 EPSG_PMOS:30.22 " />
+   <dataSet lst="11/06_06" val="11.9" weight="GDPS_PMOS:15.26 ECMW_PMOS:33.93 GDPS_NPPM:16.95 EPSG_PMOS:33.85 " />
+   <dataSet lst="11/06_15" val="18.5" weight="GDPS_PMOS:54.93 EPSG_PMOS:45.07 " />
+   <dataSet lst="11/07_06" val="11.3" weight="GDPS_PMOS:36.44 EPSG_PMOS:63.56 " />
+   <dataSet lst="11/07_15" val="16.8" weight="GDPS_PMOS:50.21 EPSG_PMOS:49.79 " />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="18" grName="광주청(전주)">
+  <stn hasWeightData="true" stnName="전주" stnNo="47146">
+   <dataSet lst="10/27_15" val="20.3" weight="GDPS_PMOS:13.17 ECMW_PMOS:20.0 GDPS_NPPM:14.93 RDPS_PMOS:15.46 RDPS_NPPM:14.54 EPSG_PMOS:21.9 " />
+   <dataSet lst="10/28_06" val="13.8" weight="GDPS_PMOS:9.83 ECMW_PMOS:22.55 GDPS_NPPM:17.5 RDPS_PMOS:18.68 RDPS_NPPM:20.46 EPSG_PMOS:10.98 " />
+   <dataSet lst="10/28_15" val="16.8" weight="GDPS_PMOS:14.24 ECMW_PMOS:24.51 GDPS_NPPM:14.01 RDPS_PMOS:14.29 RDPS_NPPM:15.42 EPSG_PMOS:17.52 " />
+   <dataSet lst="10/29_06" val="9.4" weight="GDPS_PMOS:12.43 ECMW_PMOS:27.31 GDPS_NPPM:15.48 RDPS_PMOS:16.62 RDPS_NPPM:16.42 EPSG_PMOS:11.74 " />
+   <dataSet lst="10/29_15" val="13.2" weight="GDPS_PMOS:11.04 ECMW_PMOS:25.41 GDPS_NPPM:16.84 RDPS_PMOS:15.71 RDPS_NPPM:15.62 EPSG_PMOS:15.38 " />
+   <dataSet lst="10/30_06" val="4.6" weight="GDPS_PMOS:10.84 ECMW_PMOS:37.33 GDPS_NPPM:10.0 RDPS_PMOS:15.48 RDPS_NPPM:14.1 EPSG_PMOS:12.25 " />
+   <dataSet lst="10/30_15" val="14.0" weight="GDPS_PMOS:12.8 ECMW_PMOS:25.38 GDPS_NPPM:15.98 RDPS_PMOS:16.45 RDPS_NPPM:14.77 EPSG_PMOS:14.62 " />
+   <dataSet lst="10/31_06" val="6.4" weight="GDPS_PMOS:16.2 ECMW_PMOS:46.3 GDPS_NPPM:18.08 EPSG_PMOS:19.42 " />
+   <dataSet lst="10/31_15" val="15.0" weight="GDPS_PMOS:17.11 ECMW_PMOS:39.83 GDPS_NPPM:16.89 EPSG_PMOS:26.17 " />
+   <dataSet lst="11/01_06" val="4.1" weight="GDPS_PMOS:17.08 ECMW_PMOS:39.09 GDPS_NPPM:17.49 EPSG_PMOS:26.35 " />
+   <dataSet lst="11/01_15" val="11.8" weight="GDPS_PMOS:16.95 ECMW_PMOS:34.33 GDPS_NPPM:19.94 EPSG_PMOS:28.77 " />
+   <dataSet lst="11/02_06" val="1.7" weight="GDPS_PMOS:18.3 ECMW_PMOS:39.12 GDPS_NPPM:15.09 EPSG_PMOS:27.48 " />
+   <dataSet lst="11/02_15" val="13.1" weight="GDPS_PMOS:19.1 ECMW_PMOS:38.34 GDPS_NPPM:13.89 EPSG_PMOS:28.67 " />
+   <dataSet lst="11/03_06" val="5.4" weight="GDPS_PMOS:15.92 ECMW_PMOS:32.62 GDPS_NPPM:16.68 EPSG_PMOS:34.79 " />
+   <dataSet lst="11/03_15" val="15.0" weight="GDPS_PMOS:21.62 ECMW_PMOS:32.53 GDPS_NPPM:19.85 EPSG_PMOS:25.99 " />
+   <dataSet lst="11/04_06" val="6.0" weight="GDPS_PMOS:20.18 ECMW_PMOS:31.99 GDPS_NPPM:17.76 EPSG_PMOS:30.07 " />
+   <dataSet lst="11/04_15" val="16.0" weight="GDPS_PMOS:23.02 ECMW_PMOS:33.2 GDPS_NPPM:20.49 EPSG_PMOS:23.29 " />
+   <dataSet lst="11/05_06" val="6.5" weight="GDPS_PMOS:20.87 ECMW_PMOS:31.65 GDPS_NPPM:19.62 EPSG_PMOS:27.86 " />
+   <dataSet lst="11/05_15" val="17.1" weight="GDPS_PMOS:24.11 ECMW_PMOS:32.97 GDPS_NPPM:18.53 EPSG_PMOS:24.39 " />
+   <dataSet lst="11/06_06" val="9.0" weight="GDPS_PMOS:26.41 ECMW_PMOS:28.56 GDPS_NPPM:17.49 EPSG_PMOS:27.53 " />
+   <dataSet lst="11/06_15" val="18.0" weight="GDPS_PMOS:41.94 EPSG_PMOS:58.06 " />
+   <dataSet lst="11/07_06" val="9.0" weight="GDPS_PMOS:43.9 EPSG_PMOS:56.1 " />
+   <dataSet lst="11/07_15" val="16.1" weight="GDPS_PMOS:41.14 EPSG_PMOS:58.86 " />
+  </stn>
+  <stn hasWeightData="true" stnName="군산" stnNo="47140">
+   <dataSet lst="10/27_15" val="19.8" weight="GDPS_PMOS:16.81 ECMW_PMOS:27.14 GDPS_NPPM:11.15 RDPS_PMOS:15.91 RDPS_NPPM:14.18 EPSG_PMOS:14.8 " />
+   <dataSet lst="10/28_06" val="13.5" weight="GDPS_PMOS:9.4 ECMW_PMOS:32.32 GDPS_NPPM:7.98 RDPS_PMOS:18.55 RDPS_NPPM:19.04 EPSG_PMOS:12.71 " />
+   <dataSet lst="10/28_15" val="16.7" weight="GDPS_PMOS:10.32 ECMW_PMOS:38.07 GDPS_NPPM:12.33 RDPS_PMOS:11.07 RDPS_NPPM:14.61 EPSG_PMOS:13.6 " />
+   <dataSet lst="10/29_06" val="9.0" weight="GDPS_PMOS:11.38 ECMW_PMOS:34.0 GDPS_NPPM:9.25 RDPS_PMOS:18.04 RDPS_NPPM:15.36 EPSG_PMOS:11.97 " />
+   <dataSet lst="10/29_15" val="13.4" weight="GDPS_PMOS:10.49 ECMW_PMOS:26.26 GDPS_NPPM:14.81 RDPS_PMOS:16.09 RDPS_NPPM:18.53 EPSG_PMOS:13.81 " />
+   <dataSet lst="10/30_06" val="4.2" weight="GDPS_PMOS:11.12 ECMW_PMOS:38.09 GDPS_NPPM:7.87 RDPS_PMOS:16.38 RDPS_NPPM:10.48 EPSG_PMOS:16.05 " />
+   <dataSet lst="10/30_15" val="13.9" weight="GDPS_PMOS:12.61 ECMW_PMOS:27.8 GDPS_NPPM:15.77 RDPS_PMOS:15.61 RDPS_NPPM:14.35 EPSG_PMOS:13.86 " />
+   <dataSet lst="10/31_06" val="6.4" weight="GDPS_PMOS:14.92 ECMW_PMOS:50.86 GDPS_NPPM:12.04 EPSG_PMOS:22.18 " />
+   <dataSet lst="10/31_15" val="15.1" weight="GDPS_PMOS:16.31 ECMW_PMOS:39.05 GDPS_NPPM:20.64 EPSG_PMOS:24.0 " />
+   <dataSet lst="11/01_06" val="4.6" weight="GDPS_PMOS:15.53 ECMW_PMOS:46.38 GDPS_NPPM:13.12 EPSG_PMOS:24.97 " />
+   <dataSet lst="11/01_15" val="11.2" weight="GDPS_PMOS:15.29 ECMW_PMOS:36.96 GDPS_NPPM:23.05 EPSG_PMOS:24.7 " />
+   <dataSet lst="11/02_06" val="1.9" weight="GDPS_PMOS:19.89 ECMW_PMOS:39.96 GDPS_NPPM:13.82 EPSG_PMOS:26.33 " />
+   <dataSet lst="11/02_15" val="13.0" weight="GDPS_PMOS:16.77 ECMW_PMOS:39.95 GDPS_NPPM:15.46 EPSG_PMOS:27.82 " />
+   <dataSet lst="11/03_06" val="6.1" weight="GDPS_PMOS:21.86 ECMW_PMOS:33.32 GDPS_NPPM:15.71 EPSG_PMOS:29.1 " />
+   <dataSet lst="11/03_15" val="14.9" weight="GDPS_PMOS:20.77 ECMW_PMOS:33.2 GDPS_NPPM:20.4 EPSG_PMOS:25.62 " />
+   <dataSet lst="11/04_06" val="5.1" weight="GDPS_PMOS:21.11 ECMW_PMOS:33.4 GDPS_NPPM:16.57 EPSG_PMOS:28.92 " />
+   <dataSet lst="11/04_15" val="16.0" weight="GDPS_PMOS:19.93 ECMW_PMOS:34.15 GDPS_NPPM:21.91 EPSG_PMOS:24.01 " />
+   <dataSet lst="11/05_06" val="6.2" weight="GDPS_PMOS:24.34 ECMW_PMOS:34.03 GDPS_NPPM:14.94 EPSG_PMOS:26.69 " />
+   <dataSet lst="11/05_15" val="16.5" weight="GDPS_PMOS:21.39 ECMW_PMOS:36.73 GDPS_NPPM:19.83 EPSG_PMOS:22.04 " />
+   <dataSet lst="11/06_06" val="7.9" weight="GDPS_PMOS:27.48 ECMW_PMOS:29.38 GDPS_NPPM:15.87 EPSG_PMOS:27.27 " />
+   <dataSet lst="11/06_15" val="17.8" weight="GDPS_PMOS:45.0 EPSG_PMOS:55.0 " />
+   <dataSet lst="11/07_06" val="7.4" weight="GDPS_PMOS:44.91 EPSG_PMOS:55.09 " />
+   <dataSet lst="11/07_15" val="16.0" weight="GDPS_PMOS:42.13 EPSG_PMOS:57.87 " />
+  </stn>
+  <stn hasWeightData="true" stnName="고창" stnNo="47172">
+   <dataSet lst="10/27_15" val="20.4" weight="ECMW_PMOS:46.04 GDPS_NPPM:13.4 RDPS_PMOS:6.71 RDPS_NPPM:12.57 EPSG_PMOS:21.28 " />
+   <dataSet lst="10/28_06" val="14.1" weight="ECMW_PMOS:26.23 GDPS_NPPM:16.52 RDPS_PMOS:19.21 RDPS_NPPM:18.45 EPSG_PMOS:19.59 " />
+   <dataSet lst="10/28_15" val="16.4" weight="ECMW_PMOS:40.43 GDPS_NPPM:14.89 RDPS_PMOS:10.66 RDPS_NPPM:16.42 EPSG_PMOS:17.6 " />
+   <dataSet lst="10/29_06" val="10.7" weight="ECMW_PMOS:25.39 GDPS_NPPM:15.15 RDPS_PMOS:21.29 RDPS_NPPM:21.32 EPSG_PMOS:16.86 " />
+   <dataSet lst="10/29_15" val="13.4" weight="ECMW_PMOS:31.25 GDPS_NPPM:18.76 RDPS_PMOS:10.16 RDPS_NPPM:19.94 EPSG_PMOS:19.89 " />
+   <dataSet lst="10/30_06" val="5.7" weight="ECMW_PMOS:36.68 GDPS_NPPM:15.71 RDPS_PMOS:15.06 RDPS_NPPM:15.66 EPSG_PMOS:16.89 " />
+   <dataSet lst="10/30_15" val="14.1" weight="ECMW_PMOS:32.38 GDPS_NPPM:15.13 RDPS_PMOS:11.66 RDPS_NPPM:20.82 EPSG_PMOS:20.01 " />
+   <dataSet lst="10/31_06" val="6.9" weight="ECMW_PMOS:45.83 GDPS_NPPM:22.69 EPSG_PMOS:31.48 " />
+   <dataSet lst="10/31_15" val="14.9" weight="ECMW_PMOS:44.15 GDPS_NPPM:21.77 EPSG_PMOS:34.08 " />
+   <dataSet lst="11/01_06" val="5.8" weight="ECMW_PMOS:47.01 GDPS_NPPM:20.29 EPSG_PMOS:32.7 " />
+   <dataSet lst="11/01_15" val="12.5" weight="ECMW_PMOS:35.09 GDPS_NPPM:24.34 EPSG_PMOS:40.58 " />
+   <dataSet lst="11/02_06" val="2.1" weight="ECMW_PMOS:48.33 GDPS_NPPM:18.85 EPSG_PMOS:32.82 " />
+   <dataSet lst="11/02_15" val="13.0" weight="ECMW_PMOS:40.22 GDPS_NPPM:19.45 EPSG_PMOS:40.33 " />
+   <dataSet lst="11/03_06" val="5.1" weight="ECMW_PMOS:36.34 GDPS_NPPM:23.11 EPSG_PMOS:40.55 " />
+   <dataSet lst="11/03_15" val="16.2" weight="ECMW_PMOS:38.52 GDPS_NPPM:30.01 EPSG_PMOS:31.47 " />
+   <dataSet lst="11/04_06" val="4.4" weight="ECMW_PMOS:41.0 GDPS_NPPM:23.67 EPSG_PMOS:35.33 " />
+   <dataSet lst="11/04_15" val="15.7" weight="ECMW_PMOS:43.37 GDPS_NPPM:27.81 EPSG_PMOS:28.82 " />
+   <dataSet lst="11/05_06" val="5.7" weight="ECMW_PMOS:39.21 GDPS_NPPM:25.36 EPSG_PMOS:35.43 " />
+   <dataSet lst="11/05_15" val="16.9" weight="ECMW_PMOS:43.13 GDPS_NPPM:29.28 EPSG_PMOS:27.59 " />
+   <dataSet lst="11/06_06" val="7.3" weight="ECMW_PMOS:38.34 GDPS_NPPM:22.07 EPSG_PMOS:39.59 " />
+   <dataSet lst="11/06_15" val="16.6" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_06" val="7.7" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_15" val="15.0" weight="EPSG_PMOS:100.0 " />
+  </stn>
+  <stn hasWeightData="true" stnName="정읍" stnNo="47245">
+   <dataSet lst="10/27_15" val="21.4" weight="GDPS_PMOS:12.23 ECMW_PMOS:26.83 GDPS_NPPM:14.8 RDPS_PMOS:12.05 RDPS_NPPM:15.26 EPSG_PMOS:18.82 " />
+   <dataSet lst="10/28_06" val="13.6" weight="GDPS_PMOS:12.24 ECMW_PMOS:21.1 GDPS_NPPM:12.49 RDPS_PMOS:20.21 RDPS_NPPM:21.47 EPSG_PMOS:12.5 " />
+   <dataSet lst="10/28_15" val="17.4" weight="GDPS_PMOS:10.12 ECMW_PMOS:32.86 GDPS_NPPM:12.08 RDPS_PMOS:15.55 RDPS_NPPM:13.11 EPSG_PMOS:16.28 " />
+   <dataSet lst="10/29_06" val="9.5" weight="GDPS_PMOS:14.49 ECMW_PMOS:25.43 GDPS_NPPM:11.49 RDPS_PMOS:18.24 RDPS_NPPM:18.11 EPSG_PMOS:12.23 " />
+   <dataSet lst="10/29_15" val="13.6" weight="GDPS_PMOS:10.55 ECMW_PMOS:26.58 GDPS_NPPM:16.82 RDPS_PMOS:15.37 RDPS_NPPM:16.04 EPSG_PMOS:14.63 " />
+   <dataSet lst="10/30_06" val="4.5" weight="GDPS_PMOS:14.08 ECMW_PMOS:30.94 GDPS_NPPM:11.68 RDPS_PMOS:15.29 RDPS_NPPM:13.98 EPSG_PMOS:14.03 " />
+   <dataSet lst="10/30_15" val="14.6" weight="GDPS_PMOS:12.55 ECMW_PMOS:22.99 GDPS_NPPM:13.87 RDPS_PMOS:16.85 RDPS_NPPM:17.09 EPSG_PMOS:16.65 " />
+   <dataSet lst="10/31_06" val="6.4" weight="GDPS_PMOS:20.43 ECMW_PMOS:41.07 GDPS_NPPM:17.44 EPSG_PMOS:21.06 " />
+   <dataSet lst="10/31_15" val="15.4" weight="GDPS_PMOS:15.67 ECMW_PMOS:37.41 GDPS_NPPM:18.94 EPSG_PMOS:27.98 " />
+   <dataSet lst="11/01_06" val="4.9" weight="GDPS_PMOS:19.34 ECMW_PMOS:38.94 GDPS_NPPM:15.15 EPSG_PMOS:26.58 " />
+   <dataSet lst="11/01_15" val="12.4" weight="GDPS_PMOS:14.99 ECMW_PMOS:31.09 GDPS_NPPM:22.25 EPSG_PMOS:31.67 " />
+   <dataSet lst="11/02_06" val="1.6" weight="GDPS_PMOS:22.16 ECMW_PMOS:39.26 GDPS_NPPM:13.98 EPSG_PMOS:24.6 " />
+   <dataSet lst="11/02_15" val="13.4" weight="GDPS_PMOS:19.53 ECMW_PMOS:33.56 GDPS_NPPM:16.74 EPSG_PMOS:30.18 " />
+   <dataSet lst="11/03_06" val="5.9" weight="GDPS_PMOS:21.21 ECMW_PMOS:29.07 GDPS_NPPM:16.2 EPSG_PMOS:33.52 " />
+   <dataSet lst="11/03_15" val="15.5" weight="GDPS_PMOS:24.42 ECMW_PMOS:28.45 GDPS_NPPM:23.17 EPSG_PMOS:23.97 " />
+   <dataSet lst="11/04_06" val="5.7" weight="GDPS_PMOS:22.9 ECMW_PMOS:29.36 GDPS_NPPM:16.46 EPSG_PMOS:31.28 " />
+   <dataSet lst="11/04_15" val="16.7" weight="GDPS_PMOS:22.23 ECMW_PMOS:33.95 GDPS_NPPM:21.46 EPSG_PMOS:22.36 " />
+   <dataSet lst="11/05_06" val="6.5" weight="GDPS_PMOS:23.33 ECMW_PMOS:31.7 GDPS_NPPM:17.64 EPSG_PMOS:27.33 " />
+   <dataSet lst="11/05_15" val="18.2" weight="GDPS_PMOS:24.14 ECMW_PMOS:32.91 GDPS_NPPM:21.86 EPSG_PMOS:21.09 " />
+   <dataSet lst="11/06_06" val="9.0" weight="GDPS_PMOS:28.27 ECMW_PMOS:27.63 GDPS_NPPM:15.91 EPSG_PMOS:28.19 " />
+   <dataSet lst="11/06_15" val="18.8" weight="GDPS_PMOS:47.78 EPSG_PMOS:52.22 " />
+   <dataSet lst="11/07_06" val="8.3" weight="GDPS_PMOS:45.79 EPSG_PMOS:54.21 " />
+   <dataSet lst="11/07_15" val="17.3" weight="GDPS_PMOS:46.65 EPSG_PMOS:53.35 " />
+  </stn>
+  <stn hasWeightData="true" stnName="남원" stnNo="47247">
+   <dataSet lst="10/27_15" val="19.6" weight="GDPS_PMOS:11.25 ECMW_PMOS:29.15 GDPS_NPPM:11.23 RDPS_PMOS:16.15 RDPS_NPPM:12.87 EPSG_PMOS:19.36 " />
+   <dataSet lst="10/28_06" val="14.0" weight="GDPS_PMOS:7.12 ECMW_PMOS:30.05 GDPS_NPPM:13.82 RDPS_PMOS:15.11 RDPS_NPPM:19.41 EPSG_PMOS:14.49 " />
+   <dataSet lst="10/28_15" val="16.4" weight="GDPS_PMOS:10.83 ECMW_PMOS:23.51 GDPS_NPPM:16.43 RDPS_PMOS:14.68 RDPS_NPPM:13.57 EPSG_PMOS:20.99 " />
+   <dataSet lst="10/29_06" val="9.9" weight="GDPS_PMOS:9.68 ECMW_PMOS:35.8 GDPS_NPPM:15.64 RDPS_PMOS:12.52 RDPS_NPPM:15.39 EPSG_PMOS:10.97 " />
+   <dataSet lst="10/29_15" val="13.9" weight="GDPS_PMOS:15.42 ECMW_PMOS:21.0 GDPS_NPPM:19.08 RDPS_PMOS:12.76 RDPS_NPPM:15.57 EPSG_PMOS:16.16 " />
+   <dataSet lst="10/30_06" val="5.2" weight="GDPS_PMOS:10.02 ECMW_PMOS:32.66 GDPS_NPPM:15.01 RDPS_PMOS:14.55 RDPS_NPPM:15.68 EPSG_PMOS:12.07 " />
+   <dataSet lst="10/30_15" val="14.6" weight="GDPS_PMOS:13.82 ECMW_PMOS:24.25 GDPS_NPPM:15.55 RDPS_PMOS:15.24 RDPS_NPPM:13.81 EPSG_PMOS:17.34 " />
+   <dataSet lst="10/31_06" val="4.7" weight="GDPS_PMOS:14.79 ECMW_PMOS:37.55 GDPS_NPPM:22.49 EPSG_PMOS:25.16 " />
+   <dataSet lst="10/31_15" val="14.1" weight="GDPS_PMOS:14.54 ECMW_PMOS:41.74 GDPS_NPPM:17.59 EPSG_PMOS:26.12 " />
+   <dataSet lst="11/01_06" val="3.4" weight="GDPS_PMOS:13.65 ECMW_PMOS:42.8 GDPS_NPPM:19.58 EPSG_PMOS:23.97 " />
+   <dataSet lst="11/01_15" val="12.3" weight="GDPS_PMOS:13.31 ECMW_PMOS:35.93 GDPS_NPPM:21.74 EPSG_PMOS:29.02 " />
+   <dataSet lst="11/02_06" val="0.8" weight="GDPS_PMOS:18.16 ECMW_PMOS:39.4 GDPS_NPPM:19.18 EPSG_PMOS:23.26 " />
+   <dataSet lst="11/02_15" val="13.2" weight="GDPS_PMOS:16.49 ECMW_PMOS:33.62 GDPS_NPPM:17.67 EPSG_PMOS:32.23 " />
+   <dataSet lst="11/03_06" val="3.4" weight="GDPS_PMOS:16.16 ECMW_PMOS:30.2 GDPS_NPPM:22.67 EPSG_PMOS:30.97 " />
+   <dataSet lst="11/03_15" val="14.4" weight="GDPS_PMOS:21.04 ECMW_PMOS:31.81 GDPS_NPPM:21.87 EPSG_PMOS:25.29 " />
+   <dataSet lst="11/04_06" val="4.0" weight="GDPS_PMOS:16.65 ECMW_PMOS:32.57 GDPS_NPPM:21.09 EPSG_PMOS:29.69 " />
+   <dataSet lst="11/04_15" val="16.4" weight="GDPS_PMOS:22.52 ECMW_PMOS:34.69 GDPS_NPPM:20.53 EPSG_PMOS:22.26 " />
+   <dataSet lst="11/05_06" val="4.5" weight="GDPS_PMOS:17.58 ECMW_PMOS:28.12 GDPS_NPPM:21.85 EPSG_PMOS:32.45 " />
+   <dataSet lst="11/05_15" val="17.2" weight="GDPS_PMOS:23.04 ECMW_PMOS:31.72 GDPS_NPPM:22.69 EPSG_PMOS:22.55 " />
+   <dataSet lst="11/06_06" val="7.1" weight="GDPS_PMOS:20.73 ECMW_PMOS:29.26 GDPS_NPPM:19.11 EPSG_PMOS:30.9 " />
+   <dataSet lst="11/06_15" val="17.5" weight="GDPS_PMOS:42.03 EPSG_PMOS:57.97 " />
+   <dataSet lst="11/07_06" val="6.6" weight="GDPS_PMOS:38.55 EPSG_PMOS:61.45 " />
+   <dataSet lst="11/07_15" val="16.5" weight="GDPS_PMOS:39.93 EPSG_PMOS:60.07 " />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="23" grName="대전청(대전)">
+  <stn hasWeightData="true" stnName="대전" stnNo="47133">
+   <dataSet lst="10/27_15" val="19.3" weight="GDPS_PMOS:13.91 ECMW_PMOS:29.94 GDPS_NPPM:13.06 RDPS_PMOS:15.42 RDPS_NPPM:11.06 EPSG_PMOS:16.62 " />
+   <dataSet lst="10/28_06" val="13.2" weight="GDPS_PMOS:11.09 ECMW_PMOS:24.07 GDPS_NPPM:16.86 RDPS_PMOS:11.57 RDPS_NPPM:26.83 EPSG_PMOS:9.58 " />
+   <dataSet lst="10/28_15" val="16.0" weight="GDPS_PMOS:12.42 ECMW_PMOS:28.34 GDPS_NPPM:16.74 RDPS_PMOS:11.23 RDPS_NPPM:15.75 EPSG_PMOS:15.52 " />
+   <dataSet lst="10/29_06" val="7.9" weight="GDPS_PMOS:11.12 ECMW_PMOS:26.01 GDPS_NPPM:17.13 RDPS_PMOS:14.09 RDPS_NPPM:20.23 EPSG_PMOS:11.42 " />
+   <dataSet lst="10/29_15" val="13.0" weight="GDPS_PMOS:13.42 ECMW_PMOS:27.68 GDPS_NPPM:18.67 RDPS_PMOS:14.2 RDPS_NPPM:13.4 EPSG_PMOS:12.63 " />
+   <dataSet lst="10/30_06" val="2.4" weight="GDPS_PMOS:8.26 ECMW_PMOS:32.99 GDPS_NPPM:13.06 RDPS_PMOS:14.36 RDPS_NPPM:18.02 EPSG_PMOS:13.3 " />
+   <dataSet lst="10/30_15" val="14.3" weight="GDPS_PMOS:13.4 ECMW_PMOS:25.87 GDPS_NPPM:18.64 RDPS_PMOS:15.4 RDPS_NPPM:12.92 EPSG_PMOS:13.77 " />
+   <dataSet lst="10/31_06" val="5.2" weight="GDPS_PMOS:16.08 ECMW_PMOS:43.04 GDPS_NPPM:19.37 EPSG_PMOS:21.51 " />
+   <dataSet lst="10/31_15" val="14.5" weight="GDPS_PMOS:12.82 ECMW_PMOS:46.22 GDPS_NPPM:17.26 EPSG_PMOS:23.7 " />
+   <dataSet lst="11/01_06" val="2.8" weight="GDPS_PMOS:20.08 ECMW_PMOS:40.03 GDPS_NPPM:17.22 EPSG_PMOS:22.67 " />
+   <dataSet lst="11/01_15" val="11.4" weight="GDPS_PMOS:15.62 ECMW_PMOS:39.58 GDPS_NPPM:19.64 EPSG_PMOS:25.16 " />
+   <dataSet lst="11/02_06" val="0.9" weight="GDPS_PMOS:20.45 ECMW_PMOS:37.13 GDPS_NPPM:17.88 EPSG_PMOS:24.53 " />
+   <dataSet lst="11/02_15" val="13.0" weight="GDPS_PMOS:16.08 ECMW_PMOS:40.73 GDPS_NPPM:14.37 EPSG_PMOS:28.82 " />
+   <dataSet lst="11/03_06" val="5.1" weight="GDPS_PMOS:20.74 ECMW_PMOS:32.25 GDPS_NPPM:19.39 EPSG_PMOS:27.62 " />
+   <dataSet lst="11/03_15" val="14.7" weight="GDPS_PMOS:18.42 ECMW_PMOS:38.43 GDPS_NPPM:18.14 EPSG_PMOS:25.0 " />
+   <dataSet lst="11/04_06" val="4.2" weight="GDPS_PMOS:17.86 ECMW_PMOS:36.56 GDPS_NPPM:16.39 EPSG_PMOS:29.19 " />
+   <dataSet lst="11/04_15" val="15.6" weight="GDPS_PMOS:18.47 ECMW_PMOS:37.13 GDPS_NPPM:19.28 EPSG_PMOS:25.12 " />
+   <dataSet lst="11/05_06" val="6.1" weight="GDPS_PMOS:24.88 ECMW_PMOS:30.67 GDPS_NPPM:17.9 EPSG_PMOS:26.55 " />
+   <dataSet lst="11/05_15" val="16.6" weight="GDPS_PMOS:19.37 ECMW_PMOS:36.71 GDPS_NPPM:18.71 EPSG_PMOS:25.21 " />
+   <dataSet lst="11/06_06" val="8.2" weight="GDPS_PMOS:27.35 ECMW_PMOS:27.71 GDPS_NPPM:17.75 EPSG_PMOS:27.18 " />
+   <dataSet lst="11/06_15" val="17.5" weight="GDPS_PMOS:41.23 EPSG_PMOS:58.77 " />
+   <dataSet lst="11/07_06" val="7.9" weight="GDPS_PMOS:45.44 EPSG_PMOS:54.56 " />
+   <dataSet lst="11/07_15" val="16.1" weight="GDPS_PMOS:40.9 EPSG_PMOS:59.1 " />
+  </stn>
+  <stn hasWeightData="true" stnName="세종시" stnNo="887">
+   <dataSet lst="10/27_15" val="18.9" weight="GDPS_PMOS:13.54 ECMW_PMOS:25.32 GDPS_NPPM:15.03 RDPS_PMOS:14.64 RDPS_NPPM:11.18 EPSG_PMOS:20.3 " />
+   <dataSet lst="10/28_06" val="13.0" weight="GDPS_PMOS:12.75 ECMW_PMOS:21.02 GDPS_NPPM:15.9 RDPS_PMOS:14.57 RDPS_NPPM:21.23 EPSG_PMOS:14.54 " />
+   <dataSet lst="10/28_15" val="15.7" weight="GDPS_PMOS:14.82 ECMW_PMOS:23.46 GDPS_NPPM:15.79 RDPS_PMOS:12.6 RDPS_NPPM:15.36 EPSG_PMOS:17.97 " />
+   <dataSet lst="10/29_06" val="7.4" weight="GDPS_PMOS:16.18 ECMW_PMOS:27.61 GDPS_NPPM:13.87 RDPS_PMOS:15.08 RDPS_NPPM:17.66 EPSG_PMOS:9.6 " />
+   <dataSet lst="10/29_15" val="11.9" weight="GDPS_PMOS:18.04 ECMW_PMOS:23.27 GDPS_NPPM:17.67 RDPS_PMOS:13.52 RDPS_NPPM:11.78 EPSG_PMOS:15.72 " />
+   <dataSet lst="10/30_06" val="1.9" weight="GDPS_PMOS:13.72 ECMW_PMOS:30.29 GDPS_NPPM:12.7 RDPS_PMOS:15.29 RDPS_NPPM:16.65 EPSG_PMOS:11.34 " />
+   <dataSet lst="10/30_15" val="13.7" weight="GDPS_PMOS:15.91 ECMW_PMOS:22.08 GDPS_NPPM:18.23 RDPS_PMOS:14.61 RDPS_NPPM:11.56 EPSG_PMOS:17.6 " />
+   <dataSet lst="10/31_06" val="4.3" weight="GDPS_PMOS:18.24 ECMW_PMOS:38.79 GDPS_NPPM:22.04 EPSG_PMOS:20.93 " />
+   <dataSet lst="10/31_15" val="13.2" weight="GDPS_PMOS:14.56 ECMW_PMOS:39.96 GDPS_NPPM:18.62 EPSG_PMOS:26.86 " />
+   <dataSet lst="11/01_06" val="1.3" weight="GDPS_PMOS:17.76 ECMW_PMOS:43.28 GDPS_NPPM:17.0 EPSG_PMOS:21.95 " />
+   <dataSet lst="11/01_15" val="10.1" weight="GDPS_PMOS:22.12 ECMW_PMOS:29.52 GDPS_NPPM:20.26 EPSG_PMOS:28.11 " />
+   <dataSet lst="11/02_06" val="-1.6" weight="GDPS_PMOS:21.1 ECMW_PMOS:36.34 GDPS_NPPM:19.13 EPSG_PMOS:23.43 " />
+   <dataSet lst="11/02_15" val="11.5" weight="GDPS_PMOS:18.32 ECMW_PMOS:35.72 GDPS_NPPM:16.0 EPSG_PMOS:29.96 " />
+   <dataSet lst="11/03_06" val="3.8" weight="GDPS_PMOS:20.25 ECMW_PMOS:33.36 GDPS_NPPM:19.46 EPSG_PMOS:26.93 " />
+   <dataSet lst="11/03_15" val="14.0" weight="GDPS_PMOS:19.16 ECMW_PMOS:29.41 GDPS_NPPM:20.41 EPSG_PMOS:31.02 " />
+   <dataSet lst="11/04_06" val="1.4" weight="GDPS_PMOS:18.3 ECMW_PMOS:34.04 GDPS_NPPM:17.12 EPSG_PMOS:30.54 " />
+   <dataSet lst="11/04_15" val="14.1" weight="GDPS_PMOS:25.65 ECMW_PMOS:24.41 GDPS_NPPM:18.22 EPSG_PMOS:31.72 " />
+   <dataSet lst="11/05_06" val="3.3" weight="GDPS_PMOS:17.88 ECMW_PMOS:31.22 GDPS_NPPM:20.57 EPSG_PMOS:30.32 " />
+   <dataSet lst="11/05_15" val="16.3" weight="GDPS_PMOS:20.78 ECMW_PMOS:28.73 GDPS_NPPM:19.78 EPSG_PMOS:30.71 " />
+   <dataSet lst="11/06_06" val="6.4" weight="GDPS_PMOS:23.06 ECMW_PMOS:24.48 GDPS_NPPM:21.95 EPSG_PMOS:30.51 " />
+   <dataSet lst="11/06_15" val="15.7" weight="GDPS_PMOS:38.2 EPSG_PMOS:61.8 " />
+   <dataSet lst="11/07_06" val="3.9" weight="GDPS_PMOS:34.99 EPSG_PMOS:65.01 " />
+   <dataSet lst="11/07_15" val="14.6" weight="GDPS_PMOS:25.56 EPSG_PMOS:74.44 " />
+  </stn>
+  <stn hasWeightData="true" stnName="서산" stnNo="47129">
+   <dataSet lst="10/27_15" val="19.9" weight="GDPS_PMOS:12.09 ECMW_PMOS:30.53 GDPS_NPPM:9.2 RDPS_PMOS:13.86 RDPS_NPPM:16.33 EPSG_PMOS:18.0 " />
+   <dataSet lst="10/28_06" val="12.0" weight="GDPS_PMOS:14.03 ECMW_PMOS:22.45 GDPS_NPPM:6.56 RDPS_PMOS:17.84 RDPS_NPPM:15.39 EPSG_PMOS:23.72 " />
+   <dataSet lst="10/28_15" val="16.1" weight="GDPS_PMOS:9.71 ECMW_PMOS:37.4 GDPS_NPPM:9.36 RDPS_PMOS:14.37 RDPS_NPPM:14.95 EPSG_PMOS:14.22 " />
+   <dataSet lst="10/29_06" val="7.7" weight="GDPS_PMOS:14.76 ECMW_PMOS:30.48 GDPS_NPPM:6.59 RDPS_PMOS:17.0 RDPS_NPPM:10.9 EPSG_PMOS:20.27 " />
+   <dataSet lst="10/29_15" val="12.0" weight="GDPS_PMOS:12.93 ECMW_PMOS:31.03 GDPS_NPPM:12.88 RDPS_PMOS:15.77 RDPS_NPPM:13.33 EPSG_PMOS:14.06 " />
+   <dataSet lst="10/30_06" val="3.9" weight="GDPS_PMOS:12.78 ECMW_PMOS:32.2 GDPS_NPPM:5.94 RDPS_PMOS:18.1 RDPS_NPPM:10.9 EPSG_PMOS:20.08 " />
+   <dataSet lst="10/30_15" val="13.8" weight="GDPS_PMOS:12.43 ECMW_PMOS:27.57 GDPS_NPPM:12.33 RDPS_PMOS:17.85 RDPS_NPPM:13.19 EPSG_PMOS:16.63 " />
+   <dataSet lst="10/31_06" val="5.6" weight="GDPS_PMOS:19.09 ECMW_PMOS:43.26 GDPS_NPPM:10.68 EPSG_PMOS:26.97 " />
+   <dataSet lst="10/31_15" val="13.3" weight="GDPS_PMOS:16.39 ECMW_PMOS:41.32 GDPS_NPPM:17.44 EPSG_PMOS:24.85 " />
+   <dataSet lst="11/01_06" val="2.9" weight="GDPS_PMOS:22.94 ECMW_PMOS:37.3 GDPS_NPPM:8.73 EPSG_PMOS:31.03 " />
+   <dataSet lst="11/01_15" val="10.0" weight="GDPS_PMOS:15.65 ECMW_PMOS:38.36 GDPS_NPPM:21.01 EPSG_PMOS:24.98 " />
+   <dataSet lst="11/02_06" val="1.8" weight="GDPS_PMOS:21.55 ECMW_PMOS:38.65 GDPS_NPPM:10.4 EPSG_PMOS:29.4 " />
+   <dataSet lst="11/02_15" val="11.9" weight="GDPS_PMOS:23.53 ECMW_PMOS:30.04 GDPS_NPPM:19.35 EPSG_PMOS:27.08 " />
+   <dataSet lst="11/03_06" val="5.5" weight="GDPS_PMOS:23.7 ECMW_PMOS:32.75 GDPS_NPPM:12.91 EPSG_PMOS:30.64 " />
+   <dataSet lst="11/03_15" val="14.2" weight="GDPS_PMOS:19.33 ECMW_PMOS:31.01 GDPS_NPPM:24.06 EPSG_PMOS:25.59 " />
+   <dataSet lst="11/04_06" val="4.7" weight="GDPS_PMOS:22.17 ECMW_PMOS:33.55 GDPS_NPPM:13.21 EPSG_PMOS:31.07 " />
+   <dataSet lst="11/04_15" val="16.1" weight="GDPS_PMOS:15.61 ECMW_PMOS:41.17 GDPS_NPPM:20.19 EPSG_PMOS:23.02 " />
+   <dataSet lst="11/05_06" val="6.8" weight="GDPS_PMOS:25.0 ECMW_PMOS:34.98 GDPS_NPPM:12.22 EPSG_PMOS:27.8 " />
+   <dataSet lst="11/05_15" val="16.8" weight="GDPS_PMOS:20.06 ECMW_PMOS:35.67 GDPS_NPPM:20.45 EPSG_PMOS:23.82 " />
+   <dataSet lst="11/06_06" val="8.4" weight="GDPS_PMOS:28.89 ECMW_PMOS:29.46 GDPS_NPPM:13.25 EPSG_PMOS:28.41 " />
+   <dataSet lst="11/06_15" val="17.4" weight="GDPS_PMOS:40.72 EPSG_PMOS:59.28 " />
+   <dataSet lst="11/07_06" val="6.9" weight="GDPS_PMOS:46.59 EPSG_PMOS:53.41 " />
+   <dataSet lst="11/07_15" val="15.3" weight="GDPS_PMOS:40.95 EPSG_PMOS:59.05 " />
+  </stn>
+  <stn stnName="홍성(예)" stnNo="47177">
+   <dataSet lst="10/27_15" val="20.0" />
+   <dataSet lst="10/28_06" val="11.6" />
+   <dataSet lst="10/28_15" val="16.0" />
+   <dataSet lst="10/29_06" val="7.2" />
+   <dataSet lst="10/29_15" />
+   <dataSet lst="10/30_06" />
+   <dataSet lst="10/30_15" />
+   <dataSet lst="10/31_06" />
+   <dataSet lst="10/31_15" />
+   <dataSet lst="11/01_06" />
+   <dataSet lst="11/01_15" />
+   <dataSet lst="11/02_06" />
+   <dataSet lst="11/02_15" />
+   <dataSet lst="11/03_06" />
+   <dataSet lst="11/03_15" />
+   <dataSet lst="11/04_06" />
+   <dataSet lst="11/04_15" />
+   <dataSet lst="11/05_06" />
+   <dataSet lst="11/05_15" />
+   <dataSet lst="11/06_06" />
+   <dataSet lst="11/06_15" val="16.2" />
+   <dataSet lst="11/07_06" val="2.3" />
+   <dataSet lst="11/07_15" val="14.6" />
+  </stn>
+  <stn hasWeightData="true" stnName="천안" stnNo="47232">
+   <dataSet lst="10/27_15" val="19.3" weight="GDPS_PMOS:15.15 ECMW_PMOS:24.3 GDPS_NPPM:12.02 RDPS_PMOS:21.95 RDPS_NPPM:12.0 EPSG_PMOS:14.57 " />
+   <dataSet lst="10/28_06" val="12.1" weight="GDPS_PMOS:15.79 ECMW_PMOS:14.01 GDPS_NPPM:21.02 RDPS_PMOS:14.54 RDPS_NPPM:19.73 EPSG_PMOS:14.9 " />
+   <dataSet lst="10/28_15" val="15.2" weight="GDPS_PMOS:13.94 ECMW_PMOS:24.32 GDPS_NPPM:14.46 RDPS_PMOS:18.15 RDPS_NPPM:15.85 EPSG_PMOS:13.29 " />
+   <dataSet lst="10/29_06" val="6.7" weight="GDPS_PMOS:14.32 ECMW_PMOS:19.76 GDPS_NPPM:17.93 RDPS_PMOS:14.51 RDPS_NPPM:20.56 EPSG_PMOS:12.91 " />
+   <dataSet lst="10/29_15" val="11.4" weight="GDPS_PMOS:16.49 ECMW_PMOS:29.49 GDPS_NPPM:16.57 RDPS_PMOS:15.16 RDPS_NPPM:12.35 EPSG_PMOS:9.95 " />
+   <dataSet lst="10/30_06" val="1.6" weight="GDPS_PMOS:13.06 ECMW_PMOS:29.74 GDPS_NPPM:15.17 RDPS_PMOS:12.84 RDPS_NPPM:16.57 EPSG_PMOS:12.62 " />
+   <dataSet lst="10/30_15" val="13.3" weight="GDPS_PMOS:16.41 ECMW_PMOS:28.01 GDPS_NPPM:15.55 RDPS_PMOS:14.41 RDPS_NPPM:11.32 EPSG_PMOS:14.29 " />
+   <dataSet lst="10/31_06" val="3.8" weight="GDPS_PMOS:24.05 ECMW_PMOS:31.34 GDPS_NPPM:24.87 EPSG_PMOS:19.74 " />
+   <dataSet lst="10/31_15" val="12.7" weight="GDPS_PMOS:19.37 ECMW_PMOS:42.06 GDPS_NPPM:17.66 EPSG_PMOS:20.92 " />
+   <dataSet lst="11/01_06" val="0.9" weight="GDPS_PMOS:18.28 ECMW_PMOS:41.52 GDPS_NPPM:17.15 EPSG_PMOS:23.04 " />
+   <dataSet lst="11/01_15" val="9.4" weight="GDPS_PMOS:16.62 ECMW_PMOS:39.82 GDPS_NPPM:21.2 EPSG_PMOS:22.36 " />
+   <dataSet lst="11/02_06" val="-0.5" weight="GDPS_PMOS:22.12 ECMW_PMOS:33.22 GDPS_NPPM:20.0 EPSG_PMOS:24.66 " />
+   <dataSet lst="11/02_15" val="11.2" weight="GDPS_PMOS:16.95 ECMW_PMOS:39.29 GDPS_NPPM:16.59 EPSG_PMOS:27.17 " />
+   <dataSet lst="11/03_06" val="3.4" weight="GDPS_PMOS:20.54 ECMW_PMOS:34.1 GDPS_NPPM:20.1 EPSG_PMOS:25.26 " />
+   <dataSet lst="11/03_15" val="13.6" weight="GDPS_PMOS:19.67 ECMW_PMOS:37.51 GDPS_NPPM:19.14 EPSG_PMOS:23.68 " />
+   <dataSet lst="11/04_06" val="2.5" weight="GDPS_PMOS:20.69 ECMW_PMOS:33.14 GDPS_NPPM:17.68 EPSG_PMOS:28.49 " />
+   <dataSet lst="11/04_15" val="14.8" weight="GDPS_PMOS:22.55 ECMW_PMOS:33.77 GDPS_NPPM:21.89 EPSG_PMOS:21.78 " />
+   <dataSet lst="11/05_06" val="4.7" weight="GDPS_PMOS:22.59 ECMW_PMOS:32.16 GDPS_NPPM:17.46 EPSG_PMOS:27.79 " />
+   <dataSet lst="11/05_15" val="16.1" weight="GDPS_PMOS:20.9 ECMW_PMOS:38.83 GDPS_NPPM:18.42 EPSG_PMOS:21.85 " />
+   <dataSet lst="11/06_06" val="6.3" weight="GDPS_PMOS:26.59 ECMW_PMOS:26.27 GDPS_NPPM:18.8 EPSG_PMOS:28.34 " />
+   <dataSet lst="11/06_15" val="16.0" weight="GDPS_PMOS:42.28 EPSG_PMOS:57.72 " />
+   <dataSet lst="11/07_06" val="6.0" weight="GDPS_PMOS:37.78 EPSG_PMOS:62.22 " />
+   <dataSet lst="11/07_15" val="14.5" weight="GDPS_PMOS:36.66 EPSG_PMOS:63.34 " />
+  </stn>
+  <stn hasWeightData="true" stnName="보령" stnNo="47235">
+   <dataSet lst="10/27_15" val="20.3" weight="GDPS_PMOS:14.7 ECMW_PMOS:22.91 GDPS_NPPM:17.03 RDPS_PMOS:13.99 RDPS_NPPM:14.66 EPSG_PMOS:16.71 " />
+   <dataSet lst="10/28_06" val="13.4" weight="GDPS_PMOS:11.76 ECMW_PMOS:29.93 GDPS_NPPM:10.57 RDPS_PMOS:18.43 RDPS_NPPM:11.77 EPSG_PMOS:17.53 " />
+   <dataSet lst="10/28_15" val="16.8" weight="GDPS_PMOS:14.12 ECMW_PMOS:27.18 GDPS_NPPM:18.17 RDPS_PMOS:12.66 RDPS_NPPM:13.74 EPSG_PMOS:14.13 " />
+   <dataSet lst="10/29_06" val="8.5" weight="GDPS_PMOS:13.83 ECMW_PMOS:33.12 GDPS_NPPM:11.22 RDPS_PMOS:15.78 RDPS_NPPM:11.11 EPSG_PMOS:14.94 " />
+   <dataSet lst="10/29_15" val="13.2" weight="GDPS_PMOS:12.21 ECMW_PMOS:30.12 GDPS_NPPM:17.32 RDPS_PMOS:14.54 RDPS_NPPM:13.27 EPSG_PMOS:12.54 " />
+   <dataSet lst="10/30_06" val="4.7" weight="GDPS_PMOS:14.56 ECMW_PMOS:35.26 GDPS_NPPM:9.43 RDPS_PMOS:15.05 RDPS_NPPM:10.89 EPSG_PMOS:14.81 " />
+   <dataSet lst="10/30_15" val="13.7" weight="GDPS_PMOS:13.75 ECMW_PMOS:27.7 GDPS_NPPM:16.37 RDPS_PMOS:14.55 RDPS_NPPM:11.12 EPSG_PMOS:16.51 " />
+   <dataSet lst="10/31_06" val="7.8" weight="GDPS_PMOS:18.25 ECMW_PMOS:44.14 GDPS_NPPM:16.92 EPSG_PMOS:20.68 " />
+   <dataSet lst="10/31_15" val="13.4" weight="GDPS_PMOS:15.86 ECMW_PMOS:39.28 GDPS_NPPM:16.75 EPSG_PMOS:28.11 " />
+   <dataSet lst="11/01_06" val="4.5" weight="GDPS_PMOS:22.36 ECMW_PMOS:40.93 GDPS_NPPM:14.07 EPSG_PMOS:22.64 " />
+   <dataSet lst="11/01_15" val="10.3" weight="GDPS_PMOS:17.16 ECMW_PMOS:33.38 GDPS_NPPM:19.73 EPSG_PMOS:29.73 " />
+   <dataSet lst="11/02_06" val="2.9" weight="GDPS_PMOS:21.57 ECMW_PMOS:37.39 GDPS_NPPM:15.68 EPSG_PMOS:25.36 " />
+   <dataSet lst="11/02_15" val="12.0" weight="GDPS_PMOS:20.03 ECMW_PMOS:33.68 GDPS_NPPM:16.29 EPSG_PMOS:29.99 " />
+   <dataSet lst="11/03_06" val="7.8" weight="GDPS_PMOS:19.0 ECMW_PMOS:34.83 GDPS_NPPM:18.26 EPSG_PMOS:27.91 " />
+   <dataSet lst="11/03_15" val="14.4" weight="GDPS_PMOS:21.68 ECMW_PMOS:31.21 GDPS_NPPM:20.62 EPSG_PMOS:26.49 " />
+   <dataSet lst="11/04_06" val="6.7" weight="GDPS_PMOS:21.68 ECMW_PMOS:34.75 GDPS_NPPM:16.34 EPSG_PMOS:27.23 " />
+   <dataSet lst="11/04_15" val="16.5" weight="GDPS_PMOS:18.81 ECMW_PMOS:33.48 GDPS_NPPM:22.77 EPSG_PMOS:24.95 " />
+   <dataSet lst="11/05_06" val="8.6" weight="GDPS_PMOS:21.62 ECMW_PMOS:37.9 GDPS_NPPM:14.94 EPSG_PMOS:25.54 " />
+   <dataSet lst="11/05_15" val="16.9" weight="GDPS_PMOS:23.35 ECMW_PMOS:33.62 GDPS_NPPM:20.95 EPSG_PMOS:22.08 " />
+   <dataSet lst="11/06_06" val="10.4" weight="GDPS_PMOS:27.48 ECMW_PMOS:28.45 GDPS_NPPM:16.79 EPSG_PMOS:27.29 " />
+   <dataSet lst="11/06_15" val="16.9" weight="GDPS_PMOS:41.57 EPSG_PMOS:58.43 " />
+   <dataSet lst="11/07_06" val="8.5" weight="GDPS_PMOS:46.34 EPSG_PMOS:53.66 " />
+   <dataSet lst="11/07_15" val="16.3" weight="GDPS_PMOS:41.01 EPSG_PMOS:58.99 " />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="32" grName="대전청(청주)">
+  <stn hasWeightData="true" stnName="청주" stnNo="47131">
+   <dataSet lst="10/27_15" val="19.6" weight="GDPS_PMOS:13.47 ECMW_PMOS:26.89 GDPS_NPPM:15.15 RDPS_PMOS:14.85 RDPS_NPPM:11.98 EPSG_PMOS:17.66 " />
+   <dataSet lst="10/28_06" val="12.7" weight="GDPS_PMOS:15.19 ECMW_PMOS:13.43 GDPS_NPPM:17.12 RDPS_PMOS:17.42 RDPS_NPPM:21.24 EPSG_PMOS:15.6 " />
+   <dataSet lst="10/28_15" val="15.8" weight="GDPS_PMOS:14.13 ECMW_PMOS:27.06 GDPS_NPPM:18.01 RDPS_PMOS:12.24 RDPS_NPPM:13.93 EPSG_PMOS:14.63 " />
+   <dataSet lst="10/29_06" val="8.0" weight="GDPS_PMOS:14.15 ECMW_PMOS:25.73 GDPS_NPPM:17.05 RDPS_PMOS:15.71 RDPS_NPPM:16.6 EPSG_PMOS:10.77 " />
+   <dataSet lst="10/29_15" val="12.2" weight="GDPS_PMOS:14.21 ECMW_PMOS:30.89 GDPS_NPPM:18.9 RDPS_PMOS:12.83 RDPS_NPPM:12.36 EPSG_PMOS:10.82 " />
+   <dataSet lst="10/30_06" val="3.1" weight="GDPS_PMOS:10.31 ECMW_PMOS:27.69 GDPS_NPPM:13.12 RDPS_PMOS:16.66 RDPS_NPPM:15.25 EPSG_PMOS:16.97 " />
+   <dataSet lst="10/30_15" val="13.9" weight="GDPS_PMOS:16.63 ECMW_PMOS:25.7 GDPS_NPPM:18.92 RDPS_PMOS:12.83 RDPS_NPPM:12.57 EPSG_PMOS:13.35 " />
+   <dataSet lst="10/31_06" val="4.9" weight="GDPS_PMOS:18.66 ECMW_PMOS:37.21 GDPS_NPPM:20.53 EPSG_PMOS:23.6 " />
+   <dataSet lst="10/31_15" val="14.0" weight="GDPS_PMOS:18.05 ECMW_PMOS:39.89 GDPS_NPPM:18.42 EPSG_PMOS:23.64 " />
+   <dataSet lst="11/01_06" val="2.5" weight="GDPS_PMOS:22.45 ECMW_PMOS:38.77 GDPS_NPPM:18.71 EPSG_PMOS:20.07 " />
+   <dataSet lst="11/01_15" val="10.7" weight="GDPS_PMOS:14.04 ECMW_PMOS:36.69 GDPS_NPPM:22.68 EPSG_PMOS:26.58 " />
+   <dataSet lst="11/02_06" val="1.0" weight="GDPS_PMOS:19.64 ECMW_PMOS:35.63 GDPS_NPPM:16.95 EPSG_PMOS:27.78 " />
+   <dataSet lst="11/02_15" val="11.7" weight="GDPS_PMOS:16.26 ECMW_PMOS:38.23 GDPS_NPPM:15.72 EPSG_PMOS:29.78 " />
+   <dataSet lst="11/03_06" val="5.0" weight="GDPS_PMOS:21.05 ECMW_PMOS:31.14 GDPS_NPPM:19.38 EPSG_PMOS:28.43 " />
+   <dataSet lst="11/03_15" val="14.3" weight="GDPS_PMOS:17.25 ECMW_PMOS:36.33 GDPS_NPPM:18.73 EPSG_PMOS:27.7 " />
+   <dataSet lst="11/04_06" val="5.2" weight="GDPS_PMOS:17.02 ECMW_PMOS:37.13 GDPS_NPPM:15.06 EPSG_PMOS:30.79 " />
+   <dataSet lst="11/04_15" val="14.9" weight="GDPS_PMOS:17.58 ECMW_PMOS:34.64 GDPS_NPPM:20.33 EPSG_PMOS:27.44 " />
+   <dataSet lst="11/05_06" val="6.5" weight="GDPS_PMOS:22.8 ECMW_PMOS:35.49 GDPS_NPPM:15.73 EPSG_PMOS:25.98 " />
+   <dataSet lst="11/05_15" val="16.3" weight="GDPS_PMOS:19.14 ECMW_PMOS:34.88 GDPS_NPPM:20.43 EPSG_PMOS:25.56 " />
+   <dataSet lst="11/06_06" val="8.1" weight="GDPS_PMOS:28.18 ECMW_PMOS:25.65 GDPS_NPPM:16.85 EPSG_PMOS:29.32 " />
+   <dataSet lst="11/06_15" val="16.1" weight="GDPS_PMOS:40.2 EPSG_PMOS:59.8 " />
+   <dataSet lst="11/07_06" val="7.8" weight="GDPS_PMOS:43.51 EPSG_PMOS:56.49 " />
+   <dataSet lst="11/07_15" val="14.9" weight="GDPS_PMOS:39.1 EPSG_PMOS:60.9 " />
+  </stn>
+  <stn hasWeightData="true" stnName="충주" stnNo="47127">
+   <dataSet lst="10/27_15" val="19.4" weight="GDPS_PMOS:12.73 ECMW_PMOS:25.46 GDPS_NPPM:15.14 RDPS_PMOS:15.32 RDPS_NPPM:11.5 EPSG_PMOS:19.86 " />
+   <dataSet lst="10/28_06" val="12.0" weight="GDPS_PMOS:6.51 ECMW_PMOS:26.07 GDPS_NPPM:17.06 RDPS_PMOS:17.72 RDPS_NPPM:20.96 EPSG_PMOS:11.68 " />
+   <dataSet lst="10/28_15" val="15.3" weight="GDPS_PMOS:13.22 ECMW_PMOS:20.53 GDPS_NPPM:17.92 RDPS_PMOS:16.89 RDPS_NPPM:16.94 EPSG_PMOS:14.51 " />
+   <dataSet lst="10/29_06" val="8.0" weight="GDPS_PMOS:9.25 ECMW_PMOS:26.52 GDPS_NPPM:18.89 RDPS_PMOS:15.01 RDPS_NPPM:18.78 EPSG_PMOS:11.56 " />
+   <dataSet lst="10/29_15" val="12.6" weight="GDPS_PMOS:14.25 ECMW_PMOS:29.1 GDPS_NPPM:17.87 RDPS_PMOS:15.52 RDPS_NPPM:12.7 EPSG_PMOS:10.56 " />
+   <dataSet lst="10/30_06" val="2.0" weight="GDPS_PMOS:10.17 ECMW_PMOS:27.31 GDPS_NPPM:16.55 RDPS_PMOS:14.25 RDPS_NPPM:18.03 EPSG_PMOS:13.7 " />
+   <dataSet lst="10/30_15" val="13.1" weight="GDPS_PMOS:14.35 ECMW_PMOS:24.56 GDPS_NPPM:16.39 RDPS_PMOS:17.15 RDPS_NPPM:13.65 EPSG_PMOS:13.9 " />
+   <dataSet lst="10/31_06" val="3.7" weight="GDPS_PMOS:17.41 ECMW_PMOS:38.06 GDPS_NPPM:22.26 EPSG_PMOS:22.27 " />
+   <dataSet lst="10/31_15" val="12.6" weight="GDPS_PMOS:18.26 ECMW_PMOS:42.14 GDPS_NPPM:19.73 EPSG_PMOS:19.86 " />
+   <dataSet lst="11/01_06" val="1.1" weight="GDPS_PMOS:16.6 ECMW_PMOS:41.6 GDPS_NPPM:17.61 EPSG_PMOS:24.19 " />
+   <dataSet lst="11/01_15" val="10.3" weight="GDPS_PMOS:14.26 ECMW_PMOS:40.01 GDPS_NPPM:22.82 EPSG_PMOS:22.9 " />
+   <dataSet lst="11/02_06" val="-0.5" weight="GDPS_PMOS:19.05 ECMW_PMOS:37.53 GDPS_NPPM:20.15 EPSG_PMOS:23.27 " />
+   <dataSet lst="11/02_15" val="11.2" weight="GDPS_PMOS:15.07 ECMW_PMOS:36.53 GDPS_NPPM:16.68 EPSG_PMOS:31.71 " />
+   <dataSet lst="11/03_06" val="3.4" weight="GDPS_PMOS:18.39 ECMW_PMOS:28.71 GDPS_NPPM:24.37 EPSG_PMOS:28.53 " />
+   <dataSet lst="11/03_15" val="12.9" weight="GDPS_PMOS:19.56 ECMW_PMOS:35.29 GDPS_NPPM:20.15 EPSG_PMOS:25.0 " />
+   <dataSet lst="11/04_06" val="2.7" weight="GDPS_PMOS:17.24 ECMW_PMOS:32.21 GDPS_NPPM:20.71 EPSG_PMOS:29.84 " />
+   <dataSet lst="11/04_15" val="14.2" weight="GDPS_PMOS:20.43 ECMW_PMOS:32.2 GDPS_NPPM:20.94 EPSG_PMOS:26.43 " />
+   <dataSet lst="11/05_06" val="5.2" weight="GDPS_PMOS:18.98 ECMW_PMOS:31.41 GDPS_NPPM:21.78 EPSG_PMOS:27.84 " />
+   <dataSet lst="11/05_15" val="15.8" weight="GDPS_PMOS:18.77 ECMW_PMOS:35.53 GDPS_NPPM:21.93 EPSG_PMOS:23.78 " />
+   <dataSet lst="11/06_06" val="6.9" weight="GDPS_PMOS:24.6 ECMW_PMOS:25.0 GDPS_NPPM:22.94 EPSG_PMOS:27.46 " />
+   <dataSet lst="11/06_15" val="15.8" weight="GDPS_PMOS:41.05 EPSG_PMOS:58.95 " />
+   <dataSet lst="11/07_06" val="6.2" weight="GDPS_PMOS:46.08 EPSG_PMOS:53.92 " />
+   <dataSet lst="11/07_15" val="14.8" weight="GDPS_PMOS:38.91 EPSG_PMOS:61.09 " />
+  </stn>
+  <stn hasWeightData="true" stnName="추풍령" stnNo="47135">
+   <dataSet lst="10/27_15" val="16.9" weight="GDPS_PMOS:9.86 ECMW_PMOS:36.51 GDPS_NPPM:10.58 RDPS_PMOS:15.66 RDPS_NPPM:13.82 EPSG_PMOS:13.57 " />
+   <dataSet lst="10/28_06" val="11.2" weight="GDPS_PMOS:13.74 ECMW_PMOS:23.28 GDPS_NPPM:18.46 RDPS_PMOS:17.09 RDPS_NPPM:12.91 EPSG_PMOS:14.5 " />
+   <dataSet lst="10/28_15" val="14.7" weight="GDPS_PMOS:10.76 ECMW_PMOS:35.03 GDPS_NPPM:13.94 RDPS_PMOS:11.14 RDPS_NPPM:12.82 EPSG_PMOS:16.31 " />
+   <dataSet lst="10/29_06" val="7.6" weight="GDPS_PMOS:13.85 ECMW_PMOS:27.18 GDPS_NPPM:19.26 RDPS_PMOS:13.48 RDPS_NPPM:13.35 EPSG_PMOS:12.87 " />
+   <dataSet lst="10/29_15" val="12.2" weight="GDPS_PMOS:12.18 ECMW_PMOS:26.74 GDPS_NPPM:18.6 RDPS_PMOS:13.19 RDPS_NPPM:14.01 EPSG_PMOS:15.27 " />
+   <dataSet lst="10/30_06" val="2.9" weight="GDPS_PMOS:13.03 ECMW_PMOS:30.41 GDPS_NPPM:15.59 RDPS_PMOS:13.82 RDPS_NPPM:14.24 EPSG_PMOS:12.9 " />
+   <dataSet lst="10/30_15" val="13.5" weight="GDPS_PMOS:15.45 ECMW_PMOS:26.85 GDPS_NPPM:15.0 RDPS_PMOS:14.22 RDPS_NPPM:12.24 EPSG_PMOS:16.24 " />
+   <dataSet lst="10/31_06" val="3.6" weight="GDPS_PMOS:16.35 ECMW_PMOS:40.78 GDPS_NPPM:20.28 EPSG_PMOS:22.59 " />
+   <dataSet lst="10/31_15" val="13.3" weight="GDPS_PMOS:15.79 ECMW_PMOS:43.56 GDPS_NPPM:17.36 EPSG_PMOS:23.3 " />
+   <dataSet lst="11/01_06" val="2.9" weight="GDPS_PMOS:18.65 ECMW_PMOS:40.13 GDPS_NPPM:19.76 EPSG_PMOS:21.46 " />
+   <dataSet lst="11/01_15" val="10.6" weight="GDPS_PMOS:15.78 ECMW_PMOS:40.24 GDPS_NPPM:17.6 EPSG_PMOS:26.39 " />
+   <dataSet lst="11/02_06" val="-1.4" weight="GDPS_PMOS:20.98 ECMW_PMOS:35.57 GDPS_NPPM:19.25 EPSG_PMOS:24.2 " />
+   <dataSet lst="11/02_15" val="11.4" weight="GDPS_PMOS:12.98 ECMW_PMOS:41.67 GDPS_NPPM:17.86 EPSG_PMOS:27.49 " />
+   <dataSet lst="11/03_06" val="2.2" weight="GDPS_PMOS:17.51 ECMW_PMOS:29.58 GDPS_NPPM:25.16 EPSG_PMOS:27.76 " />
+   <dataSet lst="11/03_15" val="13.2" weight="GDPS_PMOS:17.83 ECMW_PMOS:35.55 GDPS_NPPM:22.17 EPSG_PMOS:24.45 " />
+   <dataSet lst="11/04_06" val="2.7" weight="GDPS_PMOS:18.11 ECMW_PMOS:32.61 GDPS_NPPM:20.34 EPSG_PMOS:28.95 " />
+   <dataSet lst="11/04_15" val="14.8" weight="GDPS_PMOS:17.69 ECMW_PMOS:38.2 GDPS_NPPM:20.13 EPSG_PMOS:23.98 " />
+   <dataSet lst="11/05_06" val="3.5" weight="GDPS_PMOS:21.41 ECMW_PMOS:29.8 GDPS_NPPM:19.02 EPSG_PMOS:29.77 " />
+   <dataSet lst="11/05_15" val="15.4" weight="GDPS_PMOS:20.09 ECMW_PMOS:37.27 GDPS_NPPM:19.28 EPSG_PMOS:23.36 " />
+   <dataSet lst="11/06_06" val="6.2" weight="GDPS_PMOS:28.79 ECMW_PMOS:23.87 GDPS_NPPM:18.29 EPSG_PMOS:29.04 " />
+   <dataSet lst="11/06_15" val="15.8" weight="GDPS_PMOS:44.77 EPSG_PMOS:55.23 " />
+   <dataSet lst="11/07_06" val="6.5" weight="GDPS_PMOS:43.66 EPSG_PMOS:56.34 " />
+   <dataSet lst="11/07_15" val="15.2" weight="GDPS_PMOS:40.05 EPSG_PMOS:59.95 " />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="41" grName="강원청(춘천)">
+  <stn hasWeightData="true" stnName="춘천" stnNo="47101">
+   <dataSet lst="10/27_15" val="18.9" weight="GDPS_PMOS:15.17 ECMW_PMOS:30.21 GDPS_NPPM:9.64 RDPS_PMOS:12.89 RDPS_NPPM:11.59 EPSG_PMOS:20.49 " />
+   <dataSet lst="10/28_06" val="11.8" weight="GDPS_PMOS:10.43 ECMW_PMOS:19.52 GDPS_NPPM:18.34 RDPS_PMOS:15.17 RDPS_NPPM:25.7 EPSG_PMOS:10.84 " />
+   <dataSet lst="10/28_15" val="16.7" weight="GDPS_PMOS:16.05 ECMW_PMOS:21.47 GDPS_NPPM:11.41 RDPS_PMOS:16.11 RDPS_NPPM:16.78 EPSG_PMOS:18.17 " />
+   <dataSet lst="10/29_06" val="8.8" weight="GDPS_PMOS:7.47 ECMW_PMOS:24.79 GDPS_NPPM:17.01 RDPS_PMOS:14.99 RDPS_NPPM:23.54 EPSG_PMOS:12.2 " />
+   <dataSet lst="10/29_15" val="13.4" weight="GDPS_PMOS:15.38 ECMW_PMOS:36.48 GDPS_NPPM:9.94 RDPS_PMOS:11.68 RDPS_NPPM:11.23 EPSG_PMOS:15.29 " />
+   <dataSet lst="10/30_06" val="2.0" weight="GDPS_PMOS:9.75 ECMW_PMOS:24.21 GDPS_NPPM:18.48 RDPS_PMOS:13.16 RDPS_NPPM:19.9 EPSG_PMOS:14.51 " />
+   <dataSet lst="10/30_15" val="13.7" weight="GDPS_PMOS:16.29 ECMW_PMOS:26.29 GDPS_NPPM:11.14 RDPS_PMOS:14.22 RDPS_NPPM:12.37 EPSG_PMOS:19.69 " />
+   <dataSet lst="10/31_06" val="4.5" weight="GDPS_PMOS:17.51 ECMW_PMOS:31.59 GDPS_NPPM:27.9 EPSG_PMOS:23.0 " />
+   <dataSet lst="10/31_15" val="12.7" weight="GDPS_PMOS:19.53 ECMW_PMOS:40.62 GDPS_NPPM:17.14 EPSG_PMOS:22.71 " />
+   <dataSet lst="11/01_06" val="0.3" weight="GDPS_PMOS:16.58 ECMW_PMOS:39.68 GDPS_NPPM:20.18 EPSG_PMOS:23.56 " />
+   <dataSet lst="11/01_15" val="11.1" weight="GDPS_PMOS:19.67 ECMW_PMOS:43.18 GDPS_NPPM:12.5 EPSG_PMOS:24.65 " />
+   <dataSet lst="11/02_06" val="-1.0" weight="GDPS_PMOS:18.12 ECMW_PMOS:32.92 GDPS_NPPM:23.01 EPSG_PMOS:25.95 " />
+   <dataSet lst="11/02_15" val="11.3" weight="GDPS_PMOS:22.01 ECMW_PMOS:31.21 GDPS_NPPM:15.2 EPSG_PMOS:31.59 " />
+   <dataSet lst="11/03_06" val="3.6" weight="GDPS_PMOS:18.07 ECMW_PMOS:31.67 GDPS_NPPM:23.7 EPSG_PMOS:26.57 " />
+   <dataSet lst="11/03_15" val="12.3" weight="GDPS_PMOS:23.87 ECMW_PMOS:32.62 GDPS_NPPM:16.92 EPSG_PMOS:26.6 " />
+   <dataSet lst="11/04_06" val="2.8" weight="GDPS_PMOS:19.61 ECMW_PMOS:26.97 GDPS_NPPM:25.93 EPSG_PMOS:27.49 " />
+   <dataSet lst="11/04_15" val="12.5" weight="GDPS_PMOS:18.97 ECMW_PMOS:36.17 GDPS_NPPM:18.19 EPSG_PMOS:26.67 " />
+   <dataSet lst="11/05_06" val="6.2" weight="GDPS_PMOS:20.79 ECMW_PMOS:30.92 GDPS_NPPM:21.72 EPSG_PMOS:26.57 " />
+   <dataSet lst="11/05_15" val="15.0" weight="GDPS_PMOS:23.01 ECMW_PMOS:35.36 GDPS_NPPM:19.84 EPSG_PMOS:21.79 " />
+   <dataSet lst="11/06_06" val="7.3" weight="GDPS_PMOS:24.81 ECMW_PMOS:26.51 GDPS_NPPM:23.63 EPSG_PMOS:25.05 " />
+   <dataSet lst="11/06_15" val="15.0" weight="GDPS_PMOS:44.45 EPSG_PMOS:55.55 " />
+   <dataSet lst="11/07_06" val="6.1" weight="GDPS_PMOS:45.89 EPSG_PMOS:54.11 " />
+   <dataSet lst="11/07_15" val="13.7" weight="GDPS_PMOS:40.81 EPSG_PMOS:59.19 " />
+  </stn>
+  <stn hasWeightData="true" stnName="원주" stnNo="47114">
+   <dataSet lst="10/27_15" val="18.9" weight="GDPS_PMOS:17.48 ECMW_PMOS:21.14 GDPS_NPPM:16.51 RDPS_PMOS:16.31 RDPS_NPPM:9.88 EPSG_PMOS:18.69 " />
+   <dataSet lst="10/28_06" val="12.0" weight="GDPS_PMOS:9.6 ECMW_PMOS:22.3 GDPS_NPPM:23.73 RDPS_PMOS:15.72 RDPS_NPPM:16.75 EPSG_PMOS:11.91 " />
+   <dataSet lst="10/28_15" val="15.5" weight="GDPS_PMOS:11.71 ECMW_PMOS:21.2 GDPS_NPPM:19.89 RDPS_PMOS:17.31 RDPS_NPPM:14.08 EPSG_PMOS:15.81 " />
+   <dataSet lst="10/29_06" val="9.2" weight="GDPS_PMOS:12.82 ECMW_PMOS:26.21 GDPS_NPPM:21.1 RDPS_PMOS:12.37 RDPS_NPPM:17.26 EPSG_PMOS:10.23 " />
+   <dataSet lst="10/29_15" val="12.9" weight="GDPS_PMOS:13.54 ECMW_PMOS:30.75 GDPS_NPPM:20.95 RDPS_PMOS:13.5 RDPS_NPPM:9.15 EPSG_PMOS:12.11 " />
+   <dataSet lst="10/30_06" val="2.9" weight="GDPS_PMOS:9.37 ECMW_PMOS:25.57 GDPS_NPPM:19.66 RDPS_PMOS:13.53 RDPS_NPPM:17.53 EPSG_PMOS:14.34 " />
+   <dataSet lst="10/30_15" val="12.3" weight="GDPS_PMOS:17.98 ECMW_PMOS:24.22 GDPS_NPPM:16.77 RDPS_PMOS:15.94 RDPS_NPPM:10.62 EPSG_PMOS:14.48 " />
+   <dataSet lst="10/31_06" val="3.8" weight="GDPS_PMOS:16.57 ECMW_PMOS:34.93 GDPS_NPPM:25.49 EPSG_PMOS:23.01 " />
+   <dataSet lst="10/31_15" val="11.6" weight="GDPS_PMOS:20.79 ECMW_PMOS:39.05 GDPS_NPPM:20.98 EPSG_PMOS:19.18 " />
+   <dataSet lst="11/01_06" val="2.2" weight="GDPS_PMOS:17.93 ECMW_PMOS:34.12 GDPS_NPPM:22.41 EPSG_PMOS:25.55 " />
+   <dataSet lst="11/01_15" val="10.1" weight="GDPS_PMOS:16.65 ECMW_PMOS:37.34 GDPS_NPPM:20.68 EPSG_PMOS:25.33 " />
+   <dataSet lst="11/02_06" val="0.7" weight="GDPS_PMOS:21.34 ECMW_PMOS:31.72 GDPS_NPPM:21.11 EPSG_PMOS:25.84 " />
+   <dataSet lst="11/02_15" val="10.4" weight="GDPS_PMOS:16.09 ECMW_PMOS:35.57 GDPS_NPPM:17.04 EPSG_PMOS:31.31 " />
+   <dataSet lst="11/03_06" val="4.0" weight="GDPS_PMOS:19.47 ECMW_PMOS:29.82 GDPS_NPPM:23.68 EPSG_PMOS:27.03 " />
+   <dataSet lst="11/03_15" val="12.4" weight="GDPS_PMOS:20.86 ECMW_PMOS:34.48 GDPS_NPPM:19.02 EPSG_PMOS:25.64 " />
+   <dataSet lst="11/04_06" val="3.3" weight="GDPS_PMOS:20.16 ECMW_PMOS:30.84 GDPS_NPPM:20.51 EPSG_PMOS:28.49 " />
+   <dataSet lst="11/04_15" val="12.9" weight="GDPS_PMOS:21.72 ECMW_PMOS:29.74 GDPS_NPPM:21.06 EPSG_PMOS:27.48 " />
+   <dataSet lst="11/05_06" val="5.9" weight="GDPS_PMOS:20.04 ECMW_PMOS:32.02 GDPS_NPPM:20.9 EPSG_PMOS:27.05 " />
+   <dataSet lst="11/05_15" val="15.2" weight="GDPS_PMOS:21.74 ECMW_PMOS:34.22 GDPS_NPPM:21.78 EPSG_PMOS:22.26 " />
+   <dataSet lst="11/06_06" val="7.2" weight="GDPS_PMOS:26.59 ECMW_PMOS:24.7 GDPS_NPPM:21.66 EPSG_PMOS:27.04 " />
+   <dataSet lst="11/06_15" val="14.8" weight="GDPS_PMOS:39.84 EPSG_PMOS:60.16 " />
+   <dataSet lst="11/07_06" val="6.0" weight="GDPS_PMOS:45.7 EPSG_PMOS:54.3 " />
+   <dataSet lst="11/07_15" val="13.7" weight="GDPS_PMOS:36.98 EPSG_PMOS:63.02 " />
+  </stn>
+  <stn hasWeightData="true" stnName="철원" stnNo="47095">
+   <dataSet lst="10/27_15" val="19.4" weight="GDPS_PMOS:16.44 ECMW_PMOS:30.63 GDPS_NPPM:12.21 RDPS_PMOS:11.87 RDPS_NPPM:12.5 EPSG_PMOS:16.34 " />
+   <dataSet lst="10/28_06" val="10.1" weight="GDPS_PMOS:15.44 ECMW_PMOS:29.29 GDPS_NPPM:15.85 RDPS_PMOS:15.33 RDPS_NPPM:10.96 EPSG_PMOS:13.13 " />
+   <dataSet lst="10/28_15" val="15.8" weight="GDPS_PMOS:15.47 ECMW_PMOS:31.19 GDPS_NPPM:12.9 RDPS_PMOS:12.54 RDPS_NPPM:12.48 EPSG_PMOS:15.42 " />
+   <dataSet lst="10/29_06" val="5.1" weight="GDPS_PMOS:14.5 ECMW_PMOS:26.63 GDPS_NPPM:16.47 RDPS_PMOS:14.16 RDPS_NPPM:13.45 EPSG_PMOS:14.8 " />
+   <dataSet lst="10/29_15" val="12.5" weight="GDPS_PMOS:11.27 ECMW_PMOS:30.05 GDPS_NPPM:12.93 RDPS_PMOS:14.26 RDPS_NPPM:14.89 EPSG_PMOS:16.6 " />
+   <dataSet lst="10/30_06" val="-1.0" weight="GDPS_PMOS:13.28 ECMW_PMOS:24.33 GDPS_NPPM:17.57 RDPS_PMOS:14.07 RDPS_NPPM:15.72 EPSG_PMOS:15.03 " />
+   <dataSet lst="10/30_15" val="12.2" weight="GDPS_PMOS:15.22 ECMW_PMOS:27.93 GDPS_NPPM:13.24 RDPS_PMOS:15.26 RDPS_NPPM:11.5 EPSG_PMOS:16.84 " />
+   <dataSet lst="10/31_06" val="3.4" weight="GDPS_PMOS:17.64 ECMW_PMOS:34.75 GDPS_NPPM:26.34 EPSG_PMOS:21.27 " />
+   <dataSet lst="10/31_15" val="11.6" weight="GDPS_PMOS:24.9 ECMW_PMOS:34.05 GDPS_NPPM:18.85 EPSG_PMOS:22.21 " />
+   <dataSet lst="11/01_06" val="-2.5" weight="GDPS_PMOS:21.94 ECMW_PMOS:36.46 GDPS_NPPM:20.36 EPSG_PMOS:21.24 " />
+   <dataSet lst="11/01_15" val="8.8" weight="GDPS_PMOS:20.86 ECMW_PMOS:36.12 GDPS_NPPM:16.14 EPSG_PMOS:26.88 " />
+   <dataSet lst="11/02_06" val="-3.3" weight="GDPS_PMOS:22.63 ECMW_PMOS:27.97 GDPS_NPPM:23.76 EPSG_PMOS:25.64 " />
+   <dataSet lst="11/02_15" val="10.3" weight="GDPS_PMOS:21.61 ECMW_PMOS:29.76 GDPS_NPPM:17.32 EPSG_PMOS:31.3 " />
+   <dataSet lst="11/03_06" val="1.8" weight="GDPS_PMOS:15.4 ECMW_PMOS:31.56 GDPS_NPPM:24.33 EPSG_PMOS:28.71 " />
+   <dataSet lst="11/03_15" val="11.4" weight="GDPS_PMOS:20.83 ECMW_PMOS:28.6 GDPS_NPPM:21.65 EPSG_PMOS:28.92 " />
+   <dataSet lst="11/04_06" val="1.1" weight="GDPS_PMOS:21.64 ECMW_PMOS:28.17 GDPS_NPPM:21.71 EPSG_PMOS:28.49 " />
+   <dataSet lst="11/04_15" val="11.8" weight="GDPS_PMOS:17.98 ECMW_PMOS:33.02 GDPS_NPPM:24.56 EPSG_PMOS:24.44 " />
+   <dataSet lst="11/05_06" val="4.7" weight="GDPS_PMOS:20.97 ECMW_PMOS:30.63 GDPS_NPPM:20.09 EPSG_PMOS:28.31 " />
+   <dataSet lst="11/05_15" val="14.7" weight="GDPS_PMOS:16.53 ECMW_PMOS:37.0 GDPS_NPPM:24.0 EPSG_PMOS:22.46 " />
+   <dataSet lst="11/06_06" val="5.9" weight="GDPS_PMOS:25.94 ECMW_PMOS:24.64 GDPS_NPPM:22.03 EPSG_PMOS:27.39 " />
+   <dataSet lst="11/06_15" val="15.1" weight="GDPS_PMOS:42.1 EPSG_PMOS:57.9 " />
+   <dataSet lst="11/07_06" val="2.8" weight="GDPS_PMOS:46.36 EPSG_PMOS:53.64 " />
+   <dataSet lst="11/07_15" val="13.7" weight="GDPS_PMOS:41.76 EPSG_PMOS:58.24 " />
+  </stn>
+  <stn hasWeightData="true" stnName="영월" stnNo="47121">
+   <dataSet lst="10/27_15" val="18.9" weight="GDPS_PMOS:16.96 ECMW_PMOS:32.54 GDPS_NPPM:7.14 RDPS_PMOS:13.61 RDPS_NPPM:6.97 EPSG_PMOS:22.78 " />
+   <dataSet lst="10/28_06" val="11.1" weight="GDPS_PMOS:7.99 ECMW_PMOS:18.84 GDPS_NPPM:14.76 RDPS_PMOS:17.21 RDPS_NPPM:25.57 EPSG_PMOS:15.63 " />
+   <dataSet lst="10/28_15" val="14.7" weight="GDPS_PMOS:15.65 ECMW_PMOS:24.37 GDPS_NPPM:7.86 RDPS_PMOS:19.29 RDPS_NPPM:12.86 EPSG_PMOS:19.96 " />
+   <dataSet lst="10/29_06" val="9.7" weight="GDPS_PMOS:9.21 ECMW_PMOS:23.91 GDPS_NPPM:18.57 RDPS_PMOS:13.24 RDPS_NPPM:22.62 EPSG_PMOS:12.44 " />
+   <dataSet lst="10/29_15" val="12.7" weight="GDPS_PMOS:16.22 ECMW_PMOS:31.08 GDPS_NPPM:7.75 RDPS_PMOS:18.23 RDPS_NPPM:10.9 EPSG_PMOS:15.82 " />
+   <dataSet lst="10/30_06" val="4.0" weight="GDPS_PMOS:12.66 ECMW_PMOS:25.65 GDPS_NPPM:16.75 RDPS_PMOS:13.85 RDPS_NPPM:18.03 EPSG_PMOS:13.06 " />
+   <dataSet lst="10/30_15" val="13.7" weight="GDPS_PMOS:15.59 ECMW_PMOS:25.74 GDPS_NPPM:8.14 RDPS_PMOS:21.89 RDPS_NPPM:12.85 EPSG_PMOS:15.8 " />
+   <dataSet lst="10/31_06" val="2.6" weight="GDPS_PMOS:13.34 ECMW_PMOS:39.93 GDPS_NPPM:25.14 EPSG_PMOS:21.59 " />
+   <dataSet lst="10/31_15" val="12.6" weight="GDPS_PMOS:22.89 ECMW_PMOS:43.72 GDPS_NPPM:11.55 EPSG_PMOS:21.83 " />
+   <dataSet lst="11/01_06" val="2.0" weight="GDPS_PMOS:14.71 ECMW_PMOS:36.47 GDPS_NPPM:23.78 EPSG_PMOS:25.04 " />
+   <dataSet lst="11/01_15" val="11.2" weight="GDPS_PMOS:18.13 ECMW_PMOS:40.47 GDPS_NPPM:12.28 EPSG_PMOS:29.12 " />
+   <dataSet lst="11/02_06" val="-0.6" weight="GDPS_PMOS:18.22 ECMW_PMOS:35.3 GDPS_NPPM:20.29 EPSG_PMOS:26.18 " />
+   <dataSet lst="11/02_15" val="11.6" weight="GDPS_PMOS:16.51 ECMW_PMOS:38.84 GDPS_NPPM:12.92 EPSG_PMOS:31.73 " />
+   <dataSet lst="11/03_06" val="2.8" weight="GDPS_PMOS:17.6 ECMW_PMOS:30.35 GDPS_NPPM:24.49 EPSG_PMOS:27.56 " />
+   <dataSet lst="11/03_15" val="12.6" weight="GDPS_PMOS:22.04 ECMW_PMOS:39.54 GDPS_NPPM:13.0 EPSG_PMOS:25.42 " />
+   <dataSet lst="11/04_06" val="2.0" weight="GDPS_PMOS:17.23 ECMW_PMOS:30.0 GDPS_NPPM:25.08 EPSG_PMOS:27.69 " />
+   <dataSet lst="11/04_15" val="14.6" weight="GDPS_PMOS:19.73 ECMW_PMOS:32.26 GDPS_NPPM:17.12 EPSG_PMOS:30.89 " />
+   <dataSet lst="11/05_06" val="3.7" weight="GDPS_PMOS:19.69 ECMW_PMOS:29.79 GDPS_NPPM:21.44 EPSG_PMOS:29.08 " />
+   <dataSet lst="11/05_15" val="15.4" weight="GDPS_PMOS:21.64 ECMW_PMOS:32.46 GDPS_NPPM:19.77 EPSG_PMOS:26.12 " />
+   <dataSet lst="11/06_06" val="6.8" weight="GDPS_PMOS:23.45 ECMW_PMOS:23.28 GDPS_NPPM:24.01 EPSG_PMOS:29.26 " />
+   <dataSet lst="11/06_15" val="14.8" weight="GDPS_PMOS:42.96 EPSG_PMOS:57.04 " />
+   <dataSet lst="11/07_06" val="5.9" weight="GDPS_PMOS:43.85 EPSG_PMOS:56.15 " />
+   <dataSet lst="11/07_15" val="14.0" weight="GDPS_PMOS:40.48 EPSG_PMOS:59.52 " />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="35" grName="강원청(강릉)">
+  <stn hasWeightData="true" stnName="북강릉" stnNo="47104">
+   <dataSet lst="10/27_15" val="16.9" weight="GDPS_PMOS:10.95 ECMW_PMOS:34.96 GDPS_NPPM:10.1 RDPS_PMOS:13.2 RDPS_NPPM:13.95 EPSG_PMOS:16.84 " />
+   <dataSet lst="10/28_06" val="11.4" weight="GDPS_PMOS:13.18 ECMW_PMOS:25.95 GDPS_NPPM:21.27 RDPS_PMOS:15.47 RDPS_NPPM:9.18 EPSG_PMOS:14.95 " />
+   <dataSet lst="10/28_15" val="16.6" weight="GDPS_PMOS:11.23 ECMW_PMOS:29.77 GDPS_NPPM:14.04 RDPS_PMOS:14.03 RDPS_NPPM:14.21 EPSG_PMOS:16.72 " />
+   <dataSet lst="10/29_06" val="8.5" weight="GDPS_PMOS:14.43 ECMW_PMOS:30.65 GDPS_NPPM:16.18 RDPS_PMOS:13.3 RDPS_NPPM:9.35 EPSG_PMOS:16.1 " />
+   <dataSet lst="10/29_15" val="10.7" weight="GDPS_PMOS:10.55 ECMW_PMOS:28.23 GDPS_NPPM:13.59 RDPS_PMOS:13.91 RDPS_NPPM:16.02 EPSG_PMOS:17.72 " />
+   <dataSet lst="10/30_06" val="5.9" weight="GDPS_PMOS:16.82 ECMW_PMOS:23.88 GDPS_NPPM:15.82 RDPS_PMOS:18.48 RDPS_NPPM:8.38 EPSG_PMOS:16.63 " />
+   <dataSet lst="10/30_15" val="14.6" weight="GDPS_PMOS:12.55 ECMW_PMOS:24.18 GDPS_NPPM:12.68 RDPS_PMOS:18.68 RDPS_NPPM:17.65 EPSG_PMOS:14.27 " />
+   <dataSet lst="10/31_06" val="6.3" weight="GDPS_PMOS:21.7 ECMW_PMOS:36.27 GDPS_NPPM:18.23 EPSG_PMOS:23.8 " />
+   <dataSet lst="10/31_15" val="13.4" weight="GDPS_PMOS:18.72 ECMW_PMOS:42.53 GDPS_NPPM:19.11 EPSG_PMOS:19.64 " />
+   <dataSet lst="11/01_06" val="4.0" weight="GDPS_PMOS:23.8 ECMW_PMOS:32.2 GDPS_NPPM:16.89 EPSG_PMOS:27.12 " />
+   <dataSet lst="11/01_15" val="10.5" weight="GDPS_PMOS:16.18 ECMW_PMOS:40.04 GDPS_NPPM:20.15 EPSG_PMOS:23.64 " />
+   <dataSet lst="11/02_06" val="3.2" weight="GDPS_PMOS:18.38 ECMW_PMOS:34.32 GDPS_NPPM:16.05 EPSG_PMOS:31.25 " />
+   <dataSet lst="11/02_15" val="13.2" weight="GDPS_PMOS:15.56 ECMW_PMOS:33.5 GDPS_NPPM:17.68 EPSG_PMOS:33.25 " />
+   <dataSet lst="11/03_06" val="5.5" weight="GDPS_PMOS:16.43 ECMW_PMOS:32.57 GDPS_NPPM:17.79 EPSG_PMOS:33.21 " />
+   <dataSet lst="11/03_15" val="14.0" weight="GDPS_PMOS:16.56 ECMW_PMOS:31.73 GDPS_NPPM:17.94 EPSG_PMOS:33.77 " />
+   <dataSet lst="11/04_06" val="5.7" weight="GDPS_PMOS:16.22 ECMW_PMOS:30.93 GDPS_NPPM:19.4 EPSG_PMOS:33.45 " />
+   <dataSet lst="11/04_15" val="16.0" weight="GDPS_PMOS:15.78 ECMW_PMOS:35.38 GDPS_NPPM:18.33 EPSG_PMOS:30.51 " />
+   <dataSet lst="11/05_06" val="7.4" weight="GDPS_PMOS:17.8 ECMW_PMOS:33.69 GDPS_NPPM:16.03 EPSG_PMOS:32.48 " />
+   <dataSet lst="11/05_15" val="16.8" weight="GDPS_PMOS:19.74 ECMW_PMOS:33.6 GDPS_NPPM:16.09 EPSG_PMOS:30.57 " />
+   <dataSet lst="11/06_06" val="9.3" weight="GDPS_PMOS:22.03 ECMW_PMOS:28.49 GDPS_NPPM:18.23 EPSG_PMOS:31.24 " />
+   <dataSet lst="11/06_15" val="17.2" weight="GDPS_PMOS:38.11 EPSG_PMOS:61.89 " />
+   <dataSet lst="11/07_06" val="8.1" weight="GDPS_PMOS:44.77 EPSG_PMOS:55.23 " />
+   <dataSet lst="11/07_15" val="15.2" weight="GDPS_PMOS:37.73 EPSG_PMOS:62.27 " />
+  </stn>
+  <stn hasWeightData="true" stnName="속초" stnNo="47090">
+   <dataSet lst="10/27_15" val="16.8" weight="GDPS_PMOS:13.65 ECMW_PMOS:31.6 GDPS_NPPM:11.35 RDPS_PMOS:17.34 RDPS_NPPM:12.83 EPSG_PMOS:13.23 " />
+   <dataSet lst="10/28_06" val="11.3" weight="GDPS_PMOS:18.4 ECMW_PMOS:19.94 GDPS_NPPM:11.15 RDPS_PMOS:21.94 RDPS_NPPM:9.22 EPSG_PMOS:19.34 " />
+   <dataSet lst="10/28_15" val="16.4" weight="GDPS_PMOS:13.1 ECMW_PMOS:30.07 GDPS_NPPM:14.89 RDPS_PMOS:18.26 RDPS_NPPM:8.78 EPSG_PMOS:14.89 " />
+   <dataSet lst="10/29_06" val="8.7" weight="GDPS_PMOS:18.83 ECMW_PMOS:21.21 GDPS_NPPM:13.55 RDPS_PMOS:18.38 RDPS_NPPM:9.14 EPSG_PMOS:18.89 " />
+   <dataSet lst="10/29_15" val="10.5" weight="GDPS_PMOS:13.73 ECMW_PMOS:28.45 GDPS_NPPM:15.66 RDPS_PMOS:15.95 RDPS_NPPM:9.87 EPSG_PMOS:16.33 " />
+   <dataSet lst="10/30_06" val="5.5" weight="GDPS_PMOS:19.04 ECMW_PMOS:20.12 GDPS_NPPM:14.33 RDPS_PMOS:19.36 RDPS_NPPM:7.58 EPSG_PMOS:19.58 " />
+   <dataSet lst="10/30_15" val="14.2" weight="GDPS_PMOS:14.95 ECMW_PMOS:29.85 GDPS_NPPM:17.65 RDPS_PMOS:14.42 RDPS_NPPM:8.96 EPSG_PMOS:14.16 " />
+   <dataSet lst="10/31_06" val="6.6" weight="GDPS_PMOS:21.36 ECMW_PMOS:30.85 GDPS_NPPM:21.34 EPSG_PMOS:26.45 " />
+   <dataSet lst="10/31_15" val="13.7" weight="GDPS_PMOS:23.58 ECMW_PMOS:37.38 GDPS_NPPM:21.89 EPSG_PMOS:17.15 " />
+   <dataSet lst="11/01_06" val="4.2" weight="GDPS_PMOS:18.95 ECMW_PMOS:32.25 GDPS_NPPM:21.2 EPSG_PMOS:27.6 " />
+   <dataSet lst="11/01_15" val="10.5" weight="GDPS_PMOS:23.78 ECMW_PMOS:33.02 GDPS_NPPM:23.96 EPSG_PMOS:19.24 " />
+   <dataSet lst="11/02_06" val="2.8" weight="GDPS_PMOS:19.94 ECMW_PMOS:28.61 GDPS_NPPM:23.8 EPSG_PMOS:27.64 " />
+   <dataSet lst="11/02_15" val="12.7" weight="GDPS_PMOS:17.84 ECMW_PMOS:26.43 GDPS_NPPM:23.05 EPSG_PMOS:32.67 " />
+   <dataSet lst="11/03_06" val="5.0" weight="GDPS_PMOS:20.84 ECMW_PMOS:27.07 GDPS_NPPM:19.92 EPSG_PMOS:32.17 " />
+   <dataSet lst="11/03_15" val="13.6" weight="GDPS_PMOS:23.26 ECMW_PMOS:25.67 GDPS_NPPM:23.47 EPSG_PMOS:27.6 " />
+   <dataSet lst="11/04_06" val="4.3" weight="GDPS_PMOS:19.04 ECMW_PMOS:27.32 GDPS_NPPM:19.79 EPSG_PMOS:33.85 " />
+   <dataSet lst="11/04_15" val="14.7" weight="GDPS_PMOS:18.56 ECMW_PMOS:31.24 GDPS_NPPM:21.94 EPSG_PMOS:28.26 " />
+   <dataSet lst="11/05_06" val="6.6" weight="GDPS_PMOS:20.08 ECMW_PMOS:30.44 GDPS_NPPM:19.62 EPSG_PMOS:29.86 " />
+   <dataSet lst="11/05_15" val="16.1" weight="GDPS_PMOS:19.8 ECMW_PMOS:32.5 GDPS_NPPM:23.11 EPSG_PMOS:24.59 " />
+   <dataSet lst="11/06_06" val="8.2" weight="GDPS_PMOS:24.3 ECMW_PMOS:24.31 GDPS_NPPM:23.6 EPSG_PMOS:27.78 " />
+   <dataSet lst="11/06_15" val="15.5" weight="GDPS_PMOS:46.05 EPSG_PMOS:53.95 " />
+   <dataSet lst="11/07_06" val="6.9" weight="GDPS_PMOS:46.24 EPSG_PMOS:53.76 " />
+   <dataSet lst="11/07_15" val="14.2" weight="GDPS_PMOS:43.96 EPSG_PMOS:56.04 " />
+  </stn>
+  <stn hasWeightData="true" stnName="대관령" stnNo="47100">
+   <dataSet lst="10/27_15" val="13.4" weight="GDPS_PMOS:12.14 ECMW_PMOS:50.7 GDPS_NPPM:7.84 RDPS_PMOS:10.19 RDPS_NPPM:9.36 EPSG_PMOS:9.77 " />
+   <dataSet lst="10/28_06" val="6.0" weight="GDPS_PMOS:16.9 ECMW_PMOS:28.5 GDPS_NPPM:7.99 RDPS_PMOS:20.48 RDPS_NPPM:6.59 EPSG_PMOS:19.53 " />
+   <dataSet lst="10/28_15" val="13.0" weight="GDPS_PMOS:16.52 ECMW_PMOS:33.89 GDPS_NPPM:10.53 RDPS_PMOS:15.59 RDPS_NPPM:11.17 EPSG_PMOS:12.3 " />
+   <dataSet lst="10/29_06" val="4.0" weight="GDPS_PMOS:14.93 ECMW_PMOS:29.32 GDPS_NPPM:8.05 RDPS_PMOS:20.92 RDPS_NPPM:6.88 EPSG_PMOS:19.91 " />
+   <dataSet lst="10/29_15" val="6.3" weight="GDPS_PMOS:11.83 ECMW_PMOS:41.47 GDPS_NPPM:9.8 RDPS_PMOS:13.73 RDPS_NPPM:10.98 EPSG_PMOS:12.19 " />
+   <dataSet lst="10/30_06" val="-0.4" weight="GDPS_PMOS:15.17 ECMW_PMOS:27.74 GDPS_NPPM:9.53 RDPS_PMOS:18.81 RDPS_NPPM:9.05 EPSG_PMOS:19.7 " />
+   <dataSet lst="10/30_15" val="10.3" weight="GDPS_PMOS:17.34 ECMW_PMOS:32.91 GDPS_NPPM:10.82 RDPS_PMOS:14.49 RDPS_NPPM:11.79 EPSG_PMOS:12.66 " />
+   <dataSet lst="10/31_06" val="0.7" weight="GDPS_PMOS:17.61 ECMW_PMOS:40.91 GDPS_NPPM:14.17 EPSG_PMOS:27.31 " />
+   <dataSet lst="10/31_15" val="8.5" weight="GDPS_PMOS:23.85 ECMW_PMOS:41.07 GDPS_NPPM:16.18 EPSG_PMOS:18.91 " />
+   <dataSet lst="11/01_06" val="-2.7" weight="GDPS_PMOS:19.72 ECMW_PMOS:42.02 GDPS_NPPM:14.27 EPSG_PMOS:23.99 " />
+   <dataSet lst="11/01_15" val="6.2" weight="GDPS_PMOS:21.21 ECMW_PMOS:40.97 GDPS_NPPM:17.32 EPSG_PMOS:20.5 " />
+   <dataSet lst="11/02_06" val="-4.1" weight="GDPS_PMOS:21.5 ECMW_PMOS:33.85 GDPS_NPPM:16.89 EPSG_PMOS:27.76 " />
+   <dataSet lst="11/02_15" val="8.5" weight="GDPS_PMOS:12.18 ECMW_PMOS:45.56 GDPS_NPPM:16.04 EPSG_PMOS:26.22 " />
+   <dataSet lst="11/03_06" val="-0.4" weight="GDPS_PMOS:20.71 ECMW_PMOS:30.3 GDPS_NPPM:17.42 EPSG_PMOS:31.57 " />
+   <dataSet lst="11/03_15" val="9.4" weight="GDPS_PMOS:20.32 ECMW_PMOS:33.8 GDPS_NPPM:19.35 EPSG_PMOS:26.53 " />
+   <dataSet lst="11/04_06" val="-0.8" weight="GDPS_PMOS:16.94 ECMW_PMOS:31.15 GDPS_NPPM:17.49 EPSG_PMOS:34.41 " />
+   <dataSet lst="11/04_15" val="10.1" weight="GDPS_PMOS:16.87 ECMW_PMOS:33.94 GDPS_NPPM:21.52 EPSG_PMOS:27.66 " />
+   <dataSet lst="11/05_06" val="1.3" weight="GDPS_PMOS:19.03 ECMW_PMOS:31.07 GDPS_NPPM:16.34 EPSG_PMOS:33.56 " />
+   <dataSet lst="11/05_15" val="12.1" weight="GDPS_PMOS:22.5 ECMW_PMOS:33.15 GDPS_NPPM:19.04 EPSG_PMOS:25.32 " />
+   <dataSet lst="11/06_06" val="3.6" weight="GDPS_PMOS:28.38 ECMW_PMOS:23.97 GDPS_NPPM:17.67 EPSG_PMOS:29.97 " />
+   <dataSet lst="11/06_15" val="11.2" weight="GDPS_PMOS:45.56 EPSG_PMOS:54.44 " />
+   <dataSet lst="11/07_06" val="1.3" weight="GDPS_PMOS:45.51 EPSG_PMOS:54.49 " />
+   <dataSet lst="11/07_15" val="9.7" weight="GDPS_PMOS:41.46 EPSG_PMOS:58.54 " />
+  </stn>
+  <stn hasWeightData="true" stnName="동해" stnNo="47106">
+   <dataSet lst="10/27_15" val="17.9" weight="GDPS_PMOS:12.51 ECMW_PMOS:31.66 GDPS_NPPM:11.3 RDPS_PMOS:12.74 RDPS_NPPM:12.78 EPSG_PMOS:19.01 " />
+   <dataSet lst="10/28_06" val="12.3" weight="GDPS_PMOS:12.83 ECMW_PMOS:29.83 GDPS_NPPM:13.7 RDPS_PMOS:23.49 RDPS_NPPM:8.32 EPSG_PMOS:11.82 " />
+   <dataSet lst="10/28_15" val="17.5" weight="GDPS_PMOS:12.82 ECMW_PMOS:33.21 GDPS_NPPM:11.7 RDPS_PMOS:16.39 RDPS_NPPM:9.95 EPSG_PMOS:15.93 " />
+   <dataSet lst="10/29_06" val="10.2" weight="GDPS_PMOS:15.04 ECMW_PMOS:28.62 GDPS_NPPM:14.58 RDPS_PMOS:16.78 RDPS_NPPM:8.37 EPSG_PMOS:16.61 " />
+   <dataSet lst="10/29_15" val="11.6" weight="GDPS_PMOS:14.14 ECMW_PMOS:27.89 GDPS_NPPM:12.55 RDPS_PMOS:14.65 RDPS_NPPM:13.0 EPSG_PMOS:17.78 " />
+   <dataSet lst="10/30_06" val="7.4" weight="GDPS_PMOS:16.17 ECMW_PMOS:24.43 GDPS_NPPM:17.33 RDPS_PMOS:18.0 RDPS_NPPM:8.27 EPSG_PMOS:15.81 " />
+   <dataSet lst="10/30_15" val="16.1" weight="GDPS_PMOS:15.3 ECMW_PMOS:29.23 GDPS_NPPM:11.78 RDPS_PMOS:16.05 RDPS_NPPM:12.43 EPSG_PMOS:15.22 " />
+   <dataSet lst="10/31_06" val="8.0" weight="GDPS_PMOS:19.95 ECMW_PMOS:38.18 GDPS_NPPM:19.35 EPSG_PMOS:22.52 " />
+   <dataSet lst="10/31_15" val="14.9" weight="GDPS_PMOS:24.53 ECMW_PMOS:43.44 GDPS_NPPM:15.37 EPSG_PMOS:16.66 " />
+   <dataSet lst="11/01_06" val="6.2" weight="GDPS_PMOS:21.19 ECMW_PMOS:34.05 GDPS_NPPM:18.45 EPSG_PMOS:26.31 " />
+   <dataSet lst="11/01_15" val="12.4" weight="GDPS_PMOS:17.54 ECMW_PMOS:41.67 GDPS_NPPM:15.25 EPSG_PMOS:25.54 " />
+   <dataSet lst="11/02_06" val="4.9" weight="GDPS_PMOS:23.34 ECMW_PMOS:29.56 GDPS_NPPM:19.09 EPSG_PMOS:28.01 " />
+   <dataSet lst="11/02_15" val="14.1" weight="GDPS_PMOS:19.09 ECMW_PMOS:33.49 GDPS_NPPM:14.09 EPSG_PMOS:33.33 " />
+   <dataSet lst="11/03_06" val="6.6" weight="GDPS_PMOS:23.2 ECMW_PMOS:32.75 GDPS_NPPM:17.75 EPSG_PMOS:26.3 " />
+   <dataSet lst="11/03_15" val="15.5" weight="GDPS_PMOS:22.83 ECMW_PMOS:31.16 GDPS_NPPM:14.3 EPSG_PMOS:31.71 " />
+   <dataSet lst="11/04_06" val="6.3" weight="GDPS_PMOS:20.88 ECMW_PMOS:31.14 GDPS_NPPM:18.51 EPSG_PMOS:29.46 " />
+   <dataSet lst="11/04_15" val="17.2" weight="GDPS_PMOS:21.25 ECMW_PMOS:35.8 GDPS_NPPM:13.0 EPSG_PMOS:29.94 " />
+   <dataSet lst="11/05_06" val="7.1" weight="GDPS_PMOS:22.02 ECMW_PMOS:32.77 GDPS_NPPM:15.09 EPSG_PMOS:30.13 " />
+   <dataSet lst="11/05_15" val="17.3" weight="GDPS_PMOS:23.12 ECMW_PMOS:36.92 GDPS_NPPM:13.25 EPSG_PMOS:26.71 " />
+   <dataSet lst="11/06_06" val="8.5" weight="GDPS_PMOS:25.18 ECMW_PMOS:26.74 GDPS_NPPM:16.5 EPSG_PMOS:31.58 " />
+   <dataSet lst="11/06_15" val="16.9" weight="GDPS_PMOS:43.57 EPSG_PMOS:56.43 " />
+   <dataSet lst="11/07_06" val="8.1" weight="GDPS_PMOS:47.39 EPSG_PMOS:52.61 " />
+   <dataSet lst="11/07_15" val="15.9" weight="GDPS_PMOS:43.36 EPSG_PMOS:56.64 " />
+  </stn>
+  <stn hasWeightData="true" stnName="설악산" stnNo="875">
+   <dataSet lst="10/27_15" val="9.2" weight="GDPS_PMOS:23.61 ECMW_PMOS:50.1 RDPS_PMOS:26.29 " />
+   <dataSet lst="10/28_06" val="3.9" weight="GDPS_PMOS:26.36 ECMW_PMOS:50.39 RDPS_PMOS:23.24 " />
+   <dataSet lst="10/28_15" val="6.9" weight="GDPS_PMOS:21.5 ECMW_PMOS:49.84 RDPS_PMOS:28.67 " />
+   <dataSet lst="10/29_06" val="-2.9" weight="GDPS_PMOS:35.46 ECMW_PMOS:42.63 RDPS_PMOS:21.9 " />
+   <dataSet lst="10/29_15" val="0.4" weight="GDPS_PMOS:24.01 ECMW_PMOS:49.55 RDPS_PMOS:26.44 " />
+   <dataSet lst="10/30_06" val="-3.9" weight="GDPS_PMOS:22.25 ECMW_PMOS:52.09 RDPS_PMOS:25.66 " />
+   <dataSet lst="10/30_15" val="3.7" weight="GDPS_PMOS:28.06 ECMW_PMOS:41.58 RDPS_PMOS:30.36 " />
+   <dataSet lst="10/31_06" val="-1.8" weight="GDPS_PMOS:32.34 ECMW_PMOS:67.66 " />
+   <dataSet lst="10/31_15" val="2.0" weight="GDPS_PMOS:46.0 ECMW_PMOS:54.0 " />
+   <dataSet lst="11/01_06" val="-6.2" weight="GDPS_PMOS:39.04 ECMW_PMOS:60.96 " />
+   <dataSet lst="11/01_15" val="-0.7" weight="GDPS_PMOS:44.27 ECMW_PMOS:55.73 " />
+   <dataSet lst="11/02_06" val="-5.7" weight="GDPS_PMOS:27.64 ECMW_PMOS:72.36 " />
+   <dataSet lst="11/02_15" val="1.2" weight="GDPS_PMOS:34.09 ECMW_PMOS:65.91 " />
+   <dataSet lst="11/03_06" val="-4.8" weight="GDPS_PMOS:38.88 ECMW_PMOS:61.12 " />
+   <dataSet lst="11/03_15" val="3.7" weight="GDPS_PMOS:46.09 ECMW_PMOS:53.91 " />
+   <dataSet lst="11/04_06" val="0.3" weight="GDPS_PMOS:41.01 ECMW_PMOS:58.99 " />
+   <dataSet lst="11/04_15" val="6.4" weight="GDPS_PMOS:50.14 ECMW_PMOS:49.86 " />
+   <dataSet lst="11/05_06" val="0.1" weight="GDPS_PMOS:47.6 ECMW_PMOS:52.4 " />
+   <dataSet lst="11/05_15" val="7.9" weight="GDPS_PMOS:49.41 ECMW_PMOS:50.59 " />
+   <dataSet lst="11/06_06" val="2.3" weight="GDPS_PMOS:46.42 ECMW_PMOS:53.58 " />
+   <dataSet lst="11/06_15" val="5.3" weight="GDPS_PMOS:100.0 " />
+   <dataSet lst="11/07_06" val="-2.3" weight="GDPS_PMOS:100.0 " />
+   <dataSet lst="11/07_15" val="4.5" weight="GDPS_PMOS:100.0 " />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="44" grName="제주청(제주)">
+  <stn hasWeightData="true" stnName="제주" stnNo="47184">
+   <dataSet lst="10/27_15" val="21.9" weight="GDPS_PMOS:10.56 ECMW_PMOS:21.6 GDPS_NPPM:16.5 RDPS_PMOS:20.4 RDPS_NPPM:10.82 EPSG_PMOS:20.13 " />
+   <dataSet lst="10/28_06" val="20.0" weight="GDPS_PMOS:21.62 ECMW_PMOS:15.15 GDPS_NPPM:19.71 RDPS_PMOS:21.53 RDPS_NPPM:6.59 EPSG_PMOS:15.41 " />
+   <dataSet lst="10/28_15" val="23.2" weight="GDPS_PMOS:11.61 ECMW_PMOS:19.0 GDPS_NPPM:19.45 RDPS_PMOS:19.06 RDPS_NPPM:13.03 EPSG_PMOS:17.85 " />
+   <dataSet lst="10/29_06" val="14.6" weight="GDPS_PMOS:18.44 ECMW_PMOS:16.21 GDPS_NPPM:20.2 RDPS_PMOS:20.68 RDPS_NPPM:6.72 EPSG_PMOS:17.75 " />
+   <dataSet lst="10/29_15" val="16.8" weight="GDPS_PMOS:12.24 ECMW_PMOS:23.41 GDPS_NPPM:18.44 RDPS_PMOS:17.08 RDPS_NPPM:12.21 EPSG_PMOS:16.62 " />
+   <dataSet lst="10/30_06" val="12.1" weight="GDPS_PMOS:15.72 ECMW_PMOS:25.7 GDPS_NPPM:15.22 RDPS_PMOS:16.36 RDPS_NPPM:5.83 EPSG_PMOS:21.18 " />
+   <dataSet lst="10/30_15" val="16.6" weight="GDPS_PMOS:14.58 ECMW_PMOS:27.25 GDPS_NPPM:15.62 RDPS_PMOS:15.56 RDPS_NPPM:11.15 EPSG_PMOS:15.85 " />
+   <dataSet lst="10/31_06" val="14.1" weight="GDPS_PMOS:21.79 ECMW_PMOS:32.91 GDPS_NPPM:17.17 EPSG_PMOS:28.14 " />
+   <dataSet lst="10/31_15" val="18.6" weight="GDPS_PMOS:20.41 ECMW_PMOS:33.25 GDPS_NPPM:22.72 EPSG_PMOS:23.62 " />
+   <dataSet lst="11/01_06" val="13.5" weight="GDPS_PMOS:24.18 ECMW_PMOS:36.42 GDPS_NPPM:15.2 EPSG_PMOS:24.2 " />
+   <dataSet lst="11/01_15" val="15.2" weight="GDPS_PMOS:18.37 ECMW_PMOS:32.09 GDPS_NPPM:21.78 EPSG_PMOS:27.75 " />
+   <dataSet lst="11/02_06" val="9.8" weight="GDPS_PMOS:23.19 ECMW_PMOS:32.73 GDPS_NPPM:17.24 EPSG_PMOS:26.84 " />
+   <dataSet lst="11/02_15" val="14.9" weight="GDPS_PMOS:17.9 ECMW_PMOS:30.78 GDPS_NPPM:22.97 EPSG_PMOS:28.36 " />
+   <dataSet lst="11/03_06" val="12.0" weight="GDPS_PMOS:22.39 ECMW_PMOS:27.49 GDPS_NPPM:15.61 EPSG_PMOS:34.51 " />
+   <dataSet lst="11/03_15" val="17.4" weight="GDPS_PMOS:21.24 ECMW_PMOS:28.71 GDPS_NPPM:26.83 EPSG_PMOS:23.22 " />
+   <dataSet lst="11/04_06" val="11.0" weight="GDPS_PMOS:23.05 ECMW_PMOS:32.37 GDPS_NPPM:15.23 EPSG_PMOS:29.35 " />
+   <dataSet lst="11/04_15" val="17.5" weight="GDPS_PMOS:22.15 ECMW_PMOS:29.81 GDPS_NPPM:23.63 EPSG_PMOS:24.41 " />
+   <dataSet lst="11/05_06" val="13.0" weight="GDPS_PMOS:24.21 ECMW_PMOS:28.94 GDPS_NPPM:18.44 EPSG_PMOS:28.41 " />
+   <dataSet lst="11/05_15" val="19.4" weight="GDPS_PMOS:25.51 ECMW_PMOS:34.36 GDPS_NPPM:19.23 EPSG_PMOS:20.9 " />
+   <dataSet lst="11/06_06" val="15.0" weight="GDPS_PMOS:24.28 ECMW_PMOS:29.39 GDPS_NPPM:16.96 EPSG_PMOS:29.37 " />
+   <dataSet lst="11/06_15" val="20.0" weight="GDPS_PMOS:54.9 EPSG_PMOS:45.1 " />
+   <dataSet lst="11/07_06" val="14.7" weight="GDPS_PMOS:49.12 EPSG_PMOS:50.88 " />
+   <dataSet lst="11/07_15" val="18.7" weight="GDPS_PMOS:53.18 EPSG_PMOS:46.82 " />
+  </stn>
+  <stn hasWeightData="true" stnName="서귀포" stnNo="47189">
+   <dataSet lst="10/27_15" val="22.1" weight="GDPS_PMOS:12.88 ECMW_PMOS:34.56 GDPS_NPPM:8.61 RDPS_PMOS:22.62 RDPS_NPPM:0.96 EPSG_PMOS:20.37 " />
+   <dataSet lst="10/28_06" val="19.4" weight="GDPS_PMOS:20.99 ECMW_PMOS:19.33 GDPS_NPPM:16.44 RDPS_PMOS:21.54 RDPS_NPPM:2.76 EPSG_PMOS:18.94 " />
+   <dataSet lst="10/28_15" val="23.8" weight="GDPS_PMOS:12.6 ECMW_PMOS:30.2 GDPS_NPPM:9.87 RDPS_PMOS:27.71 RDPS_NPPM:1.02 EPSG_PMOS:18.59 " />
+   <dataSet lst="10/29_06" val="14.6" weight="GDPS_PMOS:22.13 ECMW_PMOS:21.47 GDPS_NPPM:14.99 RDPS_PMOS:18.95 RDPS_NPPM:2.74 EPSG_PMOS:19.73 " />
+   <dataSet lst="10/29_15" val="18.2" weight="GDPS_PMOS:17.32 ECMW_PMOS:34.97 GDPS_NPPM:10.96 RDPS_PMOS:16.56 RDPS_NPPM:0.97 EPSG_PMOS:19.21 " />
+   <dataSet lst="10/30_06" val="12.0" weight="GDPS_PMOS:23.63 ECMW_PMOS:26.88 GDPS_NPPM:11.32 RDPS_PMOS:16.93 RDPS_NPPM:2.6 EPSG_PMOS:18.64 " />
+   <dataSet lst="10/30_15" val="18.7" weight="GDPS_PMOS:16.15 ECMW_PMOS:35.71 GDPS_NPPM:12.33 RDPS_PMOS:15.65 RDPS_NPPM:1.24 EPSG_PMOS:18.91 " />
+   <dataSet lst="10/31_06" val="13.8" weight="GDPS_PMOS:28.33 ECMW_PMOS:30.22 GDPS_NPPM:14.29 EPSG_PMOS:27.16 " />
+   <dataSet lst="10/31_15" val="19.2" weight="GDPS_PMOS:21.91 ECMW_PMOS:36.05 GDPS_NPPM:19.69 EPSG_PMOS:22.35 " />
+   <dataSet lst="11/01_06" val="12.0" weight="GDPS_PMOS:27.3 ECMW_PMOS:34.86 GDPS_NPPM:12.42 EPSG_PMOS:25.42 " />
+   <dataSet lst="11/01_15" val="17.0" weight="GDPS_PMOS:25.22 ECMW_PMOS:31.57 GDPS_NPPM:18.66 EPSG_PMOS:24.56 " />
+   <dataSet lst="11/02_06" val="9.6" weight="GDPS_PMOS:19.92 ECMW_PMOS:42.13 GDPS_NPPM:12.11 EPSG_PMOS:25.84 " />
+   <dataSet lst="11/02_15" val="17.0" weight="GDPS_PMOS:24.85 ECMW_PMOS:32.67 GDPS_NPPM:17.45 EPSG_PMOS:25.04 " />
+   <dataSet lst="11/03_06" val="11.2" weight="GDPS_PMOS:25.71 ECMW_PMOS:26.42 GDPS_NPPM:13.28 EPSG_PMOS:34.58 " />
+   <dataSet lst="11/03_15" val="18.1" weight="GDPS_PMOS:22.14 ECMW_PMOS:31.63 GDPS_NPPM:20.48 EPSG_PMOS:25.75 " />
+   <dataSet lst="11/04_06" val="12.0" weight="GDPS_PMOS:23.13 ECMW_PMOS:29.02 GDPS_NPPM:12.52 EPSG_PMOS:35.34 " />
+   <dataSet lst="11/04_15" val="18.4" weight="GDPS_PMOS:24.01 ECMW_PMOS:35.17 GDPS_NPPM:17.03 EPSG_PMOS:23.79 " />
+   <dataSet lst="11/05_06" val="14.0" weight="GDPS_PMOS:24.7 ECMW_PMOS:31.88 GDPS_NPPM:17.74 EPSG_PMOS:25.69 " />
+   <dataSet lst="11/05_15" val="20.2" weight="GDPS_PMOS:26.35 ECMW_PMOS:33.03 GDPS_NPPM:14.76 EPSG_PMOS:25.86 " />
+   <dataSet lst="11/06_06" val="16.1" weight="GDPS_PMOS:27.2 ECMW_PMOS:32.31 GDPS_NPPM:15.2 EPSG_PMOS:25.29 " />
+   <dataSet lst="11/06_15" val="21.5" weight="GDPS_PMOS:48.45 EPSG_PMOS:51.55 " />
+   <dataSet lst="11/07_06" val="15.1" weight="GDPS_PMOS:51.33 EPSG_PMOS:48.67 " />
+   <dataSet lst="11/07_15" val="19.6" weight="GDPS_PMOS:47.47 EPSG_PMOS:52.53 " />
+  </stn>
+  <stn hasWeightData="true" stnName="고산" stnNo="47185">
+   <dataSet lst="10/27_15" val="22.7" weight="GDPS_PMOS:11.98 ECMW_PMOS:26.82 GDPS_NPPM:15.15 RDPS_PMOS:18.63 RDPS_NPPM:15.09 EPSG_PMOS:12.33 " />
+   <dataSet lst="10/28_06" val="19.7" weight="GDPS_PMOS:14.21 ECMW_PMOS:23.7 GDPS_NPPM:18.15 RDPS_PMOS:24.26 RDPS_NPPM:5.54 EPSG_PMOS:14.14 " />
+   <dataSet lst="10/28_15" val="22.0" weight="GDPS_PMOS:11.78 ECMW_PMOS:31.21 GDPS_NPPM:12.6 RDPS_PMOS:16.78 RDPS_NPPM:13.83 EPSG_PMOS:13.81 " />
+   <dataSet lst="10/29_06" val="14.2" weight="GDPS_PMOS:17.97 ECMW_PMOS:21.68 GDPS_NPPM:16.72 RDPS_PMOS:22.43 RDPS_NPPM:5.56 EPSG_PMOS:15.64 " />
+   <dataSet lst="10/29_15" val="15.9" weight="GDPS_PMOS:12.3 ECMW_PMOS:36.77 GDPS_NPPM:13.09 RDPS_PMOS:13.65 RDPS_NPPM:11.13 EPSG_PMOS:13.06 " />
+   <dataSet lst="10/30_06" val="11.9" weight="GDPS_PMOS:16.81 ECMW_PMOS:29.19 GDPS_NPPM:14.33 RDPS_PMOS:16.93 RDPS_NPPM:5.03 EPSG_PMOS:17.71 " />
+   <dataSet lst="10/30_15" val="15.6" weight="GDPS_PMOS:12.23 ECMW_PMOS:33.43 GDPS_NPPM:13.6 RDPS_PMOS:12.78 RDPS_NPPM:12.77 EPSG_PMOS:15.19 " />
+   <dataSet lst="10/31_06" val="13.8" weight="GDPS_PMOS:19.63 ECMW_PMOS:41.48 GDPS_NPPM:17.68 EPSG_PMOS:21.21 " />
+   <dataSet lst="10/31_15" val="17.8" weight="GDPS_PMOS:21.17 ECMW_PMOS:37.35 GDPS_NPPM:21.19 EPSG_PMOS:20.29 " />
+   <dataSet lst="11/01_06" val="12.4" weight="GDPS_PMOS:20.56 ECMW_PMOS:41.07 GDPS_NPPM:14.98 EPSG_PMOS:23.39 " />
+   <dataSet lst="11/01_15" val="14.5" weight="GDPS_PMOS:20.5 ECMW_PMOS:34.26 GDPS_NPPM:21.26 EPSG_PMOS:23.98 " />
+   <dataSet lst="11/02_06" val="10.5" weight="GDPS_PMOS:24.15 ECMW_PMOS:32.47 GDPS_NPPM:16.5 EPSG_PMOS:26.88 " />
+   <dataSet lst="11/02_15" val="14.2" weight="GDPS_PMOS:18.75 ECMW_PMOS:30.94 GDPS_NPPM:19.96 EPSG_PMOS:30.35 " />
+   <dataSet lst="11/03_06" val="11.9" weight="GDPS_PMOS:24.94 ECMW_PMOS:29.64 GDPS_NPPM:18.63 EPSG_PMOS:26.79 " />
+   <dataSet lst="11/03_15" val="16.3" weight="GDPS_PMOS:23.23 ECMW_PMOS:28.0 GDPS_NPPM:24.33 EPSG_PMOS:24.45 " />
+   <dataSet lst="11/04_06" val="11.7" weight="GDPS_PMOS:23.35 ECMW_PMOS:30.53 GDPS_NPPM:17.52 EPSG_PMOS:28.6 " />
+   <dataSet lst="11/04_15" val="17.2" weight="GDPS_PMOS:22.44 ECMW_PMOS:29.74 GDPS_NPPM:26.04 EPSG_PMOS:21.79 " />
+   <dataSet lst="11/05_06" val="13.8" weight="GDPS_PMOS:24.55 ECMW_PMOS:32.13 GDPS_NPPM:18.39 EPSG_PMOS:24.93 " />
+   <dataSet lst="11/05_15" val="19.3" weight="GDPS_PMOS:24.9 ECMW_PMOS:32.19 GDPS_NPPM:21.47 EPSG_PMOS:21.45 " />
+   <dataSet lst="11/06_06" val="15.4" weight="GDPS_PMOS:27.71 ECMW_PMOS:25.24 GDPS_NPPM:18.01 EPSG_PMOS:29.04 " />
+   <dataSet lst="11/06_15" val="20.3" weight="GDPS_PMOS:54.55 EPSG_PMOS:45.45 " />
+   <dataSet lst="11/07_06" val="14.9" weight="GDPS_PMOS:51.57 EPSG_PMOS:48.43 " />
+   <dataSet lst="11/07_15" val="18.4" weight="GDPS_PMOS:51.71 EPSG_PMOS:48.29 " />
+  </stn>
+  <stn hasWeightData="true" stnName="성산" stnNo="47188">
+   <dataSet lst="10/27_15" val="21.6" weight="GDPS_PMOS:9.88 ECMW_PMOS:22.49 GDPS_NPPM:13.15 RDPS_PMOS:14.0 RDPS_NPPM:22.76 EPSG_PMOS:17.71 " />
+   <dataSet lst="10/28_06" val="19.2" weight="GDPS_PMOS:12.69 ECMW_PMOS:25.52 GDPS_NPPM:15.71 RDPS_PMOS:18.1 RDPS_NPPM:12.86 EPSG_PMOS:15.12 " />
+   <dataSet lst="10/28_15" val="22.8" weight="GDPS_PMOS:12.0 ECMW_PMOS:28.67 GDPS_NPPM:15.04 RDPS_PMOS:14.51 RDPS_NPPM:14.97 EPSG_PMOS:14.82 " />
+   <dataSet lst="10/29_06" val="14.0" weight="GDPS_PMOS:13.77 ECMW_PMOS:27.3 GDPS_NPPM:18.4 RDPS_PMOS:13.97 RDPS_NPPM:11.73 EPSG_PMOS:14.82 " />
+   <dataSet lst="10/29_15" val="16.6" weight="GDPS_PMOS:9.83 ECMW_PMOS:31.6 GDPS_NPPM:14.4 RDPS_PMOS:14.83 RDPS_NPPM:12.24 EPSG_PMOS:17.09 " />
+   <dataSet lst="10/30_06" val="11.9" weight="GDPS_PMOS:12.31 ECMW_PMOS:28.22 GDPS_NPPM:16.64 RDPS_PMOS:16.79 RDPS_NPPM:10.52 EPSG_PMOS:15.52 " />
+   <dataSet lst="10/30_15" val="17.0" weight="GDPS_PMOS:12.64 ECMW_PMOS:29.46 GDPS_NPPM:13.19 RDPS_PMOS:15.18 RDPS_NPPM:13.99 EPSG_PMOS:15.55 " />
+   <dataSet lst="10/31_06" val="13.6" weight="GDPS_PMOS:17.07 ECMW_PMOS:41.39 GDPS_NPPM:20.2 EPSG_PMOS:21.34 " />
+   <dataSet lst="10/31_15" val="18.4" weight="GDPS_PMOS:17.96 ECMW_PMOS:38.42 GDPS_NPPM:19.41 EPSG_PMOS:24.22 " />
+   <dataSet lst="11/01_06" val="12.2" weight="GDPS_PMOS:16.16 ECMW_PMOS:39.84 GDPS_NPPM:20.17 EPSG_PMOS:23.83 " />
+   <dataSet lst="11/01_15" val="15.7" weight="GDPS_PMOS:20.43 ECMW_PMOS:30.16 GDPS_NPPM:22.59 EPSG_PMOS:26.82 " />
+   <dataSet lst="11/02_06" val="8.5" weight="GDPS_PMOS:19.67 ECMW_PMOS:30.45 GDPS_NPPM:21.36 EPSG_PMOS:28.51 " />
+   <dataSet lst="11/02_15" val="14.9" weight="GDPS_PMOS:19.43 ECMW_PMOS:33.24 GDPS_NPPM:21.14 EPSG_PMOS:26.19 " />
+   <dataSet lst="11/03_06" val="11.0" weight="GDPS_PMOS:19.13 ECMW_PMOS:28.17 GDPS_NPPM:20.96 EPSG_PMOS:31.75 " />
+   <dataSet lst="11/03_15" val="16.9" weight="GDPS_PMOS:20.29 ECMW_PMOS:27.0 GDPS_NPPM:29.04 EPSG_PMOS:23.68 " />
+   <dataSet lst="11/04_06" val="11.7" weight="GDPS_PMOS:16.85 ECMW_PMOS:27.29 GDPS_NPPM:23.05 EPSG_PMOS:32.8 " />
+   <dataSet lst="11/04_15" val="17.6" weight="GDPS_PMOS:20.97 ECMW_PMOS:31.35 GDPS_NPPM:25.6 EPSG_PMOS:22.08 " />
+   <dataSet lst="11/05_06" val="13.7" weight="GDPS_PMOS:18.34 ECMW_PMOS:28.77 GDPS_NPPM:22.81 EPSG_PMOS:30.08 " />
+   <dataSet lst="11/05_15" val="19.6" weight="GDPS_PMOS:22.82 ECMW_PMOS:34.82 GDPS_NPPM:18.46 EPSG_PMOS:23.89 " />
+   <dataSet lst="11/06_06" val="15.3" weight="GDPS_PMOS:19.64 ECMW_PMOS:32.89 GDPS_NPPM:18.66 EPSG_PMOS:28.81 " />
+   <dataSet lst="11/06_15" val="20.7" weight="GDPS_PMOS:47.67 EPSG_PMOS:52.33 " />
+   <dataSet lst="11/07_06" val="14.8" weight="GDPS_PMOS:45.28 EPSG_PMOS:54.72 " />
+   <dataSet lst="11/07_15" val="19.4" weight="GDPS_PMOS:46.27 EPSG_PMOS:53.73 " />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="46" grName="북한(평양)">
+  <stn hasWeightData="true" stnName="평양" stnNo="47058">
+   <dataSet lst="10/27_15" val="17.9" weight="GDPS_PMOS:15.49 ECMW_PMOS:29.71 GDPS_NPPM:12.37 RDPS_PMOS:11.92 RDPS_NPPM:12.43 EPSG_PMOS:18.08 " />
+   <dataSet lst="10/28_06" val="10.0" weight="GDPS_PMOS:10.16 ECMW_PMOS:17.77 GDPS_NPPM:22.39 RDPS_PMOS:9.77 RDPS_NPPM:23.15 EPSG_PMOS:16.76 " />
+   <dataSet lst="10/28_15" val="14.8" weight="GDPS_PMOS:12.45 ECMW_PMOS:33.35 GDPS_NPPM:13.68 RDPS_PMOS:11.31 RDPS_NPPM:13.83 EPSG_PMOS:15.37 " />
+   <dataSet lst="10/29_06" val="2.4" weight="GDPS_PMOS:12.05 ECMW_PMOS:20.56 GDPS_NPPM:19.35 RDPS_PMOS:10.78 RDPS_NPPM:24.69 EPSG_PMOS:12.58 " />
+   <dataSet lst="10/29_15" val="9.4" weight="GDPS_PMOS:15.15 ECMW_PMOS:28.69 GDPS_NPPM:15.34 RDPS_PMOS:13.63 RDPS_NPPM:10.52 EPSG_PMOS:16.66 " />
+   <dataSet lst="10/30_06" val="-0.0" weight="GDPS_PMOS:11.67 ECMW_PMOS:22.36 GDPS_NPPM:19.45 RDPS_PMOS:13.04 RDPS_NPPM:19.21 EPSG_PMOS:14.28 " />
+   <dataSet lst="10/30_15" val="12.1" weight="GDPS_PMOS:17.28 ECMW_PMOS:20.9 GDPS_NPPM:18.64 RDPS_PMOS:13.83 RDPS_NPPM:10.62 EPSG_PMOS:18.74 " />
+   <dataSet lst="10/31_06" val="3.2" weight="GDPS_PMOS:18.47 ECMW_PMOS:32.85 GDPS_NPPM:24.76 EPSG_PMOS:23.93 " />
+   <dataSet lst="10/31_15" val="9.1" weight="GDPS_PMOS:21.27 ECMW_PMOS:32.95 GDPS_NPPM:17.81 EPSG_PMOS:27.96 " />
+   <dataSet lst="11/01_06" val="-2.5" weight="GDPS_PMOS:18.85 ECMW_PMOS:33.18 GDPS_NPPM:26.32 EPSG_PMOS:21.65 " />
+   <dataSet lst="11/01_15" val="7.3" weight="GDPS_PMOS:23.38 ECMW_PMOS:30.4 GDPS_NPPM:19.19 EPSG_PMOS:27.03 " />
+   <dataSet lst="11/02_06" val="-1.1" weight="GDPS_PMOS:21.82 ECMW_PMOS:31.76 GDPS_NPPM:22.37 EPSG_PMOS:24.05 " />
+   <dataSet lst="11/02_15" val="10.9" weight="GDPS_PMOS:22.94 ECMW_PMOS:28.51 GDPS_NPPM:18.59 EPSG_PMOS:29.96 " />
+   <dataSet lst="11/03_06" val="2.9" weight="GDPS_PMOS:25.62 ECMW_PMOS:28.42 GDPS_NPPM:21.02 EPSG_PMOS:24.93 " />
+   <dataSet lst="11/03_15" val="11.2" weight="GDPS_PMOS:20.16 ECMW_PMOS:30.57 GDPS_NPPM:19.96 EPSG_PMOS:29.32 " />
+   <dataSet lst="11/04_06" val="3.2" weight="GDPS_PMOS:22.61 ECMW_PMOS:33.73 GDPS_NPPM:18.7 EPSG_PMOS:24.96 " />
+   <dataSet lst="11/04_15" val="14.1" weight="GDPS_PMOS:23.44 ECMW_PMOS:34.77 GDPS_NPPM:18.71 EPSG_PMOS:23.07 " />
+   <dataSet lst="11/05_06" val="7.5" weight="GDPS_PMOS:22.59 ECMW_PMOS:30.49 GDPS_NPPM:18.67 EPSG_PMOS:28.25 " />
+   <dataSet lst="11/05_15" val="15.7" weight="GDPS_PMOS:22.89 ECMW_PMOS:37.72 GDPS_NPPM:17.43 EPSG_PMOS:21.96 " />
+   <dataSet lst="11/06_06" val="9.1" weight="GDPS_PMOS:24.71 ECMW_PMOS:30.58 GDPS_NPPM:15.34 EPSG_PMOS:29.37 " />
+   <dataSet lst="11/06_15" val="13.7" weight="GDPS_PMOS:43.56 EPSG_PMOS:56.44 " />
+   <dataSet lst="11/07_06" val="4.6" weight="GDPS_PMOS:43.74 EPSG_PMOS:56.26 " />
+   <dataSet lst="11/07_15" val="12.7" weight="GDPS_PMOS:39.37 EPSG_PMOS:60.63 " />
+  </stn>
+  <stn hasWeightData="true" stnName="신의주" stnNo="47035">
+   <dataSet lst="10/27_15" val="16.0" weight="GDPS_PMOS:18.6 ECMW_PMOS:22.26 GDPS_NPPM:11.39 RDPS_PMOS:17.79 RDPS_NPPM:9.81 EPSG_PMOS:20.14 " />
+   <dataSet lst="10/28_06" val="7.1" weight="GDPS_PMOS:16.45 ECMW_PMOS:19.51 GDPS_NPPM:19.52 RDPS_PMOS:16.31 RDPS_NPPM:19.71 EPSG_PMOS:8.5 " />
+   <dataSet lst="10/28_15" val="14.1" weight="GDPS_PMOS:19.49 ECMW_PMOS:21.65 GDPS_NPPM:14.53 RDPS_PMOS:17.73 RDPS_NPPM:12.35 EPSG_PMOS:14.25 " />
+   <dataSet lst="10/29_06" val="0.1" weight="GDPS_PMOS:15.27 ECMW_PMOS:17.79 GDPS_NPPM:17.04 RDPS_PMOS:18.17 RDPS_NPPM:21.72 EPSG_PMOS:10.01 " />
+   <dataSet lst="10/29_15" val="10.5" weight="GDPS_PMOS:18.47 ECMW_PMOS:25.99 GDPS_NPPM:15.37 RDPS_PMOS:13.88 RDPS_NPPM:10.75 EPSG_PMOS:15.54 " />
+   <dataSet lst="10/30_06" val="-2.3" weight="GDPS_PMOS:14.04 ECMW_PMOS:18.69 GDPS_NPPM:15.75 RDPS_PMOS:17.04 RDPS_NPPM:20.03 EPSG_PMOS:14.45 " />
+   <dataSet lst="10/30_15" val="11.5" weight="GDPS_PMOS:17.36 ECMW_PMOS:24.68 GDPS_NPPM:17.68 RDPS_PMOS:12.07 RDPS_NPPM:12.52 EPSG_PMOS:15.68 " />
+   <dataSet lst="10/31_06" val="-0.2" weight="GDPS_PMOS:21.53 ECMW_PMOS:34.14 GDPS_NPPM:25.3 EPSG_PMOS:19.02 " />
+   <dataSet lst="10/31_15" val="7.0" weight="GDPS_PMOS:20.01 ECMW_PMOS:37.13 GDPS_NPPM:19.58 EPSG_PMOS:23.29 " />
+   <dataSet lst="11/01_06" val="-3.3" weight="GDPS_PMOS:21.3 ECMW_PMOS:32.81 GDPS_NPPM:20.32 EPSG_PMOS:25.57 " />
+   <dataSet lst="11/01_15" val="8.4" weight="GDPS_PMOS:25.08 ECMW_PMOS:28.8 GDPS_NPPM:19.54 EPSG_PMOS:26.57 " />
+   <dataSet lst="11/02_06" val="-1.1" weight="GDPS_PMOS:20.89 ECMW_PMOS:34.47 GDPS_NPPM:16.59 EPSG_PMOS:28.05 " />
+   <dataSet lst="11/02_15" val="9.6" weight="GDPS_PMOS:25.51 ECMW_PMOS:31.29 GDPS_NPPM:20.36 EPSG_PMOS:22.84 " />
+   <dataSet lst="11/03_06" val="1.0" weight="GDPS_PMOS:24.25 ECMW_PMOS:33.94 GDPS_NPPM:15.76 EPSG_PMOS:26.04 " />
+   <dataSet lst="11/03_15" val="10.5" weight="GDPS_PMOS:20.29 ECMW_PMOS:32.55 GDPS_NPPM:22.96 EPSG_PMOS:24.2 " />
+   <dataSet lst="11/04_06" val="2.8" weight="GDPS_PMOS:24.66 ECMW_PMOS:30.96 GDPS_NPPM:17.67 EPSG_PMOS:26.72 " />
+   <dataSet lst="11/04_15" val="12.8" weight="GDPS_PMOS:24.15 ECMW_PMOS:31.93 GDPS_NPPM:17.53 EPSG_PMOS:26.38 " />
+   <dataSet lst="11/05_06" val="5.6" weight="GDPS_PMOS:25.14 ECMW_PMOS:31.62 GDPS_NPPM:15.51 EPSG_PMOS:27.73 " />
+   <dataSet lst="11/05_15" val="15.3" weight="GDPS_PMOS:22.01 ECMW_PMOS:33.43 GDPS_NPPM:16.78 EPSG_PMOS:27.78 " />
+   <dataSet lst="11/06_06" val="5.7" weight="GDPS_PMOS:17.51 ECMW_PMOS:32.36 GDPS_NPPM:14.87 EPSG_PMOS:35.25 " />
+   <dataSet lst="11/06_15" val="11.5" weight="GDPS_PMOS:43.54 EPSG_PMOS:56.46 " />
+   <dataSet lst="11/07_06" val="2.7" weight="GDPS_PMOS:38.09 EPSG_PMOS:61.91 " />
+   <dataSet lst="11/07_15" val="11.9" weight="GDPS_PMOS:44.0 EPSG_PMOS:56.0 " />
+  </stn>
+  <stn hasWeightData="true" stnName="개성" stnNo="47070">
+   <dataSet lst="10/27_15" val="19.5" weight="GDPS_PMOS:13.49 ECMW_PMOS:32.81 GDPS_NPPM:10.78 RDPS_PMOS:13.67 RDPS_NPPM:12.26 EPSG_PMOS:16.99 " />
+   <dataSet lst="10/28_06" val="11.4" weight="GDPS_PMOS:9.72 ECMW_PMOS:30.36 GDPS_NPPM:16.32 RDPS_PMOS:11.67 RDPS_NPPM:15.5 EPSG_PMOS:16.42 " />
+   <dataSet lst="10/28_15" val="15.8" weight="GDPS_PMOS:12.22 ECMW_PMOS:28.97 GDPS_NPPM:13.9 RDPS_PMOS:13.76 RDPS_NPPM:13.63 EPSG_PMOS:17.52 " />
+   <dataSet lst="10/29_06" val="5.0" weight="GDPS_PMOS:11.54 ECMW_PMOS:24.36 GDPS_NPPM:15.94 RDPS_PMOS:13.74 RDPS_NPPM:17.07 EPSG_PMOS:17.37 " />
+   <dataSet lst="10/29_15" val="11.7" weight="GDPS_PMOS:12.81 ECMW_PMOS:26.6 GDPS_NPPM:13.23 RDPS_PMOS:16.22 RDPS_NPPM:13.6 EPSG_PMOS:17.55 " />
+   <dataSet lst="10/30_06" val="0.8" weight="GDPS_PMOS:10.76 ECMW_PMOS:25.83 GDPS_NPPM:13.72 RDPS_PMOS:13.77 RDPS_NPPM:18.74 EPSG_PMOS:17.19 " />
+   <dataSet lst="10/30_15" val="13.3" weight="GDPS_PMOS:12.87 ECMW_PMOS:21.78 GDPS_NPPM:15.9 RDPS_PMOS:16.39 RDPS_NPPM:13.11 EPSG_PMOS:19.96 " />
+   <dataSet lst="10/31_06" val="4.7" weight="GDPS_PMOS:15.79 ECMW_PMOS:30.28 GDPS_NPPM:27.65 EPSG_PMOS:26.28 " />
+   <dataSet lst="10/31_15" val="12.0" weight="GDPS_PMOS:23.45 ECMW_PMOS:25.18 GDPS_NPPM:22.39 EPSG_PMOS:28.99 " />
+   <dataSet lst="11/01_06" val="-0.9" weight="GDPS_PMOS:19.09 ECMW_PMOS:40.88 GDPS_NPPM:20.05 EPSG_PMOS:19.98 " />
+   <dataSet lst="11/01_15" val="9.5" weight="GDPS_PMOS:20.86 ECMW_PMOS:35.59 GDPS_NPPM:16.79 EPSG_PMOS:26.76 " />
+   <dataSet lst="11/02_06" val="-1.7" weight="GDPS_PMOS:19.22 ECMW_PMOS:37.83 GDPS_NPPM:18.35 EPSG_PMOS:24.59 " />
+   <dataSet lst="11/02_15" val="11.3" weight="GDPS_PMOS:22.96 ECMW_PMOS:30.35 GDPS_NPPM:17.63 EPSG_PMOS:29.06 " />
+   <dataSet lst="11/03_06" val="3.3" weight="GDPS_PMOS:22.45 ECMW_PMOS:31.1 GDPS_NPPM:20.76 EPSG_PMOS:25.68 " />
+   <dataSet lst="11/03_15" val="13.0" weight="GDPS_PMOS:20.5 ECMW_PMOS:30.54 GDPS_NPPM:20.36 EPSG_PMOS:28.59 " />
+   <dataSet lst="11/04_06" val="2.8" weight="GDPS_PMOS:17.61 ECMW_PMOS:33.02 GDPS_NPPM:17.63 EPSG_PMOS:31.73 " />
+   <dataSet lst="11/04_15" val="13.8" weight="GDPS_PMOS:15.58 ECMW_PMOS:34.77 GDPS_NPPM:22.2 EPSG_PMOS:27.45 " />
+   <dataSet lst="11/05_06" val="6.8" weight="GDPS_PMOS:18.57 ECMW_PMOS:36.35 GDPS_NPPM:19.45 EPSG_PMOS:25.62 " />
+   <dataSet lst="11/05_15" val="16.3" weight="GDPS_PMOS:21.42 ECMW_PMOS:35.4 GDPS_NPPM:18.55 EPSG_PMOS:24.63 " />
+   <dataSet lst="11/06_06" val="8.1" weight="GDPS_PMOS:24.55 ECMW_PMOS:27.59 GDPS_NPPM:19.79 EPSG_PMOS:28.08 " />
+   <dataSet lst="11/06_15" val="14.9" weight="GDPS_PMOS:39.96 EPSG_PMOS:60.04 " />
+   <dataSet lst="11/07_06" val="6.1" weight="GDPS_PMOS:46.91 EPSG_PMOS:53.09 " />
+   <dataSet lst="11/07_15" val="14.9" weight="GDPS_PMOS:39.1 EPSG_PMOS:60.9 " />
+  </stn>
+  <stn hasWeightData="true" stnName="함흥" stnNo="47041">
+   <dataSet lst="10/27_15" val="16.6" weight="GDPS_PMOS:17.04 ECMW_PMOS:47.16 GDPS_NPPM:2.52 RDPS_PMOS:14.67 RDPS_NPPM:4.27 EPSG_PMOS:14.34 " />
+   <dataSet lst="10/28_06" val="8.0" weight="GDPS_PMOS:10.45 ECMW_PMOS:31.08 GDPS_NPPM:17.01 RDPS_PMOS:9.97 RDPS_NPPM:19.37 EPSG_PMOS:12.12 " />
+   <dataSet lst="10/28_15" val="17.5" weight="GDPS_PMOS:11.93 ECMW_PMOS:42.1 GDPS_NPPM:3.64 RDPS_PMOS:16.46 RDPS_NPPM:7.98 EPSG_PMOS:17.9 " />
+   <dataSet lst="10/29_06" val="2.3" weight="GDPS_PMOS:9.76 ECMW_PMOS:32.91 GDPS_NPPM:14.76 RDPS_PMOS:11.36 RDPS_NPPM:19.51 EPSG_PMOS:11.69 " />
+   <dataSet lst="10/29_15" val="12.9" weight="GDPS_PMOS:18.11 ECMW_PMOS:30.82 GDPS_NPPM:5.16 RDPS_PMOS:21.0 RDPS_NPPM:9.05 EPSG_PMOS:15.86 " />
+   <dataSet lst="10/30_06" val="-0.6" weight="GDPS_PMOS:8.96 ECMW_PMOS:31.06 GDPS_NPPM:14.93 RDPS_PMOS:12.79 RDPS_NPPM:19.4 EPSG_PMOS:12.86 " />
+   <dataSet lst="10/30_15" val="13.3" weight="GDPS_PMOS:17.74 ECMW_PMOS:33.85 GDPS_NPPM:6.09 RDPS_PMOS:16.53 RDPS_NPPM:8.49 EPSG_PMOS:17.3 " />
+   <dataSet lst="10/31_06" val="1.7" weight="GDPS_PMOS:17.87 ECMW_PMOS:36.69 GDPS_NPPM:25.89 EPSG_PMOS:19.55 " />
+   <dataSet lst="10/31_15" val="13.6" weight="GDPS_PMOS:22.29 ECMW_PMOS:45.89 GDPS_NPPM:7.92 EPSG_PMOS:23.9 " />
+   <dataSet lst="11/01_06" val="-2.1" weight="GDPS_PMOS:16.29 ECMW_PMOS:34.01 GDPS_NPPM:28.61 EPSG_PMOS:21.09 " />
+   <dataSet lst="11/01_15" val="11.4" weight="GDPS_PMOS:23.16 ECMW_PMOS:37.22 GDPS_NPPM:9.58 EPSG_PMOS:30.04 " />
+   <dataSet lst="11/02_06" val="-2.1" weight="GDPS_PMOS:18.39 ECMW_PMOS:32.05 GDPS_NPPM:22.64 EPSG_PMOS:26.91 " />
+   <dataSet lst="11/02_15" val="12.7" weight="GDPS_PMOS:23.24 ECMW_PMOS:32.17 GDPS_NPPM:10.4 EPSG_PMOS:34.18 " />
+   <dataSet lst="11/03_06" val="0.6" weight="GDPS_PMOS:22.61 ECMW_PMOS:29.65 GDPS_NPPM:19.47 EPSG_PMOS:28.26 " />
+   <dataSet lst="11/03_15" val="14.2" weight="GDPS_PMOS:26.21 ECMW_PMOS:28.87 GDPS_NPPM:13.9 EPSG_PMOS:31.02 " />
+   <dataSet lst="11/04_06" val="1.3" weight="GDPS_PMOS:24.44 ECMW_PMOS:26.27 GDPS_NPPM:21.08 EPSG_PMOS:28.21 " />
+   <dataSet lst="11/04_15" val="15.1" weight="GDPS_PMOS:22.89 ECMW_PMOS:34.04 GDPS_NPPM:13.46 EPSG_PMOS:29.62 " />
+   <dataSet lst="11/05_06" val="3.4" weight="GDPS_PMOS:18.36 ECMW_PMOS:32.57 GDPS_NPPM:18.42 EPSG_PMOS:30.65 " />
+   <dataSet lst="11/05_15" val="15.3" weight="GDPS_PMOS:22.39 ECMW_PMOS:39.0 GDPS_NPPM:12.04 EPSG_PMOS:26.57 " />
+   <dataSet lst="11/06_06" val="4.9" weight="GDPS_PMOS:22.37 ECMW_PMOS:34.35 GDPS_NPPM:15.49 EPSG_PMOS:27.78 " />
+   <dataSet lst="11/06_15" val="15.8" weight="GDPS_PMOS:43.94 EPSG_PMOS:56.06 " />
+   <dataSet lst="11/07_06" val="3.5" weight="GDPS_PMOS:45.13 EPSG_PMOS:54.87 " />
+   <dataSet lst="11/07_15" val="14.4" weight="GDPS_PMOS:38.73 EPSG_PMOS:61.27 " />
+  </stn>
+  <stn hasWeightData="true" stnName="청진" stnNo="47008">
+   <dataSet lst="10/27_15" val="13.0" weight="GDPS_PMOS:11.64 ECMW_PMOS:28.44 GDPS_NPPM:10.08 RDPS_PMOS:23.24 RDPS_NPPM:6.42 EPSG_PMOS:20.18 " />
+   <dataSet lst="10/28_06" val="6.0" weight="GDPS_PMOS:18.17 ECMW_PMOS:30.73 GDPS_NPPM:14.86 RDPS_PMOS:18.45 RDPS_NPPM:7.83 EPSG_PMOS:9.96 " />
+   <dataSet lst="10/28_15" val="11.0" weight="GDPS_PMOS:12.99 ECMW_PMOS:29.01 GDPS_NPPM:11.43 RDPS_PMOS:22.14 RDPS_NPPM:8.62 EPSG_PMOS:15.81 " />
+   <dataSet lst="10/29_06" val="-0.4" weight="GDPS_PMOS:18.06 ECMW_PMOS:27.12 GDPS_NPPM:16.39 RDPS_PMOS:16.09 RDPS_NPPM:10.56 EPSG_PMOS:11.78 " />
+   <dataSet lst="10/29_15" val="9.7" weight="GDPS_PMOS:12.38 ECMW_PMOS:29.99 GDPS_NPPM:10.96 RDPS_PMOS:18.29 RDPS_NPPM:9.45 EPSG_PMOS:18.94 " />
+   <dataSet lst="10/30_06" val="-1.4" weight="GDPS_PMOS:20.19 ECMW_PMOS:25.54 GDPS_NPPM:15.73 RDPS_PMOS:17.2 RDPS_NPPM:8.42 EPSG_PMOS:12.92 " />
+   <dataSet lst="10/30_15" val="9.7" weight="GDPS_PMOS:14.18 ECMW_PMOS:28.58 GDPS_NPPM:13.28 RDPS_PMOS:17.58 RDPS_NPPM:7.63 EPSG_PMOS:18.75 " />
+   <dataSet lst="10/31_06" val="-1.1" weight="GDPS_PMOS:22.97 ECMW_PMOS:39.38 GDPS_NPPM:20.95 EPSG_PMOS:16.7 " />
+   <dataSet lst="10/31_15" val="7.7" weight="GDPS_PMOS:20.56 ECMW_PMOS:38.18 GDPS_NPPM:16.33 EPSG_PMOS:24.94 " />
+   <dataSet lst="11/01_06" val="-1.7" weight="GDPS_PMOS:20.94 ECMW_PMOS:37.81 GDPS_NPPM:19.2 EPSG_PMOS:22.06 " />
+   <dataSet lst="11/01_15" val="6.7" weight="GDPS_PMOS:18.7 ECMW_PMOS:38.05 GDPS_NPPM:16.36 EPSG_PMOS:26.89 " />
+   <dataSet lst="11/02_06" val="-1.6" weight="GDPS_PMOS:22.64 ECMW_PMOS:32.04 GDPS_NPPM:19.28 EPSG_PMOS:26.04 " />
+   <dataSet lst="11/02_15" val="9.1" weight="GDPS_PMOS:16.43 ECMW_PMOS:38.93 GDPS_NPPM:12.31 EPSG_PMOS:32.33 " />
+   <dataSet lst="11/03_06" val="1.3" weight="GDPS_PMOS:22.56 ECMW_PMOS:28.56 GDPS_NPPM:23.42 EPSG_PMOS:25.46 " />
+   <dataSet lst="11/03_15" val="10.4" weight="GDPS_PMOS:19.97 ECMW_PMOS:32.77 GDPS_NPPM:17.39 EPSG_PMOS:29.87 " />
+   <dataSet lst="11/04_06" val="1.4" weight="GDPS_PMOS:18.69 ECMW_PMOS:39.77 GDPS_NPPM:17.11 EPSG_PMOS:24.43 " />
+   <dataSet lst="11/04_15" val="12.2" weight="GDPS_PMOS:21.13 ECMW_PMOS:34.98 GDPS_NPPM:17.55 EPSG_PMOS:26.34 " />
+   <dataSet lst="11/05_06" val="3.1" weight="GDPS_PMOS:17.84 ECMW_PMOS:39.09 GDPS_NPPM:14.02 EPSG_PMOS:29.05 " />
+   <dataSet lst="11/05_15" val="13.2" weight="GDPS_PMOS:21.18 ECMW_PMOS:34.88 GDPS_NPPM:16.81 EPSG_PMOS:27.13 " />
+   <dataSet lst="11/06_06" val="4.4" weight="GDPS_PMOS:19.61 ECMW_PMOS:33.82 GDPS_NPPM:15.68 EPSG_PMOS:30.88 " />
+   <dataSet lst="11/06_15" val="13.3" weight="GDPS_PMOS:45.88 EPSG_PMOS:54.12 " />
+   <dataSet lst="11/07_06" val="2.2" weight="GDPS_PMOS:44.06 EPSG_PMOS:55.94 " />
+   <dataSet lst="11/07_15" val="9.4" weight="GDPS_PMOS:46.77 EPSG_PMOS:53.23 " />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="100" grName="공항청(인천)">
+  <stn hasWeightData="true" stnName="인천공항" stnNo="47113">
+   <dataSet lst="10/27_15" val="19.4" weight="ECMW_PMOS:57.03 GDPS_NPPM:3.15 EPSG_PMOS:39.82 " />
+   <dataSet lst="10/28_06" val="13.3" weight="ECMW_PMOS:64.87 GDPS_NPPM:5.57 EPSG_PMOS:29.57 " />
+   <dataSet lst="10/28_15" val="16.2" weight="ECMW_PMOS:65.57 GDPS_NPPM:4.94 EPSG_PMOS:29.49 " />
+   <dataSet lst="10/29_06" val="8.6" weight="ECMW_PMOS:65.67 GDPS_NPPM:5.77 EPSG_PMOS:28.56 " />
+   <dataSet lst="10/29_15" val="11.3" weight="ECMW_PMOS:64.65 GDPS_NPPM:5.37 EPSG_PMOS:29.97 " />
+   <dataSet lst="10/30_06" val="5.8" weight="ECMW_PMOS:58.89 GDPS_NPPM:5.52 EPSG_PMOS:35.59 " />
+   <dataSet lst="10/30_15" val="12.0" weight="ECMW_PMOS:53.15 GDPS_NPPM:9.85 EPSG_PMOS:37.0 " />
+   <dataSet lst="10/31_06" val="8.3" weight="ECMW_PMOS:54.11 GDPS_NPPM:9.88 EPSG_PMOS:36.02 " />
+   <dataSet lst="10/31_15" val="10.6" weight="ECMW_PMOS:48.03 GDPS_NPPM:14.6 EPSG_PMOS:37.37 " />
+   <dataSet lst="11/01_06" val="2.0" weight="ECMW_PMOS:49.89 GDPS_NPPM:12.21 EPSG_PMOS:37.91 " />
+   <dataSet lst="11/01_15" val="9.2" weight="ECMW_PMOS:37.07 GDPS_NPPM:24.81 EPSG_PMOS:38.12 " />
+   <dataSet lst="11/02_06" val="3.5" weight="ECMW_PMOS:47.59 GDPS_NPPM:13.61 EPSG_PMOS:38.81 " />
+   <dataSet lst="11/02_15" val="11.1" weight="ECMW_PMOS:44.36 GDPS_NPPM:21.11 EPSG_PMOS:34.53 " />
+   <dataSet lst="11/03_06" val="8.1" weight="ECMW_PMOS:41.08 GDPS_NPPM:15.89 EPSG_PMOS:43.03 " />
+   <dataSet lst="11/03_15" val="12.2" weight="ECMW_PMOS:27.84 GDPS_NPPM:47.81 EPSG_PMOS:24.35 " />
+   <dataSet lst="11/04_06" val="6.6" weight="ECMW_PMOS:43.15 GDPS_NPPM:18.19 EPSG_PMOS:38.66 " />
+   <dataSet lst="11/04_15" val="14.4" weight="ECMW_PMOS:38.25 GDPS_NPPM:38.26 EPSG_PMOS:23.49 " />
+   <dataSet lst="11/05_06" val="9.7" weight="ECMW_PMOS:50.87 GDPS_NPPM:16.58 EPSG_PMOS:32.55 " />
+   <dataSet lst="11/05_15" val="15.3" weight="ECMW_PMOS:43.84 GDPS_NPPM:34.59 EPSG_PMOS:21.57 " />
+   <dataSet lst="11/06_06" val="12.4" weight="ECMW_PMOS:40.69 GDPS_NPPM:21.07 EPSG_PMOS:38.24 " />
+   <dataSet lst="11/06_15" val="14.1" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_06" val="9.1" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_15" val="13.5" weight="EPSG_PMOS:100.0 " />
+  </stn>
+  <stn hasWeightData="true" stnName="김포공항" stnNo="47110">
+   <dataSet lst="10/27_15" val="19.6" weight="ECMW_PMOS:64.01 GDPS_NPPM:13.36 EPSG_PMOS:22.64 " />
+   <dataSet lst="10/28_06" val="12.6" weight="ECMW_PMOS:47.89 GDPS_NPPM:23.98 EPSG_PMOS:28.13 " />
+   <dataSet lst="10/28_15" val="16.8" weight="ECMW_PMOS:61.58 GDPS_NPPM:13.52 EPSG_PMOS:24.9 " />
+   <dataSet lst="10/29_06" val="5.4" weight="ECMW_PMOS:48.62 GDPS_NPPM:22.05 EPSG_PMOS:29.33 " />
+   <dataSet lst="10/29_15" val="10.3" weight="ECMW_PMOS:50.29 GDPS_NPPM:18.65 EPSG_PMOS:31.06 " />
+   <dataSet lst="10/30_06" val="2.4" weight="ECMW_PMOS:48.55 GDPS_NPPM:20.55 EPSG_PMOS:30.9 " />
+   <dataSet lst="10/30_15" val="13.1" weight="ECMW_PMOS:39.55 GDPS_NPPM:30.67 EPSG_PMOS:29.78 " />
+   <dataSet lst="10/31_06" val="6.1" weight="ECMW_PMOS:40.71 GDPS_NPPM:30.69 EPSG_PMOS:28.6 " />
+   <dataSet lst="10/31_15" val="12.5" weight="ECMW_PMOS:40.31 GDPS_NPPM:39.09 EPSG_PMOS:20.6 " />
+   <dataSet lst="11/01_06" val="1.9" weight="ECMW_PMOS:55.57 GDPS_NPPM:16.88 EPSG_PMOS:27.55 " />
+   <dataSet lst="11/01_15" val="9.1" weight="ECMW_PMOS:39.82 GDPS_NPPM:27.49 EPSG_PMOS:32.68 " />
+   <dataSet lst="11/02_06" val="0.2" weight="ECMW_PMOS:41.31 GDPS_NPPM:25.29 EPSG_PMOS:33.4 " />
+   <dataSet lst="11/02_15" val="11.2" weight="ECMW_PMOS:37.94 GDPS_NPPM:20.19 EPSG_PMOS:41.87 " />
+   <dataSet lst="11/03_06" val="4.7" weight="ECMW_PMOS:36.62 GDPS_NPPM:29.3 EPSG_PMOS:34.08 " />
+   <dataSet lst="11/03_15" val="12.7" weight="ECMW_PMOS:26.31 GDPS_NPPM:44.2 EPSG_PMOS:29.49 " />
+   <dataSet lst="11/04_06" val="4.0" weight="ECMW_PMOS:41.23 GDPS_NPPM:20.12 EPSG_PMOS:38.65 " />
+   <dataSet lst="11/04_15" val="13.7" weight="ECMW_PMOS:33.51 GDPS_NPPM:44.85 EPSG_PMOS:21.64 " />
+   <dataSet lst="11/05_06" val="7.9" weight="ECMW_PMOS:37.08 GDPS_NPPM:33.12 EPSG_PMOS:29.8 " />
+   <dataSet lst="11/05_15" val="16.0" weight="ECMW_PMOS:48.45 GDPS_NPPM:27.25 EPSG_PMOS:24.31 " />
+   <dataSet lst="11/06_06" val="9.2" weight="ECMW_PMOS:34.65 GDPS_NPPM:34.75 EPSG_PMOS:30.6 " />
+   <dataSet lst="11/06_15" val="14.4" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_06" val="5.8" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_15" val="13.6" weight="EPSG_PMOS:100.0 " />
+  </stn>
+  <stn hasWeightData="true" stnName="제주공항" stnNo="47182">
+   <dataSet lst="10/27_15" val="21.5" weight="ECMW_PMOS:22.64 GDPS_NPPM:61.6 EPSG_PMOS:15.76 " />
+   <dataSet lst="10/28_06" val="17.9" weight="ECMW_PMOS:17.79 GDPS_NPPM:68.02 EPSG_PMOS:14.19 " />
+   <dataSet lst="10/28_15" val="21.3" weight="ECMW_PMOS:28.06 GDPS_NPPM:47.01 EPSG_PMOS:24.93 " />
+   <dataSet lst="10/29_06" val="13.6" weight="ECMW_PMOS:13.2 GDPS_NPPM:69.89 EPSG_PMOS:16.91 " />
+   <dataSet lst="10/29_15" val="15.2" weight="ECMW_PMOS:32.7 GDPS_NPPM:45.24 EPSG_PMOS:22.06 " />
+   <dataSet lst="10/30_06" val="11.5" weight="ECMW_PMOS:26.47 GDPS_NPPM:57.72 EPSG_PMOS:15.81 " />
+   <dataSet lst="10/30_15" val="14.9" weight="ECMW_PMOS:32.25 GDPS_NPPM:48.44 EPSG_PMOS:19.31 " />
+   <dataSet lst="10/31_06" val="13.3" weight="ECMW_PMOS:28.4 GDPS_NPPM:47.94 EPSG_PMOS:23.66 " />
+   <dataSet lst="10/31_15" val="17.5" weight="ECMW_PMOS:29.35 GDPS_NPPM:45.57 EPSG_PMOS:25.08 " />
+   <dataSet lst="11/01_06" val="13.0" weight="ECMW_PMOS:45.87 GDPS_NPPM:26.01 EPSG_PMOS:28.13 " />
+   <dataSet lst="11/01_15" val="14.2" weight="ECMW_PMOS:31.82 GDPS_NPPM:38.9 EPSG_PMOS:29.28 " />
+   <dataSet lst="11/02_06" val="9.5" weight="ECMW_PMOS:42.32 GDPS_NPPM:20.35 EPSG_PMOS:37.33 " />
+   <dataSet lst="11/02_15" val="13.3" weight="ECMW_PMOS:40.08 GDPS_NPPM:28.33 EPSG_PMOS:31.59 " />
+   <dataSet lst="11/03_06" val="11.1" weight="ECMW_PMOS:34.17 GDPS_NPPM:27.52 EPSG_PMOS:38.31 " />
+   <dataSet lst="11/03_15" val="15.9" weight="ECMW_PMOS:35.47 GDPS_NPPM:36.72 EPSG_PMOS:27.81 " />
+   <dataSet lst="11/04_06" val="10.1" weight="ECMW_PMOS:37.08 GDPS_NPPM:28.69 EPSG_PMOS:34.23 " />
+   <dataSet lst="11/04_15" val="15.6" weight="ECMW_PMOS:28.94 GDPS_NPPM:44.91 EPSG_PMOS:26.15 " />
+   <dataSet lst="11/05_06" val="12.2" weight="ECMW_PMOS:26.73 GDPS_NPPM:46.97 EPSG_PMOS:26.3 " />
+   <dataSet lst="11/05_15" val="18.2" weight="ECMW_PMOS:38.67 GDPS_NPPM:35.3 EPSG_PMOS:26.03 " />
+   <dataSet lst="11/06_06" val="13.9" weight="ECMW_PMOS:42.39 GDPS_NPPM:19.71 EPSG_PMOS:37.9 " />
+   <dataSet lst="11/06_15" val="16.7" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_06" val="13.7" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_15" val="15.6" weight="EPSG_PMOS:100.0 " />
+  </stn>
+  <stn hasWeightData="true" stnName="무안공항" stnNo="47163">
+   <dataSet lst="10/27_15" val="20.1" weight="ECMW_PMOS:60.69 GDPS_NPPM:12.04 EPSG_PMOS:27.27 " />
+   <dataSet lst="10/28_06" val="15.3" weight="ECMW_PMOS:51.97 GDPS_NPPM:15.47 EPSG_PMOS:32.56 " />
+   <dataSet lst="10/28_15" val="16.7" weight="ECMW_PMOS:53.3 GDPS_NPPM:18.26 EPSG_PMOS:28.43 " />
+   <dataSet lst="10/29_06" val="11.2" weight="ECMW_PMOS:49.78 GDPS_NPPM:21.73 EPSG_PMOS:28.49 " />
+   <dataSet lst="10/29_15" val="12.8" weight="ECMW_PMOS:45.93 GDPS_NPPM:23.9 EPSG_PMOS:30.16 " />
+   <dataSet lst="10/30_06" val="7.1" weight="ECMW_PMOS:55.61 GDPS_NPPM:25.22 EPSG_PMOS:19.17 " />
+   <dataSet lst="10/30_15" val="14.0" weight="ECMW_PMOS:38.28 GDPS_NPPM:25.46 EPSG_PMOS:36.26 " />
+   <dataSet lst="10/31_06" val="8.2" weight="ECMW_PMOS:43.96 GDPS_NPPM:30.39 EPSG_PMOS:25.65 " />
+   <dataSet lst="10/31_15" val="14.8" weight="ECMW_PMOS:43.89 GDPS_NPPM:16.62 EPSG_PMOS:39.49 " />
+   <dataSet lst="11/01_06" val="7.9" weight="ECMW_PMOS:50.33 GDPS_NPPM:21.32 EPSG_PMOS:28.35 " />
+   <dataSet lst="11/01_15" val="12.1" weight="ECMW_PMOS:35.18 GDPS_NPPM:22.29 EPSG_PMOS:42.52 " />
+   <dataSet lst="11/02_06" val="5.3" weight="ECMW_PMOS:45.84 GDPS_NPPM:21.83 EPSG_PMOS:32.33 " />
+   <dataSet lst="11/02_15" val="12.6" weight="ECMW_PMOS:40.73 GDPS_NPPM:19.57 EPSG_PMOS:39.7 " />
+   <dataSet lst="11/03_06" val="7.9" weight="ECMW_PMOS:37.37 GDPS_NPPM:27.38 EPSG_PMOS:35.25 " />
+   <dataSet lst="11/03_15" val="15.5" weight="ECMW_PMOS:34.37 GDPS_NPPM:37.48 EPSG_PMOS:28.16 " />
+   <dataSet lst="11/04_06" val="7.1" weight="ECMW_PMOS:38.29 GDPS_NPPM:29.37 EPSG_PMOS:32.34 " />
+   <dataSet lst="11/04_15" val="15.2" weight="ECMW_PMOS:42.0 GDPS_NPPM:33.75 EPSG_PMOS:24.26 " />
+   <dataSet lst="11/05_06" val="7.7" weight="ECMW_PMOS:39.84 GDPS_NPPM:31.95 EPSG_PMOS:28.21 " />
+   <dataSet lst="11/05_15" val="16.0" weight="ECMW_PMOS:49.48 GDPS_NPPM:22.84 EPSG_PMOS:27.68 " />
+   <dataSet lst="11/06_06" val="10.5" weight="ECMW_PMOS:44.67 GDPS_NPPM:23.78 EPSG_PMOS:31.55 " />
+   <dataSet lst="11/06_15" val="16.0" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_06" val="10.3" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_15" val="14.7" weight="EPSG_PMOS:100.0 " />
+  </stn>
+  <stn hasWeightData="true" stnName="울산공항" stnNo="47151">
+   <dataSet lst="10/27_15" val="19.4" weight="ECMW_PMOS:39.55 GDPS_NPPM:33.26 EPSG_PMOS:27.19 " />
+   <dataSet lst="10/28_06" val="13.9" weight="ECMW_PMOS:30.34 GDPS_NPPM:48.26 EPSG_PMOS:21.4 " />
+   <dataSet lst="10/28_15" val="17.4" weight="ECMW_PMOS:29.29 GDPS_NPPM:53.43 EPSG_PMOS:17.28 " />
+   <dataSet lst="10/29_06" val="11.8" weight="ECMW_PMOS:39.06 GDPS_NPPM:40.93 EPSG_PMOS:20.01 " />
+   <dataSet lst="10/29_15" val="15.7" weight="ECMW_PMOS:34.2 GDPS_NPPM:39.55 EPSG_PMOS:26.25 " />
+   <dataSet lst="10/30_06" val="8.8" weight="ECMW_PMOS:44.96 GDPS_NPPM:32.12 EPSG_PMOS:22.92 " />
+   <dataSet lst="10/30_15" val="18.1" weight="ECMW_PMOS:42.5 GDPS_NPPM:29.2 EPSG_PMOS:28.3 " />
+   <dataSet lst="10/31_06" val="7.0" weight="ECMW_PMOS:38.41 GDPS_NPPM:30.78 EPSG_PMOS:30.8 " />
+   <dataSet lst="10/31_15" val="16.8" weight="ECMW_PMOS:58.45 GDPS_NPPM:11.39 EPSG_PMOS:30.16 " />
+   <dataSet lst="11/01_06" val="4.8" weight="ECMW_PMOS:49.87 GDPS_NPPM:16.59 EPSG_PMOS:33.53 " />
+   <dataSet lst="11/01_15" val="15.0" weight="ECMW_PMOS:37.02 GDPS_NPPM:22.31 EPSG_PMOS:40.67 " />
+   <dataSet lst="11/02_06" val="3.5" weight="ECMW_PMOS:44.29 GDPS_NPPM:19.2 EPSG_PMOS:36.52 " />
+   <dataSet lst="11/02_15" val="15.0" weight="ECMW_PMOS:33.89 GDPS_NPPM:33.6 EPSG_PMOS:32.51 " />
+   <dataSet lst="11/03_06" val="3.7" weight="ECMW_PMOS:33.48 GDPS_NPPM:15.68 EPSG_PMOS:50.83 " />
+   <dataSet lst="11/03_15" val="16.5" weight="ECMW_PMOS:33.07 GDPS_NPPM:31.03 EPSG_PMOS:35.9 " />
+   <dataSet lst="11/04_06" val="4.6" weight="ECMW_PMOS:35.2 GDPS_NPPM:23.17 EPSG_PMOS:41.63 " />
+   <dataSet lst="11/04_15" val="17.8" weight="ECMW_PMOS:42.85 GDPS_NPPM:24.82 EPSG_PMOS:32.34 " />
+   <dataSet lst="11/05_06" val="5.4" weight="ECMW_PMOS:36.49 GDPS_NPPM:24.61 EPSG_PMOS:38.91 " />
+   <dataSet lst="11/05_15" val="18.2" weight="ECMW_PMOS:45.43 GDPS_NPPM:20.19 EPSG_PMOS:34.38 " />
+   <dataSet lst="11/06_06" val="9.4" weight="ECMW_PMOS:37.25 GDPS_NPPM:24.05 EPSG_PMOS:38.71 " />
+   <dataSet lst="11/06_15" val="17.5" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_06" val="9.2" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_15" val="16.5" weight="EPSG_PMOS:100.0 " />
+  </stn>
+  <stn hasWeightData="true" stnName="김해공항" stnNo="47153">
+   <dataSet lst="10/27_15" val="20.3" weight="ECMW_PMOS:44.0 GDPS_NPPM:17.47 EPSG_PMOS:38.53 " />
+   <dataSet lst="10/28_06" val="15.0" weight="ECMW_PMOS:40.27 GDPS_NPPM:45.84 EPSG_PMOS:13.89 " />
+   <dataSet lst="10/28_15" val="18.1" weight="ECMW_PMOS:41.82 GDPS_NPPM:28.57 EPSG_PMOS:29.61 " />
+   <dataSet lst="10/29_06" val="12.9" weight="ECMW_PMOS:33.63 GDPS_NPPM:48.96 EPSG_PMOS:17.41 " />
+   <dataSet lst="10/29_15" val="17.0" weight="ECMW_PMOS:35.25 GDPS_NPPM:31.18 EPSG_PMOS:33.57 " />
+   <dataSet lst="10/30_06" val="10.2" weight="ECMW_PMOS:40.94 GDPS_NPPM:37.53 EPSG_PMOS:21.53 " />
+   <dataSet lst="10/30_15" val="17.5" weight="ECMW_PMOS:42.92 GDPS_NPPM:21.99 EPSG_PMOS:35.09 " />
+   <dataSet lst="10/31_06" val="9.5" weight="ECMW_PMOS:51.53 GDPS_NPPM:21.92 EPSG_PMOS:26.55 " />
+   <dataSet lst="10/31_15" val="17.0" weight="ECMW_PMOS:56.9 GDPS_NPPM:10.98 EPSG_PMOS:32.12 " />
+   <dataSet lst="11/01_06" val="7.4" weight="ECMW_PMOS:50.52 GDPS_NPPM:13.09 EPSG_PMOS:36.4 " />
+   <dataSet lst="11/01_15" val="15.2" weight="ECMW_PMOS:43.71 GDPS_NPPM:13.44 EPSG_PMOS:42.84 " />
+   <dataSet lst="11/02_06" val="5.6" weight="ECMW_PMOS:46.46 GDPS_NPPM:14.17 EPSG_PMOS:39.37 " />
+   <dataSet lst="11/02_15" val="16.1" weight="ECMW_PMOS:38.12 GDPS_NPPM:18.42 EPSG_PMOS:43.45 " />
+   <dataSet lst="11/03_06" val="7.6" weight="ECMW_PMOS:39.47 GDPS_NPPM:11.17 EPSG_PMOS:49.36 " />
+   <dataSet lst="11/03_15" val="16.3" weight="ECMW_PMOS:35.65 GDPS_NPPM:23.82 EPSG_PMOS:40.53 " />
+   <dataSet lst="11/04_06" val="6.7" weight="ECMW_PMOS:35.62 GDPS_NPPM:17.1 EPSG_PMOS:47.28 " />
+   <dataSet lst="11/04_15" val="17.4" weight="ECMW_PMOS:39.73 GDPS_NPPM:25.21 EPSG_PMOS:35.05 " />
+   <dataSet lst="11/05_06" val="7.8" weight="ECMW_PMOS:32.78 GDPS_NPPM:31.71 EPSG_PMOS:35.51 " />
+   <dataSet lst="11/05_15" val="18.2" weight="ECMW_PMOS:44.48 GDPS_NPPM:17.84 EPSG_PMOS:37.68 " />
+   <dataSet lst="11/06_06" val="9.8" weight="ECMW_PMOS:42.65 GDPS_NPPM:21.34 EPSG_PMOS:36.01 " />
+   <dataSet lst="11/06_15" val="18.0" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_06" val="9.3" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_15" val="17.2" weight="EPSG_PMOS:100.0 " />
+  </stn>
+  <stn hasWeightData="true" stnName="양양공항" stnNo="47092">
+   <dataSet lst="10/27_15" val="16.9" weight="ECMW_PMOS:62.13 GDPS_NPPM:20.26 EPSG_PMOS:17.61 " />
+   <dataSet lst="10/28_06" val="13.7" weight="ECMW_PMOS:54.38 GDPS_NPPM:20.79 EPSG_PMOS:24.83 " />
+   <dataSet lst="10/28_15" val="18.1" weight="ECMW_PMOS:56.21 GDPS_NPPM:17.53 EPSG_PMOS:26.26 " />
+   <dataSet lst="10/29_06" val="10.1" weight="ECMW_PMOS:55.37 GDPS_NPPM:25.0 EPSG_PMOS:19.63 " />
+   <dataSet lst="10/29_15" val="10.5" weight="ECMW_PMOS:54.72 GDPS_NPPM:17.88 EPSG_PMOS:27.41 " />
+   <dataSet lst="10/30_06" val="8.1" weight="ECMW_PMOS:46.76 GDPS_NPPM:25.01 EPSG_PMOS:28.23 " />
+   <dataSet lst="10/30_15" val="13.7" weight="ECMW_PMOS:45.75 GDPS_NPPM:33.62 EPSG_PMOS:20.62 " />
+   <dataSet lst="10/31_06" val="9.1" weight="ECMW_PMOS:45.87 GDPS_NPPM:30.13 EPSG_PMOS:24.0 " />
+   <dataSet lst="10/31_15" val="13.8" weight="ECMW_PMOS:44.06 GDPS_NPPM:31.09 EPSG_PMOS:24.85 " />
+   <dataSet lst="11/01_06" val="6.8" weight="ECMW_PMOS:42.94 GDPS_NPPM:24.72 EPSG_PMOS:32.34 " />
+   <dataSet lst="11/01_15" val="10.7" weight="ECMW_PMOS:40.87 GDPS_NPPM:27.82 EPSG_PMOS:31.3 " />
+   <dataSet lst="11/02_06" val="5.7" weight="ECMW_PMOS:43.5 GDPS_NPPM:20.36 EPSG_PMOS:36.14 " />
+   <dataSet lst="11/02_15" val="12.3" weight="ECMW_PMOS:31.64 GDPS_NPPM:30.14 EPSG_PMOS:38.22 " />
+   <dataSet lst="11/03_06" val="7.7" weight="ECMW_PMOS:41.77 GDPS_NPPM:22.98 EPSG_PMOS:35.25 " />
+   <dataSet lst="11/03_15" val="13.1" weight="ECMW_PMOS:32.14 GDPS_NPPM:35.03 EPSG_PMOS:32.83 " />
+   <dataSet lst="11/04_06" val="8.0" weight="ECMW_PMOS:40.55 GDPS_NPPM:26.56 EPSG_PMOS:32.89 " />
+   <dataSet lst="11/04_15" val="14.4" weight="ECMW_PMOS:38.63 GDPS_NPPM:34.91 EPSG_PMOS:26.47 " />
+   <dataSet lst="11/05_06" val="10.0" weight="ECMW_PMOS:45.87 GDPS_NPPM:24.79 EPSG_PMOS:29.35 " />
+   <dataSet lst="11/05_15" val="15.6" weight="ECMW_PMOS:39.95 GDPS_NPPM:37.59 EPSG_PMOS:22.46 " />
+   <dataSet lst="11/06_06" val="9.9" weight="ECMW_PMOS:36.28 GDPS_NPPM:38.82 EPSG_PMOS:24.91 " />
+   <dataSet lst="11/06_15" val="13.9" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_06" val="9.3" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_15" val="13.4" weight="EPSG_PMOS:100.0 " />
+  </stn>
+  <stn hasWeightData="true" stnName="여수공항" stnNo="47167">
+   <dataSet lst="10/27_15" val="19.2" weight="ECMW_PMOS:62.55 GDPS_NPPM:7.85 EPSG_PMOS:29.59 " />
+   <dataSet lst="10/28_06" val="15.2" weight="ECMW_PMOS:49.06 GDPS_NPPM:27.92 EPSG_PMOS:23.03 " />
+   <dataSet lst="10/28_15" val="18.1" weight="ECMW_PMOS:57.09 GDPS_NPPM:18.96 EPSG_PMOS:23.96 " />
+   <dataSet lst="10/29_06" val="12.1" weight="ECMW_PMOS:33.56 GDPS_NPPM:47.0 EPSG_PMOS:19.44 " />
+   <dataSet lst="10/29_15" val="16.6" weight="ECMW_PMOS:41.06 GDPS_NPPM:27.64 EPSG_PMOS:31.3 " />
+   <dataSet lst="10/30_06" val="8.9" weight="ECMW_PMOS:30.48 GDPS_NPPM:52.09 EPSG_PMOS:17.43 " />
+   <dataSet lst="10/30_15" val="17.2" weight="ECMW_PMOS:40.06 GDPS_NPPM:35.09 EPSG_PMOS:24.85 " />
+   <dataSet lst="10/31_06" val="7.8" weight="ECMW_PMOS:32.54 GDPS_NPPM:41.88 EPSG_PMOS:25.58 " />
+   <dataSet lst="10/31_15" val="16.4" weight="ECMW_PMOS:57.71 GDPS_NPPM:10.45 EPSG_PMOS:31.85 " />
+   <dataSet lst="11/01_06" val="8.0" weight="ECMW_PMOS:36.91 GDPS_NPPM:35.9 EPSG_PMOS:27.19 " />
+   <dataSet lst="11/01_15" val="14.8" weight="ECMW_PMOS:40.73 GDPS_NPPM:18.2 EPSG_PMOS:41.06 " />
+   <dataSet lst="11/02_06" val="4.3" weight="ECMW_PMOS:42.04 GDPS_NPPM:26.02 EPSG_PMOS:31.94 " />
+   <dataSet lst="11/02_15" val="15.9" weight="ECMW_PMOS:42.71 GDPS_NPPM:17.47 EPSG_PMOS:39.82 " />
+   <dataSet lst="11/03_06" val="6.0" weight="ECMW_PMOS:36.34 GDPS_NPPM:23.25 EPSG_PMOS:40.41 " />
+   <dataSet lst="11/03_15" val="15.9" weight="ECMW_PMOS:38.4 GDPS_NPPM:25.73 EPSG_PMOS:35.88 " />
+   <dataSet lst="11/04_06" val="6.5" weight="ECMW_PMOS:41.8 GDPS_NPPM:21.13 EPSG_PMOS:37.07 " />
+   <dataSet lst="11/04_15" val="16.9" weight="ECMW_PMOS:41.75 GDPS_NPPM:30.35 EPSG_PMOS:27.9 " />
+   <dataSet lst="11/05_06" val="6.9" weight="ECMW_PMOS:34.01 GDPS_NPPM:39.17 EPSG_PMOS:26.82 " />
+   <dataSet lst="11/05_15" val="17.3" weight="ECMW_PMOS:46.47 GDPS_NPPM:29.21 EPSG_PMOS:24.32 " />
+   <dataSet lst="11/06_06" val="10.3" weight="ECMW_PMOS:44.19 GDPS_NPPM:23.48 EPSG_PMOS:32.33 " />
+   <dataSet lst="11/06_15" val="17.1" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_06" val="11.4" weight="EPSG_PMOS:100.0 " />
+   <dataSet lst="11/07_15" val="17.1" weight="EPSG_PMOS:100.0 " />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="9903" grName="평창올림픽">
+  <stn stnName="알펜시아-크로스컨트리-출발" stnNo="2577">
+   <dataSet lst="10/27_15" />
+   <dataSet lst="10/28_06" />
+   <dataSet lst="10/28_15" />
+   <dataSet lst="10/29_06" />
+   <dataSet lst="10/29_15" />
+   <dataSet lst="10/30_06" />
+   <dataSet lst="10/30_15" />
+   <dataSet lst="10/31_06" />
+   <dataSet lst="10/31_15" />
+   <dataSet lst="11/01_06" />
+   <dataSet lst="11/01_15" />
+   <dataSet lst="11/02_06" />
+   <dataSet lst="11/02_15" />
+   <dataSet lst="11/03_06" />
+   <dataSet lst="11/03_15" />
+   <dataSet lst="11/04_06" />
+   <dataSet lst="11/04_15" />
+   <dataSet lst="11/05_06" />
+   <dataSet lst="11/05_15" />
+   <dataSet lst="11/06_06" />
+   <dataSet lst="11/06_15" />
+   <dataSet lst="11/07_06" />
+   <dataSet lst="11/07_15" />
+  </stn>
+  <stn stnName="용평-알파인대회전-출발" stnNo="2560">
+   <dataSet lst="10/27_15" />
+   <dataSet lst="10/28_06" />
+   <dataSet lst="10/28_15" />
+   <dataSet lst="10/29_06" />
+   <dataSet lst="10/29_15" />
+   <dataSet lst="10/30_06" />
+   <dataSet lst="10/30_15" />
+   <dataSet lst="10/31_06" />
+   <dataSet lst="10/31_15" />
+   <dataSet lst="11/01_06" />
+   <dataSet lst="11/01_15" />
+   <dataSet lst="11/02_06" />
+   <dataSet lst="11/02_15" />
+   <dataSet lst="11/03_06" />
+   <dataSet lst="11/03_15" />
+   <dataSet lst="11/04_06" />
+   <dataSet lst="11/04_15" />
+   <dataSet lst="11/05_06" />
+   <dataSet lst="11/05_15" />
+   <dataSet lst="11/06_06" />
+   <dataSet lst="11/06_15" />
+   <dataSet lst="11/07_06" />
+   <dataSet lst="11/07_15" />
+  </stn>
+  <stn stnName="보광-크로스-출발" stnNo="2580">
+   <dataSet lst="10/27_15" />
+   <dataSet lst="10/28_06" />
+   <dataSet lst="10/28_15" />
+   <dataSet lst="10/29_06" />
+   <dataSet lst="10/29_15" />
+   <dataSet lst="10/30_06" />
+   <dataSet lst="10/30_15" />
+   <dataSet lst="10/31_06" />
+   <dataSet lst="10/31_15" />
+   <dataSet lst="11/01_06" />
+   <dataSet lst="11/01_15" />
+   <dataSet lst="11/02_06" />
+   <dataSet lst="11/02_15" />
+   <dataSet lst="11/03_06" />
+   <dataSet lst="11/03_15" />
+   <dataSet lst="11/04_06" />
+   <dataSet lst="11/04_15" />
+   <dataSet lst="11/05_06" />
+   <dataSet lst="11/05_15" />
+   <dataSet lst="11/06_06" />
+   <dataSet lst="11/06_15" />
+   <dataSet lst="11/07_06" />
+   <dataSet lst="11/07_15" />
+  </stn>
+  <stn stnName="정선-알파인활강-출발" stnNo="2584">
+   <dataSet lst="10/27_15" />
+   <dataSet lst="10/28_06" />
+   <dataSet lst="10/28_15" />
+   <dataSet lst="10/29_06" />
+   <dataSet lst="10/29_15" />
+   <dataSet lst="10/30_06" />
+   <dataSet lst="10/30_15" />
+   <dataSet lst="10/31_06" />
+   <dataSet lst="10/31_15" />
+   <dataSet lst="11/01_06" />
+   <dataSet lst="11/01_15" />
+   <dataSet lst="11/02_06" />
+   <dataSet lst="11/02_15" />
+   <dataSet lst="11/03_06" />
+   <dataSet lst="11/03_15" />
+   <dataSet lst="11/04_06" />
+   <dataSet lst="11/04_15" />
+   <dataSet lst="11/05_06" />
+   <dataSet lst="11/05_15" />
+   <dataSet lst="11/06_06" />
+   <dataSet lst="11/06_15" />
+   <dataSet lst="11/07_06" />
+   <dataSet lst="11/07_15" />
+  </stn>
+ </regionGroup>
+</minMaxTemperature>
+

@@ -1,0 +1,1732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<R12 issuedAt="12UTC 18 Oct 2016" basedOn="EPSG" ensembleMember="24">
+ <regionGroup grCode="0" grName="수도권청(서울)">
+  <stn stnNo="47108" stnName="서울">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="4.2" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="2.35" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.55" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="8.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.55" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="2.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.65" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="2.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.95" />
+   <dataSet lst="102600" median="0.9" mn="0.0" mx="21.8" pr10th="0.0" pr25th="0.0" pr75th="12.63" pr90th="18.8" />
+   <dataSet lst="102612" median="1.6" mn="0.0" mx="31.0" pr10th="0.0" pr25th="0.0" pr75th="7.82" pr90th="18.3" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="33.9" pr10th="0.0" pr25th="0.0" pr75th="2.53" pr90th="15.55" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="16.9" pr10th="0.0" pr25th="0.0" pr75th="1.75" pr90th="12.5" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="16.2" pr10th="0.0" pr25th="0.0" pr75th="1.55" pr90th="8.75" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="11.9" pr10th="0.0" pr25th="0.0" pr75th="2.28" pr90th="7.5" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="20.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="8.5" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="7.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.6" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="11.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.4" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="3.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.2" />
+  </stn>
+  <stn stnNo="47112" stnName="인천">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="1.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.4" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="2.3" pr10th="0.0" pr25th="0.0" pr75th="0.4" pr90th="1.05" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="1.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.8" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="5.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.75" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="3.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.3" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="4.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.85" />
+   <dataSet lst="102600" median="1.0" mn="0.0" mx="34.2" pr10th="0.0" pr25th="0.0" pr75th="11.63" pr90th="16.35" />
+   <dataSet lst="102612" median="0.95" mn="0.0" mx="23.5" pr10th="0.0" pr25th="0.0" pr75th="7.0" pr90th="13.35" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="71.8" pr10th="0.0" pr25th="0.0" pr75th="2.17" pr90th="14.8" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="20.2" pr10th="0.0" pr25th="0.0" pr75th="1.25" pr90th="11.4" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="15.9" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="5.5" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="16.4" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="2.75" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="13.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="6.6" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="13.2" pr10th="0.0" pr25th="0.0" pr75th="0.83" pr90th="3.7" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="7.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.75" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="3.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.65" />
+  </stn>
+  <stn stnNo="47119" stnName="수원">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="2.8" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="1.0" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.55" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="1.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="6.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="3.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.05" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.55" />
+   <dataSet lst="102600" median="1.95" mn="0.0" mx="30.0" pr10th="0.0" pr25th="0.0" pr75th="10.35" pr90th="17.7" />
+   <dataSet lst="102612" median="1.35" mn="0.0" mx="29.2" pr10th="0.0" pr25th="0.0" pr75th="7.88" pr90th="16.3" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="80.0" pr10th="0.0" pr25th="0.0" pr75th="2.33" pr90th="15.75" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="14.8" pr10th="0.0" pr25th="0.0" pr75th="1.8" pr90th="14.05" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="14.2" pr10th="0.0" pr25th="0.0" pr75th="1.5" pr90th="5.35" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="16.1" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="4.45" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="19.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="6.75" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="13.6" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="4.8" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="9.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.55" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="4.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.4" />
+  </stn>
+  <stn stnNo="47099" stnName="파주">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102212" median="0.15" mn="0.0" mx="5.9" pr10th="0.0" pr25th="0.0" pr75th="0.88" pr90th="3.9" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="1.1" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="0.65" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="14.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.3" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="1.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.45" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="6.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.75" />
+   <dataSet lst="102600" median="0.4" mn="0.0" mx="26.8" pr10th="0.0" pr25th="0.0" pr75th="12.0" pr90th="19.65" />
+   <dataSet lst="102612" median="1.35" mn="0.0" mx="30.6" pr10th="0.0" pr25th="0.0" pr75th="4.38" pr90th="14.4" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="17.4" pr10th="0.0" pr25th="0.0" pr75th="1.78" pr90th="13.35" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="8.3" pr10th="0.0" pr25th="0.0" pr75th="1.35" pr90th="6.8" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="10.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.75" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="8.9" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="2.6" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="18.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="7.85" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="5.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.55" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="7.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.6" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.25" />
+  </stn>
+  <stn stnNo="47098" stnName="동두천">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="1.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.25" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="6.2" pr10th="0.0" pr25th="0.0" pr75th="0.65" pr90th="3.95" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="1.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.9" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="12.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.3" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="1.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.4" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.25" />
+   <dataSet lst="102600" median="0.0" mn="0.0" mx="24.0" pr10th="0.0" pr25th="0.0" pr75th="9.93" pr90th="19.0" />
+   <dataSet lst="102612" median="1.2" mn="0.0" mx="33.6" pr10th="0.0" pr25th="0.0" pr75th="8.0" pr90th="20.9" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="18.8" pr10th="0.0" pr25th="0.0" pr75th="2.73" pr90th="15.35" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="11.8" pr10th="0.0" pr25th="0.0" pr75th="2.53" pr90th="9.75" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="14.0" pr10th="0.0" pr25th="0.0" pr75th="1.3" pr90th="6.95" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="8.2" pr10th="0.0" pr25th="0.0" pr75th="1.35" pr90th="3.05" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="24.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="8.35" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="8.9" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="1.9" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="10.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.65" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="2.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.2" />
+  </stn>
+  <stn stnNo="47203" stnName="이천">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="2.4" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="0.7" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.6" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="2.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="4.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.15" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="2.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.1" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="2.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.65" />
+   <dataSet lst="102600" median="1.75" mn="0.0" mx="23.1" pr10th="0.0" pr25th="0.0" pr75th="8.8" pr90th="18.8" />
+   <dataSet lst="102612" median="2.7" mn="0.0" mx="33.0" pr10th="0.0" pr25th="0.08" pr75th="11.1" pr90th="23.45" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="75.8" pr10th="0.0" pr25th="0.0" pr75th="1.83" pr90th="16.6" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="18.3" pr10th="0.0" pr25th="0.0" pr75th="4.02" pr90th="12.4" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="15.4" pr10th="0.0" pr25th="0.0" pr75th="2.53" pr90th="6.95" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="18.4" pr10th="0.0" pr25th="0.0" pr75th="1.35" pr90th="6.05" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="25.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="6.4" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="13.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="6.25" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="12.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.05" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="4.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.35" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="1" grName="부산청(부산)">
+  <stn stnNo="47159" stnName="부산">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="10.7" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="5.2" />
+   <dataSet lst="102212" median="0.15" mn="0.0" mx="22.9" pr10th="0.0" pr25th="0.0" pr75th="8.4" pr90th="15.1" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="25.4" pr10th="0.0" pr25th="0.0" pr75th="2.78" pr90th="9.65" />
+   <dataSet lst="102312" median="0.5" mn="0.0" mx="8.0" pr10th="0.0" pr25th="0.0" pr75th="1.03" pr90th="5.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="4.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.65" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="3.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="1.4" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="0.45" />
+   <dataSet lst="102600" median="0.15" mn="0.0" mx="17.7" pr10th="0.0" pr25th="0.0" pr75th="0.8" pr90th="1.75" />
+   <dataSet lst="102612" median="0.55" mn="0.0" mx="18.6" pr10th="0.0" pr25th="0.0" pr75th="4.93" pr90th="13.0" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="19.1" pr10th="0.0" pr25th="0.0" pr75th="1.08" pr90th="10.0" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="27.9" pr10th="0.0" pr25th="0.0" pr75th="0.8" pr90th="12.5" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="7.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.75" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="9.8" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="3.8" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="15.4" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="3.5" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="48.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="7.65" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="3.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.3" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="13.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.15" />
+  </stn>
+  <stn stnNo="47152" stnName="울산">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.35" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="9.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.8" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="21.8" pr10th="0.0" pr25th="0.0" pr75th="3.85" pr90th="12.5" />
+   <dataSet lst="102300" median="0.7" mn="0.0" mx="23.9" pr10th="0.0" pr25th="0.0" pr75th="2.75" pr90th="6.5" />
+   <dataSet lst="102312" median="1.25" mn="0.0" mx="11.7" pr10th="0.0" pr25th="0.33" pr75th="3.43" pr90th="6.05" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="2.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.85" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="6.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="4.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.85" />
+   <dataSet lst="102600" median="0.15" mn="0.0" mx="6.9" pr10th="0.0" pr25th="0.0" pr75th="1.18" pr90th="3.1" />
+   <dataSet lst="102612" median="1.0" mn="0.0" mx="14.0" pr10th="0.0" pr25th="0.0" pr75th="5.4" pr90th="12.85" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="16.9" pr10th="0.0" pr25th="0.0" pr75th="2.42" pr90th="8.95" />
+   <dataSet lst="102712" median="0.15" mn="0.0" mx="29.8" pr10th="0.0" pr25th="0.0" pr75th="1.25" pr90th="11.25" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="9.9" pr10th="0.0" pr25th="0.0" pr75th="0.4" pr90th="3.15" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="7.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="6.45" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="9.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.2" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="46.7" pr10th="0.0" pr25th="0.0" pr75th="0.68" pr90th="4.85" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="4.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.15" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="22.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="6.6" />
+  </stn>
+  <stn stnNo="47155" stnName="창원">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="11.4" pr10th="0.0" pr25th="0.0" pr75th="0.4" pr90th="4.05" />
+   <dataSet lst="102212" median="0.15" mn="0.0" mx="22.2" pr10th="0.0" pr25th="0.0" pr75th="7.85" pr90th="14.55" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="24.0" pr10th="0.0" pr25th="0.0" pr75th="2.18" pr90th="11.5" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="6.5" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="2.4" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.4" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="4.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.8" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="3.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="2.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.75" />
+   <dataSet lst="102600" median="0.0" mn="0.0" mx="23.3" pr10th="0.0" pr25th="0.0" pr75th="1.17" pr90th="3.25" />
+   <dataSet lst="102612" median="0.55" mn="0.0" mx="21.1" pr10th="0.0" pr25th="0.0" pr75th="4.0" pr90th="13.8" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="26.5" pr10th="0.0" pr25th="0.0" pr75th="0.65" pr90th="13.4" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="22.0" pr10th="0.0" pr25th="0.0" pr75th="0.98" pr90th="10.35" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="6.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.85" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="8.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.3" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="19.9" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="3.2" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="44.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="8.85" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="4.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.65" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="8.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.0" />
+  </stn>
+  <stn stnNo="47162" stnName="통영">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="1.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.7" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="11.2" pr10th="0.0" pr25th="0.0" pr75th="1.23" pr90th="3.9" />
+   <dataSet lst="102212" median="1.45" mn="0.0" mx="27.5" pr10th="0.0" pr25th="0.0" pr75th="10.13" pr90th="13.75" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="25.1" pr10th="0.0" pr25th="0.0" pr75th="3.93" pr90th="10.1" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="6.8" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="4.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="3.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.3" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="1.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="2.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102600" median="0.0" mn="0.0" mx="22.8" pr10th="0.0" pr25th="0.0" pr75th="0.7" pr90th="1.8" />
+   <dataSet lst="102612" median="0.15" mn="0.0" mx="25.6" pr10th="0.0" pr25th="0.0" pr75th="6.2" pr90th="10.7" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="26.9" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="15.0" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="21.2" pr10th="0.0" pr25th="0.0" pr75th="0.65" pr90th="10.4" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="4.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.05" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="7.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.3" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="12.9" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="4.85" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="51.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="15.65" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="6.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.55" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="6.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.7" />
+  </stn>
+  <stn stnNo="47192" stnName="진주">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="1.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.75" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="13.2" pr10th="0.0" pr25th="0.0" pr75th="0.7" pr90th="5.5" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="22.8" pr10th="0.0" pr25th="0.0" pr75th="8.88" pr90th="17.25" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="23.2" pr10th="0.0" pr25th="0.0" pr75th="2.63" pr90th="13.5" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="4.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.35" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="3.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.2" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="4.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.4" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="1.25" />
+   <dataSet lst="102600" median="0.35" mn="0.0" mx="17.4" pr10th="0.0" pr25th="0.0" pr75th="2.38" pr90th="4.15" />
+   <dataSet lst="102612" median="1.05" mn="0.0" mx="22.5" pr10th="0.0" pr25th="0.0" pr75th="3.95" pr90th="8.45" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="41.3" pr10th="0.0" pr25th="0.0" pr75th="0.48" pr90th="15.45" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="16.3" pr10th="0.0" pr25th="0.0" pr75th="1.45" pr90th="10.3" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="5.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.4" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="11.9" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="4.3" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="16.6" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="3.55" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="27.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="10.15" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="3.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.9" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="6.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.95" />
+  </stn>
+  <stn stnNo="47284" stnName="거창">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="2.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.45" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="10.0" pr10th="0.0" pr25th="0.0" pr75th="0.6" pr90th="5.45" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="20.7" pr10th="0.0" pr25th="0.0" pr75th="5.9" pr90th="14.35" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="17.7" pr10th="0.0" pr25th="0.0" pr75th="1.03" pr90th="5.75" />
+   <dataSet lst="102312" median="0.4" mn="0.0" mx="4.0" pr10th="0.0" pr25th="0.0" pr75th="0.6" pr90th="1.15" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="1.4" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="0.6" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="5.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.1" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="5.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="1.9" pr10th="0.0" pr25th="0.0" pr75th="0.57" pr90th="1.65" />
+   <dataSet lst="102600" median="0.4" mn="0.0" mx="12.3" pr10th="0.0" pr25th="0.0" pr75th="3.6" pr90th="4.6" />
+   <dataSet lst="102612" median="1.0" mn="0.0" mx="14.7" pr10th="0.0" pr25th="0.0" pr75th="2.85" pr90th="9.75" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="36.8" pr10th="0.0" pr25th="0.0" pr75th="0.57" pr90th="13.95" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="15.3" pr10th="0.0" pr25th="0.0" pr75th="1.55" pr90th="8.05" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="7.0" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="2.25" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="8.3" pr10th="0.0" pr25th="0.0" pr75th="0.4" pr90th="4.1" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="11.3" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="2.35" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="18.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="7.05" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="3.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.1" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="9.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.5" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="6" grName="부산청(대구)">
+  <stn stnNo="47143" stnName="대구">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="1.4" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="1.05" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="4.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.9" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="8.0" pr10th="0.0" pr25th="0.0" pr75th="4.18" pr90th="7.45" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="10.1" pr10th="0.0" pr25th="0.0" pr75th="0.73" pr90th="3.45" />
+   <dataSet lst="102312" median="0.85" mn="0.0" mx="2.3" pr10th="0.0" pr25th="0.3" pr75th="1.4" pr90th="2.2" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="2.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.45" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="7.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.45" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="3.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.9" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="1.2" />
+   <dataSet lst="102600" median="0.3" mn="0.0" mx="8.8" pr10th="0.0" pr25th="0.0" pr75th="2.42" pr90th="5.95" />
+   <dataSet lst="102612" median="0.75" mn="0.0" mx="14.0" pr10th="0.0" pr25th="0.0" pr75th="2.45" pr90th="11.45" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="26.1" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="10.45" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="20.9" pr10th="0.0" pr25th="0.0" pr75th="2.28" pr90th="5.35" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="6.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.25" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="4.8" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="3.6" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="4.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.35" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="19.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.2" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="3.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.4" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="16.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.85" />
+  </stn>
+  <stn stnNo="47138" stnName="포항">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="0.35" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="0.65" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="8.6" pr10th="0.0" pr25th="0.0" pr75th="0.98" pr90th="5.8" />
+   <dataSet lst="102300" median="0.2" mn="0.0" mx="10.2" pr10th="0.0" pr25th="0.0" pr75th="2.1" pr90th="5.45" />
+   <dataSet lst="102312" median="2.5" mn="0.0" mx="4.8" pr10th="0.0" pr25th="0.45" pr75th="3.68" pr90th="4.2" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="3.7" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="2.75" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="6.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="1.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="5.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.7" />
+   <dataSet lst="102600" median="0.15" mn="0.0" mx="8.2" pr10th="0.0" pr25th="0.0" pr75th="1.9" pr90th="5.6" />
+   <dataSet lst="102612" median="1.3" mn="0.0" mx="22.8" pr10th="0.0" pr25th="0.0" pr75th="2.68" pr90th="14.4" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="18.2" pr10th="0.0" pr25th="0.0" pr75th="2.43" pr90th="9.85" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="32.8" pr10th="0.0" pr25th="0.0" pr75th="1.93" pr90th="6.85" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="14.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.5" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="9.3" pr10th="0.0" pr25th="0.0" pr75th="1.17" pr90th="4.65" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="4.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.1" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="38.2" pr10th="0.0" pr25th="0.0" pr75th="0.68" pr90th="5.45" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="10.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.35" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="15.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.2" />
+  </stn>
+  <stn stnNo="47136" stnName="안동">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.5" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="8.6" pr10th="0.0" pr25th="0.0" pr75th="0.55" pr90th="4.45" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="4.8" pr10th="0.0" pr25th="0.0" pr75th="0.48" pr90th="2.4" />
+   <dataSet lst="102312" median="0.4" mn="0.0" mx="2.6" pr10th="0.0" pr25th="0.0" pr75th="0.83" pr90th="1.35" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="1.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.5" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="4.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.25" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="1.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="4.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.05" />
+   <dataSet lst="102600" median="0.3" mn="0.0" mx="13.6" pr10th="0.0" pr25th="0.0" pr75th="2.93" pr90th="8.55" />
+   <dataSet lst="102612" median="0.5" mn="0.0" mx="19.3" pr10th="0.0" pr25th="0.0" pr75th="5.98" pr90th="12.15" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="35.9" pr10th="0.0" pr25th="0.0" pr75th="0.83" pr90th="12.15" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="28.8" pr10th="0.0" pr25th="0.0" pr75th="1.93" pr90th="8.85" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="5.8" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="3.7" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="7.3" pr10th="0.0" pr25th="0.0" pr75th="1.22" pr90th="6.3" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="5.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.55" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="30.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="10.6" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="16.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.65" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="10.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.35" />
+  </stn>
+  <stn stnNo="47130" stnName="울진">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="2.6" mn="0.0" mx="6.0" pr10th="0.15" pr25th="1.18" pr75th="3.38" pr90th="4.7" />
+   <dataSet lst="102112" median="1.05" mn="0.0" mx="8.0" pr10th="0.0" pr25th="0.4" pr75th="2.33" pr90th="6.25" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="1.4" pr10th="0.0" pr25th="0.0" pr75th="0.48" pr90th="0.8" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="4.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.35" />
+   <dataSet lst="102300" median="3.9" mn="0.0" mx="12.7" pr10th="0.0" pr25th="0.0" pr75th="9.98" pr90th="11.65" />
+   <dataSet lst="102312" median="9.35" mn="0.0" mx="18.6" pr10th="0.0" pr25th="1.6" pr75th="13.1" pr90th="16.1" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="11.9" pr10th="0.0" pr25th="0.0" pr75th="0.7" pr90th="5.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="3.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.75" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="2.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="7.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.3" />
+   <dataSet lst="102600" median="0.15" mn="0.0" mx="22.2" pr10th="0.0" pr25th="0.0" pr75th="3.03" pr90th="6.3" />
+   <dataSet lst="102612" median="1.35" mn="0.0" mx="16.9" pr10th="0.0" pr25th="0.0" pr75th="6.53" pr90th="8.9" />
+   <dataSet lst="102700" median="0.3" mn="0.0" mx="32.0" pr10th="0.0" pr25th="0.0" pr75th="3.83" pr90th="10.1" />
+   <dataSet lst="102712" median="0.65" mn="0.0" mx="33.0" pr10th="0.0" pr25th="0.0" pr75th="2.83" pr90th="9.9" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="17.0" pr10th="0.0" pr25th="0.0" pr75th="4.03" pr90th="15.5" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="20.0" pr10th="0.0" pr25th="0.0" pr75th="2.6" pr90th="5.75" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="9.6" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="5.2" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="22.1" pr10th="0.0" pr25th="0.0" pr75th="1.88" pr90th="13.7" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="19.0" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="4.6" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="28.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="14.1" />
+  </stn>
+  <stn stnNo="47137" stnName="상주">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="10.1" pr10th="0.0" pr25th="0.0" pr75th="1.15" pr90th="4.45" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="5.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.85" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="2.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.25" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="4.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.45" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="1.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.95" />
+   <dataSet lst="102600" median="0.0" mn="0.0" mx="14.3" pr10th="0.0" pr25th="0.0" pr75th="3.4" pr90th="13.45" />
+   <dataSet lst="102612" median="1.85" mn="0.0" mx="20.4" pr10th="0.0" pr25th="0.0" pr75th="5.55" pr90th="11.0" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="46.1" pr10th="0.0" pr25th="0.0" pr75th="1.1" pr90th="17.25" />
+   <dataSet lst="102712" median="0.15" mn="0.0" mx="13.9" pr10th="0.0" pr25th="0.0" pr75th="1.35" pr90th="9.55" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="7.3" pr10th="0.0" pr25th="0.0" pr75th="0.78" pr90th="5.15" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="11.5" pr10th="0.0" pr25th="0.0" pr75th="0.73" pr90th="7.0" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="15.5" pr10th="0.0" pr25th="0.0" pr75th="0.55" pr90th="2.9" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="19.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="11.85" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="16.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="9.35" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="12.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.95" />
+  </stn>
+  <stn stnNo="47279" stnName="구미">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="1.1" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="0.75" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="1.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.6" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="11.3" pr10th="0.0" pr25th="0.0" pr75th="2.28" pr90th="5.55" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="5.8" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="3.6" />
+   <dataSet lst="102312" median="0.3" mn="0.0" mx="2.7" pr10th="0.0" pr25th="0.0" pr75th="0.68" pr90th="1.45" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="1.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.55" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="5.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="3.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="5.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.35" />
+   <dataSet lst="102600" median="0.15" mn="0.0" mx="9.3" pr10th="0.0" pr25th="0.0" pr75th="3.0" pr90th="7.95" />
+   <dataSet lst="102612" median="0.75" mn="0.0" mx="16.6" pr10th="0.0" pr25th="0.0" pr75th="3.2" pr90th="12.6" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="32.6" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="11.55" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="22.7" pr10th="0.0" pr25th="0.0" pr75th="2.3" pr90th="6.4" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="9.5" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="5.9" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="5.7" pr10th="0.0" pr25th="0.0" pr75th="1.4" pr90th="4.55" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="4.3" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="2.8" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="20.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="7.1" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="5.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.35" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="13.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.6" />
+  </stn>
+  <stn stnNo="47115" stnName="울릉도">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.4" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="3.4" pr10th="0.0" pr25th="0.0" pr75th="0.83" pr90th="2.05" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.45" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="0.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102600" median="0.15" mn="0.0" mx="20.6" pr10th="0.0" pr25th="0.0" pr75th="1.2" pr90th="6.95" />
+   <dataSet lst="102612" median="0.95" mn="0.0" mx="14.7" pr10th="0.0" pr25th="0.0" pr75th="6.2" pr90th="11.95" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="54.6" pr10th="0.0" pr25th="0.0" pr75th="1.15" pr90th="19.65" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="26.9" pr10th="0.0" pr25th="0.0" pr75th="1.55" pr90th="7.55" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="9.4" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="4.5" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="17.0" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="6.1" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="5.3" pr10th="0.0" pr25th="0.0" pr75th="0.5" pr90th="1.9" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="31.1" pr10th="0.0" pr25th="0.0" pr75th="2.93" pr90th="12.35" />
+   <dataSet lst="103000" median="0.15" mn="0.0" mx="13.9" pr10th="0.0" pr25th="0.0" pr75th="1.13" pr90th="8.65" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="6.1" pr10th="0.0" pr25th="0.0" pr75th="0.7" pr90th="3.75" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="13" grName="광주청(광주)">
+  <stn stnNo="47156" stnName="광주">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="2.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.7" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="10.0" pr10th="0.0" pr25th="0.0" pr75th="1.27" pr90th="7.7" />
+   <dataSet lst="102212" median="0.15" mn="0.0" mx="36.9" pr10th="0.0" pr25th="0.0" pr75th="6.6" pr90th="23.1" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="16.0" pr10th="0.0" pr25th="0.0" pr75th="1.13" pr90th="11.6" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="1.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.75" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="1.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="4.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.55" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="4.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="5.5" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="4.0" />
+   <dataSet lst="102600" median="0.5" mn="0.0" mx="13.8" pr10th="0.0" pr25th="0.0" pr75th="2.9" pr90th="7.85" />
+   <dataSet lst="102612" median="2.75" mn="0.0" mx="10.6" pr10th="0.0" pr25th="0.0" pr75th="4.68" pr90th="8.3" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="59.8" pr10th="0.0" pr25th="0.0" pr75th="2.1" pr90th="28.35" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="18.9" pr10th="0.0" pr25th="0.0" pr75th="1.78" pr90th="7.25" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="6.5" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="2.7" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="20.4" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="8.7" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="25.8" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="2.8" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="15.7" pr10th="0.0" pr25th="0.0" pr75th="0.52" pr90th="12.0" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="6.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.4" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="7.3" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="2.0" />
+  </stn>
+  <stn stnNo="47165" stnName="목포">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="5.6" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="1.4" />
+   <dataSet lst="102200" median="0.65" mn="0.0" mx="9.5" pr10th="0.0" pr25th="0.0" pr75th="3.23" pr90th="8.8" />
+   <dataSet lst="102212" median="1.05" mn="0.0" mx="30.2" pr10th="0.0" pr25th="0.0" pr75th="6.88" pr90th="28.8" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="27.2" pr10th="0.0" pr25th="0.0" pr75th="1.6" pr90th="15.3" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="2.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.45" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="1.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.9" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="6.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.0" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="4.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="4.4" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="1.45" />
+   <dataSet lst="102600" median="0.0" mn="0.0" mx="19.6" pr10th="0.0" pr25th="0.0" pr75th="2.28" pr90th="5.75" />
+   <dataSet lst="102612" median="1.25" mn="0.0" mx="8.3" pr10th="0.0" pr25th="0.0" pr75th="3.97" pr90th="6.9" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="49.2" pr10th="0.0" pr25th="0.0" pr75th="1.22" pr90th="25.0" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="13.2" pr10th="0.0" pr25th="0.0" pr75th="1.03" pr90th="5.1" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="7.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.15" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="18.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="8.65" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="18.1" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="3.9" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="23.5" pr10th="0.0" pr25th="0.0" pr75th="0.6" pr90th="8.8" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="3.8" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="1.25" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="3.5" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="2.2" />
+  </stn>
+  <stn stnNo="47168" stnName="여수">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="2.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.45" />
+   <dataSet lst="102200" median="0.5" mn="0.0" mx="12.2" pr10th="0.0" pr25th="0.0" pr75th="4.8" pr90th="8.8" />
+   <dataSet lst="102212" median="4.3" mn="0.0" mx="52.0" pr10th="0.0" pr25th="0.0" pr75th="14.18" pr90th="36.55" />
+   <dataSet lst="102300" median="0.75" mn="0.0" mx="26.4" pr10th="0.0" pr25th="0.0" pr75th="4.43" pr90th="14.25" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="14.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.2" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="5.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.3" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="4.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="11.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.7" />
+   <dataSet lst="102600" median="0.0" mn="0.0" mx="21.9" pr10th="0.0" pr25th="0.0" pr75th="1.23" pr90th="5.0" />
+   <dataSet lst="102612" median="0.15" mn="0.0" mx="30.1" pr10th="0.0" pr25th="0.0" pr75th="2.63" pr90th="8.0" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="38.1" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="20.65" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="16.5" pr10th="0.0" pr25th="0.0" pr75th="0.78" pr90th="12.7" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="2.9" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="1.25" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="11.5" pr10th="0.0" pr25th="0.0" pr75th="0.48" pr90th="5.35" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="12.5" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="9.0" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="43.6" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="23.6" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="4.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.65" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="3.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.6" />
+  </stn>
+  <stn stnNo="47170" stnName="완도">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="2.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.95" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="5.4" pr10th="0.0" pr25th="0.0" pr75th="1.48" pr90th="3.85" />
+   <dataSet lst="102200" median="1.25" mn="0.0" mx="55.2" pr10th="0.0" pr25th="0.35" pr75th="9.3" pr90th="17.8" />
+   <dataSet lst="102212" median="8.95" mn="0.0" mx="63.0" pr10th="0.0" pr25th="1.08" pr75th="27.9" pr90th="56.75" />
+   <dataSet lst="102300" median="0.6" mn="0.0" mx="37.7" pr10th="0.0" pr25th="0.0" pr75th="6.07" pr90th="17.6" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="22.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.6" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="11.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.6" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="5.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="2.1" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="1.25" />
+   <dataSet lst="102600" median="0.15" mn="0.0" mx="19.2" pr10th="0.0" pr25th="0.0" pr75th="2.05" pr90th="3.9" />
+   <dataSet lst="102612" median="0.9" mn="0.0" mx="7.4" pr10th="0.0" pr25th="0.0" pr75th="2.98" pr90th="6.25" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="37.4" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="16.85" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="17.8" pr10th="0.0" pr25th="0.0" pr75th="1.35" pr90th="10.0" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="6.0" pr10th="0.0" pr25th="0.0" pr75th="0.5" pr90th="3.8" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="10.7" pr10th="0.0" pr25th="0.0" pr75th="0.48" pr90th="4.95" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="10.4" pr10th="0.0" pr25th="0.0" pr75th="1.35" pr90th="8.5" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="19.2" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="6.75" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="1.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="1.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.1" />
+  </stn>
+  <stn stnNo="47174" stnName="순천">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="4.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.8" />
+   <dataSet lst="102200" median="0.45" mn="0.0" mx="11.6" pr10th="0.0" pr25th="0.0" pr75th="2.75" pr90th="5.4" />
+   <dataSet lst="102212" median="1.25" mn="0.0" mx="22.6" pr10th="0.0" pr25th="0.0" pr75th="11.73" pr90th="18.9" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="17.4" pr10th="0.0" pr25th="0.0" pr75th="3.2" pr90th="15.8" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="12.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.8" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="4.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.2" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="4.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="11.0" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="0.55" />
+   <dataSet lst="102600" median="0.55" mn="0.0" mx="20.6" pr10th="0.0" pr25th="0.0" pr75th="2.45" pr90th="5.3" />
+   <dataSet lst="102612" median="0.85" mn="0.0" mx="35.5" pr10th="0.0" pr25th="0.0" pr75th="4.4" pr90th="13.05" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="51.4" pr10th="0.0" pr25th="0.0" pr75th="0.7" pr90th="22.8" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="18.8" pr10th="0.0" pr25th="0.0" pr75th="1.2" pr90th="14.15" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="5.0" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="2.3" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="17.6" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="4.65" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="24.3" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="6.5" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="28.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="18.0" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="5.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.1" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="4.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.95" />
+  </stn>
+  <stn stnNo="47268" stnName="진도군">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="2.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.45" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.2" />
+   <dataSet lst="102112" median="0.15" mn="0.0" mx="7.2" pr10th="0.0" pr25th="0.0" pr75th="1.98" pr90th="5.4" />
+   <dataSet lst="102200" median="2.05" mn="0.0" mx="81.2" pr10th="0.0" pr25th="0.35" pr75th="8.55" pr90th="25.7" />
+   <dataSet lst="102212" median="7.2" mn="0.0" mx="67.8" pr10th="0.0" pr25th="0.65" pr75th="30.08" pr90th="57.0" />
+   <dataSet lst="102300" median="0.7" mn="0.0" mx="33.9" pr10th="0.0" pr25th="0.0" pr75th="6.68" pr90th="19.85" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="19.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.65" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="11.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.45" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="5.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.25" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="2.4" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="1.15" />
+   <dataSet lst="102600" median="0.15" mn="0.0" mx="22.6" pr10th="0.0" pr25th="0.0" pr75th="1.08" pr90th="3.6" />
+   <dataSet lst="102612" median="0.75" mn="0.0" mx="5.2" pr10th="0.0" pr25th="0.0" pr75th="3.78" pr90th="4.45" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="40.9" pr10th="0.0" pr25th="0.0" pr75th="0.8" pr90th="18.2" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="14.7" pr10th="0.0" pr25th="0.0" pr75th="1.6" pr90th="6.5" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="8.1" pr10th="0.0" pr25th="0.0" pr75th="0.57" pr90th="3.85" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="12.8" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="4.95" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="9.2" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="6.85" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="16.3" pr10th="0.0" pr25th="0.0" pr75th="0.75" pr90th="7.9" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="0.5" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="2.7" pr10th="0.0" pr25th="0.0" pr75th="0.4" pr90th="2.05" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="18" grName="광주청(전주)">
+  <stn stnNo="47146" stnName="전주">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="6.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.55" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="19.1" pr10th="0.0" pr25th="0.0" pr75th="3.18" pr90th="8.85" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="10.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.15" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="7.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.65" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="3.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="4.9" pr10th="0.0" pr25th="0.0" pr75th="0.68" pr90th="2.35" />
+   <dataSet lst="102600" median="0.6" mn="0.0" mx="13.5" pr10th="0.0" pr25th="0.0" pr75th="3.88" pr90th="10.3" />
+   <dataSet lst="102612" median="3.15" mn="0.0" mx="11.6" pr10th="0.0" pr25th="0.0" pr75th="5.25" pr90th="10.85" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="42.3" pr10th="0.0" pr25th="0.0" pr75th="2.08" pr90th="23.3" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="19.6" pr10th="0.0" pr25th="0.0" pr75th="1.93" pr90th="14.15" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="8.3" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="7.15" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="16.2" pr10th="0.0" pr25th="0.0" pr75th="1.2" pr90th="12.15" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="27.3" pr10th="0.0" pr25th="0.0" pr75th="0.73" pr90th="2.3" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="22.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="11.55" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="18.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="10.2" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="9.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.65" />
+  </stn>
+  <stn stnNo="47140" stnName="군산">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.55" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="20.5" pr10th="0.0" pr25th="0.0" pr75th="2.1" pr90th="6.4" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="6.0" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="2.55" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="7.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.4" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="5.6" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="1.55" />
+   <dataSet lst="102600" median="0.8" mn="0.0" mx="17.2" pr10th="0.0" pr25th="0.0" pr75th="3.65" pr90th="10.3" />
+   <dataSet lst="102612" median="2.55" mn="0.0" mx="32.9" pr10th="0.0" pr25th="0.0" pr75th="5.93" pr90th="8.8" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="57.9" pr10th="0.0" pr25th="0.0" pr75th="2.08" pr90th="17.1" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="18.5" pr10th="0.0" pr25th="0.0" pr75th="0.78" pr90th="9.8" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="7.7" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="3.3" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="9.6" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="4.7" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="24.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.15" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="15.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="8.7" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="27.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="9.8" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="1.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.55" />
+  </stn>
+  <stn stnNo="47172" stnName="고창">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="2.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.7" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="10.0" pr10th="0.0" pr25th="0.0" pr75th="1.27" pr90th="7.7" />
+   <dataSet lst="102212" median="0.15" mn="0.0" mx="36.9" pr10th="0.0" pr25th="0.0" pr75th="6.6" pr90th="23.1" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="16.0" pr10th="0.0" pr25th="0.0" pr75th="1.13" pr90th="11.6" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="1.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.75" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="1.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="4.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.55" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="4.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="5.5" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="4.0" />
+   <dataSet lst="102600" median="0.5" mn="0.0" mx="13.8" pr10th="0.0" pr25th="0.0" pr75th="2.9" pr90th="7.85" />
+   <dataSet lst="102612" median="2.75" mn="0.0" mx="10.6" pr10th="0.0" pr25th="0.0" pr75th="4.68" pr90th="8.3" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="59.8" pr10th="0.0" pr25th="0.0" pr75th="2.1" pr90th="28.35" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="18.9" pr10th="0.0" pr25th="0.0" pr75th="1.78" pr90th="7.25" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="6.5" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="2.7" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="20.4" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="8.7" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="25.8" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="2.8" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="15.7" pr10th="0.0" pr25th="0.0" pr75th="0.52" pr90th="12.0" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="6.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.4" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="7.3" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="2.0" />
+  </stn>
+  <stn stnNo="47245" stnName="정읍">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.2" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="10.2" pr10th="0.0" pr25th="0.0" pr75th="0.57" pr90th="5.75" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="43.3" pr10th="0.0" pr25th="0.0" pr75th="5.78" pr90th="10.7" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="12.7" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="6.35" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.2" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="3.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.1" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="2.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.25" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="8.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.4" />
+   <dataSet lst="102600" median="0.6" mn="0.0" mx="10.8" pr10th="0.0" pr25th="0.0" pr75th="2.25" pr90th="9.45" />
+   <dataSet lst="102612" median="2.5" mn="0.0" mx="12.7" pr10th="0.0" pr25th="0.0" pr75th="4.9" pr90th="7.65" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="54.3" pr10th="0.0" pr25th="0.0" pr75th="1.95" pr90th="25.35" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="18.8" pr10th="0.0" pr25th="0.0" pr75th="2.13" pr90th="8.2" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="6.4" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="3.75" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="12.6" pr10th="0.0" pr25th="0.0" pr75th="0.52" pr90th="8.2" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="25.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.65" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="15.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="13.5" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="11.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.45" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="8.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.05" />
+  </stn>
+  <stn stnNo="47247" stnName="남원">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="1.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="11.1" pr10th="0.0" pr25th="0.0" pr75th="0.48" pr90th="5.2" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="18.7" pr10th="0.0" pr25th="0.0" pr75th="8.73" pr90th="14.45" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="15.7" pr10th="0.0" pr25th="0.0" pr75th="0.68" pr90th="6.75" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="1.7" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="0.9" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="5.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.6" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="4.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="4.2" pr10th="0.0" pr25th="0.0" pr75th="0.55" pr90th="2.7" />
+   <dataSet lst="102600" median="0.6" mn="0.0" mx="12.1" pr10th="0.0" pr25th="0.0" pr75th="4.43" pr90th="6.6" />
+   <dataSet lst="102612" median="2.4" mn="0.0" mx="17.0" pr10th="0.0" pr25th="0.0" pr75th="3.98" pr90th="9.0" />
+   <dataSet lst="102700" median="0.15" mn="0.0" mx="42.3" pr10th="0.0" pr25th="0.0" pr75th="1.3" pr90th="21.5" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="13.9" pr10th="0.0" pr25th="0.0" pr75th="2.33" pr90th="12.35" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="8.3" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="3.8" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="15.1" pr10th="0.0" pr25th="0.0" pr75th="0.75" pr90th="6.6" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="20.4" pr10th="0.0" pr25th="0.0" pr75th="0.48" pr90th="2.8" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="13.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="11.6" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="6.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.7" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="13.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.55" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="23" grName="대전청(대전)">
+  <stn stnNo="47133" stnName="대전">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.25" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="11.1" pr10th="0.0" pr25th="0.0" pr75th="1.15" pr90th="4.95" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="5.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.6" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="2.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="5.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.4" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.5" />
+   <dataSet lst="102600" median="0.4" mn="0.0" mx="15.8" pr10th="0.0" pr25th="0.0" pr75th="4.72" pr90th="13.55" />
+   <dataSet lst="102612" median="2.35" mn="0.0" mx="20.2" pr10th="0.0" pr25th="0.0" pr75th="6.48" pr90th="13.1" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="49.2" pr10th="0.0" pr25th="0.0" pr75th="1.8" pr90th="17.85" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="13.8" pr10th="0.0" pr25th="0.0" pr75th="1.43" pr90th="10.65" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="7.7" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="6.8" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="12.3" pr10th="0.0" pr25th="0.0" pr75th="1.05" pr90th="7.8" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="20.5" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="2.35" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="21.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="8.9" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="18.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="10.7" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="12.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.85" />
+  </stn>
+  <stn stnNo="887" stnName="세종시">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.2" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="10.9" pr10th="0.0" pr25th="0.0" pr75th="0.98" pr90th="5.65" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="4.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.2" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="3.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="1.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="6.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="4.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.0" />
+   <dataSet lst="102600" median="0.5" mn="0.0" mx="17.4" pr10th="0.0" pr25th="0.0" pr75th="4.68" pr90th="13.0" />
+   <dataSet lst="102612" median="3.2" mn="0.0" mx="45.2" pr10th="0.0" pr25th="0.1" pr75th="8.0" pr90th="10.0" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="61.5" pr10th="0.0" pr25th="0.0" pr75th="1.8" pr90th="16.85" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="16.8" pr10th="0.0" pr25th="0.0" pr75th="1.27" pr90th="9.45" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="9.2" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="6.05" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="11.8" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="7.3" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="23.5" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="3.15" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="20.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="7.75" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="21.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="10.6" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="4.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.15" />
+  </stn>
+  <stn stnNo="47129" stnName="서산">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.2" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="6.6" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="4.65" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="1.8" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="0.85" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="2.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.1" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="5.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="6.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.3" />
+   <dataSet lst="102600" median="1.85" mn="0.0" mx="20.1" pr10th="0.0" pr25th="0.0" pr75th="5.7" pr90th="16.0" />
+   <dataSet lst="102612" median="3.35" mn="0.0" mx="23.2" pr10th="0.0" pr25th="0.0" pr75th="7.18" pr90th="10.75" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="74.4" pr10th="0.0" pr25th="0.0" pr75th="3.1" pr90th="8.85" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="12.0" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="9.75" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="9.5" pr10th="0.0" pr25th="0.0" pr75th="0.68" pr90th="3.7" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="12.5" pr10th="0.0" pr25th="0.0" pr75th="0.83" pr90th="6.7" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="15.6" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="6.3" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="13.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="6.1" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="18.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.95" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.7" />
+  </stn>
+  <stn stnNo="47177" stnName="홍성(예)">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.2" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="6.6" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="4.65" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="1.8" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="0.85" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="2.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.1" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="5.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="6.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.3" />
+   <dataSet lst="102600" median="1.85" mn="0.0" mx="20.1" pr10th="0.0" pr25th="0.0" pr75th="5.7" pr90th="16.0" />
+   <dataSet lst="102612" median="3.35" mn="0.0" mx="23.2" pr10th="0.0" pr25th="0.0" pr75th="7.18" pr90th="10.75" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="74.4" pr10th="0.0" pr25th="0.0" pr75th="3.1" pr90th="8.85" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="12.0" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="9.75" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="9.5" pr10th="0.0" pr25th="0.0" pr75th="0.68" pr90th="3.7" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="12.5" pr10th="0.0" pr25th="0.0" pr75th="0.83" pr90th="6.7" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="15.6" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="6.3" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="13.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="6.1" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="18.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.95" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.7" />
+  </stn>
+  <stn stnNo="47232" stnName="천안">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="6.5" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="4.4" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="3.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.7" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="3.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="2.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.5" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="4.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.2" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.95" />
+   <dataSet lst="102600" median="1.25" mn="0.0" mx="21.8" pr10th="0.0" pr25th="0.0" pr75th="4.5" pr90th="17.9" />
+   <dataSet lst="102612" median="4.5" mn="0.0" mx="39.8" pr10th="0.0" pr25th="0.0" pr75th="7.4" pr90th="9.2" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="66.6" pr10th="0.0" pr25th="0.0" pr75th="2.75" pr90th="12.55" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="13.0" pr10th="0.0" pr25th="0.0" pr75th="0.85" pr90th="9.55" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="9.2" pr10th="0.0" pr25th="0.0" pr75th="1.27" pr90th="5.0" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="14.3" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="7.2" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="19.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.25" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="14.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.6" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="19.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.35" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="2.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.3" />
+  </stn>
+  <stn stnNo="47235" stnName="보령">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="10.3" pr10th="0.0" pr25th="0.0" pr75th="0.73" pr90th="6.35" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="3.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.65" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="1.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.65" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="6.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.25" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="6.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.05" />
+   <dataSet lst="102600" median="0.75" mn="0.0" mx="18.9" pr10th="0.0" pr25th="0.0" pr75th="5.13" pr90th="10.75" />
+   <dataSet lst="102612" median="3.45" mn="0.0" mx="31.2" pr10th="0.0" pr25th="0.0" pr75th="6.45" pr90th="9.75" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="68.5" pr10th="0.0" pr25th="0.0" pr75th="2.1" pr90th="13.8" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="14.1" pr10th="0.0" pr25th="0.0" pr75th="0.63" pr90th="9.75" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="9.3" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="3.35" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="10.4" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="6.4" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="21.5" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="6.1" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="19.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="7.85" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="24.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="7.85" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="1.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.35" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="32" grName="대전청(청주)">
+  <stn stnNo="47131" stnName="청주">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="6.8" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="3.95" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="5.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.15" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="3.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="1.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.2" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="4.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.2" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.25" />
+   <dataSet lst="102600" median="0.95" mn="0.0" mx="22.2" pr10th="0.0" pr25th="0.0" pr75th="4.4" pr90th="17.95" />
+   <dataSet lst="102612" median="4.2" mn="0.0" mx="47.2" pr10th="0.0" pr25th="0.1" pr75th="7.43" pr90th="13.05" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="59.3" pr10th="0.0" pr25th="0.0" pr75th="2.73" pr90th="17.15" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="14.2" pr10th="0.0" pr25th="0.0" pr75th="1.38" pr90th="9.3" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="10.1" pr10th="0.0" pr25th="0.0" pr75th="0.75" pr90th="6.2" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="16.0" pr10th="0.0" pr25th="0.0" pr75th="0.6" pr90th="7.5" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="22.9" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="3.3" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="17.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="7.5" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="20.4" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="5.95" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="8.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.95" />
+  </stn>
+  <stn stnNo="47127" stnName="충주">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="5.5" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="1.65" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="1.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.45" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="1.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="2.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="3.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.8" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.7" />
+   <dataSet lst="102600" median="1.15" mn="0.0" mx="23.1" pr10th="0.0" pr25th="0.0" pr75th="5.73" pr90th="16.85" />
+   <dataSet lst="102612" median="4.1" mn="0.0" mx="52.8" pr10th="0.0" pr25th="0.0" pr75th="9.6" pr90th="20.1" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="64.0" pr10th="0.0" pr25th="0.0" pr75th="2.73" pr90th="17.7" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="22.0" pr10th="0.0" pr25th="0.0" pr75th="5.15" pr90th="11.2" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="21.3" pr10th="0.0" pr25th="0.0" pr75th="1.88" pr90th="14.65" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="18.2" pr10th="0.0" pr25th="0.0" pr75th="1.65" pr90th="9.3" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="30.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.6" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="18.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="10.95" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="17.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.05" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="9.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.15" />
+  </stn>
+  <stn stnNo="47135" stnName="추풍령">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="1.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.2" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="2.6" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="0.8" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="14.6" pr10th="0.0" pr25th="0.0" pr75th="2.58" pr90th="5.75" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="6.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.55" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="2.7" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="0.7" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="6.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="3.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="4.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.1" />
+   <dataSet lst="102600" median="0.15" mn="0.0" mx="9.0" pr10th="0.0" pr25th="0.0" pr75th="4.18" pr90th="8.5" />
+   <dataSet lst="102612" median="1.2" mn="0.0" mx="17.8" pr10th="0.0" pr25th="0.0" pr75th="3.65" pr90th="11.2" />
+   <dataSet lst="102700" median="0.15" mn="0.0" mx="38.5" pr10th="0.0" pr25th="0.0" pr75th="0.83" pr90th="14.2" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="15.4" pr10th="0.0" pr25th="0.0" pr75th="1.65" pr90th="7.4" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="6.7" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="4.35" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="8.8" pr10th="0.0" pr25th="0.0" pr75th="0.75" pr90th="4.45" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="8.7" pr10th="0.0" pr25th="0.0" pr75th="0.57" pr90th="2.45" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="17.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="8.95" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="7.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.25" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="14.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.1" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="41" grName="강원청(춘천)">
+  <stn stnNo="47101" stnName="춘천">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="1.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="7.3" pr10th="0.0" pr25th="0.0" pr75th="0.55" pr90th="3.45" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="3.1" pr10th="0.0" pr25th="0.0" pr75th="0.48" pr90th="1.6" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="1.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.35" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="13.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.75" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="2.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.95" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.95" />
+   <dataSet lst="102600" median="0.0" mn="0.0" mx="19.9" pr10th="0.0" pr25th="0.0" pr75th="5.33" pr90th="17.9" />
+   <dataSet lst="102612" median="1.7" mn="0.0" mx="35.9" pr10th="0.0" pr25th="0.0" pr75th="9.43" pr90th="24.15" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="18.0" pr10th="0.0" pr25th="0.0" pr75th="3.0" pr90th="16.15" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="14.9" pr10th="0.0" pr25th="0.0" pr75th="3.4" pr90th="11.85" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="16.4" pr10th="0.0" pr25th="0.0" pr75th="1.82" pr90th="4.8" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="10.8" pr10th="0.0" pr25th="0.0" pr75th="0.5" pr90th="4.9" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="31.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="9.45" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="8.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.85" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="15.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.6" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="3.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.2" />
+  </stn>
+  <stn stnNo="47114" stnName="원주">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="1.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="1.0" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="1.0" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.55" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="2.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="2.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.2" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="3.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.45" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="1.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.9" />
+   <dataSet lst="102600" median="1.55" mn="0.0" mx="23.8" pr10th="0.0" pr25th="0.0" pr75th="8.18" pr90th="15.45" />
+   <dataSet lst="102612" median="3.4" mn="0.0" mx="46.2" pr10th="0.0" pr25th="0.0" pr75th="12.88" pr90th="24.55" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="65.5" pr10th="0.0" pr25th="0.0" pr75th="2.25" pr90th="15.4" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="21.1" pr10th="0.0" pr25th="0.0" pr75th="5.7" pr90th="10.6" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="20.3" pr10th="0.0" pr25th="0.0" pr75th="2.88" pr90th="12.05" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="19.5" pr10th="0.0" pr25th="0.0" pr75th="2.6" pr90th="9.35" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="33.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="6.2" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="14.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="10.2" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="21.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.35" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="7.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.4" />
+  </stn>
+  <stn stnNo="47095" stnName="철원">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="1.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.35" />
+   <dataSet lst="102212" median="0.5" mn="0.0" mx="7.6" pr10th="0.0" pr25th="0.0" pr75th="1.8" pr90th="3.95" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="2.7" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="1.4" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="13.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.6" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="1.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.35" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="6.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.05" />
+   <dataSet lst="102600" median="0.2" mn="0.0" mx="29.7" pr10th="0.0" pr25th="0.0" pr75th="5.48" pr90th="19.15" />
+   <dataSet lst="102612" median="1.55" mn="0.0" mx="42.8" pr10th="0.0" pr25th="0.0" pr75th="7.75" pr90th="21.0" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="22.5" pr10th="0.0" pr25th="0.0" pr75th="2.97" pr90th="16.95" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="11.3" pr10th="0.0" pr25th="0.0" pr75th="2.35" pr90th="7.55" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="10.4" pr10th="0.0" pr25th="0.0" pr75th="0.98" pr90th="6.0" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="6.8" pr10th="0.0" pr25th="0.0" pr75th="0.78" pr90th="2.4" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="32.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="7.0" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="10.6" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="2.2" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="10.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.15" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="1.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.25" />
+  </stn>
+  <stn stnNo="47121" stnName="영월">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="1.0" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="0.5" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.5" pr90th="0.65" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="5.4" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="2.9" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="2.6" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="0.85" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="2.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.6" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="1.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.9" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="4.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.1" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="2.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.45" />
+   <dataSet lst="102600" median="0.85" mn="0.0" mx="24.0" pr10th="0.0" pr25th="0.0" pr75th="4.53" pr90th="12.65" />
+   <dataSet lst="102612" median="2.95" mn="0.0" mx="38.8" pr10th="0.0" pr25th="0.0" pr75th="9.0" pr90th="17.7" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="58.0" pr10th="0.0" pr25th="0.0" pr75th="3.43" pr90th="15.45" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="16.5" pr10th="0.0" pr25th="0.0" pr75th="3.88" pr90th="14.6" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="15.9" pr10th="0.0" pr25th="0.0" pr75th="1.45" pr90th="7.85" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="14.9" pr10th="0.0" pr25th="0.0" pr75th="4.05" pr90th="8.3" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="29.2" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="4.55" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="20.9" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="13.55" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="21.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.7" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="11.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.45" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="35" grName="강원청(강릉)">
+  <stn stnNo="47104" stnName="북강릉">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="0.7" />
+   <dataSet lst="102100" median="0.85" mn="0.0" mx="5.8" pr10th="0.0" pr25th="0.33" pr75th="2.42" pr90th="3.35" />
+   <dataSet lst="102112" median="0.3" mn="0.0" mx="5.3" pr10th="0.0" pr25th="0.0" pr75th="0.9" pr90th="3.3" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="1.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.6" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="8.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.9" />
+   <dataSet lst="102300" median="5.35" mn="0.0" mx="14.4" pr10th="0.0" pr25th="0.78" pr75th="8.0" pr90th="11.4" />
+   <dataSet lst="102312" median="4.85" mn="0.0" mx="12.4" pr10th="0.2" pr25th="1.6" pr75th="9.2" pr90th="10.5" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="9.8" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="4.35" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="2.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.3" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="6.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.25" />
+   <dataSet lst="102600" median="0.0" mn="0.0" mx="20.4" pr10th="0.0" pr25th="0.0" pr75th="2.85" pr90th="9.1" />
+   <dataSet lst="102612" median="0.35" mn="0.0" mx="8.2" pr10th="0.0" pr25th="0.0" pr75th="4.38" pr90th="7.8" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="18.8" pr10th="0.0" pr25th="0.0" pr75th="5.55" pr90th="14.75" />
+   <dataSet lst="102712" median="0.7" mn="0.0" mx="17.7" pr10th="0.0" pr25th="0.0" pr75th="5.55" pr90th="8.55" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="22.9" pr10th="0.0" pr25th="0.0" pr75th="4.08" pr90th="10.85" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="15.0" pr10th="0.0" pr25th="0.0" pr75th="0.88" pr90th="14.25" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="23.3" pr10th="0.0" pr25th="0.0" pr75th="0.75" pr90th="6.2" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="14.3" pr10th="0.0" pr25th="0.0" pr75th="0.83" pr90th="8.5" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="28.6" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="5.65" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="16.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="12.95" />
+  </stn>
+  <stn stnNo="47090" stnName="속초">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="1.1" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="0.45" />
+   <dataSet lst="102100" median="3.35" mn="0.0" mx="7.3" pr10th="0.4" pr25th="1.7" pr75th="4.97" pr90th="6.2" />
+   <dataSet lst="102112" median="2.65" mn="0.0" mx="6.9" pr10th="0.2" pr25th="1.53" pr75th="3.9" pr90th="5.4" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="1.9" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="1.4" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="10.1" pr10th="0.0" pr25th="0.0" pr75th="0.6" pr90th="2.9" />
+   <dataSet lst="102300" median="7.05" mn="0.0" mx="18.2" pr10th="0.15" pr25th="1.27" pr75th="10.58" pr90th="15.15" />
+   <dataSet lst="102312" median="7.0" mn="0.0" mx="16.5" pr10th="0.0" pr25th="2.95" pr75th="10.75" pr90th="15.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="13.7" pr10th="0.0" pr25th="0.0" pr75th="0.83" pr90th="6.45" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="4.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.95" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="6.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102600" median="0.3" mn="0.0" mx="12.7" pr10th="0.0" pr25th="0.0" pr75th="4.38" pr90th="10.85" />
+   <dataSet lst="102612" median="0.55" mn="0.0" mx="12.9" pr10th="0.0" pr25th="0.0" pr75th="3.38" pr90th="6.4" />
+   <dataSet lst="102700" median="0.15" mn="0.0" mx="11.3" pr10th="0.0" pr25th="0.0" pr75th="3.4" pr90th="10.85" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="12.6" pr10th="0.0" pr25th="0.0" pr75th="3.6" pr90th="8.9" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="23.8" pr10th="0.0" pr25th="0.0" pr75th="2.98" pr90th="11.55" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="13.7" pr10th="0.0" pr25th="0.0" pr75th="1.25" pr90th="8.75" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="17.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="6.6" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="5.7" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="2.95" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="40.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.85" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="15.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="9.2" />
+  </stn>
+  <stn stnNo="47100" stnName="대관령">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102100" median="3.6" mn="0.8" mx="7.5" pr10th="0.9" pr25th="2.68" pr75th="5.3" pr90th="7.0" />
+   <dataSet lst="102112" median="2.05" mn="0.0" mx="7.5" pr10th="0.25" pr25th="1.13" pr75th="3.88" pr90th="6.5" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="2.4" pr10th="0.0" pr25th="0.0" pr75th="0.4" pr90th="1.25" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="6.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.55" />
+   <dataSet lst="102300" median="7.2" mn="0.0" mx="16.4" pr10th="0.0" pr25th="0.08" pr75th="12.02" pr90th="14.25" />
+   <dataSet lst="102312" median="9.3" mn="0.0" mx="18.5" pr10th="0.2" pr25th="3.75" pr75th="15.88" pr90th="17.85" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="13.3" pr10th="0.0" pr25th="0.0" pr75th="1.65" pr90th="9.9" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="6.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.5" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="1.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.3" />
+   <dataSet lst="102600" median="1.6" mn="0.0" mx="18.1" pr10th="0.0" pr25th="0.0" pr75th="4.18" pr90th="9.25" />
+   <dataSet lst="102612" median="1.55" mn="0.0" mx="9.6" pr10th="0.0" pr25th="0.0" pr75th="4.53" pr90th="8.55" />
+   <dataSet lst="102700" median="0.4" mn="0.0" mx="48.8" pr10th="0.0" pr25th="0.0" pr75th="3.75" pr90th="9.8" />
+   <dataSet lst="102712" median="0.35" mn="0.0" mx="21.5" pr10th="0.0" pr25th="0.0" pr75th="3.28" pr90th="12.0" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="20.9" pr10th="0.0" pr25th="0.0" pr75th="4.35" pr90th="12.0" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="22.7" pr10th="0.0" pr25th="0.0" pr75th="2.15" pr90th="6.85" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="22.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.05" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="8.8" pr10th="0.0" pr25th="0.0" pr75th="1.13" pr90th="7.6" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="26.1" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="5.45" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="28.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="12.9" />
+  </stn>
+  <stn stnNo="47106" stnName="동해">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102100" median="3.6" mn="0.8" mx="7.5" pr10th="0.9" pr25th="2.68" pr75th="5.3" pr90th="7.0" />
+   <dataSet lst="102112" median="2.05" mn="0.0" mx="7.5" pr10th="0.25" pr25th="1.13" pr75th="3.88" pr90th="6.5" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="2.4" pr10th="0.0" pr25th="0.0" pr75th="0.4" pr90th="1.25" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="6.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.55" />
+   <dataSet lst="102300" median="7.2" mn="0.0" mx="16.4" pr10th="0.0" pr25th="0.08" pr75th="12.02" pr90th="14.25" />
+   <dataSet lst="102312" median="9.3" mn="0.0" mx="18.5" pr10th="0.2" pr25th="3.75" pr75th="15.88" pr90th="17.85" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="13.3" pr10th="0.0" pr25th="0.0" pr75th="1.65" pr90th="9.9" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="6.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.5" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="1.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.3" />
+   <dataSet lst="102600" median="1.6" mn="0.0" mx="18.1" pr10th="0.0" pr25th="0.0" pr75th="4.18" pr90th="9.25" />
+   <dataSet lst="102612" median="1.55" mn="0.0" mx="9.6" pr10th="0.0" pr25th="0.0" pr75th="4.53" pr90th="8.55" />
+   <dataSet lst="102700" median="0.4" mn="0.0" mx="48.8" pr10th="0.0" pr25th="0.0" pr75th="3.75" pr90th="9.8" />
+   <dataSet lst="102712" median="0.35" mn="0.0" mx="21.5" pr10th="0.0" pr25th="0.0" pr75th="3.28" pr90th="12.0" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="20.9" pr10th="0.0" pr25th="0.0" pr75th="4.35" pr90th="12.0" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="22.7" pr10th="0.0" pr25th="0.0" pr75th="2.15" pr90th="6.85" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="22.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.05" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="8.8" pr10th="0.0" pr25th="0.0" pr75th="1.13" pr90th="7.6" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="26.1" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="5.45" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="28.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="12.9" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="44" grName="제주청(제주)">
+  <stn stnNo="47184" stnName="제주">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="1.0" pr10th="0.0" pr25th="0.0" pr75th="0.48" pr90th="0.85" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="3.9" pr10th="0.0" pr25th="0.0" pr75th="0.57" pr90th="0.95" />
+   <dataSet lst="102112" median="0.9" mn="0.0" mx="13.2" pr10th="0.0" pr25th="0.43" pr75th="2.75" pr90th="10.0" />
+   <dataSet lst="102200" median="8.95" mn="0.0" mx="49.2" pr10th="0.15" pr25th="2.53" pr75th="29.35" pr90th="38.65" />
+   <dataSet lst="102212" median="22.25" mn="0.0" mx="163.2" pr10th="0.2" pr25th="7.85" pr75th="40.03" pr90th="68.45" />
+   <dataSet lst="102300" median="6.75" mn="0.0" mx="153.8" pr10th="0.0" pr25th="0.57" pr75th="13.33" pr90th="59.5" />
+   <dataSet lst="102312" median="0.75" mn="0.0" mx="15.3" pr10th="0.0" pr25th="0.0" pr75th="2.3" pr90th="6.8" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="2.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.5" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="21.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="7.15" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="6.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.25" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="1.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.45" />
+   <dataSet lst="102600" median="0.0" mn="0.0" mx="7.6" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="1.65" />
+   <dataSet lst="102612" median="0.15" mn="0.0" mx="7.9" pr10th="0.0" pr25th="0.0" pr75th="1.38" pr90th="3.2" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="14.1" pr10th="0.0" pr25th="0.0" pr75th="2.03" pr90th="4.4" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="13.3" pr10th="0.0" pr25th="0.0" pr75th="1.65" pr90th="10.25" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="5.2" pr10th="0.0" pr25th="0.0" pr75th="0.9" pr90th="2.95" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="5.2" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="4.15" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="19.6" pr10th="0.0" pr25th="0.0" pr75th="4.63" pr90th="12.3" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="7.8" pr10th="0.0" pr25th="0.0" pr75th="0.6" pr90th="3.75" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.5" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="2.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.45" />
+  </stn>
+  <stn stnNo="47189" stnName="서귀포">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="3.6" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="0.55" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="2.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="1.8" pr10th="0.0" pr25th="0.0" pr75th="0.78" pr90th="1.4" />
+   <dataSet lst="102112" median="1.85" mn="0.0" mx="19.2" pr10th="0.0" pr25th="0.4" pr75th="4.08" pr90th="6.2" />
+   <dataSet lst="102200" median="8.65" mn="0.0" mx="51.1" pr10th="0.55" pr25th="2.45" pr75th="25.93" pr90th="38.2" />
+   <dataSet lst="102212" median="37.65" mn="0.0" mx="147.3" pr10th="0.35" pr25th="14.78" pr75th="66.7" pr90th="127.6" />
+   <dataSet lst="102300" median="6.35" mn="0.0" mx="187.6" pr10th="0.15" pr25th="0.88" pr75th="17.05" pr90th="76.95" />
+   <dataSet lst="102312" median="1.1" mn="0.0" mx="28.8" pr10th="0.0" pr25th="0.0" pr75th="4.15" pr90th="8.4" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="3.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.6" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="19.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="11.15" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="7.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.4" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.4" />
+   <dataSet lst="102600" median="0.0" mn="0.0" mx="8.8" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="1.45" />
+   <dataSet lst="102612" median="0.4" mn="0.0" mx="13.2" pr10th="0.0" pr25th="0.0" pr75th="0.8" pr90th="3.2" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="3.0" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="2.9" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="18.3" pr10th="0.0" pr25th="0.0" pr75th="0.78" pr90th="11.05" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="2.6" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="1.15" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="3.4" pr10th="0.0" pr25th="0.0" pr75th="0.4" pr90th="3.05" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="31.3" pr10th="0.0" pr25th="0.0" pr75th="2.25" pr90th="14.75" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="17.2" pr10th="0.0" pr25th="0.0" pr75th="1.15" pr90th="5.95" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="1.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.55" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="1.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+  </stn>
+  <stn stnNo="47185" stnName="고산">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="4.1" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="0.75" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="1.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.4" mn="0.0" mx="2.9" pr10th="0.0" pr25th="0.0" pr75th="1.08" pr90th="1.85" />
+   <dataSet lst="102112" median="1.85" mn="0.0" mx="26.7" pr10th="0.0" pr25th="0.63" pr75th="4.47" pr90th="6.9" />
+   <dataSet lst="102200" median="10.25" mn="0.0" mx="57.8" pr10th="0.0" pr25th="2.63" pr75th="24.88" pr90th="49.8" />
+   <dataSet lst="102212" median="42.1" mn="0.3" mx="131.1" pr10th="0.4" pr25th="17.23" pr75th="78.0" pr90th="130.3" />
+   <dataSet lst="102300" median="5.75" mn="0.0" mx="152.9" pr10th="0.0" pr25th="0.8" pr75th="16.2" pr90th="86.7" />
+   <dataSet lst="102312" median="0.55" mn="0.0" mx="9.7" pr10th="0.0" pr25th="0.0" pr75th="2.7" pr90th="6.75" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="3.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="17.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="9.6" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="8.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="2.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.35" />
+   <dataSet lst="102600" median="0.0" mn="0.0" mx="9.7" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="1.0" />
+   <dataSet lst="102612" median="0.0" mn="0.0" mx="9.1" pr10th="0.0" pr25th="0.0" pr75th="0.9" pr90th="4.95" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="5.5" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="2.15" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="16.5" pr10th="0.0" pr25th="0.0" pr75th="1.03" pr90th="8.8" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="4.1" pr10th="0.0" pr25th="0.0" pr75th="0.78" pr90th="2.05" />
+   <dataSet lst="102812" median="0.15" mn="0.0" mx="4.3" pr10th="0.0" pr25th="0.0" pr75th="0.57" pr90th="3.8" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="20.4" pr10th="0.0" pr25th="0.0" pr75th="3.08" pr90th="11.3" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="10.7" pr10th="0.0" pr25th="0.0" pr75th="0.78" pr90th="3.6" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.55" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.65" />
+  </stn>
+  <stn stnNo="47188" stnName="성산">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="1.0" pr10th="0.0" pr25th="0.0" pr75th="0.48" pr90th="0.85" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="3.9" pr10th="0.0" pr25th="0.0" pr75th="0.57" pr90th="0.95" />
+   <dataSet lst="102112" median="0.9" mn="0.0" mx="13.2" pr10th="0.0" pr25th="0.43" pr75th="2.75" pr90th="10.0" />
+   <dataSet lst="102200" median="8.95" mn="0.0" mx="49.2" pr10th="0.15" pr25th="2.53" pr75th="29.35" pr90th="38.65" />
+   <dataSet lst="102212" median="22.25" mn="0.0" mx="163.2" pr10th="0.2" pr25th="7.85" pr75th="40.03" pr90th="68.45" />
+   <dataSet lst="102300" median="6.75" mn="0.0" mx="153.8" pr10th="0.0" pr25th="0.57" pr75th="13.33" pr90th="59.5" />
+   <dataSet lst="102312" median="0.75" mn="0.0" mx="15.3" pr10th="0.0" pr25th="0.0" pr75th="2.3" pr90th="6.8" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="2.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.5" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="21.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="7.15" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="6.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.25" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="1.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.45" />
+   <dataSet lst="102600" median="0.0" mn="0.0" mx="7.6" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="1.65" />
+   <dataSet lst="102612" median="0.15" mn="0.0" mx="7.9" pr10th="0.0" pr25th="0.0" pr75th="1.38" pr90th="3.2" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="14.1" pr10th="0.0" pr25th="0.0" pr75th="2.03" pr90th="4.4" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="13.3" pr10th="0.0" pr25th="0.0" pr75th="1.65" pr90th="10.25" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="5.2" pr10th="0.0" pr25th="0.0" pr75th="0.9" pr90th="2.95" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="5.2" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="4.15" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="19.6" pr10th="0.0" pr25th="0.0" pr75th="4.63" pr90th="12.3" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="7.8" pr10th="0.0" pr25th="0.0" pr75th="0.6" pr90th="3.75" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.5" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="2.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.45" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="46" grName="북한(평양)">
+  <stn stnNo="47058" stnName="평양">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.4" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="4.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.65" />
+   <dataSet lst="102212" median="1.15" mn="0.0" mx="18.5" pr10th="0.0" pr25th="0.63" pr75th="2.28" pr90th="7.4" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="6.1" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="1.6" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="3.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.7" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="15.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="7.65" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="0.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="13.0" pr10th="0.0" pr25th="0.0" pr75th="0.93" pr90th="4.65" />
+   <dataSet lst="102600" median="0.6" mn="0.0" mx="31.0" pr10th="0.0" pr25th="0.0" pr75th="7.8" pr90th="18.8" />
+   <dataSet lst="102612" median="0.3" mn="0.0" mx="31.0" pr10th="0.0" pr25th="0.0" pr75th="3.6" pr90th="17.05" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="15.8" pr10th="0.0" pr25th="0.0" pr75th="0.73" pr90th="5.0" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="10.6" pr10th="0.0" pr25th="0.0" pr75th="0.52" pr90th="2.65" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="16.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.75" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="4.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.95" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="28.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.8" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="10.2" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="7.15" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="6.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.5" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="2.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.95" />
+  </stn>
+  <stn stnNo="47035" stnName="신의주">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="1.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.8" mn="0.0" mx="9.6" pr10th="0.0" pr25th="0.0" pr75th="2.0" pr90th="4.2" />
+   <dataSet lst="102212" median="5.45" mn="0.0" mx="22.9" pr10th="0.0" pr25th="1.38" pr75th="9.88" pr90th="15.05" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="10.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.65" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="1.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.2" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="9.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.1" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="0.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.25" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="5.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.4" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="21.5" pr10th="0.0" pr25th="0.0" pr75th="5.48" pr90th="17.45" />
+   <dataSet lst="102600" median="2.05" mn="0.0" mx="22.8" pr10th="0.0" pr25th="0.0" pr75th="8.15" pr90th="12.3" />
+   <dataSet lst="102612" median="0.0" mn="0.0" mx="46.4" pr10th="0.0" pr25th="0.0" pr75th="5.02" pr90th="18.5" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="7.3" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="2.5" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="14.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.7" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="27.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.4" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="18.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="18.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.85" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="12.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="6.5" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="5.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.15" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+  </stn>
+  <stn stnNo="47070" stnName="개성">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102212" median="0.15" mn="0.0" mx="5.9" pr10th="0.0" pr25th="0.0" pr75th="0.88" pr90th="3.9" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="1.1" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="0.65" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="14.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.3" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="1.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.45" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="6.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.75" />
+   <dataSet lst="102600" median="0.4" mn="0.0" mx="26.8" pr10th="0.0" pr25th="0.0" pr75th="12.0" pr90th="19.65" />
+   <dataSet lst="102612" median="1.35" mn="0.0" mx="30.6" pr10th="0.0" pr25th="0.0" pr75th="4.38" pr90th="14.4" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="17.4" pr10th="0.0" pr25th="0.0" pr75th="1.78" pr90th="13.35" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="8.3" pr10th="0.0" pr25th="0.0" pr75th="1.35" pr90th="6.8" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="10.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.75" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="8.9" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="2.6" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="18.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="7.85" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="5.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.55" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="7.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.6" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.25" />
+  </stn>
+  <stn stnNo="47041" stnName="함흥">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="1.6" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="0.55" />
+   <dataSet lst="102100" median="1.75" mn="0.6" mx="5.2" pr10th="0.8" pr25th="1.2" pr75th="2.38" pr90th="3.35" />
+   <dataSet lst="102112" median="0.6" mn="0.0" mx="2.4" pr10th="0.15" pr25th="0.43" pr75th="1.43" pr90th="2.35" />
+   <dataSet lst="102200" median="0.3" mn="0.0" mx="3.0" pr10th="0.0" pr25th="0.0" pr75th="0.7" pr90th="1.1" />
+   <dataSet lst="102212" median="0.15" mn="0.0" mx="6.5" pr10th="0.0" pr25th="0.0" pr75th="1.0" pr90th="3.85" />
+   <dataSet lst="102300" median="2.35" mn="0.0" mx="18.8" pr10th="0.25" pr25th="1.02" pr75th="5.18" pr90th="7.9" />
+   <dataSet lst="102312" median="3.4" mn="0.0" mx="26.2" pr10th="0.65" pr25th="2.4" pr75th="5.02" pr90th="23.15" />
+   <dataSet lst="102400" median="0.55" mn="0.0" mx="5.4" pr10th="0.0" pr25th="0.08" pr75th="2.1" pr90th="3.7" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="3.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.3" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="9.1" pr10th="0.0" pr25th="0.0" pr75th="1.35" pr90th="3.35" />
+   <dataSet lst="102600" median="0.4" mn="0.0" mx="18.5" pr10th="0.0" pr25th="0.0" pr75th="7.78" pr90th="16.35" />
+   <dataSet lst="102612" median="0.0" mn="0.0" mx="20.5" pr10th="0.0" pr25th="0.0" pr75th="3.75" pr90th="13.25" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="10.9" pr10th="0.0" pr25th="0.0" pr75th="1.65" pr90th="6.05" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="12.6" pr10th="0.0" pr25th="0.0" pr75th="2.4" pr90th="9.9" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="16.2" pr10th="0.0" pr25th="0.0" pr75th="0.95" pr90th="5.9" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="7.5" pr10th="0.0" pr25th="0.0" pr75th="1.15" pr90th="5.5" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="9.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.35" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="6.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.65" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="18.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.35" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="12.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.35" />
+  </stn>
+  <stn stnNo="47008" stnName="청진">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="2.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.15" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="2.1" pr10th="0.0" pr25th="0.0" pr75th="0.83" pr90th="1.6" />
+   <dataSet lst="102212" median="0.5" mn="0.0" mx="4.7" pr10th="0.0" pr25th="0.0" pr75th="1.08" pr90th="4.05" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="4.1" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="2.8" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="1.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="0.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.55" />
+   <dataSet lst="102600" median="0.0" mn="0.0" mx="12.4" pr10th="0.0" pr25th="0.0" pr75th="3.5" pr90th="7.7" />
+   <dataSet lst="102612" median="0.55" mn="0.0" mx="16.4" pr10th="0.0" pr25th="0.0" pr75th="4.9" pr90th="12.05" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="7.9" pr10th="0.0" pr25th="0.0" pr75th="0.73" pr90th="3.9" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="3.4" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="2.3" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.15" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="2.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.95" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="3.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.55" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="2.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.3" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="1.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.35" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="100" grName="공항청(인천)">
+  <!-- 대구랑 스테이션구분코드 동일함! 최연구관님 확인 필요. 변경
+			<station stnCode="47142" stnName="대구공항"/>   
+		-->
+  <stn stnNo="47113" stnName="인천공항">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="4.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.9" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="2.5" pr10th="0.0" pr25th="0.0" pr75th="0.78" pr90th="2.15" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="1.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.25" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="6.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.35" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="4.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.25" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="6.7" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="3.05" />
+   <dataSet lst="102600" median="0.9" mn="0.0" mx="31.7" pr10th="0.0" pr25th="0.0" pr75th="8.9" pr90th="22.5" />
+   <dataSet lst="102612" median="1.0" mn="0.0" mx="19.6" pr10th="0.0" pr25th="0.0" pr75th="4.9" pr90th="15.75" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="62.0" pr10th="0.0" pr25th="0.0" pr75th="1.63" pr90th="11.3" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="21.8" pr10th="0.0" pr25th="0.0" pr75th="0.48" pr90th="8.2" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="11.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.0" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="15.8" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="2.7" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="10.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.0" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="13.4" pr10th="0.0" pr25th="0.0" pr75th="1.58" pr90th="5.0" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="7.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.85" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="1.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.0" />
+  </stn>
+  <stn stnNo="47110" stnName="김포공항">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="1.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.2" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="5.1" pr10th="0.0" pr25th="0.0" pr75th="0.57" pr90th="2.5" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="10.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.8" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="2.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.55" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.9" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="1.85" />
+   <dataSet lst="102600" median="0.85" mn="0.0" mx="26.4" pr10th="0.0" pr25th="0.0" pr75th="12.83" pr90th="20.85" />
+   <dataSet lst="102612" median="1.65" mn="0.0" mx="25.0" pr10th="0.0" pr25th="0.0" pr75th="6.1" pr90th="15.75" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="28.9" pr10th="0.0" pr25th="0.0" pr75th="2.28" pr90th="13.25" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="16.6" pr10th="0.0" pr25th="0.0" pr75th="1.68" pr90th="9.45" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="11.4" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="5.4" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="13.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.8" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="17.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="8.05" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="8.4" pr10th="0.0" pr25th="0.0" pr75th="0.52" pr90th="4.05" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="8.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.65" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="1.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.55" />
+  </stn>
+  <stn stnNo="47182" stnName="제주공항">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="1.0" pr10th="0.0" pr25th="0.0" pr75th="0.48" pr90th="0.85" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="3.9" pr10th="0.0" pr25th="0.0" pr75th="0.57" pr90th="0.95" />
+   <dataSet lst="102112" median="0.9" mn="0.0" mx="13.2" pr10th="0.0" pr25th="0.43" pr75th="2.75" pr90th="10.0" />
+   <dataSet lst="102200" median="8.95" mn="0.0" mx="49.2" pr10th="0.15" pr25th="2.53" pr75th="29.35" pr90th="38.65" />
+   <dataSet lst="102212" median="22.25" mn="0.0" mx="163.2" pr10th="0.2" pr25th="7.85" pr75th="40.03" pr90th="68.45" />
+   <dataSet lst="102300" median="6.75" mn="0.0" mx="153.8" pr10th="0.0" pr25th="0.57" pr75th="13.33" pr90th="59.5" />
+   <dataSet lst="102312" median="0.75" mn="0.0" mx="15.3" pr10th="0.0" pr25th="0.0" pr75th="2.3" pr90th="6.8" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="2.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.5" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="21.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="7.15" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="6.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.25" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="1.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.45" />
+   <dataSet lst="102600" median="0.0" mn="0.0" mx="7.6" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="1.65" />
+   <dataSet lst="102612" median="0.15" mn="0.0" mx="7.9" pr10th="0.0" pr25th="0.0" pr75th="1.38" pr90th="3.2" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="14.1" pr10th="0.0" pr25th="0.0" pr75th="2.03" pr90th="4.4" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="13.3" pr10th="0.0" pr25th="0.0" pr75th="1.65" pr90th="10.25" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="5.2" pr10th="0.0" pr25th="0.0" pr75th="0.9" pr90th="2.95" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="5.2" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="4.15" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="19.6" pr10th="0.0" pr25th="0.0" pr75th="4.63" pr90th="12.3" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="7.8" pr10th="0.0" pr25th="0.0" pr75th="0.6" pr90th="3.75" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="0.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.5" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="2.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.45" />
+  </stn>
+  <stn stnNo="47163" stnName="무안공항">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="5.6" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="1.4" />
+   <dataSet lst="102200" median="0.65" mn="0.0" mx="9.5" pr10th="0.0" pr25th="0.0" pr75th="3.23" pr90th="8.8" />
+   <dataSet lst="102212" median="1.05" mn="0.0" mx="30.2" pr10th="0.0" pr25th="0.0" pr75th="6.88" pr90th="28.8" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="27.2" pr10th="0.0" pr25th="0.0" pr75th="1.6" pr90th="15.3" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="2.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.45" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="1.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.9" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="6.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.0" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="4.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="4.4" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="1.45" />
+   <dataSet lst="102600" median="0.0" mn="0.0" mx="19.6" pr10th="0.0" pr25th="0.0" pr75th="2.28" pr90th="5.75" />
+   <dataSet lst="102612" median="1.25" mn="0.0" mx="8.3" pr10th="0.0" pr25th="0.0" pr75th="3.97" pr90th="6.9" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="49.2" pr10th="0.0" pr25th="0.0" pr75th="1.22" pr90th="25.0" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="13.2" pr10th="0.0" pr25th="0.0" pr75th="1.03" pr90th="5.1" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="7.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.15" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="18.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="8.65" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="18.1" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="3.9" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="23.5" pr10th="0.0" pr25th="0.0" pr75th="0.6" pr90th="8.8" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="3.8" pr10th="0.0" pr25th="0.0" pr75th="0.45" pr90th="1.25" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="3.5" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="2.2" />
+  </stn>
+  <stn stnNo="47151" stnName="울산공항">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.35" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="9.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.8" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="21.8" pr10th="0.0" pr25th="0.0" pr75th="3.85" pr90th="12.5" />
+   <dataSet lst="102300" median="0.7" mn="0.0" mx="23.9" pr10th="0.0" pr25th="0.0" pr75th="2.75" pr90th="6.5" />
+   <dataSet lst="102312" median="1.25" mn="0.0" mx="11.7" pr10th="0.0" pr25th="0.33" pr75th="3.43" pr90th="6.05" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="2.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.85" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="6.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="4.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="3.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.85" />
+   <dataSet lst="102600" median="0.15" mn="0.0" mx="6.9" pr10th="0.0" pr25th="0.0" pr75th="1.18" pr90th="3.1" />
+   <dataSet lst="102612" median="1.0" mn="0.0" mx="14.0" pr10th="0.0" pr25th="0.0" pr75th="5.4" pr90th="12.85" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="16.9" pr10th="0.0" pr25th="0.0" pr75th="2.42" pr90th="8.95" />
+   <dataSet lst="102712" median="0.15" mn="0.0" mx="29.8" pr10th="0.0" pr25th="0.0" pr75th="1.25" pr90th="11.25" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="9.9" pr10th="0.0" pr25th="0.0" pr75th="0.4" pr90th="3.15" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="7.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="6.45" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="9.1" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="4.2" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="46.7" pr10th="0.0" pr25th="0.0" pr75th="0.68" pr90th="4.85" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="4.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.15" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="22.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="6.6" />
+  </stn>
+  <stn stnNo="47153" stnName="김해공항">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="10.7" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="5.2" />
+   <dataSet lst="102212" median="0.15" mn="0.0" mx="22.9" pr10th="0.0" pr25th="0.0" pr75th="8.4" pr90th="15.1" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="25.4" pr10th="0.0" pr25th="0.0" pr75th="2.78" pr90th="9.65" />
+   <dataSet lst="102312" median="0.5" mn="0.0" mx="8.0" pr10th="0.0" pr25th="0.0" pr75th="1.03" pr90th="5.0" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.3" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="4.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.65" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="3.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="1.4" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="0.45" />
+   <dataSet lst="102600" median="0.15" mn="0.0" mx="17.7" pr10th="0.0" pr25th="0.0" pr75th="0.8" pr90th="1.75" />
+   <dataSet lst="102612" median="0.55" mn="0.0" mx="18.6" pr10th="0.0" pr25th="0.0" pr75th="4.93" pr90th="13.0" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="19.1" pr10th="0.0" pr25th="0.0" pr75th="1.08" pr90th="10.0" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="27.9" pr10th="0.0" pr25th="0.0" pr75th="0.8" pr90th="12.5" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="7.4" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.75" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="9.8" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="3.8" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="15.4" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="3.5" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="48.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="7.65" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="3.6" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.3" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="13.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="5.15" />
+  </stn>
+  <stn stnNo="47092" stnName="양양공항">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.8" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.4" />
+   <dataSet lst="102100" median="3.6" mn="0.3" mx="6.0" pr10th="0.8" pr25th="1.53" pr75th="4.97" pr90th="5.45" />
+   <dataSet lst="102112" median="1.7" mn="0.0" mx="5.2" pr10th="0.45" pr25th="1.15" pr75th="2.68" pr90th="4.0" />
+   <dataSet lst="102200" median="0.0" mn="0.0" mx="3.6" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="2.1" />
+   <dataSet lst="102212" median="0.0" mn="0.0" mx="11.6" pr10th="0.0" pr25th="0.0" pr75th="0.68" pr90th="2.1" />
+   <dataSet lst="102300" median="4.55" mn="0.0" mx="12.6" pr10th="0.0" pr25th="0.3" pr75th="7.43" pr90th="10.85" />
+   <dataSet lst="102312" median="7.05" mn="0.0" mx="12.6" pr10th="0.5" pr25th="3.83" pr75th="9.45" pr90th="11.95" />
+   <dataSet lst="102400" median="0.15" mn="0.0" mx="15.1" pr10th="0.0" pr25th="0.0" pr75th="2.3" pr90th="7.75" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="6.9" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="2.5" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="2.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.7" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="5.0" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="1.05" />
+   <dataSet lst="102600" median="0.95" mn="0.0" mx="12.9" pr10th="0.0" pr25th="0.08" pr75th="5.63" pr90th="11.25" />
+   <dataSet lst="102612" median="1.75" mn="0.0" mx="16.8" pr10th="0.0" pr25th="0.0" pr75th="4.83" pr90th="11.2" />
+   <dataSet lst="102700" median="0.4" mn="0.0" mx="24.7" pr10th="0.0" pr25th="0.0" pr75th="2.93" pr90th="12.0" />
+   <dataSet lst="102712" median="0.35" mn="0.0" mx="12.3" pr10th="0.0" pr25th="0.0" pr75th="5.65" pr90th="9.0" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="17.5" pr10th="0.0" pr25th="0.0" pr75th="3.35" pr90th="12.5" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="17.5" pr10th="0.0" pr25th="0.0" pr75th="1.45" pr90th="7.45" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="18.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="6.4" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="7.2" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="3.45" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="31.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="3.7" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="12.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="11.15" />
+  </stn>
+  <stn stnNo="47167" stnName="여수공항">
+   <dataSet lst="101912" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102000" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102012" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102100" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102112" median="0.0" mn="0.0" mx="4.5" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.8" />
+   <dataSet lst="102200" median="0.45" mn="0.0" mx="11.6" pr10th="0.0" pr25th="0.0" pr75th="2.75" pr90th="5.4" />
+   <dataSet lst="102212" median="1.25" mn="0.0" mx="22.6" pr10th="0.0" pr25th="0.0" pr75th="11.73" pr90th="18.9" />
+   <dataSet lst="102300" median="0.0" mn="0.0" mx="17.4" pr10th="0.0" pr25th="0.0" pr75th="3.2" pr90th="15.8" />
+   <dataSet lst="102312" median="0.0" mn="0.0" mx="12.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.8" />
+   <dataSet lst="102400" median="0.0" mn="0.0" mx="0.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102412" median="0.0" mn="0.0" mx="4.7" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.2" />
+   <dataSet lst="102500" median="0.0" mn="0.0" mx="4.0" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="0.0" />
+   <dataSet lst="102512" median="0.0" mn="0.0" mx="11.0" pr10th="0.0" pr25th="0.0" pr75th="0.22" pr90th="0.55" />
+   <dataSet lst="102600" median="0.55" mn="0.0" mx="20.6" pr10th="0.0" pr25th="0.0" pr75th="2.45" pr90th="5.3" />
+   <dataSet lst="102612" median="0.85" mn="0.0" mx="35.5" pr10th="0.0" pr25th="0.0" pr75th="4.4" pr90th="13.05" />
+   <dataSet lst="102700" median="0.0" mn="0.0" mx="51.4" pr10th="0.0" pr25th="0.0" pr75th="0.7" pr90th="22.8" />
+   <dataSet lst="102712" median="0.0" mn="0.0" mx="18.8" pr10th="0.0" pr25th="0.0" pr75th="1.2" pr90th="14.15" />
+   <dataSet lst="102800" median="0.0" mn="0.0" mx="5.0" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="2.3" />
+   <dataSet lst="102812" median="0.0" mn="0.0" mx="17.6" pr10th="0.0" pr25th="0.0" pr75th="0.38" pr90th="4.65" />
+   <dataSet lst="102900" median="0.0" mn="0.0" mx="24.3" pr10th="0.0" pr25th="0.0" pr75th="0.3" pr90th="6.5" />
+   <dataSet lst="102912" median="0.0" mn="0.0" mx="28.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="18.0" />
+   <dataSet lst="103000" median="0.0" mn="0.0" mx="5.2" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.1" />
+   <dataSet lst="103012" median="0.0" mn="0.0" mx="4.3" pr10th="0.0" pr25th="0.0" pr75th="0.0" pr90th="1.95" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="9903" grName="평창올림픽">
+  <stn stnNo="2577" stnName="알펜시아-크로스컨트리-출발">
+   <dataSet lst="101912" />
+   <dataSet lst="102000" />
+   <dataSet lst="102012" />
+   <dataSet lst="102100" />
+   <dataSet lst="102112" />
+   <dataSet lst="102200" />
+   <dataSet lst="102212" />
+   <dataSet lst="102300" />
+   <dataSet lst="102312" />
+   <dataSet lst="102400" />
+   <dataSet lst="102412" />
+   <dataSet lst="102500" />
+   <dataSet lst="102512" />
+   <dataSet lst="102600" />
+   <dataSet lst="102612" />
+   <dataSet lst="102700" />
+   <dataSet lst="102712" />
+   <dataSet lst="102800" />
+   <dataSet lst="102812" />
+   <dataSet lst="102900" />
+   <dataSet lst="102912" />
+   <dataSet lst="103000" />
+   <dataSet lst="103012" />
+  </stn>
+  <stn stnNo="2560" stnName="용평-알파인대회전-출발">
+   <dataSet lst="101912" />
+   <dataSet lst="102000" />
+   <dataSet lst="102012" />
+   <dataSet lst="102100" />
+   <dataSet lst="102112" />
+   <dataSet lst="102200" />
+   <dataSet lst="102212" />
+   <dataSet lst="102300" />
+   <dataSet lst="102312" />
+   <dataSet lst="102400" />
+   <dataSet lst="102412" />
+   <dataSet lst="102500" />
+   <dataSet lst="102512" />
+   <dataSet lst="102600" />
+   <dataSet lst="102612" />
+   <dataSet lst="102700" />
+   <dataSet lst="102712" />
+   <dataSet lst="102800" />
+   <dataSet lst="102812" />
+   <dataSet lst="102900" />
+   <dataSet lst="102912" />
+   <dataSet lst="103000" />
+   <dataSet lst="103012" />
+  </stn>
+  <stn stnNo="2580" stnName="보광-크로스-출발">
+   <dataSet lst="101912" />
+   <dataSet lst="102000" />
+   <dataSet lst="102012" />
+   <dataSet lst="102100" />
+   <dataSet lst="102112" />
+   <dataSet lst="102200" />
+   <dataSet lst="102212" />
+   <dataSet lst="102300" />
+   <dataSet lst="102312" />
+   <dataSet lst="102400" />
+   <dataSet lst="102412" />
+   <dataSet lst="102500" />
+   <dataSet lst="102512" />
+   <dataSet lst="102600" />
+   <dataSet lst="102612" />
+   <dataSet lst="102700" />
+   <dataSet lst="102712" />
+   <dataSet lst="102800" />
+   <dataSet lst="102812" />
+   <dataSet lst="102900" />
+   <dataSet lst="102912" />
+   <dataSet lst="103000" />
+   <dataSet lst="103012" />
+  </stn>
+  <stn stnNo="2584" stnName="정선-알파인활강-출발">
+   <dataSet lst="101912" />
+   <dataSet lst="102000" />
+   <dataSet lst="102012" />
+   <dataSet lst="102100" />
+   <dataSet lst="102112" />
+   <dataSet lst="102200" />
+   <dataSet lst="102212" />
+   <dataSet lst="102300" />
+   <dataSet lst="102312" />
+   <dataSet lst="102400" />
+   <dataSet lst="102412" />
+   <dataSet lst="102500" />
+   <dataSet lst="102512" />
+   <dataSet lst="102600" />
+   <dataSet lst="102612" />
+   <dataSet lst="102700" />
+   <dataSet lst="102712" />
+   <dataSet lst="102800" />
+   <dataSet lst="102812" />
+   <dataSet lst="102900" />
+   <dataSet lst="102912" />
+   <dataSet lst="103000" />
+   <dataSet lst="103012" />
+  </stn>
+ </regionGroup>
+</R12>

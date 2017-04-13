@@ -1,0 +1,1757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MMX issuedAt="12UTC 26 Oct 2016" basedOn="EPSG" ensembleMember="24">
+ <regionGroup grCode="0" grName="수도권청(서울)">
+  <stn stnNo="47108" stnName="서울">
+   <dataSet lst="10/27_06" median="10.9" mn="10.4" mx="12.4" pr10th="10.4" pr25th="10.6" pr75th="11.28" pr90th="11.65" />
+   <dataSet lst="10/27_15" median="18.95" mn="17.6" mx="20.0" pr10th="18.0" pr25th="18.3" pr75th="19.58" pr90th="19.95" />
+   <dataSet lst="10/28_06" median="13.2" mn="11.7" mx="14.2" pr10th="12.25" pr25th="12.75" pr75th="13.6" pr90th="13.95" />
+   <dataSet lst="10/28_15" median="15.45" mn="13.8" mx="16.8" pr10th="13.9" pr25th="14.75" pr75th="16.05" pr90th="16.65" />
+   <dataSet lst="10/29_06" median="8.7" mn="6.4" mx="10.8" pr10th="7.0" pr25th="8.0" pr75th="9.7" pr90th="10.25" />
+   <dataSet lst="10/29_15" median="12.05" mn="9.9" mx="15.0" pr10th="10.15" pr25th="11.1" pr75th="13.43" pr90th="14.8" />
+   <dataSet lst="10/30_06" median="4.05" mn="2.3" mx="8.9" pr10th="2.75" pr25th="3.43" pr75th="6.45" pr90th="8.15" />
+   <dataSet lst="10/30_15" median="12.95" mn="10.5" mx="16.0" pr10th="11.2" pr25th="12.1" pr75th="13.85" pr90th="15.8" />
+   <dataSet lst="10/31_06" median="6.15" mn="4.2" mx="9.5" pr10th="4.85" pr25th="5.45" pr75th="7.38" pr90th="8.65" />
+   <dataSet lst="10/31_15" median="11.6" mn="5.9" mx="16.0" pr10th="7.0" pr25th="8.33" pr75th="13.48" pr90th="15.3" />
+   <dataSet lst="11/01_06" median="2.75" mn="-3.9" mx="10.5" pr10th="-1.85" pr25th="0.35" pr75th="5.5" pr90th="8.65" />
+   <dataSet lst="11/01_15" median="10.75" mn="6.2" mx="17.7" pr10th="6.55" pr25th="8.78" pr75th="12.0" pr90th="14.65" />
+   <dataSet lst="11/02_06" median="3.35" mn="-0.2" mx="9.7" pr10th="0.35" pr25th="2.2" pr75th="5.98" pr90th="9.2" />
+   <dataSet lst="11/02_15" median="12.05" mn="9.3" mx="19.1" pr10th="9.45" pr25th="10.18" pr75th="13.73" pr90th="16.8" />
+   <dataSet lst="11/03_06" median="6.6" mn="1.3" mx="11.9" pr10th="1.55" pr25th="3.8" pr75th="8.5" pr90th="11.0" />
+   <dataSet lst="11/03_15" median="13.5" mn="9.1" mx="17.1" pr10th="9.8" pr25th="11.65" pr75th="16.03" pr90th="16.55" />
+   <dataSet lst="11/04_06" median="7.8" mn="2.5" mx="12.0" pr10th="3.3" pr25th="5.23" pr75th="9.95" pr90th="11.35" />
+   <dataSet lst="11/04_15" median="15.05" mn="6.8" mx="19.3" pr10th="9.9" pr25th="12.63" pr75th="17.1" pr90th="18.55" />
+   <dataSet lst="11/05_06" median="8.75" mn="2.8" mx="14.7" pr10th="3.95" pr25th="5.95" pr75th="10.35" pr90th="13.1" />
+   <dataSet lst="11/05_15" median="15.35" mn="7.3" mx="20.7" pr10th="10.15" pr25th="14.05" pr75th="17.6" pr90th="18.6" />
+   <dataSet lst="11/06_06" median="8.05" mn="-0.2" mx="13.4" pr10th="1.2" pr25th="4.47" pr75th="10.2" pr90th="12.75" />
+   <dataSet lst="11/06_15" median="14.85" mn="5.2" mx="20.0" pr10th="6.2" pr25th="10.9" pr75th="16.65" pr90th="19.55" />
+   <dataSet lst="11/07_06" median="7.25" mn="-0.6" mx="10.6" pr10th="0.15" pr25th="4.3" pr75th="10.2" pr90th="10.5" />
+  </stn>
+  <stn stnNo="47112" stnName="인천">
+   <dataSet lst="10/27_06" median="11.9" mn="10.7" mx="13.3" pr10th="11.05" pr25th="11.63" pr75th="12.35" pr90th="12.85" />
+   <dataSet lst="10/27_15" median="18.5" mn="17.3" mx="20.1" pr10th="17.85" pr25th="18.13" pr75th="19.4" pr90th="19.7" />
+   <dataSet lst="10/28_06" median="13.25" mn="12.4" mx="14.2" pr10th="12.45" pr25th="12.8" pr75th="13.8" pr90th="14.15" />
+   <dataSet lst="10/28_15" median="15.6" mn="14.4" mx="17.1" pr10th="14.6" pr25th="15.03" pr75th="16.15" pr90th="16.55" />
+   <dataSet lst="10/29_06" median="8.05" mn="5.8" mx="10.8" pr10th="6.05" pr25th="6.85" pr75th="9.05" pr90th="10.0" />
+   <dataSet lst="10/29_15" median="11.6" mn="9.9" mx="14.3" pr10th="10.0" pr25th="10.65" pr75th="12.95" pr90th="13.75" />
+   <dataSet lst="10/30_06" median="6.05" mn="4.7" mx="11.3" pr10th="4.85" pr25th="5.5" pr75th="7.28" pr90th="8.95" />
+   <dataSet lst="10/30_15" median="13.35" mn="11.7" mx="15.8" pr10th="11.8" pr25th="12.63" pr75th="13.75" pr90th="15.55" />
+   <dataSet lst="10/31_06" median="8.05" mn="3.1" mx="10.1" pr10th="4.2" pr25th="7.6" pr75th="8.67" pr90th="9.75" />
+   <dataSet lst="10/31_15" median="12.4" mn="6.5" mx="16.4" pr10th="6.8" pr25th="8.98" pr75th="14.05" pr90th="15.05" />
+   <dataSet lst="11/01_06" median="4.8" mn="-1.9" mx="11.1" pr10th="-1.3" pr25th="0.7" pr75th="6.95" pr90th="9.25" />
+   <dataSet lst="11/01_15" median="11.15" mn="6.4" mx="17.1" pr10th="6.85" pr25th="8.83" pr75th="12.65" pr90th="15.0" />
+   <dataSet lst="11/02_06" median="5.1" mn="0.4" mx="10.9" pr10th="1.15" pr25th="3.38" pr75th="7.7" pr90th="10.35" />
+   <dataSet lst="11/02_15" median="12.8" mn="10.0" mx="18.7" pr10th="10.25" pr25th="10.55" pr75th="15.08" pr90th="17.2" />
+   <dataSet lst="11/03_06" median="8.05" mn="2.6" mx="12.4" pr10th="4.0" pr25th="5.63" pr75th="9.75" pr90th="12.05" />
+   <dataSet lst="11/03_15" median="13.55" mn="9.2" mx="16.7" pr10th="10.0" pr25th="11.18" pr75th="15.75" pr90th="16.65" />
+   <dataSet lst="11/04_06" median="7.2" mn="0.1" mx="12.0" pr10th="5.0" pr25th="6.3" pr75th="8.78" pr90th="10.9" />
+   <dataSet lst="11/04_15" median="14.6" mn="9.0" mx="19.1" pr10th="10.3" pr25th="13.03" pr75th="16.08" pr90th="18.75" />
+   <dataSet lst="11/05_06" median="9.5" mn="3.1" mx="14.2" pr10th="4.85" pr25th="7.43" pr75th="11.68" pr90th="14.1" />
+   <dataSet lst="11/05_15" median="15.1" mn="7.5" mx="20.8" pr10th="9.85" pr25th="13.4" pr75th="17.33" pr90th="18.65" />
+   <dataSet lst="11/06_06" median="9.5" mn="0.7" mx="14.7" pr10th="1.65" pr25th="5.35" pr75th="11.58" pr90th="13.65" />
+   <dataSet lst="11/06_15" median="15.0" mn="5.6" mx="19.3" pr10th="7.0" pr25th="10.03" pr75th="16.93" pr90th="18.7" />
+   <dataSet lst="11/07_06" median="8.75" mn="-0.5" mx="13.0" pr10th="0.55" pr25th="5.58" pr75th="11.48" pr90th="12.25" />
+  </stn>
+  <stn stnNo="47119" stnName="수원">
+   <dataSet lst="10/27_06" median="9.3" mn="8.5" mx="10.5" pr10th="8.55" pr25th="8.9" pr75th="9.57" pr90th="9.95" />
+   <dataSet lst="10/27_15" median="20.2" mn="19.1" mx="21.5" pr10th="19.55" pr25th="19.83" pr75th="20.7" pr90th="21.15" />
+   <dataSet lst="10/28_06" median="13.6" mn="12.6" mx="14.9" pr10th="13.0" pr25th="13.13" pr75th="13.8" pr90th="14.35" />
+   <dataSet lst="10/28_15" median="14.95" mn="14.0" mx="17.4" pr10th="14.15" pr25th="14.73" pr75th="16.05" pr90th="16.6" />
+   <dataSet lst="10/29_06" median="7.85" mn="5.5" mx="11.4" pr10th="6.0" pr25th="6.83" pr75th="8.98" pr90th="10.5" />
+   <dataSet lst="10/29_15" median="12.75" mn="10.7" mx="16.1" pr10th="11.3" pr25th="11.68" pr75th="14.28" pr90th="14.8" />
+   <dataSet lst="10/30_06" median="3.85" mn="2.3" mx="9.1" pr10th="2.35" pr25th="3.03" pr75th="6.18" pr90th="8.6" />
+   <dataSet lst="10/30_15" median="14.0" mn="11.8" mx="16.8" pr10th="12.45" pr25th="13.1" pr75th="15.05" pr90th="16.4" />
+   <dataSet lst="10/31_06" median="6.3" mn="3.8" mx="8.6" pr10th="3.8" pr25th="4.83" pr75th="7.35" pr90th="8.35" />
+   <dataSet lst="10/31_15" median="13.15" mn="7.4" mx="17.4" pr10th="7.65" pr25th="10.43" pr75th="15.05" pr90th="16.7" />
+   <dataSet lst="11/01_06" median="1.9" mn="-3.4" mx="8.9" pr10th="-1.7" pr25th="-0.45" pr75th="4.35" pr90th="7.15" />
+   <dataSet lst="11/01_15" median="11.8" mn="5.8" mx="17.7" pr10th="7.75" pr25th="9.68" pr75th="13.4" pr90th="14.95" />
+   <dataSet lst="11/02_06" median="2.75" mn="-0.9" mx="9.0" pr10th="-0.3" pr25th="1.6" pr75th="5.33" pr90th="8.15" />
+   <dataSet lst="11/02_15" median="13.3" mn="10.7" mx="19.5" pr10th="10.85" pr25th="11.38" pr75th="15.55" pr90th="18.25" />
+   <dataSet lst="11/03_06" median="5.95" mn="-0.9" mx="11.3" pr10th="0.7" pr25th="2.78" pr75th="9.03" pr90th="11.1" />
+   <dataSet lst="11/03_15" median="14.45" mn="9.9" mx="19.4" pr10th="10.25" pr25th="13.5" pr75th="16.35" pr90th="17.25" />
+   <dataSet lst="11/04_06" median="5.45" mn="0.8" mx="11.1" pr10th="1.2" pr25th="2.73" pr75th="9.25" pr90th="10.75" />
+   <dataSet lst="11/04_15" median="15.45" mn="8.2" mx="19.9" pr10th="10.2" pr25th="13.65" pr75th="17.23" pr90th="19.6" />
+   <dataSet lst="11/05_06" median="7.65" mn="-0.1" mx="13.3" pr10th="0.8" pr25th="2.85" pr75th="11.35" pr90th="13.2" />
+   <dataSet lst="11/05_15" median="16.2" mn="9.1" mx="22.4" pr10th="10.1" pr25th="14.5" pr75th="17.48" pr90th="20.15" />
+   <dataSet lst="11/06_06" median="6.7" mn="-1.2" mx="13.7" pr10th="0.4" pr25th="3.25" pr75th="10.17" pr90th="11.85" />
+   <dataSet lst="11/06_15" median="16.05" mn="5.9" mx="20.5" pr10th="8.05" pr25th="11.1" pr75th="17.88" pr90th="19.7" />
+   <dataSet lst="11/07_06" median="7.35" mn="-2.9" mx="13.0" pr10th="-1.5" pr25th="2.83" pr75th="10.13" pr90th="11.75" />
+  </stn>
+  <stn stnNo="47099" stnName="파주">
+   <dataSet lst="10/27_06" median="4.25" mn="3.5" mx="5.9" pr10th="3.65" pr25th="3.93" pr75th="4.85" pr90th="5.55" />
+   <dataSet lst="10/27_15" median="18.65" mn="17.1" mx="20.0" pr10th="17.15" pr25th="17.68" pr75th="19.38" pr90th="19.75" />
+   <dataSet lst="10/28_06" median="9.75" mn="8.3" mx="10.6" pr10th="8.6" pr25th="9.3" pr75th="10.2" pr90th="10.45" />
+   <dataSet lst="10/28_15" median="15.6" mn="14.0" mx="17.6" pr10th="14.45" pr25th="15.1" pr75th="16.38" pr90th="17.2" />
+   <dataSet lst="10/29_06" median="3.85" mn="0.5" mx="7.3" pr10th="0.65" pr25th="2.75" pr75th="4.8" pr90th="6.95" />
+   <dataSet lst="10/29_15" median="11.55" mn="9.7" mx="15.5" pr10th="10.35" pr25th="10.6" pr75th="13.55" pr90th="14.55" />
+   <dataSet lst="10/30_06" median="-0.35" mn="-2.6" mx="3.9" pr10th="-1.9" pr25th="-1.2" pr75th="0.95" pr90th="3.5" />
+   <dataSet lst="10/30_15" median="12.75" mn="10.8" mx="15.6" pr10th="11.35" pr25th="11.7" pr75th="13.58" pr90th="15.2" />
+   <dataSet lst="10/31_06" median="2.2" mn="-3.2" mx="5.1" pr10th="-0.8" pr25th="1.6" pr75th="3.7" pr90th="4.25" />
+   <dataSet lst="10/31_15" median="11.45" mn="4.6" mx="15.3" pr10th="5.1" pr25th="7.9" pr75th="12.8" pr90th="14.7" />
+   <dataSet lst="11/01_06" median="-1.0" mn="-5.8" mx="6.9" pr10th="-5.7" pr25th="-4.82" pr75th="1.4" pr90th="5.8" />
+   <dataSet lst="11/01_15" median="10.7" mn="5.7" mx="17.8" pr10th="6.15" pr25th="8.35" pr75th="11.75" pr90th="14.95" />
+   <dataSet lst="11/02_06" median="-0.9" mn="-4.9" mx="7.5" pr10th="-4.5" pr25th="-3.17" pr75th="2.03" pr90th="5.95" />
+   <dataSet lst="11/02_15" median="12.6" mn="8.0" mx="17.8" pr10th="9.35" pr25th="9.83" pr75th="14.18" pr90th="16.0" />
+   <dataSet lst="11/03_06" median="1.95" mn="-6.0" mx="10.2" pr10th="-4.7" pr25th="-1.15" pr75th="5.07" pr90th="7.8" />
+   <dataSet lst="11/03_15" median="13.3" mn="9.1" mx="19.2" pr10th="10.1" pr25th="11.2" pr75th="15.4" pr90th="17.95" />
+   <dataSet lst="11/04_06" median="2.0" mn="-3.4" mx="11.4" pr10th="-3.3" pr25th="-1.35" pr75th="7.83" pr90th="9.4" />
+   <dataSet lst="11/04_15" median="14.2" mn="9.0" mx="19.6" pr10th="10.15" pr25th="12.27" pr75th="15.5" pr90th="18.55" />
+   <dataSet lst="11/05_06" median="4.3" mn="-4.5" mx="10.9" pr10th="-3.75" pr25th="-2.05" pr75th="8.4" pr90th="9.1" />
+   <dataSet lst="11/05_15" median="15.15" mn="8.1" mx="21.0" pr10th="9.9" pr25th="12.88" pr75th="17.52" pr90th="18.65" />
+   <dataSet lst="11/06_06" median="0.6" mn="-5.3" mx="9.2" pr10th="-4.95" pr25th="-0.87" pr75th="5.5" pr90th="8.6" />
+   <dataSet lst="11/06_15" median="14.6" mn="6.0" mx="20.7" pr10th="6.7" pr25th="11.0" pr75th="15.73" pr90th="18.75" />
+   <dataSet lst="11/07_06" median="1.9" mn="-7.4" mx="10.0" pr10th="-6.05" pr25th="-0.87" pr75th="4.7" pr90th="6.95" />
+  </stn>
+  <stn stnNo="47098" stnName="동두천">
+   <dataSet lst="10/27_06" median="5.85" mn="5.2" mx="6.9" pr10th="5.35" pr25th="5.63" pr75th="6.25" pr90th="6.55" />
+   <dataSet lst="10/27_15" median="18.65" mn="16.9" mx="20.1" pr10th="17.3" pr25th="18.13" pr75th="19.38" pr90th="20.05" />
+   <dataSet lst="10/28_06" median="11.4" mn="9.7" mx="12.0" pr10th="10.75" pr25th="11.03" pr75th="11.68" pr90th="11.9" />
+   <dataSet lst="10/28_15" median="15.9" mn="13.2" mx="17.0" pr10th="14.2" pr25th="15.2" pr75th="16.5" pr90th="17.0" />
+   <dataSet lst="10/29_06" median="5.95" mn="2.6" mx="8.7" pr10th="3.0" pr25th="4.8" pr75th="7.25" pr90th="7.85" />
+   <dataSet lst="10/29_15" median="13.3" mn="11.8" mx="16.2" pr10th="12.05" pr25th="12.5" pr75th="14.18" pr90th="15.2" />
+   <dataSet lst="10/30_06" median="1.85" mn="-0.6" mx="7.6" pr10th="0.4" pr25th="1.0" pr75th="5.13" pr90th="7.15" />
+   <dataSet lst="10/30_15" median="14.1" mn="11.7" mx="17.5" pr10th="12.35" pr25th="13.03" pr75th="15.28" pr90th="16.3" />
+   <dataSet lst="10/31_06" median="3.1" mn="0.6" mx="7.3" pr10th="1.45" pr25th="2.13" pr75th="4.57" pr90th="5.95" />
+   <dataSet lst="10/31_15" median="12.75" mn="7.0" mx="16.8" pr10th="7.4" pr25th="9.23" pr75th="14.33" pr90th="15.65" />
+   <dataSet lst="11/01_06" median="-0.25" mn="-5.6" mx="5.9" pr10th="-5.2" pr25th="-3.4" pr75th="1.95" pr90th="5.2" />
+   <dataSet lst="11/01_15" median="11.35" mn="6.4" mx="17.2" pr10th="7.05" pr25th="9.13" pr75th="12.33" pr90th="15.4" />
+   <dataSet lst="11/02_06" median="-0.4" mn="-4.6" mx="7.6" pr10th="-4.1" pr25th="-3.12" pr75th="2.93" pr90th="6.7" />
+   <dataSet lst="11/02_15" median="11.65" mn="9.6" mx="18.2" pr10th="10.0" pr25th="10.88" pr75th="13.78" pr90th="16.95" />
+   <dataSet lst="11/03_06" median="3.85" mn="-3.3" mx="9.4" pr10th="-2.15" pr25th="-0.35" pr75th="7.28" pr90th="8.6" />
+   <dataSet lst="11/03_15" median="13.65" mn="9.4" mx="17.7" pr10th="10.3" pr25th="12.13" pr75th="16.08" pr90th="16.55" />
+   <dataSet lst="11/04_06" median="4.65" mn="-2.6" mx="10.3" pr10th="-1.9" pr25th="0.33" pr75th="8.15" pr90th="9.55" />
+   <dataSet lst="11/04_15" median="14.0" mn="7.3" mx="19.8" pr10th="8.75" pr25th="11.65" pr75th="15.28" pr90th="17.8" />
+   <dataSet lst="11/05_06" median="5.75" mn="-3.0" mx="12.8" pr10th="-2.2" pr25th="1.13" pr75th="9.65" pr90th="11.0" />
+   <dataSet lst="11/05_15" median="14.9" mn="7.9" mx="20.4" pr10th="8.9" pr25th="13.0" pr75th="17.0" pr90th="19.45" />
+   <dataSet lst="11/06_06" median="4.45" mn="-4.7" mx="11.6" pr10th="-1.7" pr25th="0.57" pr75th="7.45" pr90th="10.85" />
+   <dataSet lst="11/06_15" median="14.7" mn="5.5" mx="19.5" pr10th="7.4" pr25th="10.3" pr75th="17.08" pr90th="18.3" />
+   <dataSet lst="11/07_06" median="5.0" mn="-5.1" mx="9.8" pr10th="-3.95" pr25th="-0.57" pr75th="8.25" pr90th="9.25" />
+  </stn>
+  <stn stnNo="47203" stnName="이천">
+   <dataSet lst="10/27_06" median="4.1" mn="2.9" mx="4.9" pr10th="2.95" pr25th="3.7" pr75th="4.4" pr90th="4.7" />
+   <dataSet lst="10/27_15" median="19.05" mn="17.8" mx="19.9" pr10th="18.1" pr25th="18.38" pr75th="19.27" pr90th="19.8" />
+   <dataSet lst="10/28_06" median="8.85" mn="6.6" mx="10.7" pr10th="7.65" pr25th="8.2" pr75th="9.35" pr90th="10.0" />
+   <dataSet lst="10/28_15" median="14.15" mn="12.9" mx="16.5" pr10th="13.05" pr25th="13.48" pr75th="15.2" pr90th="16.3" />
+   <dataSet lst="10/29_06" median="5.55" mn="1.4" mx="8.8" pr10th="2.45" pr25th="4.35" pr75th="7.18" pr90th="8.0" />
+   <dataSet lst="10/29_15" median="12.05" mn="10.3" mx="15.8" pr10th="10.45" pr25th="11.33" pr75th="13.8" pr90th="15.0" />
+   <dataSet lst="10/30_06" median="0.65" mn="-1.1" mx="5.4" pr10th="-1.05" pr25th="-0.5" pr75th="3.78" pr90th="4.45" />
+   <dataSet lst="10/30_15" median="13.25" mn="11.5" mx="15.1" pr10th="12.25" pr25th="12.7" pr75th="14.1" pr90th="14.8" />
+   <dataSet lst="10/31_06" median="1.8" mn="-0.4" mx="5.9" pr10th="0.25" pr25th="0.75" pr75th="3.83" pr90th="4.9" />
+   <dataSet lst="10/31_15" median="11.7" mn="6.8" mx="15.8" pr10th="7.95" pr25th="9.3" pr75th="14.05" pr90th="15.4" />
+   <dataSet lst="11/01_06" median="-2.45" mn="-7.2" mx="5.4" pr10th="-7.05" pr25th="-5.05" pr75th="2.5" pr90th="4.7" />
+   <dataSet lst="11/01_15" median="11.45" mn="5.9" mx="16.8" pr10th="6.55" pr25th="8.5" pr75th="12.8" pr90th="13.95" />
+   <dataSet lst="11/02_06" median="-1.75" mn="-5.5" mx="6.2" pr10th="-5.4" pr25th="-3.47" pr75th="1.53" pr90th="5.3" />
+   <dataSet lst="11/02_15" median="12.05" mn="9.4" mx="17.9" pr10th="9.55" pr25th="10.33" pr75th="13.58" pr90th="16.7" />
+   <dataSet lst="11/03_06" median="2.3" mn="-3.7" mx="9.7" pr10th="-3.25" pr25th="-0.9" pr75th="5.4" pr90th="7.25" />
+   <dataSet lst="11/03_15" median="13.45" mn="8.6" mx="18.3" pr10th="9.2" pr25th="11.43" pr75th="14.95" pr90th="16.0" />
+   <dataSet lst="11/04_06" median="2.35" mn="-5.4" mx="10.9" pr10th="-2.3" pr25th="-0.2" pr75th="6.78" pr90th="8.45" />
+   <dataSet lst="11/04_15" median="13.75" mn="6.7" mx="20.1" pr10th="9.2" pr25th="11.95" pr75th="15.6" pr90th="17.65" />
+   <dataSet lst="11/05_06" median="3.7" mn="-3.6" mx="12.8" pr10th="-3.15" pr25th="-2.15" pr75th="8.9" pr90th="10.0" />
+   <dataSet lst="11/05_15" median="14.9" mn="8.7" mx="19.6" pr10th="9.85" pr25th="13.5" pr75th="17.45" pr90th="18.7" />
+   <dataSet lst="11/06_06" median="3.05" mn="-8.9" mx="10.7" pr10th="-6.95" pr25th="-1.47" pr75th="6.25" pr90th="8.65" />
+   <dataSet lst="11/06_15" median="14.9" mn="7.0" mx="19.3" pr10th="7.7" pr25th="11.25" pr75th="16.35" pr90th="18.65" />
+   <dataSet lst="11/07_06" median="3.7" mn="-8.5" mx="8.9" pr10th="-7.05" pr25th="-2.22" pr75th="7.23" pr90th="8.05" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="1" grName="부산청(부산)">
+  <stn stnNo="47159" stnName="부산">
+   <dataSet lst="10/27_06" median="16.2" mn="15.6" mx="17.7" pr10th="15.65" pr25th="15.9" pr75th="16.9" pr90th="17.2" />
+   <dataSet lst="10/27_15" median="20.3" mn="19.1" mx="20.9" pr10th="19.5" pr25th="19.83" pr75th="20.58" pr90th="20.9" />
+   <dataSet lst="10/28_06" median="16.7" mn="15.7" mx="17.3" pr10th="16.05" pr25th="16.33" pr75th="16.98" pr90th="17.1" />
+   <dataSet lst="10/28_15" median="17.6" mn="15.6" mx="20.2" pr10th="16.15" pr25th="16.85" pr75th="17.98" pr90th="19.4" />
+   <dataSet lst="10/29_06" median="14.0" mn="12.0" mx="15.7" pr10th="12.85" pr25th="13.33" pr75th="14.38" pr90th="15.0" />
+   <dataSet lst="10/29_15" median="17.05" mn="15.3" mx="19.3" pr10th="15.55" pr25th="16.42" pr75th="17.68" pr90th="18.75" />
+   <dataSet lst="10/30_06" median="11.5" mn="9.3" mx="12.9" pr10th="10.05" pr25th="11.03" pr75th="11.95" pr90th="12.75" />
+   <dataSet lst="10/30_15" median="18.4" mn="15.9" mx="19.7" pr10th="16.9" pr25th="17.8" pr75th="19.15" pr90th="19.55" />
+   <dataSet lst="10/31_06" median="11.4" mn="9.0" mx="14.8" pr10th="9.7" pr25th="10.43" pr75th="11.8" pr90th="13.3" />
+   <dataSet lst="10/31_15" median="16.4" mn="12.2" mx="21.2" pr10th="14.6" pr25th="15.6" pr75th="17.08" pr90th="19.35" />
+   <dataSet lst="11/01_06" median="10.85" mn="3.1" mx="13.9" pr10th="3.8" pr25th="6.6" pr75th="11.2" pr90th="12.85" />
+   <dataSet lst="11/01_15" median="17.15" mn="11.1" mx="20.0" pr10th="11.55" pr25th="14.48" pr75th="18.35" pr90th="19.35" />
+   <dataSet lst="11/02_06" median="9.1" mn="3.5" mx="14.4" pr10th="3.8" pr25th="7.28" pr75th="10.45" pr90th="12.6" />
+   <dataSet lst="11/02_15" median="18.4" mn="13.4" mx="21.4" pr10th="14.55" pr25th="16.88" pr75th="19.27" pr90th="20.7" />
+   <dataSet lst="11/03_06" median="12.0" mn="6.0" mx="14.9" pr10th="6.8" pr25th="8.2" pr75th="13.3" pr90th="14.7" />
+   <dataSet lst="11/03_15" median="18.35" mn="14.6" mx="24.6" pr10th="15.5" pr25th="17.27" pr75th="21.63" pr90th="23.4" />
+   <dataSet lst="11/04_06" median="12.15" mn="6.5" mx="15.8" pr10th="8.2" pr25th="10.43" pr75th="14.43" pr90th="15.1" />
+   <dataSet lst="11/04_15" median="18.25" mn="14.9" mx="22.4" pr10th="15.65" pr25th="17.18" pr75th="19.58" pr90th="20.7" />
+   <dataSet lst="11/05_06" median="11.3" mn="5.7" mx="16.4" pr10th="6.65" pr25th="9.13" pr75th="13.05" pr90th="15.05" />
+   <dataSet lst="11/05_15" median="19.3" mn="13.4" mx="25.5" pr10th="15.75" pr25th="17.27" pr75th="22.18" pr90th="24.5" />
+   <dataSet lst="11/06_06" median="11.4" mn="4.7" mx="16.5" pr10th="7.45" pr25th="9.48" pr75th="13.6" pr90th="15.35" />
+   <dataSet lst="11/06_15" median="19.4" mn="11.0" mx="26.5" pr10th="14.55" pr25th="16.8" pr75th="21.75" pr90th="25.5" />
+   <dataSet lst="11/07_06" median="11.55" mn="2.3" mx="14.6" pr10th="5.6" pr25th="8.25" pr75th="13.03" pr90th="13.65" />
+  </stn>
+  <stn stnNo="47152" stnName="울산">
+   <dataSet lst="10/27_06" median="11.5" mn="10.8" mx="13.1" pr10th="11.0" pr25th="11.3" pr75th="11.8" pr90th="12.5" />
+   <dataSet lst="10/27_15" median="19.6" mn="18.7" mx="20.7" pr10th="18.75" pr25th="19.1" pr75th="19.8" pr90th="20.4" />
+   <dataSet lst="10/28_06" median="13.2" mn="11.9" mx="14.4" pr10th="12.35" pr25th="12.8" pr75th="13.6" pr90th="14.15" />
+   <dataSet lst="10/28_15" median="15.75" mn="14.5" mx="17.9" pr10th="14.8" pr25th="15.33" pr75th="16.3" pr90th="17.35" />
+   <dataSet lst="10/29_06" median="11.7" mn="9.7" mx="13.5" pr10th="10.4" pr25th="11.3" pr75th="12.0" pr90th="12.9" />
+   <dataSet lst="10/29_15" median="15.35" mn="13.1" mx="18.6" pr10th="13.6" pr25th="14.68" pr75th="16.0" pr90th="17.4" />
+   <dataSet lst="10/30_06" median="8.25" mn="5.9" mx="10.9" pr10th="6.1" pr25th="6.88" pr75th="8.82" pr90th="9.4" />
+   <dataSet lst="10/30_15" median="17.35" mn="15.4" mx="18.5" pr10th="16.0" pr25th="16.65" pr75th="18.03" pr90th="18.25" />
+   <dataSet lst="10/31_06" median="7.1" mn="4.8" mx="10.8" pr10th="5.5" pr25th="6.65" pr75th="9.07" pr90th="9.7" />
+   <dataSet lst="10/31_15" median="15.2" mn="12.4" mx="20.3" pr10th="12.75" pr25th="13.58" pr75th="16.27" pr90th="17.7" />
+   <dataSet lst="11/01_06" median="6.75" mn="0.3" mx="10.8" pr10th="1.25" pr25th="4.7" pr75th="8.05" pr90th="9.4" />
+   <dataSet lst="11/01_15" median="15.9" mn="10.2" mx="19.6" pr10th="10.4" pr25th="12.65" pr75th="17.38" pr90th="18.4" />
+   <dataSet lst="11/02_06" median="5.15" mn="-0.8" mx="10.5" pr10th="-0.2" pr25th="2.93" pr75th="6.18" pr90th="7.95" />
+   <dataSet lst="11/02_15" median="16.5" mn="12.1" mx="20.0" pr10th="12.25" pr25th="14.73" pr75th="17.75" pr90th="19.85" />
+   <dataSet lst="11/03_06" median="7.7" mn="0.1" mx="11.8" pr10th="1.4" pr25th="3.58" pr75th="9.65" pr90th="11.3" />
+   <dataSet lst="11/03_15" median="17.6" mn="13.5" mx="23.9" pr10th="14.85" pr25th="16.38" pr75th="21.1" pr90th="22.3" />
+   <dataSet lst="11/04_06" median="5.3" mn="0.0" mx="10.9" pr10th="1.25" pr25th="2.6" pr75th="8.75" pr90th="10.45" />
+   <dataSet lst="11/04_15" median="20.55" mn="12.4" mx="26.4" pr10th="14.05" pr25th="16.15" pr75th="23.8" pr90th="25.35" />
+   <dataSet lst="11/05_06" median="6.45" mn="-1.4" mx="12.5" pr10th="2.15" pr25th="4.2" pr75th="8.57" pr90th="11.3" />
+   <dataSet lst="11/05_15" median="18.35" mn="11.5" mx="23.1" pr10th="14.45" pr25th="16.55" pr75th="21.18" pr90th="22.3" />
+   <dataSet lst="11/06_06" median="7.65" mn="0.6" mx="13.5" pr10th="2.4" pr25th="4.88" pr75th="9.52" pr90th="11.55" />
+   <dataSet lst="11/06_15" median="18.1" mn="10.7" mx="23.4" pr10th="13.35" pr25th="15.53" pr75th="19.9" pr90th="22.85" />
+   <dataSet lst="11/07_06" median="8.4" mn="-1.1" mx="13.8" pr10th="1.35" pr25th="3.08" pr75th="11.25" pr90th="12.9" />
+  </stn>
+  <stn stnNo="47155" stnName="창원">
+   <dataSet lst="10/27_06" median="13.9" mn="13.3" mx="15.2" pr10th="13.3" pr25th="13.43" pr75th="14.1" pr90th="14.65" />
+   <dataSet lst="10/27_15" median="20.45" mn="19.4" mx="21.3" pr10th="19.6" pr25th="19.95" pr75th="20.7" pr90th="20.9" />
+   <dataSet lst="10/28_06" median="16.05" mn="15.0" mx="16.6" pr10th="15.1" pr25th="15.6" pr75th="16.3" pr90th="16.5" />
+   <dataSet lst="10/28_15" median="15.9" mn="14.3" mx="18.3" pr10th="14.6" pr25th="15.3" pr75th="16.88" pr90th="17.7" />
+   <dataSet lst="10/29_06" median="14.6" mn="12.7" mx="15.7" pr10th="13.05" pr25th="14.13" pr75th="15.1" pr90th="15.5" />
+   <dataSet lst="10/29_15" median="16.65" mn="14.6" mx="19.1" pr10th="14.75" pr25th="15.83" pr75th="17.3" pr90th="18.45" />
+   <dataSet lst="10/30_06" median="11.65" mn="8.6" mx="14.3" pr10th="9.55" pr25th="10.77" pr75th="12.4" pr90th="12.7" />
+   <dataSet lst="10/30_15" median="16.95" mn="14.4" mx="18.6" pr10th="15.55" pr25th="16.5" pr75th="18.35" pr90th="18.55" />
+   <dataSet lst="10/31_06" median="8.9" mn="6.0" mx="13.7" pr10th="7.65" pr25th="8.2" pr75th="10.38" pr90th="12.35" />
+   <dataSet lst="10/31_15" median="15.4" mn="12.6" mx="20.0" pr10th="13.1" pr25th="14.33" pr75th="16.27" pr90th="17.7" />
+   <dataSet lst="11/01_06" median="8.5" mn="0.9" mx="12.7" pr10th="2.35" pr25th="5.08" pr75th="9.93" pr90th="11.35" />
+   <dataSet lst="11/01_15" median="15.6" mn="10.2" mx="18.3" pr10th="10.55" pr25th="13.0" pr75th="16.95" pr90th="17.6" />
+   <dataSet lst="11/02_06" median="6.5" mn="2.3" mx="12.3" pr10th="3.05" pr25th="4.75" pr75th="8.17" pr90th="9.7" />
+   <dataSet lst="11/02_15" median="16.35" mn="12.3" mx="19.9" pr10th="12.4" pr25th="14.98" pr75th="17.2" pr90th="19.25" />
+   <dataSet lst="11/03_06" median="9.05" mn="4.2" mx="15.1" pr10th="4.65" pr25th="6.28" pr75th="11.1" pr90th="13.4" />
+   <dataSet lst="11/03_15" median="17.2" mn="13.2" mx="21.4" pr10th="14.35" pr25th="15.13" pr75th="19.2" pr90th="20.25" />
+   <dataSet lst="11/04_06" median="8.0" mn="3.9" mx="13.8" pr10th="4.5" pr25th="5.85" pr75th="11.55" pr90th="12.3" />
+   <dataSet lst="11/04_15" median="19.4" mn="13.2" mx="24.2" pr10th="14.9" pr25th="17.05" pr75th="22.48" pr90th="23.75" />
+   <dataSet lst="11/05_06" median="8.25" mn="1.8" mx="18.6" pr10th="3.65" pr25th="6.5" pr75th="12.08" pr90th="13.3" />
+   <dataSet lst="11/05_15" median="19.2" mn="12.3" mx="24.2" pr10th="15.95" pr25th="17.73" pr75th="20.8" pr90th="23.95" />
+   <dataSet lst="11/06_06" median="10.2" mn="4.1" mx="17.8" pr10th="5.7" pr25th="7.32" pr75th="12.05" pr90th="14.35" />
+   <dataSet lst="11/06_15" median="18.7" mn="12.1" mx="25.4" pr10th="13.6" pr25th="17.1" pr75th="21.43" pr90th="24.3" />
+   <dataSet lst="11/07_06" median="10.25" mn="2.2" mx="17.3" pr10th="3.65" pr25th="5.3" pr75th="12.7" pr90th="14.25" />
+  </stn>
+  <stn stnNo="47162" stnName="통영">
+   <dataSet lst="10/27_06" median="15.15" mn="14.1" mx="15.6" pr10th="14.3" pr25th="14.7" pr75th="15.3" pr90th="15.4" />
+   <dataSet lst="10/27_15" median="20.2" mn="19.3" mx="20.8" pr10th="19.6" pr25th="20.02" pr75th="20.5" pr90th="20.65" />
+   <dataSet lst="10/28_06" median="17.25" mn="16.4" mx="18.1" pr10th="16.5" pr25th="16.77" pr75th="17.38" pr90th="18.0" />
+   <dataSet lst="10/28_15" median="17.35" mn="15.7" mx="20.5" pr10th="16.1" pr25th="16.55" pr75th="17.98" pr90th="19.3" />
+   <dataSet lst="10/29_06" median="14.05" mn="11.6" mx="16.0" pr10th="12.85" pr25th="13.63" pr75th="14.48" pr90th="15.15" />
+   <dataSet lst="10/29_15" median="16.25" mn="14.2" mx="18.4" pr10th="14.85" pr25th="15.53" pr75th="16.77" pr90th="17.35" />
+   <dataSet lst="10/30_06" median="10.3" mn="8.9" mx="12.2" pr10th="9.35" pr25th="9.73" pr75th="10.95" pr90th="11.55" />
+   <dataSet lst="10/30_15" median="16.7" mn="15.2" mx="18.3" pr10th="15.55" pr25th="15.75" pr75th="17.98" pr90th="18.2" />
+   <dataSet lst="10/31_06" median="10.15" mn="8.0" mx="12.9" pr10th="8.55" pr25th="9.75" pr75th="11.05" pr90th="12.2" />
+   <dataSet lst="10/31_15" median="15.85" mn="12.8" mx="19.4" pr10th="13.7" pr25th="14.93" pr75th="16.5" pr90th="18.45" />
+   <dataSet lst="11/01_06" median="9.85" mn="2.1" mx="13.1" pr10th="3.35" pr25th="6.63" pr75th="10.78" pr90th="12.35" />
+   <dataSet lst="11/01_15" median="15.8" mn="10.7" mx="20.2" pr10th="11.25" pr25th="13.58" pr75th="17.45" pr90th="18.1" />
+   <dataSet lst="11/02_06" median="11.3" mn="6.6" mx="16.3" pr10th="6.8" pr25th="9.9" pr75th="12.45" pr90th="14.9" />
+   <dataSet lst="11/02_15" median="17.45" mn="13.3" mx="21.2" pr10th="13.55" pr25th="15.9" pr75th="18.38" pr90th="20.1" />
+   <dataSet lst="11/03_06" median="11.55" mn="2.6" mx="15.2" pr10th="4.65" pr25th="6.25" pr75th="12.75" pr90th="14.15" />
+   <dataSet lst="11/03_15" median="18.0" mn="14.9" mx="21.7" pr10th="16.0" pr25th="16.6" pr75th="18.95" pr90th="20.35" />
+   <dataSet lst="11/04_06" median="12.15" mn="8.5" mx="16.8" pr10th="8.9" pr25th="9.83" pr75th="14.43" pr90th="16.0" />
+   <dataSet lst="11/04_15" median="17.65" mn="14.4" mx="23.1" pr10th="14.6" pr25th="16.52" pr75th="18.8" pr90th="20.85" />
+   <dataSet lst="11/05_06" median="13.05" mn="7.6" mx="19.0" pr10th="8.65" pr25th="11.55" pr75th="15.1" pr90th="17.25" />
+   <dataSet lst="11/05_15" median="18.25" mn="12.8" mx="21.7" pr10th="14.45" pr25th="16.95" pr75th="19.55" pr90th="21.25" />
+   <dataSet lst="11/06_06" median="14.45" mn="7.6" mx="18.0" pr10th="9.75" pr25th="12.58" pr75th="15.85" pr90th="16.65" />
+   <dataSet lst="11/06_15" median="17.85" mn="12.0" mx="20.9" pr10th="12.65" pr25th="16.13" pr75th="19.83" pr90th="20.5" />
+   <dataSet lst="11/07_06" median="14.4" mn="5.3" mx="17.1" pr10th="7.05" pr25th="10.1" pr75th="15.88" pr90th="16.9" />
+  </stn>
+  <stn stnNo="47192" stnName="진주">
+   <dataSet lst="10/27_06" median="8.95" mn="7.7" mx="10.4" pr10th="8.1" pr25th="8.35" pr75th="9.28" pr90th="9.95" />
+   <dataSet lst="10/27_15" median="19.85" mn="18.5" mx="20.6" pr10th="18.95" pr25th="19.33" pr75th="20.2" pr90th="20.4" />
+   <dataSet lst="10/28_06" median="13.2" mn="11.1" mx="14.9" pr10th="11.8" pr25th="12.23" pr75th="14.0" pr90th="14.75" />
+   <dataSet lst="10/28_15" median="16.05" mn="14.7" mx="18.2" pr10th="14.8" pr25th="15.6" pr75th="16.5" pr90th="17.65" />
+   <dataSet lst="10/29_06" median="9.35" mn="5.6" mx="13.3" pr10th="7.2" pr25th="8.9" pr75th="11.03" pr90th="12.55" />
+   <dataSet lst="10/29_15" median="15.9" mn="13.5" mx="18.2" pr10th="14.15" pr25th="14.95" pr75th="16.88" pr90th="17.75" />
+   <dataSet lst="10/30_06" median="6.2" mn="1.9" mx="10.0" pr10th="2.2" pr25th="3.48" pr75th="8.17" pr90th="9.35" />
+   <dataSet lst="10/30_15" median="16.45" mn="14.0" mx="18.6" pr10th="15.25" pr25th="15.95" pr75th="17.58" pr90th="18.45" />
+   <dataSet lst="10/31_06" median="3.15" mn="0.4" mx="11.4" pr10th="1.3" pr25th="2.0" pr75th="4.65" pr90th="8.4" />
+   <dataSet lst="10/31_15" median="13.9" mn="9.6" mx="18.1" pr10th="11.9" pr25th="12.85" pr75th="15.38" pr90th="17.15" />
+   <dataSet lst="11/01_06" median="4.0" mn="-2.3" mx="10.3" pr10th="-1.85" pr25th="0.2" pr75th="6.1" pr90th="8.05" />
+   <dataSet lst="11/01_15" median="15.55" mn="9.9" mx="19.4" pr10th="10.15" pr25th="12.0" pr75th="16.6" pr90th="17.85" />
+   <dataSet lst="11/02_06" median="0.95" mn="-3.6" mx="11.6" pr10th="-2.45" pr25th="-0.17" pr75th="4.95" pr90th="6.0" />
+   <dataSet lst="11/02_15" median="17.3" mn="12.8" mx="19.8" pr10th="13.2" pr25th="15.53" pr75th="18.55" pr90th="19.65" />
+   <dataSet lst="11/03_06" median="2.5" mn="-4.1" mx="10.4" pr10th="-2.95" pr25th="-1.27" pr75th="4.55" pr90th="8.45" />
+   <dataSet lst="11/03_15" median="16.45" mn="13.6" mx="19.4" pr10th="13.75" pr25th="14.25" pr75th="17.33" pr90th="18.4" />
+   <dataSet lst="11/04_06" median="2.25" mn="-2.5" mx="11.1" pr10th="-2.25" pr25th="0.83" pr75th="5.5" pr90th="9.2" />
+   <dataSet lst="11/04_15" median="18.4" mn="12.4" mx="22.1" pr10th="13.9" pr25th="15.18" pr75th="20.35" pr90th="21.55" />
+   <dataSet lst="11/05_06" median="3.25" mn="-3.1" mx="13.3" pr10th="-1.8" pr25th="-0.4" pr75th="5.1" pr90th="10.3" />
+   <dataSet lst="11/05_15" median="17.8" mn="11.9" mx="24.3" pr10th="14.25" pr25th="16.15" pr75th="20.68" pr90th="21.65" />
+   <dataSet lst="11/06_06" median="3.85" mn="-4.0" mx="14.2" pr10th="-1.2" pr25th="2.13" pr75th="5.98" pr90th="9.25" />
+   <dataSet lst="11/06_15" median="16.1" mn="9.9" mx="23.7" pr10th="10.65" pr25th="15.4" pr75th="19.98" pr90th="21.25" />
+   <dataSet lst="11/07_06" median="4.95" mn="-3.4" mx="13.0" pr10th="-1.85" pr25th="0.15" pr75th="7.9" pr90th="11.1" />
+  </stn>
+  <stn stnNo="47284" stnName="거창">
+   <dataSet lst="10/27_06" median="4.8" mn="3.7" mx="6.0" pr10th="4.0" pr25th="4.33" pr75th="5.4" pr90th="5.75" />
+   <dataSet lst="10/27_15" median="18.05" mn="16.3" mx="19.7" pr10th="16.85" pr25th="17.5" pr75th="18.75" pr90th="19.2" />
+   <dataSet lst="10/28_06" median="10.3" mn="8.4" mx="11.7" pr10th="9.4" pr25th="9.93" pr75th="10.65" pr90th="11.45" />
+   <dataSet lst="10/28_15" median="14.25" mn="13.1" mx="17.0" pr10th="13.55" pr25th="14.03" pr75th="14.98" pr90th="15.75" />
+   <dataSet lst="10/29_06" median="6.4" mn="1.7" mx="10.7" pr10th="3.45" pr25th="5.55" pr75th="7.53" pr90th="9.2" />
+   <dataSet lst="10/29_15" median="12.9" mn="11.6" mx="15.1" pr10th="11.85" pr25th="12.33" pr75th="14.05" pr90th="14.95" />
+   <dataSet lst="10/30_06" median="3.55" mn="-2.5" mx="8.5" pr10th="-0.6" pr25th="0.9" pr75th="6.83" pr90th="7.8" />
+   <dataSet lst="10/30_15" median="14.7" mn="13.2" mx="16.6" pr10th="13.45" pr25th="14.1" pr75th="15.3" pr90th="15.95" />
+   <dataSet lst="10/31_06" median="-0.15" mn="-3.1" mx="9.5" pr10th="-2.65" pr25th="-1.87" pr75th="3.03" pr90th="7.75" />
+   <dataSet lst="10/31_15" median="12.25" mn="8.6" mx="16.8" pr10th="9.6" pr25th="10.5" pr75th="14.08" pr90th="15.7" />
+   <dataSet lst="11/01_06" median="2.0" mn="-3.7" mx="6.5" pr10th="-3.55" pr25th="-1.22" pr75th="5.23" pr90th="6.35" />
+   <dataSet lst="11/01_15" median="13.45" mn="7.6" mx="18.6" pr10th="8.15" pr25th="10.7" pr75th="14.73" pr90th="16.0" />
+   <dataSet lst="11/02_06" median="-1.1" mn="-4.9" mx="5.0" pr10th="-3.5" pr25th="-2.25" pr75th="1.05" pr90th="3.2" />
+   <dataSet lst="11/02_15" median="14.05" mn="9.8" mx="17.7" pr10th="10.5" pr25th="12.35" pr75th="15.38" pr90th="17.65" />
+   <dataSet lst="11/03_06" median="0.95" mn="-7.9" mx="9.3" pr10th="-5.0" pr25th="-3.27" pr75th="3.13" pr90th="7.4" />
+   <dataSet lst="11/03_15" median="15.85" mn="11.8" mx="20.8" pr10th="12.3" pr25th="14.5" pr75th="17.98" pr90th="19.4" />
+   <dataSet lst="11/04_06" median="0.75" mn="-4.9" mx="10.7" pr10th="-3.25" pr25th="-1.52" pr75th="3.88" pr90th="7.15" />
+   <dataSet lst="11/04_15" median="16.7" mn="11.0" mx="22.1" pr10th="12.8" pr25th="14.98" pr75th="19.15" pr90th="21.4" />
+   <dataSet lst="11/05_06" median="1.2" mn="-5.3" mx="12.9" pr10th="-4.15" pr25th="-3.42" pr75th="2.75" pr90th="9.55" />
+   <dataSet lst="11/05_15" median="17.35" mn="9.7" mx="21.7" pr10th="12.75" pr25th="15.0" pr75th="19.98" pr90th="21.0" />
+   <dataSet lst="11/06_06" median="1.05" mn="-7.5" mx="13.6" pr10th="-4.6" pr25th="-2.05" pr75th="3.08" pr90th="8.15" />
+   <dataSet lst="11/06_15" median="16.65" mn="6.7" mx="22.8" pr10th="8.2" pr25th="13.53" pr75th="19.05" pr90th="22.15" />
+   <dataSet lst="11/07_06" median="3.55" mn="-6.9" mx="11.6" pr10th="-5.75" pr25th="-2.0" pr75th="6.15" pr90th="8.75" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="6" grName="부산청(대구)">
+  <stn stnNo="47143" stnName="대구">
+   <dataSet lst="10/27_06" median="10.1" mn="9.3" mx="10.9" pr10th="9.55" pr25th="9.75" pr75th="10.4" pr90th="10.7" />
+   <dataSet lst="10/27_15" median="20.0" mn="18.9" mx="21.1" pr10th="18.95" pr25th="19.3" pr75th="20.4" pr90th="20.65" />
+   <dataSet lst="10/28_06" median="13.25" mn="12.5" mx="15.0" pr10th="12.65" pr25th="12.83" pr75th="13.48" pr90th="13.95" />
+   <dataSet lst="10/28_15" median="16.05" mn="15.0" mx="18.2" pr10th="15.3" pr25th="15.43" pr75th="16.3" pr90th="16.9" />
+   <dataSet lst="10/29_06" median="12.7" mn="10.8" mx="15.9" pr10th="11.4" pr25th="12.3" pr75th="13.68" pr90th="14.3" />
+   <dataSet lst="10/29_15" median="15.05" mn="12.8" mx="18.6" pr10th="13.45" pr25th="14.48" pr75th="15.88" pr90th="17.55" />
+   <dataSet lst="10/30_06" median="9.3" mn="5.2" mx="12.1" pr10th="6.65" pr25th="7.63" pr75th="10.45" pr90th="11.55" />
+   <dataSet lst="10/30_15" median="15.35" mn="13.4" mx="17.1" pr10th="14.05" pr25th="14.85" pr75th="15.9" pr90th="16.8" />
+   <dataSet lst="10/31_06" median="6.85" mn="4.1" mx="10.3" pr10th="5.3" pr25th="5.75" pr75th="7.75" pr90th="9.8" />
+   <dataSet lst="10/31_15" median="14.05" mn="10.7" mx="18.1" pr10th="11.65" pr25th="12.55" pr75th="15.88" pr90th="16.9" />
+   <dataSet lst="11/01_06" median="7.65" mn="1.4" mx="11.6" pr10th="1.95" pr25th="3.63" pr75th="8.4" pr90th="9.55" />
+   <dataSet lst="11/01_15" median="15.3" mn="9.3" mx="20.7" pr10th="9.8" pr25th="12.63" pr75th="16.72" pr90th="19.3" />
+   <dataSet lst="11/02_06" median="3.55" mn="-1.7" mx="11.9" pr10th="-1.05" pr25th="2.08" pr75th="6.2" pr90th="9.25" />
+   <dataSet lst="11/02_15" median="16.0" mn="12.2" mx="19.0" pr10th="12.35" pr25th="14.05" pr75th="17.33" pr90th="18.6" />
+   <dataSet lst="11/03_06" median="7.3" mn="0.2" mx="10.6" pr10th="1.55" pr25th="2.38" pr75th="9.45" pr90th="10.5" />
+   <dataSet lst="11/03_15" median="17.45" mn="12.7" mx="25.1" pr10th="13.8" pr25th="15.93" pr75th="19.9" pr90th="23.4" />
+   <dataSet lst="11/04_06" median="5.35" mn="-0.6" mx="12.4" pr10th="1.25" pr25th="3.5" pr75th="9.88" pr90th="11.0" />
+   <dataSet lst="11/04_15" median="18.15" mn="8.1" mx="23.8" pr10th="10.55" pr25th="15.03" pr75th="19.98" pr90th="22.4" />
+   <dataSet lst="11/05_06" median="8.4" mn="-0.4" mx="14.3" pr10th="2.7" pr25th="5.15" pr75th="11.48" pr90th="13.8" />
+   <dataSet lst="11/05_15" median="17.0" mn="11.1" mx="22.9" pr10th="13.15" pr25th="14.9" pr75th="20.98" pr90th="22.25" />
+   <dataSet lst="11/06_06" median="9.0" mn="0.7" mx="16.1" pr10th="2.2" pr25th="7.38" pr75th="11.08" pr90th="12.25" />
+   <dataSet lst="11/06_15" median="16.6" mn="11.6" mx="21.5" pr10th="12.1" pr25th="14.38" pr75th="18.45" pr90th="20.7" />
+   <dataSet lst="11/07_06" median="9.6" mn="3.5" mx="13.9" pr10th="3.95" pr25th="5.32" pr75th="10.68" pr90th="12.0" />
+  </stn>
+  <stn stnNo="47138" stnName="포항">
+   <dataSet lst="10/27_06" median="12.55" mn="11.6" mx="13.7" pr10th="11.7" pr25th="12.1" pr75th="13.08" pr90th="13.5" />
+   <dataSet lst="10/27_15" median="18.65" mn="17.4" mx="19.6" pr10th="17.75" pr25th="18.15" pr75th="19.1" pr90th="19.35" />
+   <dataSet lst="10/28_06" median="14.0" mn="13.3" mx="14.8" pr10th="13.3" pr25th="13.63" pr75th="14.38" pr90th="14.6" />
+   <dataSet lst="10/28_15" median="16.7" mn="15.7" mx="18.2" pr10th="16.0" pr25th="16.3" pr75th="17.0" pr90th="17.85" />
+   <dataSet lst="10/29_06" median="13.55" mn="11.4" mx="15.2" pr10th="12.2" pr25th="13.03" pr75th="14.25" pr90th="15.0" />
+   <dataSet lst="10/29_15" median="14.45" mn="12.0" mx="18.3" pr10th="12.85" pr25th="13.83" pr75th="15.28" pr90th="16.75" />
+   <dataSet lst="10/30_06" median="9.45" mn="6.1" mx="11.9" pr10th="6.5" pr25th="7.75" pr75th="10.17" pr90th="10.55" />
+   <dataSet lst="10/30_15" median="16.25" mn="14.6" mx="17.6" pr10th="14.95" pr25th="15.45" pr75th="16.85" pr90th="17.55" />
+   <dataSet lst="10/31_06" median="8.6" mn="6.6" mx="10.7" pr10th="7.25" pr25th="7.8" pr75th="9.88" pr90th="10.6" />
+   <dataSet lst="10/31_15" median="14.85" mn="9.9" mx="19.0" pr10th="11.65" pr25th="14.05" pr75th="15.68" pr90th="17.0" />
+   <dataSet lst="11/01_06" median="7.35" mn="1.6" mx="11.4" pr10th="2.2" pr25th="4.18" pr75th="8.28" pr90th="9.85" />
+   <dataSet lst="11/01_15" median="15.5" mn="9.2" mx="19.7" pr10th="10.55" pr25th="12.33" pr75th="16.85" pr90th="17.65" />
+   <dataSet lst="11/02_06" median="5.75" mn="0.3" mx="11.3" pr10th="1.05" pr25th="4.05" pr75th="7.48" pr90th="10.05" />
+   <dataSet lst="11/02_15" median="16.05" mn="12.8" mx="18.8" pr10th="13.55" pr25th="14.9" pr75th="17.85" pr90th="18.45" />
+   <dataSet lst="11/03_06" median="8.6" mn="3.2" mx="12.6" pr10th="3.55" pr25th="4.75" pr75th="11.4" pr90th="12.4" />
+   <dataSet lst="11/03_15" median="17.0" mn="13.1" mx="23.0" pr10th="14.25" pr25th="15.65" pr75th="20.08" pr90th="21.3" />
+   <dataSet lst="11/04_06" median="7.6" mn="3.3" mx="13.2" pr10th="3.7" pr25th="5.1" pr75th="11.03" pr90th="12.25" />
+   <dataSet lst="11/04_15" median="19.7" mn="12.5" mx="26.5" pr10th="13.5" pr25th="15.08" pr75th="22.45" pr90th="24.85" />
+   <dataSet lst="11/05_06" median="8.0" mn="2.2" mx="13.5" pr10th="4.2" pr25th="6.3" pr75th="9.9" pr90th="13.05" />
+   <dataSet lst="11/05_15" median="18.2" mn="11.3" mx="26.5" pr10th="14.05" pr25th="16.13" pr75th="22.05" pr90th="24.85" />
+   <dataSet lst="11/06_06" median="8.95" mn="3.9" mx="14.6" pr10th="4.8" pr25th="6.4" pr75th="11.63" pr90th="13.25" />
+   <dataSet lst="11/06_15" median="17.65" mn="13.0" mx="24.7" pr10th="14.0" pr25th="15.83" pr75th="20.05" pr90th="23.15" />
+   <dataSet lst="11/07_06" median="10.25" mn="0.9" mx="15.9" pr10th="2.2" pr25th="4.22" pr75th="12.02" pr90th="13.95" />
+  </stn>
+  <stn stnNo="47136" stnName="안동">
+   <dataSet lst="10/27_06" median="6.85" mn="5.4" mx="8.5" pr10th="6.4" pr25th="6.5" pr75th="7.6" pr90th="8.0" />
+   <dataSet lst="10/27_15" median="18.8" mn="17.5" mx="19.5" pr10th="17.7" pr25th="18.13" pr75th="19.1" pr90th="19.35" />
+   <dataSet lst="10/28_06" median="8.95" mn="7.7" mx="11.3" pr10th="8.0" pr25th="8.4" pr75th="9.28" pr90th="9.8" />
+   <dataSet lst="10/28_15" median="14.7" mn="14.1" mx="16.8" pr10th="14.3" pr25th="14.43" pr75th="15.45" pr90th="16.05" />
+   <dataSet lst="10/29_06" median="8.85" mn="5.3" mx="11.0" pr10th="7.1" pr25th="7.9" pr75th="9.75" pr90th="10.55" />
+   <dataSet lst="10/29_15" median="13.5" mn="11.7" mx="17.3" pr10th="12.3" pr25th="12.93" pr75th="14.2" pr90th="16.2" />
+   <dataSet lst="10/30_06" median="5.6" mn="0.9" mx="7.9" pr10th="2.65" pr25th="4.6" pr75th="6.15" pr90th="6.85" />
+   <dataSet lst="10/30_15" median="15.45" mn="12.9" mx="17.5" pr10th="13.35" pr25th="13.95" pr75th="16.25" pr90th="17.15" />
+   <dataSet lst="10/31_06" median="2.25" mn="-1.3" mx="6.9" pr10th="-0.75" pr25th="0.57" pr75th="4.2" pr90th="6.45" />
+   <dataSet lst="10/31_15" median="13.2" mn="8.0" mx="16.9" pr10th="9.15" pr25th="10.85" pr75th="14.6" pr90th="16.15" />
+   <dataSet lst="11/01_06" median="3.2" mn="-3.7" mx="8.2" pr10th="-2.75" pr25th="-1.77" pr75th="4.22" pr90th="6.3" />
+   <dataSet lst="11/01_15" median="12.95" mn="7.6" mx="17.9" pr10th="8.35" pr25th="10.35" pr75th="14.23" pr90th="15.4" />
+   <dataSet lst="11/02_06" median="0.35" mn="-3.6" mx="9.7" pr10th="-3.35" pr25th="-1.2" pr75th="3.23" pr90th="6.95" />
+   <dataSet lst="11/02_15" median="14.1" mn="10.5" mx="17.7" pr10th="10.9" pr25th="12.5" pr75th="14.7" pr90th="17.25" />
+   <dataSet lst="11/03_06" median="4.65" mn="-4.3" mx="9.2" pr10th="-3.35" pr25th="-2.6" pr75th="6.5" pr90th="8.45" />
+   <dataSet lst="11/03_15" median="15.25" mn="10.3" mx="23.8" pr10th="11.85" pr25th="14.35" pr75th="17.48" pr90th="21.25" />
+   <dataSet lst="11/04_06" median="1.85" mn="-3.6" mx="9.3" pr10th="-2.4" pr25th="-0.8" pr75th="7.35" pr90th="8.8" />
+   <dataSet lst="11/04_15" median="16.15" mn="12.1" mx="23.7" pr10th="12.25" pr25th="13.95" pr75th="19.35" pr90th="21.2" />
+   <dataSet lst="11/05_06" median="3.2" mn="-4.3" mx="12.6" pr10th="-0.6" pr25th="0.83" pr75th="7.28" pr90th="10.55" />
+   <dataSet lst="11/05_15" median="16.45" mn="10.8" mx="24.9" pr10th="12.55" pr25th="13.55" pr75th="17.93" pr90th="20.5" />
+   <dataSet lst="11/06_06" median="4.2" mn="-3.5" mx="11.3" pr10th="-1.95" pr25th="-0.12" pr75th="7.4" pr90th="10.35" />
+   <dataSet lst="11/06_15" median="15.6" mn="9.1" mx="24.5" pr10th="11.0" pr25th="13.2" pr75th="19.33" pr90th="21.85" />
+   <dataSet lst="11/07_06" median="6.65" mn="-5.1" mx="10.8" pr10th="-3.7" pr25th="-1.8" pr75th="8.2" pr90th="10.45" />
+  </stn>
+  <stn stnNo="47130" stnName="울진">
+   <dataSet lst="10/27_06" median="11.85" mn="9.8" mx="12.5" pr10th="10.6" pr25th="11.6" pr75th="12.2" pr90th="12.45" />
+   <dataSet lst="10/27_15" median="17.15" mn="15.9" mx="17.8" pr10th="16.25" pr25th="16.5" pr75th="17.48" pr90th="17.75" />
+   <dataSet lst="10/28_06" median="12.6" mn="11.1" mx="14.4" pr10th="11.2" pr25th="12.1" pr75th="13.18" pr90th="13.65" />
+   <dataSet lst="10/28_15" median="16.15" mn="15.2" mx="18.0" pr10th="15.3" pr25th="15.6" pr75th="17.08" pr90th="17.4" />
+   <dataSet lst="10/29_06" median="11.85" mn="10.3" mx="13.3" pr10th="10.8" pr25th="11.43" pr75th="12.2" pr90th="12.6" />
+   <dataSet lst="10/29_15" median="12.6" mn="11.0" mx="14.6" pr10th="11.5" pr25th="11.93" pr75th="13.28" pr90th="13.95" />
+   <dataSet lst="10/30_06" median="7.3" mn="3.9" mx="9.0" pr10th="4.65" pr25th="6.18" pr75th="8.1" pr90th="8.85" />
+   <dataSet lst="10/30_15" median="15.3" mn="14.2" mx="16.3" pr10th="14.35" pr25th="14.83" pr75th="15.7" pr90th="16.0" />
+   <dataSet lst="10/31_06" median="5.9" mn="4.9" mx="9.5" pr10th="5.05" pr25th="5.6" pr75th="7.2" pr90th="8.5" />
+   <dataSet lst="10/31_15" median="14.4" mn="11.8" mx="18.2" pr10th="12.1" pr25th="13.13" pr75th="15.5" pr90th="16.4" />
+   <dataSet lst="11/01_06" median="5.15" mn="-1.3" mx="10.0" pr10th="0.2" pr25th="3.2" pr75th="7.2" pr90th="9.45" />
+   <dataSet lst="11/01_15" median="13.85" mn="8.5" mx="19.5" pr10th="9.4" pr25th="11.05" pr75th="15.43" pr90th="17.7" />
+   <dataSet lst="11/02_06" median="4.2" mn="0.5" mx="10.1" pr10th="1.15" pr25th="2.97" pr75th="6.75" pr90th="9.05" />
+   <dataSet lst="11/02_15" median="14.05" mn="9.5" mx="16.8" pr10th="10.3" pr25th="12.58" pr75th="15.28" pr90th="16.4" />
+   <dataSet lst="11/03_06" median="6.55" mn="-0.7" mx="10.3" pr10th="0.2" pr25th="2.25" pr75th="8.98" pr90th="10.1" />
+   <dataSet lst="11/03_15" median="14.3" mn="9.9" mx="18.0" pr10th="11.35" pr25th="12.53" pr75th="16.18" pr90th="17.45" />
+   <dataSet lst="11/04_06" median="7.3" mn="2.2" mx="12.7" pr10th="3.75" pr25th="5.5" pr75th="10.17" pr90th="11.5" />
+   <dataSet lst="11/04_15" median="14.5" mn="8.1" mx="18.0" pr10th="10.15" pr25th="12.13" pr75th="16.1" pr90th="17.4" />
+   <dataSet lst="11/05_06" median="4.9" mn="-1.2" mx="12.1" pr10th="0.25" pr25th="1.78" pr75th="8.63" pr90th="11.3" />
+   <dataSet lst="11/05_15" median="17.5" mn="9.3" mx="20.9" pr10th="12.7" pr25th="15.23" pr75th="19.15" pr90th="19.95" />
+   <dataSet lst="11/06_06" median="5.55" mn="-0.3" mx="12.3" pr10th="3.75" pr25th="4.43" pr75th="9.15" pr90th="11.75" />
+   <dataSet lst="11/06_15" median="15.6" mn="9.7" mx="20.9" pr10th="11.15" pr25th="12.6" pr75th="18.48" pr90th="20.3" />
+   <dataSet lst="11/07_06" median="7.7" mn="-1.3" mx="13.0" pr10th="-0.4" pr25th="3.13" pr75th="9.63" pr90th="12.1" />
+  </stn>
+  <stn stnNo="47137" stnName="상주">
+   <dataSet lst="10/27_06" median="5.25" mn="4.3" mx="6.3" pr10th="4.9" pr25th="4.93" pr75th="5.57" pr90th="6.2" />
+   <dataSet lst="10/27_15" median="18.8" mn="17.4" mx="20.2" pr10th="17.55" pr25th="18.05" pr75th="19.38" pr90th="19.95" />
+   <dataSet lst="10/28_06" median="10.35" mn="8.0" mx="11.1" pr10th="8.65" pr25th="9.05" pr75th="10.68" pr90th="10.95" />
+   <dataSet lst="10/28_15" median="14.95" mn="13.7" mx="18.3" pr10th="13.75" pr25th="14.03" pr75th="15.9" pr90th="17.4" />
+   <dataSet lst="10/29_06" median="10.3" mn="7.8" mx="14.8" pr10th="8.5" pr25th="9.8" pr75th="11.28" pr90th="12.65" />
+   <dataSet lst="10/29_15" median="12.25" mn="9.5" mx="15.9" pr10th="10.4" pr25th="11.13" pr75th="13.18" pr90th="14.95" />
+   <dataSet lst="10/30_06" median="5.85" mn="1.9" mx="9.6" pr10th="2.55" pr25th="4.13" pr75th="7.18" pr90th="8.7" />
+   <dataSet lst="10/30_15" median="13.7" mn="11.4" mx="15.5" pr10th="12.05" pr25th="12.7" pr75th="14.65" pr90th="15.1" />
+   <dataSet lst="10/31_06" median="2.5" mn="-0.1" mx="8.4" pr10th="0.35" pr25th="1.25" pr75th="5.15" pr90th="6.85" />
+   <dataSet lst="10/31_15" median="12.2" mn="7.3" mx="15.8" pr10th="8.2" pr25th="10.25" pr75th="14.18" pr90th="15.55" />
+   <dataSet lst="11/01_06" median="4.05" mn="-2.6" mx="8.7" pr10th="-2.15" pr25th="-0.82" pr75th="4.95" pr90th="6.5" />
+   <dataSet lst="11/01_15" median="12.35" mn="7.1" mx="18.1" pr10th="7.8" pr25th="9.25" pr75th="13.83" pr90th="15.05" />
+   <dataSet lst="11/02_06" median="-1.25" mn="-5.6" mx="8.2" pr10th="-4.65" pr25th="-2.77" pr75th="1.15" pr90th="4.15" />
+   <dataSet lst="11/02_15" median="12.55" mn="9.4" mx="17.6" pr10th="9.95" pr25th="10.9" pr75th="13.73" pr90th="16.85" />
+   <dataSet lst="11/03_06" median="2.5" mn="-5.7" mx="10.3" pr10th="-4.15" pr25th="-1.8" pr75th="4.5" pr90th="7.55" />
+   <dataSet lst="11/03_15" median="13.65" mn="9.5" mx="20.4" pr10th="10.8" pr25th="12.8" pr75th="16.1" pr90th="17.35" />
+   <dataSet lst="11/04_06" median="2.0" mn="-3.0" mx="10.5" pr10th="-1.65" pr25th="-0.05" pr75th="6.33" pr90th="9.25" />
+   <dataSet lst="11/04_15" median="15.9" mn="11.8" mx="22.7" pr10th="11.9" pr25th="15.05" pr75th="17.43" pr90th="21.35" />
+   <dataSet lst="11/05_06" median="3.15" mn="-1.2" mx="15.0" pr10th="-0.85" pr25th="1.23" pr75th="7.85" pr90th="12.65" />
+   <dataSet lst="11/05_15" median="16.7" mn="9.8" mx="21.3" pr10th="13.2" pr25th="14.95" pr75th="18.15" pr90th="19.75" />
+   <dataSet lst="11/06_06" median="4.85" mn="-7.2" mx="14.7" pr10th="-4.95" pr25th="0.95" pr75th="8.48" pr90th="9.45" />
+   <dataSet lst="11/06_15" median="15.65" mn="8.4" mx="22.4" pr10th="9.1" pr25th="12.77" pr75th="17.58" pr90th="20.65" />
+   <dataSet lst="11/07_06" median="5.7" mn="-7.0" mx="13.8" pr10th="-5.3" pr25th="-0.22" pr75th="7.95" pr90th="9.3" />
+  </stn>
+  <stn stnNo="47279" stnName="구미">
+   <dataSet lst="10/27_06" median="7.7" mn="7.3" mx="8.5" pr10th="7.3" pr25th="7.4" pr75th="8.0" pr90th="8.4" />
+   <dataSet lst="10/27_15" median="18.5" mn="16.9" mx="19.7" pr10th="17.2" pr25th="17.77" pr75th="18.88" pr90th="19.15" />
+   <dataSet lst="10/28_06" median="10.9" mn="8.8" mx="12.4" pr10th="9.6" pr25th="10.3" pr75th="11.45" pr90th="12.1" />
+   <dataSet lst="10/28_15" median="15.4" mn="14.1" mx="17.6" pr10th="14.55" pr25th="14.85" pr75th="16.03" pr90th="17.15" />
+   <dataSet lst="10/29_06" median="9.8" mn="7.9" mx="15.4" pr10th="8.0" pr25th="9.0" pr75th="11.45" pr90th="12.75" />
+   <dataSet lst="10/29_15" median="13.35" mn="10.8" mx="17.3" pr10th="11.75" pr25th="12.5" pr75th="13.88" pr90th="16.15" />
+   <dataSet lst="10/30_06" median="7.75" mn="3.2" mx="11.5" pr10th="4.2" pr25th="5.4" pr75th="9.07" pr90th="10.4" />
+   <dataSet lst="10/30_15" median="14.7" mn="12.5" mx="16.7" pr10th="13.1" pr25th="13.48" pr75th="15.3" pr90th="16.25" />
+   <dataSet lst="10/31_06" median="3.8" mn="1.1" mx="7.9" pr10th="2.1" pr25th="2.73" pr75th="5.93" pr90th="7.45" />
+   <dataSet lst="10/31_15" median="13.3" mn="9.2" mx="17.3" pr10th="9.95" pr25th="11.18" pr75th="14.78" pr90th="15.65" />
+   <dataSet lst="11/01_06" median="5.15" mn="-2.4" mx="8.8" pr10th="-1.3" pr25th="-0.2" pr75th="6.45" pr90th="7.35" />
+   <dataSet lst="11/01_15" median="13.9" mn="8.5" mx="19.6" pr10th="8.6" pr25th="11.78" pr75th="15.5" pr90th="18.0" />
+   <dataSet lst="11/02_06" median="-0.25" mn="-3.8" mx="5.7" pr10th="-3.7" pr25th="-1.85" pr75th="1.45" pr90th="4.95" />
+   <dataSet lst="11/02_15" median="14.65" mn="10.9" mx="17.8" pr10th="11.2" pr25th="12.43" pr75th="16.3" pr90th="17.65" />
+   <dataSet lst="11/03_06" median="3.7" mn="-3.4" mx="9.8" pr10th="-2.15" pr25th="-0.02" pr75th="5.98" pr90th="9.45" />
+   <dataSet lst="11/03_15" median="16.2" mn="12.2" mx="23.1" pr10th="12.8" pr25th="14.9" pr75th="18.45" pr90th="20.9" />
+   <dataSet lst="11/04_06" median="3.8" mn="-1.6" mx="10.6" pr10th="-0.05" pr25th="2.08" pr75th="7.75" pr90th="9.75" />
+   <dataSet lst="11/04_15" median="18.2" mn="12.3" mx="25.7" pr10th="12.55" pr25th="15.25" pr75th="20.33" pr90th="23.6" />
+   <dataSet lst="11/05_06" median="4.05" mn="-2.2" mx="12.2" pr10th="-1.25" pr25th="1.05" pr75th="5.85" pr90th="10.85" />
+   <dataSet lst="11/05_15" median="16.7" mn="9.9" mx="21.8" pr10th="11.35" pr25th="14.08" pr75th="18.18" pr90th="20.25" />
+   <dataSet lst="11/06_06" median="4.95" mn="-2.8" mx="12.4" pr10th="-1.2" pr25th="1.68" pr75th="6.53" pr90th="10.45" />
+   <dataSet lst="11/06_15" median="16.1" mn="8.9" mx="23.3" pr10th="9.5" pr25th="11.93" pr75th="18.65" pr90th="22.1" />
+   <dataSet lst="11/07_06" median="6.4" mn="-3.0" mx="11.9" pr10th="-2.1" pr25th="-0.52" pr75th="8.43" pr90th="11.35" />
+  </stn>
+  <stn stnNo="47115" stnName="울릉도">
+   <dataSet lst="10/27_06" median="10.75" mn="9.8" mx="11.9" pr10th="9.9" pr25th="10.3" pr75th="11.18" pr90th="11.5" />
+   <dataSet lst="10/27_15" median="15.35" mn="14.4" mx="17.2" pr10th="14.8" pr25th="15.1" pr75th="16.05" pr90th="16.8" />
+   <dataSet lst="10/28_06" median="12.8" mn="11.8" mx="14.2" pr10th="12.1" pr25th="12.23" pr75th="13.28" pr90th="13.9" />
+   <dataSet lst="10/28_15" median="14.8" mn="13.3" mx="15.9" pr10th="13.6" pr25th="14.4" pr75th="15.5" pr90th="15.85" />
+   <dataSet lst="10/29_06" median="10.1" mn="7.9" mx="13.6" pr10th="8.35" pr25th="9.23" pr75th="11.43" pr90th="13.05" />
+   <dataSet lst="10/29_15" median="10.5" mn="8.3" mx="13.7" pr10th="8.85" pr25th="9.65" pr75th="11.55" pr90th="12.25" />
+   <dataSet lst="10/30_06" median="8.7" mn="6.8" mx="9.9" pr10th="7.0" pr25th="7.93" pr75th="9.43" pr90th="9.7" />
+   <dataSet lst="10/30_15" median="13.2" mn="10.8" mx="14.7" pr10th="11.2" pr25th="11.75" pr75th="13.98" pr90th="14.4" />
+   <dataSet lst="10/31_06" median="9.75" mn="7.1" mx="11.7" pr10th="8.0" pr25th="8.5" pr75th="10.35" pr90th="11.3" />
+   <dataSet lst="10/31_15" median="13.75" mn="10.4" mx="17.7" pr10th="11.05" pr25th="12.8" pr75th="14.48" pr90th="15.65" />
+   <dataSet lst="11/01_06" median="7.8" mn="3.0" mx="12.8" pr10th="3.65" pr25th="5.83" pr75th="9.5" pr90th="11.4" />
+   <dataSet lst="11/01_15" median="12.5" mn="6.1" mx="19.1" pr10th="7.8" pr25th="9.98" pr75th="13.8" pr90th="17.45" />
+   <dataSet lst="11/02_06" median="7.75" mn="4.3" mx="11.9" pr10th="5.25" pr25th="6.63" pr75th="9.95" pr90th="11.1" />
+   <dataSet lst="11/02_15" median="13.4" mn="9.9" mx="16.9" pr10th="10.1" pr25th="11.0" pr75th="14.45" pr90th="16.3" />
+   <dataSet lst="11/03_06" median="10.15" mn="6.0" mx="13.0" pr10th="6.45" pr25th="7.75" pr75th="11.75" pr90th="12.65" />
+   <dataSet lst="11/03_15" median="14.1" mn="8.2" mx="19.8" pr10th="11.0" pr25th="11.9" pr75th="17.1" pr90th="18.35" />
+   <dataSet lst="11/04_06" median="11.95" mn="6.8" mx="15.1" pr10th="7.55" pr25th="9.1" pr75th="13.1" pr90th="14.2" />
+   <dataSet lst="11/04_15" median="13.9" mn="7.5" mx="19.6" pr10th="8.8" pr25th="11.6" pr75th="16.85" pr90th="18.5" />
+   <dataSet lst="11/05_06" median="11.3" mn="3.8" mx="14.8" pr10th="6.05" pr25th="7.82" pr75th="13.1" pr90th="14.8" />
+   <dataSet lst="11/05_15" median="14.25" mn="4.6" mx="19.3" pr10th="8.75" pr25th="11.13" pr75th="16.65" pr90th="17.2" />
+   <dataSet lst="11/06_06" median="11.0" mn="2.4" mx="16.4" pr10th="6.0" pr25th="9.07" pr75th="13.03" pr90th="14.65" />
+   <dataSet lst="11/06_15" median="14.2" mn="7.3" mx="18.8" pr10th="7.75" pr25th="9.65" pr75th="15.88" pr90th="17.5" />
+   <dataSet lst="11/07_06" median="10.05" mn="2.8" mx="14.2" pr10th="4.05" pr25th="6.28" pr75th="12.08" pr90th="13.85" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="13" grName="광주청(광주)">
+  <stn stnNo="47156" stnName="광주">
+   <dataSet lst="10/27_06" median="10.5" mn="9.5" mx="11.9" pr10th="9.8" pr25th="10.03" pr75th="11.08" pr90th="11.4" />
+   <dataSet lst="10/27_15" median="21.6" mn="20.0" mx="22.5" pr10th="20.5" pr25th="21.13" pr75th="22.0" pr90th="22.35" />
+   <dataSet lst="10/28_06" median="12.4" mn="11.2" mx="13.5" pr10th="11.3" pr25th="11.7" pr75th="13.38" pr90th="13.5" />
+   <dataSet lst="10/28_15" median="16.25" mn="15.0" mx="19.9" pr10th="15.5" pr25th="15.83" pr75th="17.58" pr90th="18.65" />
+   <dataSet lst="10/29_06" median="9.25" mn="7.9" mx="12.0" pr10th="8.15" pr25th="8.8" pr75th="10.48" pr90th="11.7" />
+   <dataSet lst="10/29_15" median="13.05" mn="10.4" mx="16.4" pr10th="11.3" pr25th="11.75" pr75th="14.63" pr90th="15.35" />
+   <dataSet lst="10/30_06" median="5.7" mn="2.8" mx="10.8" pr10th="3.65" pr25th="4.83" pr75th="7.28" pr90th="9.25" />
+   <dataSet lst="10/30_15" median="14.75" mn="12.1" mx="17.1" pr10th="13.25" pr25th="13.77" pr75th="15.28" pr90th="16.6" />
+   <dataSet lst="10/31_06" median="6.3" mn="4.8" mx="9.7" pr10th="5.3" pr25th="5.95" pr75th="8.48" pr90th="9.4" />
+   <dataSet lst="10/31_15" median="13.9" mn="9.4" mx="17.3" pr10th="9.9" pr25th="12.0" pr75th="14.95" pr90th="16.4" />
+   <dataSet lst="11/01_06" median="6.3" mn="0.2" mx="9.3" pr10th="0.9" pr25th="2.05" pr75th="6.6" pr90th="8.35" />
+   <dataSet lst="11/01_15" median="14.15" mn="8.6" mx="20.9" pr10th="8.7" pr25th="10.98" pr75th="16.02" pr90th="18.05" />
+   <dataSet lst="11/02_06" median="2.65" mn="-1.1" mx="8.9" pr10th="-0.85" pr25th="0.48" pr75th="3.98" pr90th="7.05" />
+   <dataSet lst="11/02_15" median="14.7" mn="10.7" mx="20.6" pr10th="11.75" pr25th="13.03" pr75th="16.83" pr90th="19.65" />
+   <dataSet lst="11/03_06" median="5.7" mn="-0.1" mx="13.1" pr10th="1.25" pr25th="2.7" pr75th="7.88" pr90th="10.5" />
+   <dataSet lst="11/03_15" median="16.25" mn="11.0" mx="20.0" pr10th="13.0" pr25th="14.95" pr75th="17.9" pr90th="19.5" />
+   <dataSet lst="11/04_06" median="5.8" mn="0.2" mx="13.3" pr10th="1.1" pr25th="4.3" pr75th="7.88" pr90th="9.7" />
+   <dataSet lst="11/04_15" median="17.2" mn="11.7" mx="21.7" pr10th="12.5" pr25th="15.63" pr75th="19.22" pr90th="19.95" />
+   <dataSet lst="11/05_06" median="6.25" mn="0.4" mx="14.6" pr10th="1.6" pr25th="3.28" pr75th="8.82" pr90th="12.1" />
+   <dataSet lst="11/05_15" median="16.2" mn="9.4" mx="22.0" pr10th="12.65" pr25th="14.15" pr75th="19.68" pr90th="20.5" />
+   <dataSet lst="11/06_06" median="6.9" mn="-1.0" mx="14.7" pr10th="2.7" pr25th="5.03" pr75th="8.7" pr90th="11.6" />
+   <dataSet lst="11/06_15" median="16.4" mn="9.8" mx="21.5" pr10th="10.65" pr25th="13.1" pr75th="17.88" pr90th="19.05" />
+   <dataSet lst="11/07_06" median="8.05" mn="0.7" mx="12.8" pr10th="1.05" pr25th="3.1" pr75th="10.03" pr90th="11.65" />
+  </stn>
+  <stn stnNo="47165" stnName="목포">
+   <dataSet lst="10/27_06" median="13.75" mn="13.0" mx="14.5" pr10th="13.2" pr25th="13.5" pr75th="13.98" pr90th="14.2" />
+   <dataSet lst="10/27_15" median="21.15" mn="19.1" mx="21.5" pr10th="20.35" pr25th="20.83" pr75th="21.4" pr90th="21.5" />
+   <dataSet lst="10/28_06" median="14.5" mn="13.1" mx="15.6" pr10th="13.4" pr25th="13.93" pr75th="15.05" pr90th="15.3" />
+   <dataSet lst="10/28_15" median="16.3" mn="14.3" mx="20.5" pr10th="14.55" pr25th="15.05" pr75th="18.08" pr90th="20.05" />
+   <dataSet lst="10/29_06" median="10.8" mn="9.1" mx="12.8" pr10th="9.2" pr25th="9.73" pr75th="11.93" pr90th="12.5" />
+   <dataSet lst="10/29_15" median="13.3" mn="11.4" mx="16.0" pr10th="11.85" pr25th="12.83" pr75th="14.3" pr90th="15.05" />
+   <dataSet lst="10/30_06" median="9.5" mn="7.3" mx="11.6" pr10th="8.15" pr25th="9.03" pr75th="10.38" pr90th="11.35" />
+   <dataSet lst="10/30_15" median="14.05" mn="12.6" mx="16.1" pr10th="12.95" pr25th="13.33" pr75th="14.9" pr90th="15.8" />
+   <dataSet lst="10/31_06" median="9.4" mn="7.5" mx="11.4" pr10th="7.95" pr25th="8.33" pr75th="10.23" pr90th="11.2" />
+   <dataSet lst="10/31_15" median="15.2" mn="11.1" mx="18.7" pr10th="11.65" pr25th="13.6" pr75th="15.9" pr90th="16.65" />
+   <dataSet lst="11/01_06" median="8.4" mn="3.7" mx="10.9" pr10th="4.65" pr25th="5.9" pr75th="9.4" pr90th="9.85" />
+   <dataSet lst="11/01_15" median="14.4" mn="9.7" mx="19.8" pr10th="10.35" pr25th="11.88" pr75th="15.68" pr90th="17.2" />
+   <dataSet lst="11/02_06" median="7.2" mn="3.7" mx="13.1" pr10th="5.2" pr25th="5.95" pr75th="8.57" pr90th="11.6" />
+   <dataSet lst="11/02_15" median="15.4" mn="12.4" mx="20.9" pr10th="12.7" pr25th="13.83" pr75th="17.13" pr90th="19.0" />
+   <dataSet lst="11/03_06" median="8.75" mn="5.1" mx="13.8" pr10th="5.8" pr25th="7.28" pr75th="11.4" pr90th="12.95" />
+   <dataSet lst="11/03_15" median="16.25" mn="12.0" mx="19.9" pr10th="13.85" pr25th="14.3" pr75th="17.3" pr90th="19.55" />
+   <dataSet lst="11/04_06" median="7.65" mn="3.0" mx="12.7" pr10th="4.3" pr25th="6.33" pr75th="10.13" pr90th="12.45" />
+   <dataSet lst="11/04_15" median="17.3" mn="12.8" mx="21.0" pr10th="13.9" pr25th="15.48" pr75th="19.45" pr90th="20.45" />
+   <dataSet lst="11/05_06" median="9.85" mn="5.3" mx="15.8" pr10th="6.3" pr25th="7.73" pr75th="12.8" pr90th="14.8" />
+   <dataSet lst="11/05_15" median="15.9" mn="10.7" mx="20.0" pr10th="12.95" pr25th="14.93" pr75th="18.93" pr90th="19.45" />
+   <dataSet lst="11/06_06" median="10.15" mn="4.0" mx="15.7" pr10th="5.25" pr25th="9.03" pr75th="12.28" pr90th="14.2" />
+   <dataSet lst="11/06_15" median="16.05" mn="10.4" mx="19.6" pr10th="11.55" pr25th="13.58" pr75th="17.88" pr90th="19.0" />
+   <dataSet lst="11/07_06" median="10.15" mn="4.2" mx="15.9" pr10th="6.05" pr25th="6.9" pr75th="12.38" pr90th="14.65" />
+  </stn>
+  <stn stnNo="47168" stnName="여수">
+   <dataSet lst="10/27_06" median="16.0" mn="15.0" mx="16.7" pr10th="15.3" pr25th="15.73" pr75th="16.18" pr90th="16.5" />
+   <dataSet lst="10/27_15" median="19.25" mn="18.1" mx="19.8" pr10th="18.5" pr25th="18.7" pr75th="19.58" pr90th="19.7" />
+   <dataSet lst="10/28_06" median="16.95" mn="15.3" mx="17.7" pr10th="16.55" pr25th="16.73" pr75th="17.38" pr90th="17.5" />
+   <dataSet lst="10/28_15" median="16.95" mn="15.6" mx="21.4" pr10th="15.8" pr25th="16.3" pr75th="17.7" pr90th="19.95" />
+   <dataSet lst="10/29_06" median="14.55" mn="13.1" mx="16.6" pr10th="13.6" pr25th="14.0" pr75th="15.55" pr90th="15.9" />
+   <dataSet lst="10/29_15" median="16.15" mn="14.3" mx="18.2" pr10th="14.9" pr25th="15.25" pr75th="16.8" pr90th="17.5" />
+   <dataSet lst="10/30_06" median="10.55" mn="8.4" mx="13.0" pr10th="9.3" pr25th="10.03" pr75th="11.7" pr90th="12.05" />
+   <dataSet lst="10/30_15" median="16.0" mn="14.6" mx="18.1" pr10th="14.8" pr25th="15.53" pr75th="17.0" pr90th="17.35" />
+   <dataSet lst="10/31_06" median="10.2" mn="8.2" mx="14.2" pr10th="9.25" pr25th="9.53" pr75th="11.15" pr90th="12.65" />
+   <dataSet lst="10/31_15" median="15.25" mn="11.3" mx="18.5" pr10th="12.45" pr25th="14.0" pr75th="15.85" pr90th="16.85" />
+   <dataSet lst="11/01_06" median="10.1" mn="3.4" mx="14.1" pr10th="4.1" pr25th="6.55" pr75th="11.13" pr90th="12.25" />
+   <dataSet lst="11/01_15" median="15.45" mn="9.4" mx="19.8" pr10th="10.7" pr25th="13.53" pr75th="16.75" pr90th="18.1" />
+   <dataSet lst="11/02_06" median="9.85" mn="5.4" mx="15.1" pr10th="5.85" pr25th="8.27" pr75th="11.4" pr90th="13.6" />
+   <dataSet lst="11/02_15" median="17.2" mn="13.2" mx="19.9" pr10th="13.75" pr25th="16.18" pr75th="19.08" pr90th="19.65" />
+   <dataSet lst="11/03_06" median="11.6" mn="6.0" mx="15.2" pr10th="6.4" pr25th="7.63" pr75th="13.08" pr90th="14.3" />
+   <dataSet lst="11/03_15" median="17.35" mn="13.3" mx="21.5" pr10th="14.25" pr25th="15.83" pr75th="19.05" pr90th="20.7" />
+   <dataSet lst="11/04_06" median="11.4" mn="6.9" mx="15.5" pr10th="8.4" pr25th="9.75" pr75th="12.85" pr90th="14.45" />
+   <dataSet lst="11/04_15" median="18.5" mn="13.0" mx="22.1" pr10th="14.3" pr25th="16.3" pr75th="20.5" pr90th="21.45" />
+   <dataSet lst="11/05_06" median="11.35" mn="1.6" mx="15.6" pr10th="6.6" pr25th="9.18" pr75th="13.83" pr90th="15.25" />
+   <dataSet lst="11/05_15" median="18.25" mn="9.3" mx="23.2" pr10th="12.6" pr25th="15.03" pr75th="20.05" pr90th="21.95" />
+   <dataSet lst="11/06_06" median="12.5" mn="6.4" mx="15.4" pr10th="7.4" pr25th="10.5" pr75th="14.03" pr90th="15.25" />
+   <dataSet lst="11/06_15" median="17.2" mn="8.9" mx="22.8" pr10th="10.1" pr25th="14.13" pr75th="19.27" pr90th="21.25" />
+   <dataSet lst="11/07_06" median="12.05" mn="3.1" mx="16.4" pr10th="7.75" pr25th="8.63" pr75th="14.48" pr90th="15.3" />
+  </stn>
+  <stn stnNo="47170" stnName="완도">
+   <dataSet lst="10/27_06" median="15.3" mn="14.3" mx="16.8" pr10th="14.5" pr25th="14.8" pr75th="15.8" pr90th="16.25" />
+   <dataSet lst="10/27_15" median="20.2" mn="19.0" mx="21.2" pr10th="19.6" pr25th="19.77" pr75th="20.5" pr90th="20.8" />
+   <dataSet lst="10/28_06" median="17.8" mn="16.3" mx="18.7" pr10th="16.65" pr25th="17.05" pr75th="18.3" pr90th="18.65" />
+   <dataSet lst="10/28_15" median="18.45" mn="15.8" mx="22.1" pr10th="17.1" pr25th="17.63" pr75th="19.55" pr90th="21.45" />
+   <dataSet lst="10/29_06" median="14.0" mn="12.6" mx="15.7" pr10th="13.05" pr25th="13.5" pr75th="14.55" pr90th="15.3" />
+   <dataSet lst="10/29_15" median="14.5" mn="12.4" mx="17.8" pr10th="12.65" pr25th="13.83" pr75th="16.15" pr90th="16.6" />
+   <dataSet lst="10/30_06" median="11.05" mn="8.7" mx="14.0" pr10th="9.05" pr25th="9.45" pr75th="11.88" pr90th="12.95" />
+   <dataSet lst="10/30_15" median="14.9" mn="12.5" mx="18.4" pr10th="12.65" pr25th="13.6" pr75th="15.75" pr90th="17.6" />
+   <dataSet lst="10/31_06" median="9.05" mn="7.3" mx="13.9" pr10th="7.7" pr25th="8.4" pr75th="10.23" pr90th="11.95" />
+   <dataSet lst="10/31_15" median="16.05" mn="11.9" mx="19.1" pr10th="13.25" pr25th="15.15" pr75th="16.9" pr90th="17.2" />
+   <dataSet lst="11/01_06" median="10.75" mn="5.8" mx="15.1" pr10th="6.0" pr25th="7.1" pr75th="12.18" pr90th="13.5" />
+   <dataSet lst="11/01_15" median="14.7" mn="9.4" mx="21.3" pr10th="10.55" pr25th="12.85" pr75th="17.18" pr90th="19.95" />
+   <dataSet lst="11/02_06" median="9.0" mn="4.0" mx="14.4" pr10th="5.4" pr25th="6.93" pr75th="10.65" pr90th="13.7" />
+   <dataSet lst="11/02_15" median="16.6" mn="13.1" mx="21.4" pr10th="13.4" pr25th="14.75" pr75th="18.72" pr90th="20.2" />
+   <dataSet lst="11/03_06" median="11.4" mn="6.5" mx="15.8" pr10th="7.1" pr25th="8.4" pr75th="13.25" pr90th="14.4" />
+   <dataSet lst="11/03_15" median="17.35" mn="13.8" mx="20.5" pr10th="14.15" pr25th="15.35" pr75th="19.13" pr90th="20.2" />
+   <dataSet lst="11/04_06" median="9.7" mn="5.6" mx="14.9" pr10th="5.95" pr25th="7.68" pr75th="11.75" pr90th="12.15" />
+   <dataSet lst="11/04_15" median="18.05" mn="13.1" mx="21.9" pr10th="13.75" pr25th="16.2" pr75th="19.83" pr90th="21.05" />
+   <dataSet lst="11/05_06" median="11.4" mn="7.1" mx="18.5" pr10th="8.0" pr25th="10.23" pr75th="14.83" pr90th="17.05" />
+   <dataSet lst="11/05_15" median="18.7" mn="12.0" mx="22.4" pr10th="14.1" pr25th="16.97" pr75th="19.77" pr90th="21.35" />
+   <dataSet lst="11/06_06" median="12.7" mn="5.4" mx="17.4" pr10th="8.45" pr25th="10.63" pr75th="14.5" pr90th="16.15" />
+   <dataSet lst="11/06_15" median="18.45" mn="12.4" mx="22.0" pr10th="13.15" pr25th="15.25" pr75th="20.45" pr90th="21.65" />
+   <dataSet lst="11/07_06" median="13.1" mn="6.0" mx="16.2" pr10th="7.35" pr25th="8.63" pr75th="14.48" pr90th="15.75" />
+  </stn>
+  <stn stnNo="47174" stnName="순천">
+   <dataSet lst="10/27_06" median="8.1" mn="7.3" mx="9.6" pr10th="7.45" pr25th="7.65" pr75th="8.75" pr90th="9.55" />
+   <dataSet lst="10/27_15" median="20.6" mn="19.3" mx="21.2" pr10th="19.6" pr25th="20.0" pr75th="20.9" pr90th="21.1" />
+   <dataSet lst="10/28_06" median="11.6" mn="10.4" mx="12.7" pr10th="10.8" pr25th="11.3" pr75th="11.8" pr90th="12.25" />
+   <dataSet lst="10/28_15" median="14.1" mn="12.0" mx="18.8" pr10th="12.25" pr25th="13.33" pr75th="14.98" pr90th="16.55" />
+   <dataSet lst="10/29_06" median="10.55" mn="7.0" mx="13.9" pr10th="8.4" pr25th="9.73" pr75th="11.78" pr90th="13.05" />
+   <dataSet lst="10/29_15" median="14.9" mn="12.4" mx="16.4" pr10th="13.05" pr25th="13.6" pr75th="15.68" pr90th="16.1" />
+   <dataSet lst="10/30_06" median="6.5" mn="1.7" mx="10.0" pr10th="2.35" pr25th="4.83" pr75th="8.98" pr90th="9.25" />
+   <dataSet lst="10/30_15" median="15.7" mn="13.4" mx="17.2" pr10th="13.65" pr25th="14.33" pr75th="16.27" pr90th="16.75" />
+   <dataSet lst="10/31_06" median="2.45" mn="-0.7" mx="10.5" pr10th="0.0" pr25th="1.4" pr75th="4.55" pr90th="7.9" />
+   <dataSet lst="10/31_15" median="13.65" mn="9.7" mx="18.1" pr10th="10.35" pr25th="12.1" pr75th="14.85" pr90th="16.45" />
+   <dataSet lst="11/01_06" median="3.8" mn="-1.5" mx="9.9" pr10th="-0.8" pr25th="1.68" pr75th="5.6" pr90th="8.05" />
+   <dataSet lst="11/01_15" median="14.05" mn="9.3" mx="18.9" pr10th="9.55" pr25th="10.8" pr75th="15.5" pr90th="17.55" />
+   <dataSet lst="11/02_06" median="-0.4" mn="-5.0" mx="6.9" pr10th="-3.65" pr25th="-1.47" pr75th="1.63" pr90th="5.0" />
+   <dataSet lst="11/02_15" median="14.8" mn="11.2" mx="19.7" pr10th="11.9" pr25th="13.03" pr75th="16.35" pr90th="19.05" />
+   <dataSet lst="11/03_06" median="2.55" mn="-4.1" mx="10.5" pr10th="-2.1" pr25th="0.45" pr75th="4.93" pr90th="8.45" />
+   <dataSet lst="11/03_15" median="15.4" mn="11.7" mx="18.7" pr10th="12.35" pr25th="12.83" pr75th="16.8" pr90th="18.0" />
+   <dataSet lst="11/04_06" median="3.25" mn="-3.6" mx="12.6" pr10th="-1.9" pr25th="0.8" pr75th="5.6" pr90th="9.15" />
+   <dataSet lst="11/04_15" median="15.55" mn="8.1" mx="20.5" pr10th="10.8" pr25th="13.63" pr75th="16.38" pr90th="17.9" />
+   <dataSet lst="11/05_06" median="4.3" mn="0.4" mx="15.5" pr10th="1.0" pr25th="3.0" pr75th="8.25" pr90th="12.6" />
+   <dataSet lst="11/05_15" median="15.75" mn="10.3" mx="21.6" pr10th="11.4" pr25th="13.65" pr75th="18.08" pr90th="19.7" />
+   <dataSet lst="11/06_06" median="5.05" mn="-1.4" mx="13.8" pr10th="0.2" pr25th="3.2" pr75th="7.15" pr90th="9.95" />
+   <dataSet lst="11/06_15" median="15.1" mn="8.5" mx="19.9" pr10th="9.4" pr25th="13.15" pr75th="16.85" pr90th="19.25" />
+   <dataSet lst="11/07_06" median="6.2" mn="-1.2" mx="14.1" pr10th="0.55" pr25th="3.38" pr75th="9.95" pr90th="12.35" />
+  </stn>
+  <stn stnNo="47268" stnName="진도군">
+   <dataSet lst="10/27_06" median="12.6" mn="12.2" mx="14.2" pr10th="12.2" pr25th="12.5" pr75th="12.95" pr90th="13.6" />
+   <dataSet lst="10/27_15" median="21.2" mn="19.9" mx="21.9" pr10th="20.25" pr25th="20.9" pr75th="21.58" pr90th="21.9" />
+   <dataSet lst="10/28_06" median="18.2" mn="16.9" mx="19.6" pr10th="17.2" pr25th="17.63" pr75th="18.58" pr90th="18.9" />
+   <dataSet lst="10/28_15" median="18.85" mn="16.0" mx="22.2" pr10th="16.6" pr25th="17.45" pr75th="20.33" pr90th="22.0" />
+   <dataSet lst="10/29_06" median="12.05" mn="8.8" mx="14.3" pr10th="9.45" pr25th="10.3" pr75th="13.43" pr90th="14.1" />
+   <dataSet lst="10/29_15" median="13.55" mn="11.8" mx="16.3" pr10th="12.3" pr25th="12.83" pr75th="14.88" pr90th="15.95" />
+   <dataSet lst="10/30_06" median="9.9" mn="7.1" mx="14.2" pr10th="7.65" pr25th="8.63" pr75th="10.9" pr90th="12.05" />
+   <dataSet lst="10/30_15" median="15.5" mn="10.9" mx="17.7" pr10th="12.25" pr25th="13.93" pr75th="16.5" pr90th="17.45" />
+   <dataSet lst="10/31_06" median="9.05" mn="6.9" mx="11.8" pr10th="7.4" pr25th="7.7" pr75th="10.38" pr90th="11.35" />
+   <dataSet lst="10/31_15" median="15.95" mn="12.1" mx="19.6" pr10th="12.85" pr25th="14.75" pr75th="16.88" pr90th="17.65" />
+   <dataSet lst="11/01_06" median="9.9" mn="5.7" mx="12.9" pr10th="6.05" pr25th="7.35" pr75th="11.1" pr90th="12.1" />
+   <dataSet lst="11/01_15" median="14.6" mn="9.9" mx="22.1" pr10th="10.3" pr25th="11.88" pr75th="16.03" pr90th="18.85" />
+   <dataSet lst="11/02_06" median="7.55" mn="1.7" mx="14.0" pr10th="3.95" pr25th="5.83" pr75th="8.25" pr90th="11.8" />
+   <dataSet lst="11/02_15" median="16.8" mn="11.5" mx="20.6" pr10th="12.3" pr25th="13.03" pr75th="19.05" pr90th="20.35" />
+   <dataSet lst="11/03_06" median="9.75" mn="5.1" mx="15.9" pr10th="5.65" pr25th="7.55" pr75th="11.0" pr90th="14.7" />
+   <dataSet lst="11/03_15" median="16.6" mn="13.1" mx="20.9" pr10th="14.05" pr25th="14.95" pr75th="19.25" pr90th="20.1" />
+   <dataSet lst="11/04_06" median="10.45" mn="3.7" mx="16.6" pr10th="5.35" pr25th="7.98" pr75th="11.88" pr90th="13.95" />
+   <dataSet lst="11/04_15" median="15.25" mn="11.1" mx="21.6" pr10th="12.3" pr25th="13.65" pr75th="17.0" pr90th="19.85" />
+   <dataSet lst="11/05_06" median="9.15" mn="5.3" mx="19.1" pr10th="6.0" pr25th="7.08" pr75th="10.9" pr90th="13.55" />
+   <dataSet lst="11/05_15" median="16.3" mn="12.1" mx="21.4" pr10th="14.2" pr25th="14.9" pr75th="19.68" pr90th="20.7" />
+   <dataSet lst="11/06_06" median="9.85" mn="5.1" mx="16.7" pr10th="5.8" pr25th="6.85" pr75th="10.75" pr90th="13.3" />
+   <dataSet lst="11/06_15" median="17.05" mn="11.4" mx="21.3" pr10th="12.85" pr25th="14.4" pr75th="18.77" pr90th="20.8" />
+   <dataSet lst="11/07_06" median="10.05" mn="3.9" mx="15.5" pr10th="5.1" pr25th="7.1" pr75th="12.4" pr90th="13.85" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="18" grName="광주청(전주)">
+  <stn stnNo="47146" stnName="전주">
+   <dataSet lst="10/27_06" median="9.1" mn="7.5" mx="10.4" pr10th="8.45" pr25th="8.7" pr75th="9.6" pr90th="10.0" />
+   <dataSet lst="10/27_15" median="21.75" mn="20.2" mx="22.7" pr10th="20.95" pr25th="21.42" pr75th="22.1" pr90th="22.45" />
+   <dataSet lst="10/28_06" median="13.6" mn="12.5" mx="14.4" pr10th="13.05" pr25th="13.4" pr75th="13.8" pr90th="14.05" />
+   <dataSet lst="10/28_15" median="15.85" mn="14.4" mx="20.5" pr10th="14.45" pr25th="15.13" pr75th="16.4" pr90th="17.25" />
+   <dataSet lst="10/29_06" median="9.85" mn="6.6" mx="12.5" pr10th="8.2" pr25th="9.13" pr75th="10.68" pr90th="11.4" />
+   <dataSet lst="10/29_15" median="13.2" mn="11.0" mx="17.2" pr10th="11.55" pr25th="12.45" pr75th="14.38" pr90th="15.65" />
+   <dataSet lst="10/30_06" median="5.15" mn="1.7" mx="10.8" pr10th="2.15" pr25th="3.85" pr75th="8.15" pr90th="10.6" />
+   <dataSet lst="10/30_15" median="14.1" mn="11.6" mx="16.5" pr10th="12.75" pr25th="13.43" pr75th="15.2" pr90th="16.5" />
+   <dataSet lst="10/31_06" median="3.95" mn="2.3" mx="11.2" pr10th="2.7" pr25th="3.23" pr75th="6.55" pr90th="9.85" />
+   <dataSet lst="10/31_15" median="14.3" mn="9.7" mx="17.8" pr10th="10.0" pr25th="11.6" pr75th="15.73" pr90th="16.75" />
+   <dataSet lst="11/01_06" median="5.5" mn="-0.7" mx="8.9" pr10th="0.2" pr25th="1.23" pr75th="7.18" pr90th="8.35" />
+   <dataSet lst="11/01_15" median="12.85" mn="7.4" mx="20.8" pr10th="8.25" pr25th="9.93" pr75th="14.45" pr90th="16.95" />
+   <dataSet lst="11/02_06" median="1.55" mn="-2.9" mx="7.8" pr10th="-1.8" pr25th="-0.2" pr75th="4.25" pr90th="6.35" />
+   <dataSet lst="11/02_15" median="15.5" mn="10.8" mx="21.0" pr10th="11.8" pr25th="12.95" pr75th="17.2" pr90th="20.35" />
+   <dataSet lst="11/03_06" median="7.55" mn="0.3" mx="12.2" pr10th="1.4" pr25th="3.55" pr75th="9.5" pr90th="11.1" />
+   <dataSet lst="11/03_15" median="15.7" mn="12.2" mx="22.1" pr10th="12.45" pr25th="13.33" pr75th="17.38" pr90th="18.7" />
+   <dataSet lst="11/04_06" median="5.65" mn="-0.4" mx="11.9" pr10th="1.45" pr25th="4.43" pr75th="7.98" pr90th="9.95" />
+   <dataSet lst="11/04_15" median="16.0" mn="10.6" mx="21.5" pr10th="11.9" pr25th="14.45" pr75th="17.3" pr90th="19.0" />
+   <dataSet lst="11/05_06" median="6.6" mn="-0.3" mx="14.9" pr10th="0.8" pr25th="3.33" pr75th="9.53" pr90th="13.8" />
+   <dataSet lst="11/05_15" median="16.6" mn="9.9" mx="22.0" pr10th="12.45" pr25th="15.33" pr75th="19.15" pr90th="21.05" />
+   <dataSet lst="11/06_06" median="6.5" mn="-0.3" mx="12.6" pr10th="1.75" pr25th="4.0" pr75th="8.8" pr90th="11.7" />
+   <dataSet lst="11/06_15" median="16.95" mn="9.0" mx="21.6" pr10th="9.75" pr25th="12.88" pr75th="18.58" pr90th="20.0" />
+   <dataSet lst="11/07_06" median="7.6" mn="-0.1" mx="12.7" pr10th="0.35" pr25th="2.88" pr75th="10.8" pr90th="12.2" />
+  </stn>
+  <stn stnNo="47140" stnName="군산">
+   <dataSet lst="10/27_06" median="10.5" mn="9.4" mx="12.5" pr10th="9.6" pr25th="10.03" pr75th="11.05" pr90th="11.35" />
+   <dataSet lst="10/27_15" median="21.5" mn="20.0" mx="23.5" pr10th="20.15" pr25th="20.92" pr75th="21.88" pr90th="22.75" />
+   <dataSet lst="10/28_06" median="11.35" mn="8.8" mx="12.4" pr10th="10.3" pr25th="10.65" pr75th="11.7" pr90th="12.15" />
+   <dataSet lst="10/28_15" median="15.4" mn="13.8" mx="20.9" pr10th="14.0" pr25th="14.73" pr75th="16.6" pr90th="17.75" />
+   <dataSet lst="10/29_06" median="7.3" mn="5.2" mx="9.5" pr10th="5.95" pr25th="6.33" pr75th="8.5" pr90th="9.05" />
+   <dataSet lst="10/29_15" median="12.6" mn="10.7" mx="14.4" pr10th="11.1" pr25th="11.38" pr75th="13.38" pr90th="14.2" />
+   <dataSet lst="10/30_06" median="4.2" mn="0.3" mx="7.4" pr10th="1.2" pr25th="2.3" pr75th="6.43" pr90th="6.9" />
+   <dataSet lst="10/30_15" median="13.65" mn="12.4" mx="15.0" pr10th="12.45" pr25th="13.03" pr75th="13.9" pr90th="14.8" />
+   <dataSet lst="10/31_06" median="4.8" mn="2.7" mx="8.5" pr10th="3.2" pr25th="3.8" pr75th="7.07" pr90th="7.7" />
+   <dataSet lst="10/31_15" median="13.8" mn="6.6" mx="19.2" pr10th="7.6" pr25th="10.13" pr75th="14.48" pr90th="16.25" />
+   <dataSet lst="11/01_06" median="3.95" mn="-1.7" mx="6.8" pr10th="-1.25" pr25th="0.13" pr75th="4.95" pr90th="5.9" />
+   <dataSet lst="11/01_15" median="11.65" mn="6.2" mx="19.8" pr10th="7.15" pr25th="9.53" pr75th="13.2" pr90th="15.8" />
+   <dataSet lst="11/02_06" median="-0.7" mn="-3.7" mx="9.0" pr10th="-3.15" pr25th="-1.75" pr75th="1.73" pr90th="4.75" />
+   <dataSet lst="11/02_15" median="13.65" mn="9.2" mx="20.4" pr10th="10.2" pr25th="11.5" pr75th="17.02" pr90th="18.8" />
+   <dataSet lst="11/03_06" median="3.4" mn="-5.7" mx="9.1" pr10th="-2.6" pr25th="-0.9" pr75th="5.83" pr90th="7.75" />
+   <dataSet lst="11/03_15" median="15.25" mn="11.9" mx="19.9" pr10th="12.35" pr25th="13.55" pr75th="17.3" pr90th="18.4" />
+   <dataSet lst="11/04_06" median="2.25" mn="-2.9" mx="10.4" pr10th="-1.85" pr25th="-0.42" pr75th="4.95" pr90th="8.0" />
+   <dataSet lst="11/04_15" median="15.5" mn="10.1" mx="21.3" pr10th="10.9" pr25th="13.33" pr75th="16.3" pr90th="18.4" />
+   <dataSet lst="11/05_06" median="1.25" mn="-3.8" mx="12.7" pr10th="-3.3" pr25th="-1.87" pr75th="5.43" pr90th="11.2" />
+   <dataSet lst="11/05_15" median="15.35" mn="8.5" mx="20.0" pr10th="10.5" pr25th="13.65" pr75th="17.98" pr90th="19.05" />
+   <dataSet lst="11/06_06" median="1.9" mn="-7.0" mx="13.1" pr10th="-3.55" pr25th="-0.1" pr75th="3.88" pr90th="8.2" />
+   <dataSet lst="11/06_15" median="15.4" mn="7.6" mx="19.5" pr10th="8.8" pr25th="10.88" pr75th="17.2" pr90th="18.8" />
+   <dataSet lst="11/07_06" median="2.45" mn="-4.9" mx="9.9" pr10th="-2.9" pr25th="-1.25" pr75th="6.78" pr90th="8.55" />
+  </stn>
+  <stn stnNo="47172" stnName="고창">
+   <dataSet lst="10/27_06" median="9.95" mn="8.3" mx="12.1" pr10th="8.65" pr25th="9.43" pr75th="10.55" pr90th="11.25" />
+   <dataSet lst="10/27_15" median="21.8" mn="20.0" mx="22.7" pr10th="20.45" pr25th="21.1" pr75th="22.1" pr90th="22.55" />
+   <dataSet lst="10/28_06" median="13.3" mn="11.8" mx="14.9" pr10th="12.1" pr25th="12.55" pr75th="14.1" pr90th="14.6" />
+   <dataSet lst="10/28_15" median="14.95" mn="13.4" mx="20.5" pr10th="13.5" pr25th="14.3" pr75th="16.3" pr90th="17.85" />
+   <dataSet lst="10/29_06" median="9.8" mn="7.7" mx="12.7" pr10th="8.4" pr25th="9.0" pr75th="10.98" pr90th="11.85" />
+   <dataSet lst="10/29_15" median="12.75" mn="9.6" mx="16.2" pr10th="10.85" pr25th="11.7" pr75th="13.98" pr90th="14.7" />
+   <dataSet lst="10/30_06" median="5.6" mn="2.9" mx="10.3" pr10th="3.4" pr25th="4.6" pr75th="7.2" pr90th="9.25" />
+   <dataSet lst="10/30_15" median="14.2" mn="11.8" mx="16.5" pr10th="12.95" pr25th="13.48" pr75th="15.05" pr90th="15.9" />
+   <dataSet lst="10/31_06" median="5.0" mn="3.2" mx="10.1" pr10th="3.2" pr25th="3.83" pr75th="6.23" pr90th="9.4" />
+   <dataSet lst="10/31_15" median="13.85" mn="9.6" mx="18.0" pr10th="9.85" pr25th="11.95" pr75th="15.38" pr90th="16.15" />
+   <dataSet lst="11/01_06" median="6.3" mn="0.3" mx="9.8" pr10th="1.45" pr25th="2.4" pr75th="7.6" pr90th="8.85" />
+   <dataSet lst="11/01_15" median="12.8" mn="7.6" mx="20.3" pr10th="8.8" pr25th="9.88" pr75th="14.8" pr90th="16.9" />
+   <dataSet lst="11/02_06" median="2.15" mn="-1.8" mx="10.7" pr10th="-1.25" pr25th="0.5" pr75th="4.47" pr90th="7.0" />
+   <dataSet lst="11/02_15" median="14.4" mn="8.7" mx="20.1" pr10th="10.6" pr25th="12.38" pr75th="17.33" pr90th="19.95" />
+   <dataSet lst="11/03_06" median="4.25" mn="-1.2" mx="12.9" pr10th="-0.85" pr25th="2.35" pr75th="6.73" pr90th="10.6" />
+   <dataSet lst="11/03_15" median="15.15" mn="11.8" mx="19.7" pr10th="12.15" pr25th="12.75" pr75th="16.77" pr90th="18.45" />
+   <dataSet lst="11/04_06" median="4.85" mn="-1.4" mx="13.0" pr10th="-0.15" pr25th="3.25" pr75th="7.57" pr90th="9.5" />
+   <dataSet lst="11/04_15" median="15.05" mn="10.7" mx="20.4" pr10th="11.2" pr25th="13.43" pr75th="16.58" pr90th="18.7" />
+   <dataSet lst="11/05_06" median="4.9" mn="0.7" mx="14.8" pr10th="0.85" pr25th="1.7" pr75th="8.2" pr90th="12.6" />
+   <dataSet lst="11/05_15" median="15.35" mn="9.1" mx="20.8" pr10th="12.5" pr25th="13.93" pr75th="18.3" pr90th="19.9" />
+   <dataSet lst="11/06_06" median="5.05" mn="-1.3" mx="15.1" pr10th="0.6" pr25th="3.15" pr75th="7.73" pr90th="10.55" />
+   <dataSet lst="11/06_15" median="15.35" mn="10.0" mx="20.3" pr10th="10.9" pr25th="12.8" pr75th="17.2" pr90th="18.8" />
+   <dataSet lst="11/07_06" median="5.7" mn="0.0" mx="12.3" pr10th="1.25" pr25th="2.68" pr75th="9.38" pr90th="10.3" />
+  </stn>
+  <stn stnNo="47245" stnName="정읍">
+   <dataSet lst="10/27_06" median="9.2" mn="8.0" mx="10.7" pr10th="8.85" pr25th="9.03" pr75th="9.7" pr90th="10.35" />
+   <dataSet lst="10/27_15" median="22.0" mn="20.9" mx="22.8" pr10th="21.15" pr25th="21.53" pr75th="22.35" pr90th="22.7" />
+   <dataSet lst="10/28_06" median="14.1" mn="12.8" mx="14.7" pr10th="13.15" pr25th="13.53" pr75th="14.38" pr90th="14.6" />
+   <dataSet lst="10/28_15" median="14.7" mn="12.7" mx="19.8" pr10th="13.3" pr25th="13.73" pr75th="15.18" pr90th="17.35" />
+   <dataSet lst="10/29_06" median="9.0" mn="7.1" mx="11.4" pr10th="7.3" pr25th="7.73" pr75th="10.58" pr90th="11.25" />
+   <dataSet lst="10/29_15" median="12.2" mn="10.3" mx="17.0" pr10th="10.7" pr25th="11.6" pr75th="13.88" pr90th="14.85" />
+   <dataSet lst="10/30_06" median="5.45" mn="2.4" mx="11.1" pr10th="2.8" pr25th="3.95" pr75th="8.1" pr90th="9.85" />
+   <dataSet lst="10/30_15" median="15.1" mn="13.0" mx="17.1" pr10th="13.3" pr25th="14.05" pr75th="15.78" pr90th="16.2" />
+   <dataSet lst="10/31_06" median="4.3" mn="1.9" mx="9.9" pr10th="2.65" pr25th="3.48" pr75th="5.38" pr90th="9.65" />
+   <dataSet lst="10/31_15" median="14.8" mn="7.4" mx="19.9" pr10th="8.9" pr25th="11.35" pr75th="15.8" pr90th="18.0" />
+   <dataSet lst="11/01_06" median="6.15" mn="-0.5" mx="9.2" pr10th="-0.15" pr25th="1.4" pr75th="7.3" pr90th="8.6" />
+   <dataSet lst="11/01_15" median="12.85" mn="7.3" mx="21.0" pr10th="8.35" pr25th="10.25" pr75th="14.88" pr90th="16.85" />
+   <dataSet lst="11/02_06" median="4.05" mn="-1.5" mx="12.1" pr10th="-0.75" pr25th="2.25" pr75th="6.63" pr90th="9.6" />
+   <dataSet lst="11/02_15" median="16.15" mn="10.9" mx="20.7" pr10th="11.7" pr25th="13.03" pr75th="18.18" pr90th="20.5" />
+   <dataSet lst="11/03_06" median="5.9" mn="0.1" mx="11.5" pr10th="1.95" pr25th="3.43" pr75th="8.1" pr90th="11.05" />
+   <dataSet lst="11/03_15" median="15.75" mn="12.2" mx="20.8" pr10th="12.5" pr25th="13.18" pr75th="17.15" pr90th="19.5" />
+   <dataSet lst="11/04_06" median="4.5" mn="-0.8" mx="13.1" pr10th="-0.25" pr25th="2.85" pr75th="7.05" pr90th="9.1" />
+   <dataSet lst="11/04_15" median="15.85" mn="11.4" mx="21.6" pr10th="12.4" pr25th="14.55" pr75th="16.83" pr90th="19.85" />
+   <dataSet lst="11/05_06" median="4.65" mn="-1.9" mx="14.6" pr10th="-0.55" pr25th="0.5" pr75th="8.55" pr90th="12.65" />
+   <dataSet lst="11/05_15" median="16.25" mn="8.6" mx="22.0" pr10th="12.4" pr25th="14.58" pr75th="18.95" pr90th="20.5" />
+   <dataSet lst="11/06_06" median="4.95" mn="-3.4" mx="14.4" pr10th="-1.0" pr25th="2.73" pr75th="7.25" pr90th="10.7" />
+   <dataSet lst="11/06_15" median="15.95" mn="9.2" mx="20.1" pr10th="10.2" pr25th="13.23" pr75th="17.6" pr90th="18.7" />
+   <dataSet lst="11/07_06" median="5.7" mn="-3.1" mx="11.2" pr10th="-0.9" pr25th="1.75" pr75th="8.1" pr90th="10.85" />
+  </stn>
+  <stn stnNo="47247" stnName="남원">
+   <dataSet lst="10/27_06" median="5.4" mn="4.2" mx="7.2" pr10th="4.6" pr25th="4.9" pr75th="6.0" pr90th="6.8" />
+   <dataSet lst="10/27_15" median="20.75" mn="18.9" mx="21.6" pr10th="19.55" pr25th="20.42" pr75th="21.3" pr90th="21.5" />
+   <dataSet lst="10/28_06" median="11.3" mn="9.4" mx="12.3" pr10th="9.65" pr25th="10.4" pr75th="11.7" pr90th="12.1" />
+   <dataSet lst="10/28_15" median="15.8" mn="14.4" mx="17.6" pr10th="14.6" pr25th="15.15" pr75th="16.3" pr90th="17.05" />
+   <dataSet lst="10/29_06" median="8.2" mn="5.3" mx="11.9" pr10th="5.4" pr25th="6.53" pr75th="9.48" pr90th="11.1" />
+   <dataSet lst="10/29_15" median="13.4" mn="11.1" mx="14.8" pr10th="11.5" pr25th="12.0" pr75th="14.1" pr90th="14.7" />
+   <dataSet lst="10/30_06" median="4.3" mn="-2.0" mx="9.6" pr10th="-0.6" pr25th="1.0" pr75th="7.65" pr90th="8.85" />
+   <dataSet lst="10/30_15" median="13.85" mn="11.8" mx="16.6" pr10th="12.15" pr25th="13.13" pr75th="14.55" pr90th="16.0" />
+   <dataSet lst="10/31_06" median="3.15" mn="0.7" mx="9.4" pr10th="1.35" pr25th="1.8" pr75th="6.38" pr90th="8.15" />
+   <dataSet lst="10/31_15" median="12.8" mn="8.8" mx="16.4" pr10th="9.7" pr25th="11.23" pr75th="13.98" pr90th="15.7" />
+   <dataSet lst="11/01_06" median="2.9" mn="-3.1" mx="10.7" pr10th="-1.7" pr25th="0.23" pr75th="5.3" pr90th="7.4" />
+   <dataSet lst="11/01_15" median="13.55" mn="8.2" mx="19.5" pr10th="9.4" pr25th="10.75" pr75th="15.68" pr90th="16.4" />
+   <dataSet lst="11/02_06" median="1.5" mn="-2.3" mx="7.8" pr10th="-1.7" pr25th="-0.67" pr75th="3.98" pr90th="6.05" />
+   <dataSet lst="11/02_15" median="13.75" mn="9.8" mx="19.0" pr10th="10.4" pr25th="12.23" pr75th="15.18" pr90th="18.65" />
+   <dataSet lst="11/03_06" median="3.9" mn="-3.7" mx="10.5" pr10th="-2.2" pr25th="1.13" pr75th="5.93" pr90th="8.3" />
+   <dataSet lst="11/03_15" median="15.9" mn="12.2" mx="20.0" pr10th="13.8" pr25th="14.93" pr75th="18.45" pr90th="19.15" />
+   <dataSet lst="11/04_06" median="3.35" mn="-3.2" mx="13.1" pr10th="-0.6" pr25th="2.3" pr75th="6.28" pr90th="7.6" />
+   <dataSet lst="11/04_15" median="17.35" mn="11.6" mx="21.2" pr10th="13.2" pr25th="15.58" pr75th="19.05" pr90th="21.05" />
+   <dataSet lst="11/05_06" median="2.35" mn="-3.1" mx="12.6" pr10th="-2.65" pr25th="-0.92" pr75th="4.68" pr90th="10.2" />
+   <dataSet lst="11/05_15" median="17.6" mn="9.5" mx="22.4" pr10th="13.25" pr25th="15.8" pr75th="19.45" pr90th="20.85" />
+   <dataSet lst="11/06_06" median="3.35" mn="-5.4" mx="13.2" pr10th="-1.7" pr25th="0.4" pr75th="5.38" pr90th="9.05" />
+   <dataSet lst="11/06_15" median="16.65" mn="9.0" mx="21.9" pr10th="9.9" pr25th="14.25" pr75th="18.33" pr90th="21.2" />
+   <dataSet lst="11/07_06" median="3.9" mn="-3.0" mx="12.1" pr10th="-2.7" pr25th="-0.08" pr75th="7.75" pr90th="10.2" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="23" grName="대전청(대전)">
+  <stn stnNo="47133" stnName="대전">
+   <dataSet lst="10/27_06" median="8.4" mn="7.3" mx="9.1" pr10th="7.55" pr25th="7.93" pr75th="8.6" pr90th="8.9" />
+   <dataSet lst="10/27_15" median="19.35" mn="18.1" mx="20.5" pr10th="18.55" pr25th="18.95" pr75th="19.77" pr90th="20.15" />
+   <dataSet lst="10/28_06" median="11.1" mn="9.3" mx="12.5" pr10th="10.65" pr25th="10.8" pr75th="11.48" pr90th="11.95" />
+   <dataSet lst="10/28_15" median="14.55" mn="13.7" mx="17.5" pr10th="13.85" pr25th="14.05" pr75th="15.08" pr90th="17.0" />
+   <dataSet lst="10/29_06" median="8.5" mn="6.1" mx="11.9" pr10th="6.5" pr25th="7.55" pr75th="9.9" pr90th="10.3" />
+   <dataSet lst="10/29_15" median="12.15" mn="10.8" mx="15.7" pr10th="11.0" pr25th="11.8" pr75th="13.48" pr90th="15.0" />
+   <dataSet lst="10/30_06" median="4.45" mn="2.0" mx="9.5" pr10th="2.4" pr25th="3.1" pr75th="8.1" pr90th="8.65" />
+   <dataSet lst="10/30_15" median="13.85" mn="12.3" mx="16.2" pr10th="13.0" pr25th="13.25" pr75th="15.45" pr90th="15.95" />
+   <dataSet lst="10/31_06" median="4.5" mn="2.1" mx="8.9" pr10th="2.2" pr25th="3.35" pr75th="6.18" pr90th="7.9" />
+   <dataSet lst="10/31_15" median="12.9" mn="7.4" mx="17.4" pr10th="8.8" pr25th="9.73" pr75th="14.78" pr90th="16.4" />
+   <dataSet lst="11/01_06" median="2.55" mn="-3.8" mx="9.0" pr10th="-3.4" pr25th="-2.5" pr75th="5.48" pr90th="6.9" />
+   <dataSet lst="11/01_15" median="12.15" mn="6.3" mx="19.4" pr10th="7.2" pr25th="10.58" pr75th="14.0" pr90th="17.0" />
+   <dataSet lst="11/02_06" median="3.0" mn="-2.2" mx="9.9" pr10th="-1.65" pr25th="1.23" pr75th="5.2" pr90th="8.15" />
+   <dataSet lst="11/02_15" median="13.85" mn="10.3" mx="20.3" pr10th="10.8" pr25th="12.05" pr75th="15.1" pr90th="18.65" />
+   <dataSet lst="11/03_06" median="3.7" mn="-2.0" mx="14.0" pr10th="-1.25" pr25th="2.38" pr75th="6.48" pr90th="10.55" />
+   <dataSet lst="11/03_15" median="15.45" mn="11.0" mx="20.2" pr10th="11.7" pr25th="14.53" pr75th="17.05" pr90th="19.85" />
+   <dataSet lst="11/04_06" median="4.6" mn="1.3" mx="12.0" pr10th="1.8" pr25th="3.03" pr75th="7.6" pr90th="9.65" />
+   <dataSet lst="11/04_15" median="14.45" mn="9.6" mx="19.5" pr10th="11.05" pr25th="13.15" pr75th="16.0" pr90th="17.75" />
+   <dataSet lst="11/05_06" median="4.95" mn="-2.8" mx="13.2" pr10th="-0.4" pr25th="2.58" pr75th="9.52" pr90th="12.15" />
+   <dataSet lst="11/05_15" median="15.8" mn="9.6" mx="19.4" pr10th="10.65" pr25th="13.65" pr75th="17.77" pr90th="19.05" />
+   <dataSet lst="11/06_06" median="5.55" mn="-2.7" mx="13.3" pr10th="-1.25" pr25th="4.0" pr75th="8.07" pr90th="9.9" />
+   <dataSet lst="11/06_15" median="15.9" mn="8.4" mx="20.0" pr10th="9.15" pr25th="11.48" pr75th="17.53" pr90th="18.9" />
+   <dataSet lst="11/07_06" median="6.6" mn="-3.5" mx="10.2" pr10th="-1.85" pr25th="0.7" pr75th="8.1" pr90th="9.45" />
+  </stn>
+  <stn stnNo="887" stnName="세종시">
+   <dataSet lst="10/27_06" median="6.35" mn="4.6" mx="7.3" pr10th="5.7" pr25th="6.03" pr75th="6.7" pr90th="7.1" />
+   <dataSet lst="10/27_15" median="18.35" mn="17.4" mx="19.7" pr10th="17.65" pr25th="17.92" pr75th="18.93" pr90th="19.45" />
+   <dataSet lst="10/28_06" median="9.3" mn="7.7" mx="11.2" pr10th="7.95" pr25th="8.8" pr75th="10.17" pr90th="10.6" />
+   <dataSet lst="10/28_15" median="14.4" mn="13.4" mx="17.5" pr10th="13.5" pr25th="13.73" pr75th="14.98" pr90th="16.65" />
+   <dataSet lst="10/29_06" median="6.7" mn="5.0" mx="11.2" pr10th="5.3" pr25th="6.2" pr75th="7.45" pr90th="8.65" />
+   <dataSet lst="10/29_15" median="11.95" mn="10.2" mx="15.0" pr10th="10.45" pr25th="11.03" pr75th="12.83" pr90th="14.2" />
+   <dataSet lst="10/30_06" median="3.2" mn="0.0" mx="7.7" pr10th="0.55" pr25th="2.23" pr75th="5.2" pr90th="6.9" />
+   <dataSet lst="10/30_15" median="13.25" mn="11.6" mx="15.5" pr10th="12.2" pr25th="12.63" pr75th="14.55" pr90th="15.05" />
+   <dataSet lst="10/31_06" median="0.8" mn="-1.3" mx="6.7" pr10th="-0.6" pr25th="-0.1" pr75th="3.43" pr90th="5.95" />
+   <dataSet lst="10/31_15" median="12.1" mn="6.1" mx="17.2" pr10th="8.05" pr25th="10.0" pr75th="13.93" pr90th="16.05" />
+   <dataSet lst="11/01_06" median="0.1" mn="-6.5" mx="7.5" pr10th="-6.3" pr25th="-5.05" pr75th="2.75" pr90th="5.7" />
+   <dataSet lst="11/01_15" median="12.05" mn="6.7" mx="19.2" pr10th="8.25" pr25th="9.3" pr75th="13.08" pr90th="15.85" />
+   <dataSet lst="11/02_06" median="-1.05" mn="-4.6" mx="8.1" pr10th="-3.95" pr25th="-1.97" pr75th="2.55" pr90th="5.35" />
+   <dataSet lst="11/02_15" median="13.6" mn="10.2" mx="19.7" pr10th="11.25" pr25th="12.03" pr75th="15.05" pr90th="18.1" />
+   <dataSet lst="11/03_06" median="2.0" mn="-7.2" mx="10.4" pr10th="-5.4" pr25th="-2.47" pr75th="4.15" pr90th="6.4" />
+   <dataSet lst="11/03_15" median="13.65" mn="8.7" mx="19.2" pr10th="10.35" pr25th="12.55" pr75th="15.8" pr90th="16.55" />
+   <dataSet lst="11/04_06" median="1.05" mn="-4.6" mx="8.1" pr10th="-3.85" pr25th="-1.77" pr75th="4.68" pr90th="7.2" />
+   <dataSet lst="11/04_15" median="13.9" mn="8.4" mx="19.0" pr10th="11.35" pr25th="13.05" pr75th="16.35" pr90th="17.3" />
+   <dataSet lst="11/05_06" median="2.3" mn="-4.4" mx="10.4" pr10th="-3.65" pr25th="-1.42" pr75th="5.28" pr90th="9.6" />
+   <dataSet lst="11/05_15" median="15.6" mn="9.5" mx="18.6" pr10th="11.0" pr25th="12.68" pr75th="16.38" pr90th="18.55" />
+   <dataSet lst="11/06_06" median="2.3" mn="-5.4" mx="9.6" pr10th="-4.1" pr25th="-0.25" pr75th="5.73" pr90th="7.5" />
+   <dataSet lst="11/06_15" median="14.7" mn="6.2" mx="18.9" pr10th="9.7" pr25th="11.45" pr75th="17.15" pr90th="18.2" />
+   <dataSet lst="11/07_06" median="3.55" mn="-5.2" mx="9.6" pr10th="-3.45" pr25th="-1.47" pr75th="6.2" pr90th="8.5" />
+  </stn>
+  <stn stnNo="47129" stnName="서산">
+   <dataSet lst="10/27_06" median="11.55" mn="10.5" mx="12.9" pr10th="10.75" pr25th="11.13" pr75th="12.08" pr90th="12.45" />
+   <dataSet lst="10/27_15" median="20.2" mn="18.2" mx="21.5" pr10th="19.2" pr25th="19.9" pr75th="20.6" pr90th="20.9" />
+   <dataSet lst="10/28_06" median="13.6" mn="11.7" mx="14.5" pr10th="12.55" pr25th="13.13" pr75th="13.7" pr90th="14.1" />
+   <dataSet lst="10/28_15" median="15.1" mn="13.7" mx="20.5" pr10th="13.95" pr25th="14.3" pr75th="15.7" pr90th="16.9" />
+   <dataSet lst="10/29_06" median="8.1" mn="6.0" mx="11.0" pr10th="6.3" pr25th="6.9" pr75th="9.45" pr90th="10.4" />
+   <dataSet lst="10/29_15" median="12.15" mn="9.9" mx="14.8" pr10th="10.75" pr25th="11.6" pr75th="13.58" pr90th="14.35" />
+   <dataSet lst="10/30_06" median="4.5" mn="2.2" mx="8.8" pr10th="2.5" pr25th="3.28" pr75th="6.13" pr90th="7.5" />
+   <dataSet lst="10/30_15" median="13.8" mn="11.6" mx="15.9" pr10th="12.25" pr25th="12.68" pr75th="14.45" pr90th="15.25" />
+   <dataSet lst="10/31_06" median="5.7" mn="3.4" mx="8.7" pr10th="3.8" pr25th="4.83" pr75th="7.07" pr90th="7.45" />
+   <dataSet lst="10/31_15" median="12.5" mn="6.2" mx="18.0" pr10th="6.9" pr25th="8.0" pr75th="13.85" pr90th="15.6" />
+   <dataSet lst="11/01_06" median="5.25" mn="-0.3" mx="8.4" pr10th="-0.1" pr25th="1.27" pr75th="6.65" pr90th="8.05" />
+   <dataSet lst="11/01_15" median="10.95" mn="5.6" mx="17.5" pr10th="6.35" pr25th="8.65" pr75th="12.85" pr90th="16.15" />
+   <dataSet lst="11/02_06" median="3.45" mn="-1.1" mx="10.7" pr10th="0.5" pr25th="1.73" pr75th="6.73" pr90th="7.85" />
+   <dataSet lst="11/02_15" median="12.75" mn="9.4" mx="18.7" pr10th="10.0" pr25th="10.73" pr75th="15.18" pr90th="17.75" />
+   <dataSet lst="11/03_06" median="6.0" mn="-0.1" mx="15.0" pr10th="2.6" pr25th="3.93" pr75th="9.23" pr90th="12.15" />
+   <dataSet lst="11/03_15" median="14.85" mn="11.2" mx="17.9" pr10th="11.7" pr25th="13.3" pr75th="17.05" pr90th="17.5" />
+   <dataSet lst="11/04_06" median="5.65" mn="1.0" mx="11.7" pr10th="1.7" pr25th="3.3" pr75th="8.38" pr90th="9.75" />
+   <dataSet lst="11/04_15" median="15.8" mn="9.1" mx="21.2" pr10th="9.65" pr25th="14.0" pr75th="18.33" pr90th="19.1" />
+   <dataSet lst="11/05_06" median="6.65" mn="0.4" mx="14.4" pr10th="0.9" pr25th="4.2" pr75th="9.63" pr90th="11.9" />
+   <dataSet lst="11/05_15" median="16.4" mn="8.6" mx="20.3" pr10th="11.8" pr25th="14.4" pr75th="18.85" pr90th="20.05" />
+   <dataSet lst="11/06_06" median="5.75" mn="0.1" mx="11.4" pr10th="1.35" pr25th="4.3" pr75th="8.75" pr90th="10.55" />
+   <dataSet lst="11/06_15" median="16.75" mn="7.2" mx="20.1" pr10th="8.45" pr25th="11.9" pr75th="18.05" pr90th="18.9" />
+   <dataSet lst="11/07_06" median="7.1" mn="0.1" mx="10.9" pr10th="0.95" pr25th="4.13" pr75th="9.07" pr90th="10.3" />
+  </stn>
+  <stn stnNo="47177" stnName="홍성(예)">
+   <dataSet lst="10/27_06" median="9.3" mn="8.1" mx="10.5" pr10th="8.2" pr25th="8.83" pr75th="9.67" pr90th="10.25" />
+   <dataSet lst="10/27_15" median="18.1" mn="16.4" mx="19.1" pr10th="17.15" pr25th="17.7" pr75th="18.38" pr90th="18.95" />
+   <dataSet lst="10/28_06" median="12.45" mn="11.7" mx="13.2" pr10th="11.9" pr25th="12.2" pr75th="12.6" pr90th="12.75" />
+   <dataSet lst="10/28_15" median="14.35" mn="13.0" mx="17.1" pr10th="13.35" pr25th="13.85" pr75th="15.1" pr90th="16.65" />
+   <dataSet lst="10/29_06" median="8.45" mn="5.8" mx="11.4" pr10th="6.6" pr25th="7.68" pr75th="9.48" pr90th="10.65" />
+   <dataSet lst="10/29_15" median="10.9" mn="8.9" mx="15.2" pr10th="9.55" pr25th="10.2" pr75th="12.38" pr90th="13.0" />
+   <dataSet lst="10/30_06" median="5.15" mn="2.4" mx="10.1" pr10th="3.9" pr25th="4.13" pr75th="6.18" pr90th="7.9" />
+   <dataSet lst="10/30_15" median="11.8" mn="9.7" mx="14.3" pr10th="10.8" pr25th="11.43" pr75th="12.98" pr90th="13.5" />
+   <dataSet lst="10/31_06" median="5.05" mn="2.6" mx="9.4" pr10th="3.1" pr25th="3.88" pr75th="6.93" pr90th="8.75" />
+   <dataSet lst="10/31_15" median="11.0" mn="5.7" mx="15.0" pr10th="6.8" pr25th="9.43" pr75th="13.1" pr90th="14.45" />
+   <dataSet lst="11/01_06" median="4.15" mn="0.3" mx="8.8" pr10th="0.85" pr25th="1.63" pr75th="6.15" pr90th="8.15" />
+   <dataSet lst="11/01_15" median="9.95" mn="5.3" mx="17.6" pr10th="6.6" pr25th="7.95" pr75th="11.7" pr90th="14.5" />
+   <dataSet lst="11/02_06" median="2.7" mn="-1.9" mx="10.4" pr10th="-0.3" pr25th="1.25" pr75th="4.2" pr90th="9.1" />
+   <dataSet lst="11/02_15" median="11.95" mn="8.6" mx="17.8" pr10th="9.15" pr25th="10.05" pr75th="13.4" pr90th="17.55" />
+   <dataSet lst="11/03_06" median="5.7" mn="-1.5" mx="12.3" pr10th="1.05" pr25th="3.33" pr75th="9.4" pr90th="10.85" />
+   <dataSet lst="11/03_15" median="13.65" mn="9.2" mx="18.7" pr10th="10.0" pr25th="11.8" pr75th="15.85" pr90th="16.8" />
+   <dataSet lst="11/04_06" median="5.25" mn="0.0" mx="12.7" pr10th="1.05" pr25th="3.05" pr75th="9.98" pr90th="11.9" />
+   <dataSet lst="11/04_15" median="13.6" mn="7.6" mx="19.3" pr10th="9.2" pr25th="11.83" pr75th="16.02" pr90th="17.8" />
+   <dataSet lst="11/05_06" median="6.9" mn="0.8" mx="15.1" pr10th="1.5" pr25th="2.3" pr75th="9.53" pr90th="13.25" />
+   <dataSet lst="11/05_15" median="15.3" mn="6.5" mx="20.1" pr10th="8.85" pr25th="12.85" pr75th="17.27" pr90th="18.9" />
+   <dataSet lst="11/06_06" median="6.0" mn="-1.9" mx="12.3" pr10th="0.65" pr25th="3.8" pr75th="9.73" pr90th="11.95" />
+   <dataSet lst="11/06_15" median="14.9" mn="5.5" mx="18.1" pr10th="6.9" pr25th="9.95" pr75th="16.77" pr90th="17.9" />
+   <dataSet lst="11/07_06" median="7.3" mn="-0.5" mx="12.2" pr10th="1.45" pr25th="3.33" pr75th="10.43" pr90th="11.2" />
+  </stn>
+  <stn stnNo="47232" stnName="천안">
+   <dataSet lst="10/27_06" median="6.5" mn="5.4" mx="7.4" pr10th="5.55" pr25th="6.23" pr75th="6.85" pr90th="7.3" />
+   <dataSet lst="10/27_15" median="20.1" mn="18.9" mx="20.8" pr10th="19.2" pr25th="19.63" pr75th="20.5" pr90th="20.7" />
+   <dataSet lst="10/28_06" median="11.45" mn="10.3" mx="12.5" pr10th="10.85" pr25th="11.0" pr75th="11.7" pr90th="12.1" />
+   <dataSet lst="10/28_15" median="14.9" mn="13.3" mx="17.9" pr10th="13.65" pr25th="14.4" pr75th="15.75" pr90th="16.8" />
+   <dataSet lst="10/29_06" median="7.5" mn="5.0" mx="10.4" pr10th="5.8" pr25th="6.63" pr75th="8.38" pr90th="8.8" />
+   <dataSet lst="10/29_15" median="12.75" mn="10.5" mx="15.3" pr10th="11.15" pr25th="11.65" pr75th="13.73" pr90th="14.7" />
+   <dataSet lst="10/30_06" median="2.6" mn="0.4" mx="8.2" pr10th="0.65" pr25th="1.45" pr75th="6.23" pr90th="7.45" />
+   <dataSet lst="10/30_15" median="14.2" mn="11.2" mx="16.2" pr10th="12.35" pr25th="13.23" pr75th="15.08" pr90th="15.9" />
+   <dataSet lst="10/31_06" median="2.45" mn="0.1" mx="7.6" pr10th="0.35" pr25th="0.98" pr75th="4.03" pr90th="6.8" />
+   <dataSet lst="10/31_15" median="13.55" mn="5.9" mx="18.6" pr10th="7.05" pr25th="8.6" pr75th="14.65" pr90th="16.75" />
+   <dataSet lst="11/01_06" median="2.65" mn="-3.2" mx="7.0" pr10th="-2.9" pr25th="-2.1" pr75th="4.25" pr90th="6.15" />
+   <dataSet lst="11/01_15" median="12.25" mn="5.8" mx="18.0" pr10th="6.25" pr25th="9.5" pr75th="13.35" pr90th="16.35" />
+   <dataSet lst="11/02_06" median="0.4" mn="-3.6" mx="7.1" pr10th="-3.05" pr25th="-1.2" pr75th="3.28" pr90th="6.5" />
+   <dataSet lst="11/02_15" median="14.4" mn="9.1" mx="20.1" pr10th="9.9" pr25th="11.25" pr75th="16.35" pr90th="18.65" />
+   <dataSet lst="11/03_06" median="3.05" mn="-4.2" mx="11.6" pr10th="-2.15" pr25th="0.33" pr75th="5.63" pr90th="8.5" />
+   <dataSet lst="11/03_15" median="15.0" mn="9.7" mx="19.9" pr10th="10.7" pr25th="13.08" pr75th="16.8" pr90th="17.7" />
+   <dataSet lst="11/04_06" median="2.45" mn="-2.4" mx="9.6" pr10th="-1.25" pr25th="0.45" pr75th="5.45" pr90th="7.8" />
+   <dataSet lst="11/04_15" median="15.45" mn="8.3" mx="20.6" pr10th="9.85" pr25th="13.2" pr75th="17.85" pr90th="19.1" />
+   <dataSet lst="11/05_06" median="3.55" mn="-4.2" mx="11.2" pr10th="-3.4" pr25th="-1.12" pr75th="7.53" pr90th="10.65" />
+   <dataSet lst="11/05_15" median="17.15" mn="8.1" mx="20.7" pr10th="11.15" pr25th="14.03" pr75th="18.63" pr90th="20.15" />
+   <dataSet lst="11/06_06" median="3.65" mn="-5.0" mx="9.3" pr10th="-2.55" pr25th="0.4" pr75th="7.1" pr90th="8.95" />
+   <dataSet lst="11/06_15" median="15.65" mn="6.9" mx="21.3" pr10th="7.65" pr25th="11.0" pr75th="18.73" pr90th="20.0" />
+   <dataSet lst="11/07_06" median="4.2" mn="-4.4" mx="10.7" pr10th="-2.6" pr25th="-1.15" pr75th="6.58" pr90th="9.95" />
+  </stn>
+  <stn stnNo="47235" stnName="보령">
+   <dataSet lst="10/27_06" median="10.35" mn="9.6" mx="11.2" pr10th="9.8" pr25th="10.0" pr75th="10.75" pr90th="11.0" />
+   <dataSet lst="10/27_15" median="20.6" mn="19.1" mx="21.1" pr10th="19.55" pr25th="20.33" pr75th="20.8" pr90th="21.05" />
+   <dataSet lst="10/28_06" median="13.0" mn="11.6" mx="13.9" pr10th="12.1" pr25th="12.33" pr75th="13.18" pr90th="13.65" />
+   <dataSet lst="10/28_15" median="15.2" mn="14.0" mx="20.2" pr10th="14.1" pr25th="14.35" pr75th="15.8" pr90th="17.35" />
+   <dataSet lst="10/29_06" median="8.9" mn="6.6" mx="11.5" pr10th="7.35" pr25th="7.75" pr75th="10.05" pr90th="10.7" />
+   <dataSet lst="10/29_15" median="12.8" mn="10.9" mx="15.5" pr10th="11.4" pr25th="12.0" pr75th="13.88" pr90th="14.6" />
+   <dataSet lst="10/30_06" median="5.95" mn="2.9" mx="10.9" pr10th="4.2" pr25th="4.83" pr75th="7.65" pr90th="9.1" />
+   <dataSet lst="10/30_15" median="13.65" mn="11.5" mx="16.6" pr10th="12.95" pr25th="13.4" pr75th="14.23" pr90th="15.05" />
+   <dataSet lst="10/31_06" median="6.45" mn="-1.5" mx="10.7" pr10th="3.8" pr25th="4.7" pr75th="8.05" pr90th="9.25" />
+   <dataSet lst="10/31_15" median="13.8" mn="6.9" mx="18.9" pr10th="7.75" pr25th="9.13" pr75th="14.7" pr90th="16.45" />
+   <dataSet lst="11/01_06" median="4.9" mn="-0.8" mx="9.4" pr10th="-0.4" pr25th="-0.08" pr75th="6.98" pr90th="8.35" />
+   <dataSet lst="11/01_15" median="11.25" mn="7.2" mx="18.3" pr10th="7.35" pr25th="9.2" pr75th="12.75" pr90th="16.75" />
+   <dataSet lst="11/02_06" median="3.9" mn="1.8" mx="10.7" pr10th="1.95" pr25th="2.9" pr75th="6.6" pr90th="8.95" />
+   <dataSet lst="11/02_15" median="14.95" mn="9.1" mx="20.8" pr10th="10.55" pr25th="11.33" pr75th="16.33" pr90th="18.7" />
+   <dataSet lst="11/03_06" median="6.95" mn="0.9" mx="14.2" pr10th="1.45" pr25th="2.8" pr75th="10.3" pr90th="11.9" />
+   <dataSet lst="11/03_15" median="15.0" mn="11.0" mx="19.6" pr10th="12.2" pr25th="13.13" pr75th="16.38" pr90th="18.7" />
+   <dataSet lst="11/04_06" median="6.0" mn="2.1" mx="12.5" pr10th="3.35" pr25th="4.1" pr75th="8.55" pr90th="10.3" />
+   <dataSet lst="11/04_15" median="16.3" mn="9.8" mx="21.2" pr10th="10.35" pr25th="14.43" pr75th="17.88" pr90th="19.15" />
+   <dataSet lst="11/05_06" median="6.85" mn="-1.1" mx="13.4" pr10th="1.7" pr25th="3.43" pr75th="10.07" pr90th="12.95" />
+   <dataSet lst="11/05_15" median="17.4" mn="8.3" mx="21.4" pr10th="11.85" pr25th="15.63" pr75th="19.15" pr90th="20.45" />
+   <dataSet lst="11/06_06" median="6.35" mn="-1.5" mx="13.2" pr10th="0.35" pr25th="4.4" pr75th="8.63" pr90th="11.95" />
+   <dataSet lst="11/06_15" median="16.65" mn="7.1" mx="23.6" pr10th="9.05" pr25th="12.45" pr75th="19.55" pr90th="21.45" />
+   <dataSet lst="11/07_06" median="6.9" mn="-2.4" mx="11.2" pr10th="-0.05" pr25th="2.68" pr75th="9.03" pr90th="11.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="32" grName="대전청(청주)">
+  <stn stnNo="47131" stnName="청주">
+   <dataSet lst="10/27_06" median="8.05" mn="6.5" mx="9.0" pr10th="7.3" pr25th="7.5" pr75th="8.35" pr90th="8.75" />
+   <dataSet lst="10/27_15" median="20.4" mn="19.3" mx="21.4" pr10th="19.55" pr25th="19.73" pr75th="20.68" pr90th="20.85" />
+   <dataSet lst="10/28_06" median="13.2" mn="12.3" mx="13.8" pr10th="12.6" pr25th="12.85" pr75th="13.48" pr90th="13.6" />
+   <dataSet lst="10/28_15" median="14.3" mn="13.3" mx="17.9" pr10th="13.4" pr25th="13.8" pr75th="15.28" pr90th="16.45" />
+   <dataSet lst="10/29_06" median="9.65" mn="7.1" mx="11.7" pr10th="8.05" pr25th="8.9" pr75th="10.35" pr90th="10.75" />
+   <dataSet lst="10/29_15" median="12.5" mn="10.6" mx="15.3" pr10th="10.7" pr25th="11.8" pr75th="13.3" pr90th="14.1" />
+   <dataSet lst="10/30_06" median="3.7" mn="0.3" mx="7.0" pr10th="1.15" pr25th="1.8" pr75th="5.8" pr90th="6.3" />
+   <dataSet lst="10/30_15" median="13.8" mn="11.9" mx="15.6" pr10th="12.45" pr25th="13.03" pr75th="14.65" pr90th="15.1" />
+   <dataSet lst="10/31_06" median="5.0" mn="2.8" mx="8.6" pr10th="3.1" pr25th="4.13" pr75th="6.78" pr90th="7.45" />
+   <dataSet lst="10/31_15" median="13.05" mn="5.7" mx="17.8" pr10th="7.25" pr25th="8.33" pr75th="14.25" pr90th="16.2" />
+   <dataSet lst="11/01_06" median="4.4" mn="-1.5" mx="8.2" pr10th="-1.15" pr25th="-0.08" pr75th="5.83" pr90th="7.7" />
+   <dataSet lst="11/01_15" median="11.55" mn="6.0" mx="18.1" pr10th="6.15" pr25th="9.1" pr75th="12.88" pr90th="15.8" />
+   <dataSet lst="11/02_06" median="2.9" mn="-0.9" mx="11.6" pr10th="-0.5" pr25th="0.93" pr75th="5.23" pr90th="8.9" />
+   <dataSet lst="11/02_15" median="12.6" mn="9.2" mx="19.8" pr10th="9.9" pr25th="10.88" pr75th="14.18" pr90th="17.85" />
+   <dataSet lst="11/03_06" median="6.3" mn="-0.5" mx="11.0" pr10th="0.3" pr25th="3.43" pr75th="8.2" pr90th="10.25" />
+   <dataSet lst="11/03_15" median="14.65" mn="9.9" mx="18.6" pr10th="11.65" pr25th="11.9" pr75th="15.68" pr90th="16.2" />
+   <dataSet lst="11/04_06" median="7.3" mn="1.2" mx="13.1" pr10th="1.9" pr25th="3.53" pr75th="10.28" pr90th="11.4" />
+   <dataSet lst="11/04_15" median="14.55" mn="8.3" mx="19.7" pr10th="10.4" pr25th="12.95" pr75th="16.68" pr90th="17.85" />
+   <dataSet lst="11/05_06" median="5.55" mn="-2.0" mx="13.3" pr10th="-0.2" pr25th="3.03" pr75th="9.95" pr90th="11.8" />
+   <dataSet lst="11/05_15" median="15.7" mn="8.7" mx="20.2" pr10th="9.75" pr25th="13.0" pr75th="17.45" pr90th="19.65" />
+   <dataSet lst="11/06_06" median="5.95" mn="-2.4" mx="13.1" pr10th="-1.3" pr25th="4.48" pr75th="8.78" pr90th="10.25" />
+   <dataSet lst="11/06_15" median="15.5" mn="8.2" mx="19.4" pr10th="8.85" pr25th="11.45" pr75th="18.08" pr90th="19.2" />
+   <dataSet lst="11/07_06" median="6.8" mn="-3.7" mx="10.2" pr10th="-2.2" pr25th="1.23" pr75th="7.95" pr90th="9.8" />
+  </stn>
+  <stn stnNo="47127" stnName="충주">
+   <dataSet lst="10/27_06" median="6.3" mn="5.6" mx="8.3" pr10th="5.7" pr25th="5.9" pr75th="7.13" pr90th="8.05" />
+   <dataSet lst="10/27_15" median="18.6" mn="17.2" mx="19.8" pr10th="17.5" pr25th="18.0" pr75th="18.98" pr90th="19.4" />
+   <dataSet lst="10/28_06" median="9.25" mn="7.6" mx="12.1" pr10th="8.2" pr25th="8.6" pr75th="10.78" pr90th="11.85" />
+   <dataSet lst="10/28_15" median="14.25" mn="12.9" mx="16.9" pr10th="13.1" pr25th="13.83" pr75th="14.98" pr90th="15.85" />
+   <dataSet lst="10/29_06" median="7.75" mn="4.5" mx="10.5" pr10th="5.2" pr25th="7.1" pr75th="8.4" pr90th="10.3" />
+   <dataSet lst="10/29_15" median="12.05" mn="10.2" mx="14.9" pr10th="10.7" pr25th="11.6" pr75th="13.3" pr90th="14.25" />
+   <dataSet lst="10/30_06" median="3.5" mn="-2.2" mx="8.1" pr10th="-1.25" pr25th="0.6" pr75th="5.18" pr90th="6.05" />
+   <dataSet lst="10/30_15" median="13.2" mn="11.3" mx="15.8" pr10th="11.55" pr25th="12.25" pr75th="14.1" pr90th="14.75" />
+   <dataSet lst="10/31_06" median="2.45" mn="-0.8" mx="7.9" pr10th="-0.2" pr25th="0.98" pr75th="5.3" pr90th="6.2" />
+   <dataSet lst="10/31_15" median="11.95" mn="5.2" mx="16.1" pr10th="7.0" pr25th="8.53" pr75th="13.55" pr90th="14.85" />
+   <dataSet lst="11/01_06" median="-0.55" mn="-5.3" mx="6.7" pr10th="-5.05" pr25th="-3.97" pr75th="2.5" pr90th="6.5" />
+   <dataSet lst="11/01_15" median="11.6" mn="5.9" mx="17.7" pr10th="6.5" pr25th="8.25" pr75th="12.9" pr90th="15.05" />
+   <dataSet lst="11/02_06" median="-1.35" mn="-6.0" mx="8.3" pr10th="-5.4" pr25th="-4.05" pr75th="0.83" pr90th="5.0" />
+   <dataSet lst="11/02_15" median="12.7" mn="8.6" mx="17.3" pr10th="9.25" pr25th="10.4" pr75th="13.65" pr90th="16.9" />
+   <dataSet lst="11/03_06" median="4.0" mn="-5.9" mx="10.6" pr10th="-3.75" pr25th="-1.0" pr75th="6.25" pr90th="8.0" />
+   <dataSet lst="11/03_15" median="13.6" mn="9.8" mx="18.0" pr10th="10.25" pr25th="11.9" pr75th="14.65" pr90th="15.7" />
+   <dataSet lst="11/04_06" median="2.15" mn="-2.6" mx="11.0" pr10th="-1.75" pr25th="-0.02" pr75th="6.5" pr90th="9.75" />
+   <dataSet lst="11/04_15" median="13.8" mn="6.7" mx="18.6" pr10th="9.0" pr25th="10.48" pr75th="15.55" pr90th="17.65" />
+   <dataSet lst="11/05_06" median="6.2" mn="-2.0" mx="14.2" pr10th="-1.2" pr25th="1.9" pr75th="10.6" pr90th="12.5" />
+   <dataSet lst="11/05_15" median="14.4" mn="8.2" mx="18.8" pr10th="9.25" pr25th="12.6" pr75th="17.15" pr90th="17.95" />
+   <dataSet lst="11/06_06" median="4.95" mn="-6.2" mx="16.5" pr10th="-3.85" pr25th="2.28" pr75th="10.45" pr90th="13.4" />
+   <dataSet lst="11/06_15" median="14.95" mn="7.2" mx="19.5" pr10th="7.55" pr25th="10.07" pr75th="16.45" pr90th="17.9" />
+   <dataSet lst="11/07_06" median="6.4" mn="-6.3" mx="14.2" pr10th="-4.55" pr25th="1.35" pr75th="9.35" pr90th="11.65" />
+  </stn>
+  <stn stnNo="47135" stnName="추풍령">
+   <dataSet lst="10/27_06" median="4.6" mn="2.9" mx="5.8" pr10th="3.7" pr25th="4.13" pr75th="5.05" pr90th="5.6" />
+   <dataSet lst="10/27_15" median="17.25" mn="15.2" mx="18.4" pr10th="15.4" pr25th="16.23" pr75th="17.6" pr90th="18.1" />
+   <dataSet lst="10/28_06" median="11.15" mn="9.7" mx="12.7" pr10th="10.5" pr25th="11.0" pr75th="11.68" pr90th="11.9" />
+   <dataSet lst="10/28_15" median="14.25" mn="13.2" mx="17.0" pr10th="13.55" pr25th="13.83" pr75th="14.6" pr90th="15.7" />
+   <dataSet lst="10/29_06" median="9.35" mn="7.0" mx="12.7" pr10th="7.2" pr25th="7.98" pr75th="10.2" pr90th="11.35" />
+   <dataSet lst="10/29_15" median="11.6" mn="9.3" mx="15.3" pr10th="9.8" pr25th="10.85" pr75th="12.6" pr90th="14.4" />
+   <dataSet lst="10/30_06" median="4.25" mn="1.0" mx="9.3" pr10th="1.8" pr25th="3.33" pr75th="7.35" pr90th="8.4" />
+   <dataSet lst="10/30_15" median="12.9" mn="10.8" mx="15.1" pr10th="11.6" pr25th="12.3" pr75th="13.8" pr90th="14.9" />
+   <dataSet lst="10/31_06" median="2.2" mn="-1.7" mx="8.7" pr10th="-0.3" pr25th="0.5" pr75th="4.85" pr90th="7.3" />
+   <dataSet lst="10/31_15" median="11.55" mn="5.0" mx="15.0" pr10th="7.3" pr25th="8.53" pr75th="12.85" pr90th="14.5" />
+   <dataSet lst="11/01_06" median="1.85" mn="-3.5" mx="7.7" pr10th="-3.05" pr25th="-0.1" pr75th="3.9" pr90th="5.55" />
+   <dataSet lst="11/01_15" median="11.4" mn="5.4" mx="18.0" pr10th="5.95" pr25th="8.43" pr75th="12.75" pr90th="14.6" />
+   <dataSet lst="11/02_06" median="-1.5" mn="-5.8" mx="6.8" pr10th="-5.25" pr25th="-4.07" pr75th="0.9" pr90th="2.55" />
+   <dataSet lst="11/02_15" median="12.35" mn="8.3" mx="17.7" pr10th="8.65" pr25th="10.33" pr75th="13.95" pr90th="16.2" />
+   <dataSet lst="11/03_06" median="2.65" mn="-6.4" mx="10.2" pr10th="-4.1" pr25th="-1.92" pr75th="5.1" pr90th="8.0" />
+   <dataSet lst="11/03_15" median="13.8" mn="10.1" mx="19.0" pr10th="10.8" pr25th="12.45" pr75th="15.95" pr90th="17.65" />
+   <dataSet lst="11/04_06" median="1.9" mn="-3.5" mx="10.4" pr10th="-2.15" pr25th="0.77" pr75th="6.88" pr90th="8.95" />
+   <dataSet lst="11/04_15" median="14.45" mn="8.2" mx="22.2" pr10th="10.25" pr25th="13.03" pr75th="16.6" pr90th="20.1" />
+   <dataSet lst="11/05_06" median="3.15" mn="-3.3" mx="12.3" pr10th="-2.6" pr25th="0.4" pr75th="5.35" pr90th="10.45" />
+   <dataSet lst="11/05_15" median="15.6" mn="5.8" mx="23.1" pr10th="10.1" pr25th="14.23" pr75th="18.23" pr90th="20.5" />
+   <dataSet lst="11/06_06" median="3.2" mn="-4.2" mx="12.5" pr10th="-2.55" pr25th="0.05" pr75th="6.75" pr90th="9.6" />
+   <dataSet lst="11/06_15" median="15.3" mn="5.7" mx="26.0" pr10th="7.45" pr25th="10.7" pr75th="17.9" pr90th="22.9" />
+   <dataSet lst="11/07_06" median="5.1" mn="-4.5" mx="12.5" pr10th="-4.25" pr25th="-1.25" pr75th="7.63" pr90th="10.05" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="41" grName="강원청(춘천)">
+  <stn stnNo="47101" stnName="춘천">
+   <dataSet lst="10/27_06" median="6.85" mn="5.8" mx="8.2" pr10th="5.9" pr25th="6.23" pr75th="7.38" pr90th="8.05" />
+   <dataSet lst="10/27_15" median="16.0" mn="13.9" mx="17.7" pr10th="14.8" pr25th="15.53" pr75th="16.7" pr90th="17.3" />
+   <dataSet lst="10/28_06" median="10.7" mn="8.9" mx="12.0" pr10th="9.65" pr25th="9.93" pr75th="11.48" pr90th="11.8" />
+   <dataSet lst="10/28_15" median="14.15" mn="12.4" mx="15.8" pr10th="12.7" pr25th="13.25" pr75th="15.0" pr90th="15.65" />
+   <dataSet lst="10/29_06" median="8.6" mn="5.0" mx="11.7" pr10th="5.65" pr25th="7.6" pr75th="9.67" pr90th="11.1" />
+   <dataSet lst="10/29_15" median="12.2" mn="11.3" mx="16.0" pr10th="11.55" pr25th="11.85" pr75th="13.25" pr90th="14.05" />
+   <dataSet lst="10/30_06" median="5.3" mn="-0.2" mx="9.3" pr10th="0.85" pr25th="3.25" pr75th="6.85" pr90th="8.05" />
+   <dataSet lst="10/30_15" median="12.9" mn="11.0" mx="15.2" pr10th="11.5" pr25th="11.93" pr75th="13.85" pr90th="15.1" />
+   <dataSet lst="10/31_06" median="1.5" mn="-0.9" mx="7.3" pr10th="-0.65" pr25th="0.03" pr75th="4.7" pr90th="6.4" />
+   <dataSet lst="10/31_15" median="10.55" mn="6.3" mx="15.0" pr10th="7.35" pr25th="8.48" pr75th="12.6" pr90th="14.45" />
+   <dataSet lst="11/01_06" median="-0.15" mn="-5.9" mx="8.4" pr10th="-5.4" pr25th="-4.37" pr75th="3.8" pr90th="5.85" />
+   <dataSet lst="11/01_15" median="11.5" mn="5.0" mx="15.8" pr10th="6.35" pr25th="8.5" pr75th="12.25" pr90th="13.1" />
+   <dataSet lst="11/02_06" median="-0.75" mn="-5.9" mx="7.4" pr10th="-5.5" pr25th="-3.35" pr75th="3.43" pr90th="7.0" />
+   <dataSet lst="11/02_15" median="10.7" mn="8.5" mx="16.5" pr10th="8.95" pr25th="9.6" pr75th="13.1" pr90th="15.0" />
+   <dataSet lst="11/03_06" median="3.75" mn="-1.9" mx="9.6" pr10th="-1.65" pr25th="-0.8" pr75th="5.4" pr90th="7.45" />
+   <dataSet lst="11/03_15" median="11.9" mn="6.9" mx="15.1" pr10th="8.3" pr25th="9.85" pr75th="13.35" pr90th="14.5" />
+   <dataSet lst="11/04_06" median="3.45" mn="-3.4" mx="12.4" pr10th="-0.9" pr25th="0.4" pr75th="8.23" pr90th="10.1" />
+   <dataSet lst="11/04_15" median="11.7" mn="5.6" mx="17.8" pr10th="7.1" pr25th="9.4" pr75th="14.05" pr90th="16.2" />
+   <dataSet lst="11/05_06" median="4.9" mn="-1.2" mx="12.0" pr10th="-0.25" pr25th="0.4" pr75th="8.9" pr90th="10.6" />
+   <dataSet lst="11/05_15" median="13.9" mn="6.3" mx="17.1" pr10th="7.95" pr25th="9.95" pr75th="15.48" pr90th="16.65" />
+   <dataSet lst="11/06_06" median="5.15" mn="-4.2" mx="11.7" pr10th="-2.3" pr25th="0.5" pr75th="8.9" pr90th="9.95" />
+   <dataSet lst="11/06_15" median="12.5" mn="6.1" mx="16.7" pr10th="6.75" pr25th="9.07" pr75th="15.0" pr90th="16.2" />
+   <dataSet lst="11/07_06" median="6.85" mn="-5.5" mx="11.1" pr10th="-4.65" pr25th="-1.7" pr75th="9.0" pr90th="9.75" />
+  </stn>
+  <stn stnNo="47114" stnName="원주">
+   <dataSet lst="10/27_06" median="7.2" mn="6.2" mx="8.6" pr10th="6.35" pr25th="6.78" pr75th="7.78" pr90th="8.3" />
+   <dataSet lst="10/27_15" median="18.1" mn="16.8" mx="19.2" pr10th="17.2" pr25th="17.4" pr75th="18.65" pr90th="19.05" />
+   <dataSet lst="10/28_06" median="10.65" mn="9.2" mx="12.1" pr10th="9.5" pr25th="10.05" pr75th="11.4" pr90th="11.65" />
+   <dataSet lst="10/28_15" median="13.2" mn="11.7" mx="16.5" pr10th="12.05" pr25th="12.43" pr75th="14.48" pr90th="15.85" />
+   <dataSet lst="10/29_06" median="7.5" mn="4.4" mx="10.3" pr10th="4.95" pr25th="6.33" pr75th="8.67" pr90th="9.5" />
+   <dataSet lst="10/29_15" median="12.15" mn="10.0" mx="15.6" pr10th="10.2" pr25th="11.15" pr75th="13.58" pr90th="14.75" />
+   <dataSet lst="10/30_06" median="4.85" mn="0.6" mx="8.5" pr10th="1.45" pr25th="2.93" pr75th="6.05" pr90th="7.65" />
+   <dataSet lst="10/30_15" median="12.6" mn="10.5" mx="15.4" pr10th="11.45" pr25th="12.0" pr75th="13.78" pr90th="14.75" />
+   <dataSet lst="10/31_06" median="1.85" mn="-1.9" mx="8.7" pr10th="-1.05" pr25th="0.53" pr75th="4.52" pr90th="7.85" />
+   <dataSet lst="10/31_15" median="11.75" mn="6.2" mx="15.9" pr10th="7.1" pr25th="8.85" pr75th="14.0" pr90th="15.5" />
+   <dataSet lst="11/01_06" median="-0.65" mn="-7.2" mx="6.0" pr10th="-6.2" pr25th="-4.17" pr75th="3.1" pr90th="5.55" />
+   <dataSet lst="11/01_15" median="11.3" mn="6.0" mx="17.8" pr10th="6.6" pr25th="7.98" pr75th="13.48" pr90th="14.55" />
+   <dataSet lst="11/02_06" median="-1.2" mn="-6.0" mx="8.5" pr10th="-5.5" pr25th="-3.3" pr75th="1.5" pr90th="4.7" />
+   <dataSet lst="11/02_15" median="11.7" mn="8.1" mx="16.5" pr10th="8.6" pr25th="10.55" pr75th="14.0" pr90th="16.25" />
+   <dataSet lst="11/03_06" median="3.5" mn="-5.6" mx="8.7" pr10th="-4.65" pr25th="-2.2" pr75th="6.3" pr90th="7.9" />
+   <dataSet lst="11/03_15" median="12.95" mn="8.2" mx="18.1" pr10th="9.85" pr25th="10.33" pr75th="13.98" pr90th="14.65" />
+   <dataSet lst="11/04_06" median="1.7" mn="-3.8" mx="10.7" pr10th="-3.65" pr25th="-1.7" pr75th="6.75" pr90th="9.5" />
+   <dataSet lst="11/04_15" median="12.8" mn="5.4" mx="17.6" pr10th="7.5" pr25th="10.07" pr75th="14.48" pr90th="16.65" />
+   <dataSet lst="11/05_06" median="5.45" mn="-2.1" mx="12.6" pr10th="-1.85" pr25th="-0.35" pr75th="7.05" pr90th="11.25" />
+   <dataSet lst="11/05_15" median="14.3" mn="7.8" mx="18.7" pr10th="8.3" pr25th="11.23" pr75th="16.27" pr90th="17.75" />
+   <dataSet lst="11/06_06" median="2.65" mn="-8.6" mx="9.8" pr10th="-5.8" pr25th="-0.55" pr75th="8.45" pr90th="9.3" />
+   <dataSet lst="11/06_15" median="14.1" mn="5.9" mx="19.1" pr10th="7.35" pr25th="9.07" pr75th="16.38" pr90th="18.5" />
+   <dataSet lst="11/07_06" median="5.1" mn="-7.3" mx="10.1" pr10th="-6.4" pr25th="-1.87" pr75th="8.68" pr90th="9.9" />
+  </stn>
+  <stn stnNo="47095" stnName="철원">
+   <dataSet lst="10/27_06" median="4.0" mn="3.0" mx="5.2" pr10th="3.35" pr25th="3.63" pr75th="4.3" pr90th="4.95" />
+   <dataSet lst="10/27_15" median="17.35" mn="14.7" mx="18.7" pr10th="15.1" pr25th="16.42" pr75th="17.65" pr90th="18.45" />
+   <dataSet lst="10/28_06" median="9.1" mn="6.9" mx="9.9" pr10th="7.9" pr25th="8.33" pr75th="9.55" pr90th="9.85" />
+   <dataSet lst="10/28_15" median="14.25" mn="12.9" mx="16.2" pr10th="13.1" pr25th="13.55" pr75th="15.1" pr90th="15.55" />
+   <dataSet lst="10/29_06" median="6.15" mn="2.9" mx="9.4" pr10th="3.35" pr25th="5.08" pr75th="7.58" pr90th="8.95" />
+   <dataSet lst="10/29_15" median="11.6" mn="9.7" mx="15.1" pr10th="10.05" pr25th="11.23" pr75th="12.3" pr90th="14.2" />
+   <dataSet lst="10/30_06" median="0.85" mn="-2.1" mx="7.0" pr10th="-1.65" pr25th="-0.57" pr75th="3.93" pr90th="6.7" />
+   <dataSet lst="10/30_15" median="11.8" mn="10.1" mx="14.6" pr10th="10.5" pr25th="11.1" pr75th="12.83" pr90th="14.1" />
+   <dataSet lst="10/31_06" median="2.9" mn="-1.1" mx="6.8" pr10th="-0.55" pr25th="0.73" pr75th="4.4" pr90th="5.7" />
+   <dataSet lst="10/31_15" median="10.8" mn="3.8" mx="14.2" pr10th="5.4" pr25th="7.05" pr75th="13.1" pr90th="13.95" />
+   <dataSet lst="11/01_06" median="-1.4" mn="-7.1" mx="7.3" pr10th="-6.4" pr25th="-4.85" pr75th="2.4" pr90th="5.55" />
+   <dataSet lst="11/01_15" median="9.9" mn="5.0" mx="15.1" pr10th="5.3" pr25th="7.58" pr75th="10.88" pr90th="13.35" />
+   <dataSet lst="11/02_06" median="-2.65" mn="-5.9" mx="6.6" pr10th="-5.35" pr25th="-4.75" pr75th="0.33" pr90th="5.35" />
+   <dataSet lst="11/02_15" median="10.15" mn="7.2" mx="15.5" pr10th="7.65" pr25th="9.15" pr75th="11.85" pr90th="14.6" />
+   <dataSet lst="11/03_06" median="2.95" mn="-6.5" mx="10.2" pr10th="-5.7" pr25th="-3.07" pr75th="6.28" pr90th="8.05" />
+   <dataSet lst="11/03_15" median="11.55" mn="6.8" mx="15.4" pr10th="8.25" pr25th="9.48" pr75th="12.63" pr90th="13.65" />
+   <dataSet lst="11/04_06" median="1.4" mn="-4.5" mx="9.5" pr10th="-3.3" pr25th="-1.42" pr75th="6.35" pr90th="8.6" />
+   <dataSet lst="11/04_15" median="12.0" mn="5.0" mx="17.4" pr10th="6.45" pr25th="9.73" pr75th="13.52" pr90th="15.95" />
+   <dataSet lst="11/05_06" median="2.8" mn="-4.2" mx="11.3" pr10th="-3.85" pr25th="-2.75" pr75th="7.65" pr90th="9.35" />
+   <dataSet lst="11/05_15" median="13.0" mn="5.4" mx="17.3" pr10th="6.7" pr25th="10.4" pr75th="15.1" pr90th="16.35" />
+   <dataSet lst="11/06_06" median="1.8" mn="-5.7" mx="10.2" pr10th="-5.3" pr25th="-2.42" pr75th="7.13" pr90th="9.35" />
+   <dataSet lst="11/06_15" median="13.2" mn="2.8" mx="17.8" pr10th="4.85" pr25th="8.2" pr75th="15.43" pr90th="16.05" />
+   <dataSet lst="11/07_06" median="3.8" mn="-7.6" mx="7.9" pr10th="-7.0" pr25th="-3.3" pr75th="6.07" pr90th="7.4" />
+  </stn>
+  <stn stnNo="47121" stnName="영월">
+   <dataSet lst="10/27_06" median="4.6" mn="3.6" mx="6.9" pr10th="3.7" pr25th="4.3" pr75th="5.07" pr90th="5.7" />
+   <dataSet lst="10/27_15" median="16.9" mn="15.8" mx="18.0" pr10th="16.0" pr25th="16.35" pr75th="17.27" pr90th="17.75" />
+   <dataSet lst="10/28_06" median="8.2" mn="6.2" mx="10.5" pr10th="6.65" pr25th="7.6" pr75th="9.53" pr90th="10.25" />
+   <dataSet lst="10/28_15" median="12.25" mn="10.8" mx="15.2" pr10th="11.1" pr25th="12.0" pr75th="13.98" pr90th="14.75" />
+   <dataSet lst="10/29_06" median="8.3" mn="4.5" mx="10.8" pr10th="6.25" pr25th="7.53" pr75th="9.25" pr90th="9.55" />
+   <dataSet lst="10/29_15" median="11.9" mn="10.8" mx="14.7" pr10th="10.9" pr25th="11.33" pr75th="12.6" pr90th="14.35" />
+   <dataSet lst="10/30_06" median="5.15" mn="0.7" mx="7.9" pr10th="2.3" pr25th="4.43" pr75th="6.1" pr90th="7.45" />
+   <dataSet lst="10/30_15" median="13.35" mn="12.0" mx="15.6" pr10th="12.2" pr25th="12.6" pr75th="13.78" pr90th="14.5" />
+   <dataSet lst="10/31_06" median="1.55" mn="-3.2" mx="6.4" pr10th="-1.5" pr25th="-0.25" pr75th="3.6" pr90th="5.7" />
+   <dataSet lst="10/31_15" median="11.15" mn="4.9" mx="15.8" pr10th="6.65" pr25th="8.6" pr75th="13.4" pr90th="15.4" />
+   <dataSet lst="11/01_06" median="1.2" mn="-6.5" mx="5.9" pr10th="-5.75" pr25th="-3.52" pr75th="3.22" pr90th="4.85" />
+   <dataSet lst="11/01_15" median="11.55" mn="4.8" mx="17.3" pr10th="5.2" pr25th="8.45" pr75th="13.48" pr90th="14.9" />
+   <dataSet lst="11/02_06" median="-2.95" mn="-7.7" mx="6.3" pr10th="-6.1" pr25th="-5.3" pr75th="-0.57" pr90th="4.15" />
+   <dataSet lst="11/02_15" median="12.05" mn="8.2" mx="16.3" pr10th="9.25" pr25th="10.35" pr75th="12.83" pr90th="15.05" />
+   <dataSet lst="11/03_06" median="3.05" mn="-6.4" mx="8.9" pr10th="-6.1" pr25th="-3.8" pr75th="5.65" pr90th="7.35" />
+   <dataSet lst="11/03_15" median="12.95" mn="8.1" mx="17.1" pr10th="8.55" pr25th="11.25" pr75th="13.9" pr90th="14.7" />
+   <dataSet lst="11/04_06" median="1.5" mn="-5.3" mx="8.8" pr10th="-4.05" pr25th="-2.12" pr75th="6.08" pr90th="8.1" />
+   <dataSet lst="11/04_15" median="16.7" mn="11.8" mx="24.0" pr10th="12.4" pr25th="14.95" pr75th="19.9" pr90th="21.55" />
+   <dataSet lst="11/05_06" median="5.95" mn="-2.6" mx="11.1" pr10th="-0.65" pr25th="2.13" pr75th="8.38" pr90th="9.8" />
+   <dataSet lst="11/05_15" median="13.55" mn="6.8" mx="17.1" pr10th="8.65" pr25th="10.48" pr75th="15.88" pr90th="16.75" />
+   <dataSet lst="11/06_06" median="4.85" mn="-7.8" mx="13.8" pr10th="-4.75" pr25th="-0.22" pr75th="7.6" pr90th="11.0" />
+   <dataSet lst="11/06_15" median="13.35" mn="5.1" mx="18.0" pr10th="6.45" pr25th="9.5" pr75th="15.15" pr90th="16.3" />
+   <dataSet lst="11/07_06" median="3.25" mn="-7.4" mx="10.2" pr10th="-3.85" pr25th="-1.17" pr75th="7.18" pr90th="8.5" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="35" grName="강원청(강릉)">
+  <stn stnNo="47104" stnName="북강릉">
+   <dataSet lst="10/27_06" median="11.35" mn="10.1" mx="12.7" pr10th="10.25" pr25th="10.6" pr75th="11.75" pr90th="12.25" />
+   <dataSet lst="10/27_15" median="17.25" mn="16.1" mx="18.5" pr10th="16.55" pr25th="16.9" pr75th="17.88" pr90th="18.1" />
+   <dataSet lst="10/28_06" median="12.25" mn="10.3" mx="13.5" pr10th="10.6" pr25th="11.63" pr75th="12.98" pr90th="13.4" />
+   <dataSet lst="10/28_15" median="15.1" mn="13.8" mx="17.9" pr10th="14.3" pr25th="14.73" pr75th="15.98" pr90th="16.55" />
+   <dataSet lst="10/29_06" median="9.85" mn="8.5" mx="12.7" pr10th="8.55" pr25th="9.53" pr75th="10.85" pr90th="11.9" />
+   <dataSet lst="10/29_15" median="11.45" mn="9.3" mx="14.3" pr10th="10.3" pr25th="10.73" pr75th="12.58" pr90th="13.35" />
+   <dataSet lst="10/30_06" median="7.2" mn="4.6" mx="9.5" pr10th="5.3" pr25th="6.5" pr75th="7.8" pr90th="8.2" />
+   <dataSet lst="10/30_15" median="13.75" mn="11.3" mx="15.8" pr10th="12.0" pr25th="13.0" pr75th="14.4" pr90th="15.4" />
+   <dataSet lst="10/31_06" median="6.85" mn="3.6" mx="9.4" pr10th="4.55" pr25th="5.8" pr75th="7.28" pr90th="7.8" />
+   <dataSet lst="10/31_15" median="13.9" mn="8.0" mx="17.6" pr10th="10.35" pr25th="12.4" pr75th="15.65" pr90th="16.45" />
+   <dataSet lst="11/01_06" median="4.35" mn="-2.2" mx="9.6" pr10th="-1.65" pr25th="0.13" pr75th="7.4" pr90th="8.95" />
+   <dataSet lst="11/01_15" median="11.5" mn="6.1" mx="17.3" pr10th="7.4" pr25th="9.6" pr75th="14.75" pr90th="17.0" />
+   <dataSet lst="11/02_06" median="5.4" mn="-0.3" mx="9.9" pr10th="0.5" pr25th="2.63" pr75th="7.58" pr90th="9.75" />
+   <dataSet lst="11/02_15" median="13.8" mn="10.3" mx="17.2" pr10th="10.5" pr25th="12.88" pr75th="14.88" pr90th="16.45" />
+   <dataSet lst="11/03_06" median="8.3" mn="1.4" mx="11.5" pr10th="2.3" pr25th="3.35" pr75th="9.9" pr90th="11.3" />
+   <dataSet lst="11/03_15" median="14.5" mn="9.4" mx="24.4" pr10th="10.75" pr25th="12.55" pr75th="17.45" pr90th="21.5" />
+   <dataSet lst="11/04_06" median="7.75" mn="2.9" mx="14.2" pr10th="4.05" pr25th="6.23" pr75th="11.43" pr90th="13.05" />
+   <dataSet lst="11/04_15" median="18.4" mn="9.1" mx="22.8" pr10th="12.1" pr25th="13.73" pr75th="20.68" pr90th="22.0" />
+   <dataSet lst="11/05_06" median="8.9" mn="2.9" mx="13.5" pr10th="3.95" pr25th="5.28" pr75th="11.13" pr90th="12.85" />
+   <dataSet lst="11/05_15" median="17.65" mn="5.9" mx="26.5" pr10th="10.05" pr25th="15.05" pr75th="19.4" pr90th="21.5" />
+   <dataSet lst="11/06_06" median="7.75" mn="-0.4" mx="13.8" pr10th="3.2" pr25th="6.0" pr75th="10.8" pr90th="13.1" />
+   <dataSet lst="11/06_15" median="15.25" mn="7.7" mx="20.2" pr10th="8.7" pr25th="11.43" pr75th="16.63" pr90th="19.0" />
+   <dataSet lst="11/07_06" median="7.3" mn="-1.2" mx="11.7" pr10th="0.85" pr25th="4.2" pr75th="9.17" pr90th="10.65" />
+  </stn>
+  <stn stnNo="47090" stnName="속초">
+   <dataSet lst="10/27_06" median="9.4" mn="8.0" mx="11.2" pr10th="8.65" pr25th="9.2" pr75th="9.9" pr90th="10.1" />
+   <dataSet lst="10/27_15" median="15.05" mn="13.4" mx="17.0" pr10th="14.1" pr25th="14.63" pr75th="15.88" pr90th="16.5" />
+   <dataSet lst="10/28_06" median="9.25" mn="7.1" mx="10.3" pr10th="8.3" pr25th="8.57" pr75th="9.6" pr90th="9.75" />
+   <dataSet lst="10/28_15" median="16.55" mn="14.6" mx="18.1" pr10th="15.05" pr25th="16.0" pr75th="16.95" pr90th="17.8" />
+   <dataSet lst="10/29_06" median="9.1" mn="7.8" mx="11.7" pr10th="8.15" pr25th="8.8" pr75th="9.65" pr90th="10.55" />
+   <dataSet lst="10/29_15" median="10.25" mn="8.3" mx="13.4" pr10th="9.1" pr25th="9.63" pr75th="11.9" pr90th="12.9" />
+   <dataSet lst="10/30_06" median="6.7" mn="2.8" mx="9.0" pr10th="3.35" pr25th="5.98" pr75th="6.98" pr90th="8.2" />
+   <dataSet lst="10/30_15" median="13.0" mn="10.5" mx="14.7" pr10th="11.35" pr25th="12.4" pr75th="13.78" pr90th="14.35" />
+   <dataSet lst="10/31_06" median="6.6" mn="2.2" mx="8.7" pr10th="3.7" pr25th="5.75" pr75th="7.4" pr90th="7.95" />
+   <dataSet lst="10/31_15" median="13.25" mn="5.7" mx="15.9" pr10th="8.65" pr25th="10.98" pr75th="14.5" pr90th="15.4" />
+   <dataSet lst="11/01_06" median="4.3" mn="-0.6" mx="9.1" pr10th="-0.15" pr25th="1.02" pr75th="6.9" pr90th="8.4" />
+   <dataSet lst="11/01_15" median="10.8" mn="6.1" mx="17.3" pr10th="7.0" pr25th="9.15" pr75th="13.08" pr90th="15.6" />
+   <dataSet lst="11/02_06" median="1.6" mn="-2.9" mx="10.2" pr10th="-2.7" pr25th="-1.3" pr75th="3.4" pr90th="7.3" />
+   <dataSet lst="11/02_15" median="12.85" mn="9.7" mx="16.5" pr10th="9.75" pr25th="11.83" pr75th="15.28" pr90th="16.25" />
+   <dataSet lst="11/03_06" median="3.95" mn="-3.0" mx="8.5" pr10th="-3.0" pr25th="-0.4" pr75th="6.88" pr90th="8.0" />
+   <dataSet lst="11/03_15" median="12.35" mn="8.6" mx="17.9" pr10th="9.3" pr25th="10.55" pr75th="13.65" pr90th="16.45" />
+   <dataSet lst="11/04_06" median="3.75" mn="-1.3" mx="9.3" pr10th="-0.8" pr25th="0.6" pr75th="6.75" pr90th="7.95" />
+   <dataSet lst="11/04_15" median="12.4" mn="7.5" mx="19.2" pr10th="7.75" pr25th="10.73" pr75th="13.75" pr90th="16.65" />
+   <dataSet lst="11/05_06" median="4.05" mn="-0.1" mx="12.0" pr10th="0.4" pr25th="1.88" pr75th="7.4" pr90th="10.0" />
+   <dataSet lst="11/05_15" median="13.15" mn="4.9" mx="17.9" pr10th="8.4" pr25th="10.23" pr75th="15.43" pr90th="16.15" />
+   <dataSet lst="11/06_06" median="5.2" mn="-4.2" mx="11.5" pr10th="-1.2" pr25th="1.98" pr75th="8.78" pr90th="10.5" />
+   <dataSet lst="11/06_15" median="12.2" mn="5.4" mx="14.7" pr10th="7.65" pr25th="10.1" pr75th="12.93" pr90th="14.3" />
+   <dataSet lst="11/07_06" median="7.55" mn="-3.8" mx="11.5" pr10th="-2.85" pr25th="0.07" pr75th="9.35" pr90th="10.9" />
+  </stn>
+  <stn stnNo="47100" stnName="대관령">
+   <dataSet lst="10/27_06" median="5.1" mn="2.3" mx="7.9" pr10th="4.05" pr25th="4.53" pr75th="6.0" pr90th="7.0" />
+   <dataSet lst="10/27_15" median="12.55" mn="10.1" mx="14.1" pr10th="11.2" pr25th="11.73" pr75th="13.08" pr90th="13.55" />
+   <dataSet lst="10/28_06" median="6.05" mn="3.9" mx="7.7" pr10th="4.15" pr25th="5.25" pr75th="6.9" pr90th="7.2" />
+   <dataSet lst="10/28_15" median="10.05" mn="9.1" mx="13.0" pr10th="9.15" pr25th="9.53" pr75th="11.1" pr90th="11.5" />
+   <dataSet lst="10/29_06" median="6.15" mn="4.4" mx="8.5" pr10th="4.75" pr25th="5.4" pr75th="6.6" pr90th="7.15" />
+   <dataSet lst="10/29_15" median="6.8" mn="4.1" mx="9.3" pr10th="5.1" pr25th="5.95" pr75th="7.35" pr90th="8.75" />
+   <dataSet lst="10/30_06" median="1.7" mn="-3.3" mx="4.2" pr10th="-1.85" pr25th="0.4" pr75th="2.28" pr90th="3.3" />
+   <dataSet lst="10/30_15" median="9.05" mn="7.0" mx="10.1" pr10th="7.7" pr25th="8.57" pr75th="9.4" pr90th="9.75" />
+   <dataSet lst="10/31_06" median="-0.35" mn="-3.7" mx="4.8" pr10th="-3.0" pr25th="-2.0" pr75th="1.65" pr90th="3.8" />
+   <dataSet lst="10/31_15" median="8.35" mn="-0.6" mx="11.7" pr10th="2.95" pr25th="4.65" pr75th="8.8" pr90th="10.9" />
+   <dataSet lst="11/01_06" median="-3.25" mn="-12.4" mx="2.9" pr10th="-11.45" pr25th="-7.77" pr75th="-0.65" pr90th="2.2" />
+   <dataSet lst="11/01_15" median="6.65" mn="-0.3" mx="13.0" pr10th="1.65" pr25th="3.88" pr75th="8.17" pr90th="11.3" />
+   <dataSet lst="11/02_06" median="-3.8" mn="-7.5" mx="2.6" pr10th="-7.1" pr25th="-5.47" pr75th="-1.25" pr90th="1.2" />
+   <dataSet lst="11/02_15" median="8.05" mn="4.4" mx="11.6" pr10th="4.85" pr25th="6.53" pr75th="9.95" pr90th="11.1" />
+   <dataSet lst="11/03_06" median="0.55" mn="-7.3" mx="5.2" pr10th="-6.35" pr25th="-4.0" pr75th="2.8" pr90th="4.15" />
+   <dataSet lst="11/03_15" median="7.7" mn="3.7" mx="12.5" pr10th="4.75" pr25th="6.65" pr75th="9.67" pr90th="11.95" />
+   <dataSet lst="11/04_06" median="0.5" mn="-5.4" mx="6.5" pr10th="-4.2" pr25th="-2.47" pr75th="3.75" pr90th="5.3" />
+   <dataSet lst="11/04_15" median="7.8" mn="2.9" mx="12.7" pr10th="4.15" pr25th="5.53" pr75th="10.07" pr90th="11.8" />
+   <dataSet lst="11/05_06" median="0.9" mn="-6.3" mx="6.6" pr10th="-5.5" pr25th="-3.9" pr75th="4.15" pr90th="6.15" />
+   <dataSet lst="11/05_15" median="8.95" mn="1.6" mx="12.5" pr10th="2.75" pr25th="6.2" pr75th="10.53" pr90th="11.8" />
+   <dataSet lst="11/06_06" median="1.15" mn="-9.8" mx="8.2" pr10th="-6.9" pr25th="-2.05" pr75th="3.05" pr90th="5.1" />
+   <dataSet lst="11/06_15" median="7.05" mn="1.3" mx="11.9" pr10th="2.65" pr25th="5.18" pr75th="10.4" pr90th="11.6" />
+   <dataSet lst="11/07_06" median="0.8" mn="-11.4" mx="6.4" pr10th="-9.6" pr25th="-4.37" pr75th="2.85" pr90th="4.7" />
+  </stn>
+  <stn stnNo="47106" stnName="동해">
+   <dataSet lst="10/27_06" median="11.4" mn="10.5" mx="12.2" pr10th="10.85" pr25th="11.23" pr75th="11.6" pr90th="11.95" />
+   <dataSet lst="10/27_15" median="16.9" mn="15.5" mx="18.3" pr10th="16.0" pr25th="16.13" pr75th="17.77" pr90th="18.0" />
+   <dataSet lst="10/28_06" median="11.55" mn="10.2" mx="12.5" pr10th="10.4" pr25th="11.1" pr75th="12.0" pr90th="12.3" />
+   <dataSet lst="10/28_15" median="15.2" mn="14.7" mx="17.1" pr10th="14.8" pr25th="14.9" pr75th="16.15" pr90th="16.65" />
+   <dataSet lst="10/29_06" median="10.8" mn="9.3" mx="13.1" pr10th="9.35" pr25th="10.33" pr75th="11.3" pr90th="12.65" />
+   <dataSet lst="10/29_15" median="11.5" mn="9.9" mx="14.4" pr10th="10.5" pr25th="11.0" pr75th="12.28" pr90th="13.4" />
+   <dataSet lst="10/30_06" median="7.7" mn="5.1" mx="9.7" pr10th="6.1" pr25th="7.05" pr75th="8.25" pr90th="9.25" />
+   <dataSet lst="10/30_15" median="14.6" mn="12.8" mx="16.1" pr10th="13.25" pr25th="14.1" pr75th="15.1" pr90th="15.3" />
+   <dataSet lst="10/31_06" median="7.55" mn="5.1" mx="9.7" pr10th="6.2" pr25th="6.9" pr75th="8.57" pr90th="9.0" />
+   <dataSet lst="10/31_15" median="13.55" mn="8.6" mx="17.3" pr10th="10.85" pr25th="12.03" pr75th="15.73" pr90th="16.6" />
+   <dataSet lst="11/01_06" median="6.0" mn="0.2" mx="9.3" pr10th="1.75" pr25th="3.6" pr75th="7.5" pr90th="8.8" />
+   <dataSet lst="11/01_15" median="12.6" mn="7.2" mx="18.2" pr10th="7.7" pr25th="10.13" pr75th="14.7" pr90th="16.95" />
+   <dataSet lst="11/02_06" median="4.05" mn="-0.5" mx="9.3" pr10th="-0.25" pr25th="1.45" pr75th="5.23" pr90th="8.0" />
+   <dataSet lst="11/02_15" median="13.35" mn="9.3" mx="17.0" pr10th="9.55" pr25th="12.08" pr75th="14.7" pr90th="16.05" />
+   <dataSet lst="11/03_06" median="6.5" mn="0.6" mx="10.2" pr10th="1.0" pr25th="3.73" pr75th="8.4" pr90th="9.85" />
+   <dataSet lst="11/03_15" median="14.8" mn="9.8" mx="24.1" pr10th="12.3" pr25th="13.15" pr75th="16.98" pr90th="22.3" />
+   <dataSet lst="11/04_06" median="5.0" mn="0.1" mx="12.0" pr10th="1.1" pr25th="3.0" pr75th="7.73" pr90th="10.05" />
+   <dataSet lst="11/04_15" median="18.05" mn="9.1" mx="22.3" pr10th="9.4" pr25th="12.95" pr75th="19.77" pr90th="21.6" />
+   <dataSet lst="11/05_06" median="5.4" mn="1.5" mx="12.4" pr10th="2.65" pr25th="3.73" pr75th="9.17" pr90th="11.65" />
+   <dataSet lst="11/05_15" median="18.65" mn="7.4" mx="25.0" pr10th="12.15" pr25th="15.73" pr75th="19.73" pr90th="22.8" />
+   <dataSet lst="11/06_06" median="6.9" mn="-1.0" mx="11.5" pr10th="1.7" pr25th="4.05" pr75th="9.15" pr90th="11.35" />
+   <dataSet lst="11/06_15" median="16.25" mn="11.4" mx="22.0" pr10th="11.9" pr25th="14.0" pr75th="19.15" pr90th="21.2" />
+   <dataSet lst="11/07_06" median="7.4" mn="-1.3" mx="11.1" pr10th="-0.1" pr25th="2.47" pr75th="9.68" pr90th="10.9" />
+  </stn>
+  <stn stnNo="875" stnName="설악산">
+   <dataSet lst="10/27_06" />
+   <dataSet lst="10/27_15" />
+   <dataSet lst="10/28_06" />
+   <dataSet lst="10/28_15" />
+   <dataSet lst="10/29_06" />
+   <dataSet lst="10/29_15" />
+   <dataSet lst="10/30_06" />
+   <dataSet lst="10/30_15" />
+   <dataSet lst="10/31_06" />
+   <dataSet lst="10/31_15" />
+   <dataSet lst="11/01_06" />
+   <dataSet lst="11/01_15" />
+   <dataSet lst="11/02_06" />
+   <dataSet lst="11/02_15" />
+   <dataSet lst="11/03_06" />
+   <dataSet lst="11/03_15" />
+   <dataSet lst="11/04_06" />
+   <dataSet lst="11/04_15" />
+   <dataSet lst="11/05_06" />
+   <dataSet lst="11/05_15" />
+   <dataSet lst="11/06_06" />
+   <dataSet lst="11/06_15" />
+   <dataSet lst="11/07_06" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="44" grName="제주청(제주)">
+  <stn stnNo="47184" stnName="제주">
+   <dataSet lst="10/27_06" median="15.35" mn="14.1" mx="16.4" pr10th="14.45" pr25th="14.93" pr75th="15.78" pr90th="15.95" />
+   <dataSet lst="10/27_15" median="21.6" mn="20.7" mx="22.1" pr10th="20.95" pr25th="21.13" pr75th="21.7" pr90th="22.0" />
+   <dataSet lst="10/28_06" median="16.6" mn="15.4" mx="17.8" pr10th="16.1" pr25th="16.4" pr75th="17.18" pr90th="17.55" />
+   <dataSet lst="10/28_15" median="22.65" mn="19.1" mx="24.1" pr10th="20.0" pr25th="22.03" pr75th="23.35" pr90th="23.55" />
+   <dataSet lst="10/29_06" median="14.95" mn="13.6" mx="16.6" pr10th="14.25" pr25th="14.73" pr75th="15.7" pr90th="16.25" />
+   <dataSet lst="10/29_15" median="15.1" mn="13.1" mx="18.0" pr10th="13.6" pr25th="14.4" pr75th="16.3" pr90th="17.35" />
+   <dataSet lst="10/30_06" median="11.9" mn="9.6" mx="15.0" pr10th="10.2" pr25th="11.23" pr75th="13.48" pr90th="14.05" />
+   <dataSet lst="10/30_15" median="15.1" mn="13.7" mx="19.0" pr10th="13.85" pr25th="14.45" pr75th="15.88" pr90th="18.1" />
+   <dataSet lst="10/31_06" median="11.1" mn="9.4" mx="14.5" pr10th="9.75" pr25th="10.07" pr75th="11.78" pr90th="13.9" />
+   <dataSet lst="10/31_15" median="16.15" mn="13.6" mx="20.9" pr10th="14.7" pr25th="15.43" pr75th="17.6" pr90th="18.35" />
+   <dataSet lst="11/01_06" median="12.3" mn="8.3" mx="14.6" pr10th="8.7" pr25th="10.0" pr75th="13.13" pr90th="14.25" />
+   <dataSet lst="11/01_15" median="15.95" mn="11.0" mx="19.4" pr10th="11.5" pr25th="12.48" pr75th="17.2" pr90th="19.0" />
+   <dataSet lst="11/02_06" median="8.85" mn="6.6" mx="16.2" pr10th="6.9" pr25th="7.68" pr75th="10.6" pr90th="14.6" />
+   <dataSet lst="11/02_15" median="18.3" mn="12.6" mx="21.3" pr10th="13.35" pr25th="14.88" pr75th="19.77" pr90th="21.2" />
+   <dataSet lst="11/03_06" median="10.75" mn="6.0" mx="18.7" pr10th="7.35" pr25th="8.98" pr75th="12.83" pr90th="15.25" />
+   <dataSet lst="11/03_15" median="17.95" mn="12.9" mx="22.2" pr10th="14.25" pr25th="15.63" pr75th="20.33" pr90th="21.85" />
+   <dataSet lst="11/04_06" median="10.65" mn="6.0" mx="15.0" pr10th="6.8" pr25th="8.65" pr75th="12.38" pr90th="14.65" />
+   <dataSet lst="11/04_15" median="16.75" mn="12.3" mx="23.5" pr10th="13.2" pr25th="14.73" pr75th="19.2" pr90th="22.0" />
+   <dataSet lst="11/05_06" median="10.85" mn="7.1" mx="21.1" pr10th="7.75" pr25th="8.88" pr75th="13.73" pr90th="16.3" />
+   <dataSet lst="11/05_15" median="16.65" mn="11.6" mx="21.9" pr10th="14.4" pr25th="15.7" pr75th="19.53" pr90th="21.2" />
+   <dataSet lst="11/06_06" median="11.4" mn="6.6" mx="20.5" pr10th="8.05" pr25th="10.23" pr75th="13.5" pr90th="14.65" />
+   <dataSet lst="11/06_15" median="17.35" mn="11.4" mx="20.4" pr10th="12.4" pr25th="14.2" pr75th="18.58" pr90th="19.75" />
+   <dataSet lst="11/07_06" median="12.8" mn="7.7" mx="17.1" pr10th="7.9" pr25th="8.45" pr75th="15.13" pr90th="16.4" />
+  </stn>
+  <stn stnNo="47189" stnName="서귀포">
+   <dataSet lst="10/27_06" median="18.2" mn="17.7" mx="19.2" pr10th="17.8" pr25th="17.92" pr75th="18.6" pr90th="19.15" />
+   <dataSet lst="10/27_15" median="24.1" mn="23.3" mx="24.8" pr10th="23.65" pr25th="23.8" pr75th="24.28" pr90th="24.6" />
+   <dataSet lst="10/28_06" median="19.55" mn="18.5" mx="21.6" pr10th="18.6" pr25th="19.02" pr75th="20.65" pr90th="21.45" />
+   <dataSet lst="10/28_15" median="24.3" mn="22.2" mx="25.6" pr10th="22.5" pr25th="23.63" pr75th="24.98" pr90th="25.35" />
+   <dataSet lst="10/29_06" median="16.65" mn="15.6" mx="17.7" pr10th="15.75" pr25th="16.4" pr75th="17.1" pr90th="17.65" />
+   <dataSet lst="10/29_15" median="19.3" mn="17.8" mx="20.8" pr10th="18.1" pr25th="18.65" pr75th="20.18" pr90th="20.5" />
+   <dataSet lst="10/30_06" median="14.2" mn="13.0" mx="15.7" pr10th="13.15" pr25th="13.53" pr75th="14.93" pr90th="15.35" />
+   <dataSet lst="10/30_15" median="18.75" mn="17.0" mx="20.8" pr10th="17.7" pr25th="18.2" pr75th="19.1" pr90th="20.45" />
+   <dataSet lst="10/31_06" median="14.35" mn="12.1" mx="17.0" pr10th="12.55" pr25th="13.3" pr75th="14.93" pr90th="15.75" />
+   <dataSet lst="10/31_15" median="19.65" mn="17.6" mx="22.1" pr10th="18.05" pr25th="18.8" pr75th="20.53" pr90th="21.2" />
+   <dataSet lst="11/01_06" median="13.2" mn="8.6" mx="16.6" pr10th="9.6" pr25th="10.95" pr75th="14.18" pr90th="15.7" />
+   <dataSet lst="11/01_15" median="19.6" mn="14.5" mx="22.9" pr10th="15.25" pr25th="16.35" pr75th="20.5" pr90th="21.7" />
+   <dataSet lst="11/02_06" median="12.5" mn="7.7" mx="17.8" pr10th="8.4" pr25th="10.43" pr75th="13.78" pr90th="16.6" />
+   <dataSet lst="11/02_15" median="19.65" mn="14.8" mx="22.8" pr10th="15.35" pr25th="18.58" pr75th="21.6" pr90th="22.45" />
+   <dataSet lst="11/03_06" median="14.45" mn="10.4" mx="20.0" pr10th="11.3" pr25th="12.73" pr75th="16.48" pr90th="18.55" />
+   <dataSet lst="11/03_15" median="20.55" mn="16.3" mx="23.6" pr10th="17.1" pr25th="18.73" pr75th="22.6" pr90th="23.2" />
+   <dataSet lst="11/04_06" median="14.3" mn="11.4" mx="18.8" pr10th="11.85" pr25th="12.55" pr75th="16.27" pr90th="18.4" />
+   <dataSet lst="11/04_15" median="19.8" mn="15.9" mx="24.9" pr10th="16.55" pr25th="17.9" pr75th="21.48" pr90th="23.95" />
+   <dataSet lst="11/05_06" median="14.4" mn="10.9" mx="20.8" pr10th="11.8" pr25th="13.1" pr75th="17.2" pr90th="18.95" />
+   <dataSet lst="11/05_15" median="19.8" mn="15.3" mx="24.7" pr10th="17.65" pr25th="18.45" pr75th="21.48" pr90th="23.95" />
+   <dataSet lst="11/06_06" median="15.1" mn="9.7" mx="20.1" pr10th="12.45" pr25th="14.1" pr75th="17.38" pr90th="19.0" />
+   <dataSet lst="11/06_15" median="20.05" mn="14.4" mx="25.4" pr10th="15.4" pr25th="18.1" pr75th="21.1" pr90th="23.0" />
+   <dataSet lst="11/07_06" median="15.4" mn="9.5" mx="19.8" pr10th="10.95" pr25th="12.25" pr75th="17.73" pr90th="19.6" />
+  </stn>
+  <stn stnNo="47185" stnName="고산">
+   <dataSet lst="10/27_06" median="15.35" mn="14.8" mx="16.0" pr10th="14.85" pr25th="15.1" pr75th="15.5" pr90th="15.6" />
+   <dataSet lst="10/27_15" median="22.0" mn="21.0" mx="23.6" pr10th="21.4" pr25th="21.65" pr75th="22.48" pr90th="23.35" />
+   <dataSet lst="10/28_06" median="18.5" mn="17.3" mx="19.4" pr10th="17.4" pr25th="17.9" pr75th="18.77" pr90th="18.9" />
+   <dataSet lst="10/28_15" median="22.15" mn="18.3" mx="24.5" pr10th="19.15" pr25th="20.4" pr75th="23.08" pr90th="24.25" />
+   <dataSet lst="10/29_06" median="14.75" mn="13.6" mx="16.0" pr10th="13.7" pr25th="13.98" pr75th="15.38" pr90th="15.7" />
+   <dataSet lst="10/29_15" median="14.8" mn="13.0" mx="18.1" pr10th="13.15" pr25th="13.95" pr75th="16.1" pr90th="16.95" />
+   <dataSet lst="10/30_06" median="12.15" mn="10.5" mx="14.5" pr10th="10.65" pr25th="11.33" pr75th="13.08" pr90th="13.95" />
+   <dataSet lst="10/30_15" median="15.25" mn="13.5" mx="19.9" pr10th="14.1" pr25th="14.5" pr75th="15.6" pr90th="17.8" />
+   <dataSet lst="10/31_06" median="12.25" mn="10.7" mx="14.8" pr10th="11.35" pr25th="11.63" pr75th="12.78" pr90th="14.4" />
+   <dataSet lst="10/31_15" median="16.6" mn="12.3" mx="20.9" pr10th="13.4" pr25th="14.43" pr75th="18.15" pr90th="19.1" />
+   <dataSet lst="11/01_06" median="12.45" mn="9.3" mx="15.6" pr10th="9.55" pr25th="10.23" pr75th="13.48" pr90th="14.95" />
+   <dataSet lst="11/01_15" median="15.6" mn="11.0" mx="20.5" pr10th="11.25" pr25th="12.88" pr75th="17.18" pr90th="19.55" />
+   <dataSet lst="11/02_06" median="9.6" mn="7.2" mx="16.3" pr10th="7.45" pr25th="8.38" pr75th="10.85" pr90th="15.35" />
+   <dataSet lst="11/02_15" median="16.95" mn="11.6" mx="22.2" pr10th="12.35" pr25th="14.45" pr75th="19.48" pr90th="20.9" />
+   <dataSet lst="11/03_06" median="11.8" mn="6.4" mx="18.1" pr10th="7.95" pr25th="9.55" pr75th="13.3" pr90th="15.55" />
+   <dataSet lst="11/03_15" median="16.7" mn="11.9" mx="22.2" pr10th="12.45" pr25th="14.63" pr75th="18.93" pr90th="21.8" />
+   <dataSet lst="11/04_06" median="12.55" mn="7.8" mx="17.0" pr10th="8.4" pr25th="9.6" pr75th="13.58" pr90th="16.5" />
+   <dataSet lst="11/04_15" median="16.35" mn="11.1" mx="22.3" pr10th="11.65" pr25th="14.15" pr75th="19.1" pr90th="21.6" />
+   <dataSet lst="11/05_06" median="11.15" mn="8.4" mx="18.4" pr10th="8.95" pr25th="9.4" pr75th="14.05" pr90th="16.3" />
+   <dataSet lst="11/05_15" median="16.5" mn="11.7" mx="22.4" pr10th="13.4" pr25th="15.3" pr75th="18.6" pr90th="21.05" />
+   <dataSet lst="11/06_06" median="11.5" mn="7.8" mx="18.0" pr10th="8.35" pr25th="10.13" pr75th="13.88" pr90th="15.65" />
+   <dataSet lst="11/06_15" median="16.65" mn="11.1" mx="21.6" pr10th="12.1" pr25th="13.43" pr75th="18.72" pr90th="20.05" />
+   <dataSet lst="11/07_06" median="12.65" mn="7.4" mx="16.2" pr10th="8.1" pr25th="9.57" pr75th="14.75" pr90th="15.9" />
+  </stn>
+  <stn stnNo="47188" stnName="성산">
+   <dataSet lst="10/27_06" median="15.95" mn="15.2" mx="16.7" pr10th="15.35" pr25th="15.7" pr75th="16.3" pr90th="16.6" />
+   <dataSet lst="10/27_15" median="21.55" mn="20.8" mx="22.2" pr10th="20.9" pr25th="21.13" pr75th="21.88" pr90th="22.15" />
+   <dataSet lst="10/28_06" median="17.6" mn="16.3" mx="18.8" pr10th="16.65" pr25th="17.05" pr75th="18.15" pr90th="18.5" />
+   <dataSet lst="10/28_15" median="23.4" mn="20.7" mx="25.0" pr10th="21.65" pr25th="23.0" pr75th="24.3" pr90th="24.65" />
+   <dataSet lst="10/29_06" median="14.75" mn="13.4" mx="18.5" pr10th="13.5" pr25th="14.13" pr75th="15.88" pr90th="17.45" />
+   <dataSet lst="10/29_15" median="16.0" mn="14.0" mx="18.1" pr10th="14.35" pr25th="15.03" pr75th="17.2" pr90th="17.75" />
+   <dataSet lst="10/30_06" median="11.25" mn="9.0" mx="14.5" pr10th="9.4" pr25th="10.13" pr75th="13.63" pr90th="14.1" />
+   <dataSet lst="10/30_15" median="16.35" mn="14.4" mx="20.0" pr10th="14.65" pr25th="15.15" pr75th="17.15" pr90th="18.45" />
+   <dataSet lst="10/31_06" median="11.0" mn="9.4" mx="15.1" pr10th="9.6" pr25th="10.53" pr75th="12.33" pr90th="14.55" />
+   <dataSet lst="10/31_15" median="16.35" mn="14.4" mx="20.9" pr10th="14.8" pr25th="15.83" pr75th="18.58" pr90th="19.2" />
+   <dataSet lst="11/01_06" median="12.1" mn="6.5" mx="15.7" pr10th="7.2" pr25th="10.23" pr75th="13.25" pr90th="14.5" />
+   <dataSet lst="11/01_15" median="16.15" mn="11.2" mx="20.3" pr10th="11.9" pr25th="13.38" pr75th="18.13" pr90th="19.85" />
+   <dataSet lst="11/02_06" median="10.45" mn="5.4" mx="16.6" pr10th="6.4" pr25th="8.7" pr75th="12.7" pr90th="15.7" />
+   <dataSet lst="11/02_15" median="18.4" mn="12.8" mx="22.2" pr10th="13.1" pr25th="15.13" pr75th="20.03" pr90th="21.3" />
+   <dataSet lst="11/03_06" median="12.35" mn="7.2" mx="18.4" pr10th="8.95" pr25th="10.03" pr75th="13.9" pr90th="16.6" />
+   <dataSet lst="11/03_15" median="18.4" mn="13.6" mx="22.2" pr10th="14.55" pr25th="15.53" pr75th="20.13" pr90th="22.15" />
+   <dataSet lst="11/04_06" median="12.35" mn="8.8" mx="18.8" pr10th="9.05" pr25th="9.53" pr75th="13.6" pr90th="15.9" />
+   <dataSet lst="11/04_15" median="17.05" mn="13.2" mx="23.4" pr10th="14.05" pr25th="15.0" pr75th="19.45" pr90th="21.4" />
+   <dataSet lst="11/05_06" median="10.35" mn="6.8" mx="21.1" pr10th="7.75" pr25th="8.6" pr75th="13.15" pr90th="16.4" />
+   <dataSet lst="11/05_15" median="17.5" mn="11.9" mx="22.8" pr10th="14.45" pr25th="16.33" pr75th="20.22" pr90th="21.8" />
+   <dataSet lst="11/06_06" median="11.35" mn="5.5" mx="21.1" pr10th="8.15" pr25th="9.05" pr75th="13.78" pr90th="15.8" />
+   <dataSet lst="11/06_15" median="17.75" mn="12.1" mx="22.7" pr10th="12.65" pr25th="14.85" pr75th="19.55" pr90th="21.0" />
+   <dataSet lst="11/07_06" median="12.45" mn="5.9" mx="17.0" pr10th="7.15" pr25th="8.07" pr75th="15.53" pr90th="17.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="46" grName="북한(평양)">
+  <stn stnNo="47058" stnName="평양">
+   <dataSet lst="10/27_06" median="2.75" mn="2.0" mx="4.8" pr10th="2.15" pr25th="2.5" pr75th="3.48" pr90th="4.35" />
+   <dataSet lst="10/27_15" median="17.45" mn="15.4" mx="18.6" pr10th="15.55" pr25th="16.47" pr75th="17.9" pr90th="18.2" />
+   <dataSet lst="10/28_06" median="9.25" mn="6.2" mx="11.5" pr10th="7.25" pr25th="8.45" pr75th="10.6" pr90th="11.2" />
+   <dataSet lst="10/28_15" median="13.65" mn="12.1" mx="15.5" pr10th="12.45" pr25th="13.1" pr75th="14.25" pr90th="14.8" />
+   <dataSet lst="10/29_06" median="0.85" mn="-1.4" mx="4.8" pr10th="-0.7" pr25th="-0.1" pr75th="2.28" pr90th="2.65" />
+   <dataSet lst="10/29_15" median="9.7" mn="8.3" mx="12.0" pr10th="8.45" pr25th="8.9" pr75th="10.5" pr90th="11.65" />
+   <dataSet lst="10/30_06" median="-0.5" mn="-2.3" mx="2.3" pr10th="-1.6" pr25th="-1.07" pr75th="0.2" pr90th="1.0" />
+   <dataSet lst="10/30_15" median="11.3" mn="8.5" mx="13.7" pr10th="9.75" pr25th="10.7" pr75th="11.6" pr90th="13.15" />
+   <dataSet lst="10/31_06" median="2.85" mn="-3.1" mx="6.5" pr10th="-1.6" pr25th="0.53" pr75th="3.4" pr90th="5.4" />
+   <dataSet lst="10/31_15" median="9.95" mn="1.8" mx="15.7" pr10th="3.65" pr25th="5.85" pr75th="11.23" pr90th="13.55" />
+   <dataSet lst="11/01_06" median="-2.35" mn="-5.3" mx="7.1" pr10th="-4.45" pr25th="-3.17" pr75th="-0.05" pr90th="4.15" />
+   <dataSet lst="11/01_15" median="8.15" mn="4.4" mx="15.4" pr10th="4.85" pr25th="6.65" pr75th="9.4" pr90th="11.95" />
+   <dataSet lst="11/02_06" median="0.1" mn="-4.9" mx="5.6" pr10th="-4.4" pr25th="-2.62" pr75th="2.32" pr90th="5.15" />
+   <dataSet lst="11/02_15" median="10.6" mn="7.0" mx="16.6" pr10th="7.55" pr25th="8.23" pr75th="12.5" pr90th="15.7" />
+   <dataSet lst="11/03_06" median="3.15" mn="-4.0" mx="11.1" pr10th="-2.75" pr25th="-0.73" pr75th="5.88" pr90th="8.75" />
+   <dataSet lst="11/03_15" median="11.9" mn="8.8" mx="18.5" pr10th="9.15" pr25th="10.13" pr75th="15.75" pr90th="17.1" />
+   <dataSet lst="11/04_06" median="3.15" mn="-1.1" mx="11.0" pr10th="-0.8" pr25th="0.75" pr75th="7.6" pr90th="9.2" />
+   <dataSet lst="11/04_15" median="13.6" mn="4.6" mx="19.4" pr10th="6.8" pr25th="10.23" pr75th="17.8" pr90th="18.95" />
+   <dataSet lst="11/05_06" median="5.7" mn="-5.4" mx="11.4" pr10th="-0.75" pr25th="1.1" pr75th="8.07" pr90th="9.9" />
+   <dataSet lst="11/05_15" median="12.95" mn="5.3" mx="20.7" pr10th="6.55" pr25th="9.82" pr75th="16.95" pr90th="18.05" />
+   <dataSet lst="11/06_06" median="4.4" mn="-5.8" mx="10.4" pr10th="-5.25" pr25th="-0.1" pr75th="6.3" pr90th="7.95" />
+   <dataSet lst="11/06_15" median="14.75" mn="2.3" mx="19.6" pr10th="4.3" pr25th="7.2" pr75th="16.5" pr90th="17.65" />
+   <dataSet lst="11/07_06" median="1.2" mn="-5.0" mx="7.2" pr10th="-3.8" pr25th="-1.23" pr75th="5.68" pr90th="6.6" />
+  </stn>
+  <stn stnNo="47035" stnName="신의주">
+   <dataSet lst="10/27_06" median="3.4" mn="2.4" mx="5.0" pr10th="2.6" pr25th="3.0" pr75th="3.88" pr90th="4.35" />
+   <dataSet lst="10/27_15" median="15.3" mn="13.2" mx="16.9" pr10th="13.5" pr25th="14.3" pr75th="15.88" pr90th="16.6" />
+   <dataSet lst="10/28_06" median="6.4" mn="4.8" mx="8.3" pr10th="5.5" pr25th="6.0" pr75th="7.4" pr90th="7.7" />
+   <dataSet lst="10/28_15" median="12.15" mn="8.9" mx="14.8" pr10th="10.45" pr25th="11.48" pr75th="13.5" pr90th="14.6" />
+   <dataSet lst="10/29_06" median="0.55" mn="-1.1" mx="3.2" pr10th="-0.9" pr25th="-0.05" pr75th="1.58" pr90th="2.2" />
+   <dataSet lst="10/29_15" median="9.45" mn="7.8" mx="11.6" pr10th="8.2" pr25th="8.57" pr75th="9.93" pr90th="10.45" />
+   <dataSet lst="10/30_06" median="-0.95" mn="-2.2" mx="0.9" pr10th="-2.15" pr25th="-1.58" pr75th="-0.22" pr90th="0.7" />
+   <dataSet lst="10/30_15" median="9.5" mn="4.8" mx="14.1" pr10th="6.95" pr25th="8.48" pr75th="11.08" pr90th="12.5" />
+   <dataSet lst="10/31_06" median="1.1" mn="-3.3" mx="5.8" pr10th="-1.4" pr25th="-0.4" pr75th="3.98" pr90th="5.25" />
+   <dataSet lst="10/31_15" median="6.0" mn="2.9" mx="13.4" pr10th="3.95" pr25th="5.33" pr75th="8.45" pr90th="12.35" />
+   <dataSet lst="11/01_06" median="-1.2" mn="-5.3" mx="6.5" pr10th="-4.3" pr25th="-3.6" pr75th="1.38" pr90th="2.95" />
+   <dataSet lst="11/01_15" median="7.4" mn="5.0" mx="13.2" pr10th="5.4" pr25th="6.6" pr75th="8.32" pr90th="10.9" />
+   <dataSet lst="11/02_06" median="0.2" mn="-3.7" mx="4.9" pr10th="-3.0" pr25th="-1.05" pr75th="1.93" pr90th="4.25" />
+   <dataSet lst="11/02_15" median="8.25" mn="5.0" mx="14.1" pr10th="5.3" pr25th="6.4" pr75th="10.7" pr90th="13.3" />
+   <dataSet lst="11/03_06" median="2.45" mn="-2.7" mx="8.6" pr10th="-2.05" pr25th="-0.47" pr75th="5.45" pr90th="7.5" />
+   <dataSet lst="11/03_15" median="12.4" mn="7.6" mx="16.7" pr10th="8.2" pr25th="10.35" pr75th="15.05" pr90th="16.6" />
+   <dataSet lst="11/04_06" median="3.85" mn="-0.2" mx="7.4" pr10th="0.35" pr25th="2.2" pr75th="5.7" pr90th="7.05" />
+   <dataSet lst="11/04_15" median="13.25" mn="6.4" mx="18.3" pr10th="8.25" pr25th="9.53" pr75th="15.9" pr90th="16.8" />
+   <dataSet lst="11/05_06" median="4.15" mn="-5.0" mx="9.4" pr10th="-1.15" pr25th="2.55" pr75th="6.3" pr90th="7.45" />
+   <dataSet lst="11/05_15" median="12.35" mn="4.1" mx="17.0" pr10th="5.25" pr25th="7.48" pr75th="15.43" pr90th="16.4" />
+   <dataSet lst="11/06_06" median="3.85" mn="-5.0" mx="6.9" pr10th="-3.5" pr25th="0.83" pr75th="5.38" pr90th="6.2" />
+   <dataSet lst="11/06_15" median="10.75" mn="1.8" mx="17.0" pr10th="3.4" pr25th="5.95" pr75th="14.7" pr90th="16.25" />
+   <dataSet lst="11/07_06" median="1.65" mn="-5.6" mx="7.1" pr10th="-3.55" pr25th="-1.07" pr75th="4.6" pr90th="5.9" />
+  </stn>
+  <stn stnNo="47070" stnName="개성">
+   <dataSet lst="10/27_06" median="5.9" mn="5.1" mx="7.9" pr10th="5.1" pr25th="5.35" pr75th="6.57" pr90th="7.05" />
+   <dataSet lst="10/27_15" median="18.35" mn="16.1" mx="19.5" pr10th="16.8" pr25th="17.23" pr75th="18.88" pr90th="19.25" />
+   <dataSet lst="10/28_06" median="11.05" mn="9.8" mx="11.8" pr10th="9.95" pr25th="10.5" pr75th="11.2" pr90th="11.6" />
+   <dataSet lst="10/28_15" median="15.85" mn="14.3" mx="17.6" pr10th="14.55" pr25th="15.2" pr75th="16.55" pr90th="17.0" />
+   <dataSet lst="10/29_06" median="5.2" mn="2.3" mx="8.5" pr10th="2.85" pr25th="4.03" pr75th="5.9" pr90th="7.1" />
+   <dataSet lst="10/29_15" median="11.65" mn="9.9" mx="14.2" pr10th="10.0" pr25th="10.4" pr75th="12.95" pr90th="13.8" />
+   <dataSet lst="10/30_06" median="0.95" mn="-0.8" mx="7.4" pr10th="-0.05" pr25th="0.23" pr75th="1.85" pr90th="4.65" />
+   <dataSet lst="10/30_15" median="13.05" mn="11.2" mx="16.2" pr10th="11.8" pr25th="12.2" pr75th="13.68" pr90th="15.5" />
+   <dataSet lst="10/31_06" median="3.4" mn="-1.9" mx="6.8" pr10th="-0.6" pr25th="2.38" pr75th="4.83" pr90th="5.95" />
+   <dataSet lst="10/31_15" median="11.25" mn="5.4" mx="14.8" pr10th="5.75" pr25th="7.53" pr75th="13.03" pr90th="14.55" />
+   <dataSet lst="11/01_06" median="0.15" mn="-3.8" mx="7.0" pr10th="-3.75" pr25th="-3.17" pr75th="2.15" pr90th="6.05" />
+   <dataSet lst="11/01_15" median="10.55" mn="5.5" mx="16.7" pr10th="6.2" pr25th="8.45" pr75th="11.45" pr90th="14.1" />
+   <dataSet lst="11/02_06" median="1.15" mn="-3.9" mx="7.2" pr10th="-3.5" pr25th="-1.03" pr75th="3.53" pr90th="6.2" />
+   <dataSet lst="11/02_15" median="12.1" mn="7.7" mx="17.2" pr10th="9.45" pr25th="10.0" pr75th="13.4" pr90th="15.4" />
+   <dataSet lst="11/03_06" median="3.55" mn="-2.3" mx="9.3" pr10th="-2.25" pr25th="0.75" pr75th="6.38" pr90th="8.95" />
+   <dataSet lst="11/03_15" median="13.55" mn="9.3" mx="18.8" pr10th="10.2" pr25th="11.8" pr75th="15.3" pr90th="16.8" />
+   <dataSet lst="11/04_06" median="2.7" mn="-3.2" mx="11.7" pr10th="-2.35" pr25th="0.03" pr75th="6.85" pr90th="8.7" />
+   <dataSet lst="11/04_15" median="14.65" mn="8.4" mx="18.4" pr10th="9.7" pr25th="12.48" pr75th="15.95" pr90th="17.8" />
+   <dataSet lst="11/05_06" median="6.2" mn="-0.9" mx="12.0" pr10th="1.4" pr25th="2.83" pr75th="8.93" pr90th="10.9" />
+   <dataSet lst="11/05_15" median="13.55" mn="7.1" mx="19.8" pr10th="7.6" pr25th="11.93" pr75th="15.9" pr90th="17.55" />
+   <dataSet lst="11/06_06" median="5.6" mn="-1.8" mx="11.9" pr10th="-1.25" pr25th="1.3" pr75th="8.65" pr90th="11.35" />
+   <dataSet lst="11/06_15" median="14.05" mn="5.5" mx="19.0" pr10th="6.3" pr25th="8.83" pr75th="15.75" pr90th="18.45" />
+   <dataSet lst="11/07_06" median="5.5" mn="-3.2" mx="9.0" pr10th="-2.0" pr25th="1.63" pr75th="7.88" pr90th="8.7" />
+  </stn>
+  <stn stnNo="47041" stnName="함흥">
+   <dataSet lst="10/27_06" median="8.35" mn="5.5" mx="9.4" pr10th="6.75" pr25th="7.9" pr75th="8.88" pr90th="9.15" />
+   <dataSet lst="10/27_15" median="17.15" mn="15.7" mx="18.5" pr10th="16.0" pr25th="16.6" pr75th="17.48" pr90th="18.3" />
+   <dataSet lst="10/28_06" median="8.7" mn="6.8" mx="9.9" pr10th="7.6" pr25th="8.2" pr75th="9.15" pr90th="9.55" />
+   <dataSet lst="10/28_15" median="16.45" mn="14.0" mx="17.8" pr10th="14.5" pr25th="16.02" pr75th="17.1" pr90th="17.55" />
+   <dataSet lst="10/29_06" median="5.3" mn="2.4" mx="8.5" pr10th="3.25" pr25th="4.4" pr75th="7.28" pr90th="8.0" />
+   <dataSet lst="10/29_15" median="11.55" mn="8.9" mx="14.4" pr10th="9.2" pr25th="10.6" pr75th="12.75" pr90th="13.45" />
+   <dataSet lst="10/30_06" median="0.85" mn="-1.4" mx="4.0" pr10th="-0.95" pr25th="-0.67" pr75th="2.4" pr90th="3.8" />
+   <dataSet lst="10/30_15" median="14.1" mn="9.7" mx="15.8" pr10th="11.45" pr25th="12.95" pr75th="14.98" pr90th="15.45" />
+   <dataSet lst="10/31_06" median="2.2" mn="-2.3" mx="3.6" pr10th="-1.1" pr25th="1.05" pr75th="3.0" pr90th="3.25" />
+   <dataSet lst="10/31_15" median="13.5" mn="5.5" mx="16.8" pr10th="8.05" pr25th="11.3" pr75th="15.28" pr90th="15.85" />
+   <dataSet lst="11/01_06" median="-2.9" mn="-4.7" mx="5.9" pr10th="-4.45" pr25th="-4.15" pr75th="3.2" pr90th="5.25" />
+   <dataSet lst="11/01_15" median="12.75" mn="7.1" mx="17.7" pr10th="8.7" pr25th="10.25" pr75th="13.55" pr90th="16.1" />
+   <dataSet lst="11/02_06" median="-0.25" mn="-3.6" mx="5.6" pr10th="-3.05" pr25th="-1.87" pr75th="1.43" pr90th="3.15" />
+   <dataSet lst="11/02_15" median="12.1" mn="9.9" mx="15.5" pr10th="10.0" pr25th="11.27" pr75th="13.1" pr90th="14.45" />
+   <dataSet lst="11/03_06" median="3.2" mn="-3.8" mx="8.8" pr10th="-2.8" pr25th="-0.75" pr75th="5.03" pr90th="7.25" />
+   <dataSet lst="11/03_15" median="14.6" mn="9.7" mx="18.1" pr10th="10.4" pr25th="12.25" pr75th="15.55" pr90th="16.8" />
+   <dataSet lst="11/04_06" median="1.7" mn="-2.6" mx="8.4" pr10th="-2.15" pr25th="-1.03" pr75th="3.43" pr90th="6.2" />
+   <dataSet lst="11/04_15" median="15.5" mn="7.8" mx="19.1" pr10th="11.05" pr25th="14.63" pr75th="17.48" pr90th="18.65" />
+   <dataSet lst="11/05_06" median="4.7" mn="-4.0" mx="11.5" pr10th="-0.75" pr25th="2.28" pr75th="7.23" pr90th="9.9" />
+   <dataSet lst="11/05_15" median="15.0" mn="2.3" mx="19.1" pr10th="10.8" pr25th="12.6" pr75th="17.23" pr90th="18.15" />
+   <dataSet lst="11/06_06" median="4.65" mn="-3.2" mx="9.7" pr10th="-1.25" pr25th="1.55" pr75th="6.78" pr90th="8.8" />
+   <dataSet lst="11/06_15" median="13.0" mn="3.1" mx="17.9" pr10th="6.7" pr25th="11.5" pr75th="15.08" pr90th="16.45" />
+   <dataSet lst="11/07_06" median="3.15" mn="-5.9" mx="8.5" pr10th="-4.3" pr25th="0.28" pr75th="6.88" pr90th="7.85" />
+  </stn>
+  <stn stnNo="47008" stnName="청진">
+   <dataSet lst="10/27_06" median="0.0" mn="-0.7" mx="1.1" pr10th="-0.6" pr25th="-0.28" pr75th="0.45" pr90th="0.8" />
+   <dataSet lst="10/27_15" median="12.6" mn="11.1" mx="14.1" pr10th="11.5" pr25th="11.83" pr75th="13.13" pr90th="13.5" />
+   <dataSet lst="10/28_06" median="5.2" mn="3.5" mx="7.2" pr10th="3.75" pr25th="4.27" pr75th="6.03" pr90th="6.75" />
+   <dataSet lst="10/28_15" median="10.35" mn="9.4" mx="13.9" pr10th="9.55" pr25th="9.8" pr75th="12.7" pr90th="13.7" />
+   <dataSet lst="10/29_06" median="0.2" mn="-1.3" mx="3.4" pr10th="-0.9" pr25th="-0.67" pr75th="1.13" pr90th="2.5" />
+   <dataSet lst="10/29_15" median="9.5" mn="7.9" mx="11.0" pr10th="8.75" pr25th="9.0" pr75th="10.1" pr90th="10.25" />
+   <dataSet lst="10/30_06" median="-1.35" mn="-2.9" mx="0.1" pr10th="-2.05" pr25th="-1.75" pr75th="-0.72" pr90th="-0.4" />
+   <dataSet lst="10/30_15" median="8.75" mn="6.6" mx="11.9" pr10th="7.35" pr25th="7.98" pr75th="9.88" pr90th="11.05" />
+   <dataSet lst="10/31_06" median="1.0" mn="-2.7" mx="3.3" pr10th="-2.35" pr25th="-0.87" pr75th="1.8" pr90th="3.15" />
+   <dataSet lst="10/31_15" median="7.5" mn="2.6" mx="12.0" pr10th="4.25" pr25th="6.43" pr75th="8.4" pr90th="9.05" />
+   <dataSet lst="11/01_06" median="-1.35" mn="-3.4" mx="4.9" pr10th="-2.65" pr25th="-2.3" pr75th="1.27" pr90th="3.9" />
+   <dataSet lst="11/01_15" median="7.9" mn="4.2" mx="11.3" pr10th="4.8" pr25th="6.73" pr75th="9.07" pr90th="10.55" />
+   <dataSet lst="11/02_06" median="-1.0" mn="-4.2" mx="4.7" pr10th="-3.95" pr25th="-3.52" pr75th="1.15" pr90th="3.65" />
+   <dataSet lst="11/02_15" median="7.6" mn="5.3" mx="12.6" pr10th="5.5" pr25th="5.85" pr75th="9.05" pr90th="10.15" />
+   <dataSet lst="11/03_06" median="1.45" mn="-2.1" mx="7.5" pr10th="-1.85" pr25th="-0.9" pr75th="3.88" pr90th="6.45" />
+   <dataSet lst="11/03_15" median="8.35" mn="1.4" mx="15.1" pr10th="2.6" pr25th="5.03" pr75th="11.3" pr90th="14.1" />
+   <dataSet lst="11/04_06" median="1.25" mn="-4.8" mx="8.1" pr10th="-3.4" pr25th="-2.1" pr75th="4.57" pr90th="6.15" />
+   <dataSet lst="11/04_15" median="13.45" mn="6.1" mx="16.1" pr10th="6.8" pr25th="7.88" pr75th="14.8" pr90th="15.5" />
+   <dataSet lst="11/05_06" median="2.45" mn="-4.4" mx="7.0" pr10th="-3.35" pr25th="0.57" pr75th="4.47" pr90th="6.15" />
+   <dataSet lst="11/05_15" median="12.25" mn="6.1" mx="15.9" pr10th="6.7" pr25th="8.5" pr75th="13.53" pr90th="14.7" />
+   <dataSet lst="11/06_06" median="2.35" mn="-5.8" mx="5.7" pr10th="-3.7" pr25th="-1.45" pr75th="3.88" pr90th="5.05" />
+   <dataSet lst="11/06_15" median="8.35" mn="2.9" mx="15.0" pr10th="5.0" pr25th="6.1" pr75th="13.4" pr90th="14.0" />
+   <dataSet lst="11/07_06" median="-0.4" mn="-5.4" mx="5.6" pr10th="-4.9" pr25th="-2.92" pr75th="2.7" pr90th="4.35" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="100" grName="공항청(인천)">
+  <!-- 대구랑 스테이션구분코드 동일함! 최연구관님 확인 필요. 변경
+			<station stnCode="47142" stnName="대구공항"/>   
+		-->
+  <stn stnNo="47113" stnName="인천공항">
+   <dataSet lst="10/27_06" median="13.15" mn="11.9" mx="14.4" pr10th="12.2" pr25th="12.8" pr75th="13.48" pr90th="14.05" />
+   <dataSet lst="10/27_15" median="18.3" mn="16.4" mx="19.4" pr10th="17.3" pr25th="17.73" pr75th="18.68" pr90th="19.1" />
+   <dataSet lst="10/28_06" median="15.45" mn="14.7" mx="17.3" pr10th="14.8" pr25th="15.1" pr75th="15.98" pr90th="16.45" />
+   <dataSet lst="10/28_15" median="15.45" mn="14.3" mx="16.8" pr10th="14.45" pr25th="15.2" pr75th="15.9" pr90th="16.5" />
+   <dataSet lst="10/29_06" median="9.95" mn="7.8" mx="12.7" pr10th="8.7" pr25th="9.23" pr75th="10.68" pr90th="11.3" />
+   <dataSet lst="10/29_15" median="11.9" mn="9.9" mx="14.7" pr10th="10.2" pr25th="10.75" pr75th="12.88" pr90th="13.1" />
+   <dataSet lst="10/30_06" median="4.95" mn="3.2" mx="7.3" pr10th="3.4" pr25th="3.93" pr75th="5.98" pr90th="7.05" />
+   <dataSet lst="10/30_15" median="11.85" mn="10.2" mx="14.1" pr10th="10.3" pr25th="11.2" pr75th="12.93" pr90th="13.9" />
+   <dataSet lst="10/31_06" median="8.1" mn="3.1" mx="10.8" pr10th="4.4" pr25th="7.08" pr75th="8.57" pr90th="10.15" />
+   <dataSet lst="10/31_15" median="11.45" mn="6.6" mx="15.9" pr10th="6.85" pr25th="8.03" pr75th="13.48" pr90th="14.95" />
+   <dataSet lst="11/01_06" median="2.95" mn="-1.5" mx="11.4" pr10th="-0.7" pr25th="0.43" pr75th="5.18" pr90th="9.4" />
+   <dataSet lst="11/01_15" median="9.0" mn="4.4" mx="16.3" pr10th="5.05" pr25th="7.2" pr75th="11.15" pr90th="14.05" />
+   <dataSet lst="11/02_06" median="7.25" mn="3.6" mx="12.8" pr10th="4.05" pr25th="5.88" pr75th="9.9" pr90th="12.25" />
+   <dataSet lst="11/02_15" median="12.3" mn="8.0" mx="18.2" pr10th="9.1" pr25th="10.13" pr75th="13.93" pr90th="17.35" />
+   <dataSet lst="11/03_06" median="8.3" mn="2.1" mx="13.4" pr10th="3.15" pr25th="4.93" pr75th="10.53" pr90th="12.5" />
+   <dataSet lst="11/03_15" median="14.2" mn="9.7" mx="18.3" pr10th="10.85" pr25th="12.15" pr75th="16.27" pr90th="17.05" />
+   <dataSet lst="11/04_06" median="8.45" mn="-1.4" mx="14.8" pr10th="1.85" pr25th="5.65" pr75th="10.88" pr90th="13.85" />
+   <dataSet lst="11/04_15" median="14.8" mn="8.0" mx="19.3" pr10th="9.1" pr25th="12.15" pr75th="17.25" pr90th="18.3" />
+   <dataSet lst="11/05_06" median="11.75" mn="3.7" mx="17.1" pr10th="3.9" pr25th="8.23" pr75th="13.38" pr90th="14.75" />
+   <dataSet lst="11/05_15" median="15.25" mn="5.4" mx="21.0" pr10th="8.05" pr25th="12.55" pr75th="17.77" pr90th="19.15" />
+   <dataSet lst="11/06_06" median="10.65" mn="1.8" mx="14.0" pr10th="3.15" pr25th="5.88" pr75th="12.68" pr90th="13.65" />
+   <dataSet lst="11/06_15" median="15.05" mn="4.2" mx="20.1" pr10th="5.7" pr25th="10.43" pr75th="17.05" pr90th="18.2" />
+   <dataSet lst="11/07_06" median="9.4" mn="0.5" mx="14.8" pr10th="2.25" pr25th="5.33" pr75th="12.02" pr90th="14.45" />
+  </stn>
+  <stn stnNo="47110" stnName="김포공항">
+   <dataSet lst="10/27_06" median="8.95" mn="8.0" mx="10.1" pr10th="8.3" pr25th="8.45" pr75th="9.48" pr90th="9.8" />
+   <dataSet lst="10/27_15" median="18.45" mn="17.0" mx="20.1" pr10th="17.35" pr25th="17.85" pr75th="19.15" pr90th="19.35" />
+   <dataSet lst="10/28_06" median="12.9" mn="11.3" mx="13.5" pr10th="12.15" pr25th="12.5" pr75th="13.2" pr90th="13.5" />
+   <dataSet lst="10/28_15" median="15.5" mn="13.5" mx="17.3" pr10th="14.0" pr25th="14.93" pr75th="16.03" pr90th="16.8" />
+   <dataSet lst="10/29_06" median="6.6" mn="4.7" mx="10.8" pr10th="4.9" pr25th="5.5" pr75th="7.55" pr90th="8.9" />
+   <dataSet lst="10/29_15" median="11.4" mn="9.4" mx="14.9" pr10th="9.5" pr25th="10.53" pr75th="13.25" pr90th="14.2" />
+   <dataSet lst="10/30_06" median="3.55" mn="1.4" mx="9.3" pr10th="2.1" pr25th="3.3" pr75th="4.55" pr90th="7.05" />
+   <dataSet lst="10/30_15" median="12.6" mn="10.6" mx="15.7" pr10th="11.55" pr25th="12.1" pr75th="13.4" pr90th="15.2" />
+   <dataSet lst="10/31_06" median="6.6" mn="2.4" mx="8.5" pr10th="4.1" pr25th="5.4" pr75th="6.98" pr90th="7.8" />
+   <dataSet lst="10/31_15" median="11.6" mn="5.5" mx="15.4" pr10th="6.2" pr25th="7.73" pr75th="13.75" pr90th="14.8" />
+   <dataSet lst="11/01_06" median="1.4" mn="-4.9" mx="9.0" pr10th="-3.3" pr25th="-1.23" pr75th="4.28" pr90th="7.8" />
+   <dataSet lst="11/01_15" median="10.4" mn="5.4" mx="17.4" pr10th="6.25" pr25th="7.5" pr75th="12.03" pr90th="14.25" />
+   <dataSet lst="11/02_06" median="2.95" mn="-1.5" mx="10.5" pr10th="-1.2" pr25th="1.3" pr75th="7.4" pr90th="8.85" />
+   <dataSet lst="11/02_15" median="11.9" mn="9.8" mx="18.5" pr10th="9.95" pr25th="10.5" pr75th="14.15" pr90th="17.1" />
+   <dataSet lst="11/03_06" median="5.4" mn="-0.1" mx="11.5" pr10th="0.1" pr25th="1.75" pr75th="6.95" pr90th="10.75" />
+   <dataSet lst="11/03_15" median="13.35" mn="9.3" mx="18.0" pr10th="9.95" pr25th="12.13" pr75th="15.15" pr90th="16.6" />
+   <dataSet lst="11/04_06" median="5.0" mn="-4.1" mx="11.4" pr10th="0.25" pr25th="2.55" pr75th="8.07" pr90th="11.1" />
+   <dataSet lst="11/04_15" median="14.75" mn="7.4" mx="18.9" pr10th="9.25" pr25th="12.63" pr75th="17.38" pr90th="18.4" />
+   <dataSet lst="11/05_06" median="6.8" mn="-0.5" mx="13.7" pr10th="0.15" pr25th="3.33" pr75th="9.98" pr90th="12.8" />
+   <dataSet lst="11/05_15" median="14.35" mn="7.7" mx="20.3" pr10th="9.2" pr25th="13.2" pr75th="17.1" pr90th="18.55" />
+   <dataSet lst="11/06_06" median="6.4" mn="-3.5" mx="12.8" pr10th="-2.05" pr25th="2.32" pr75th="9.75" pr90th="11.5" />
+   <dataSet lst="11/06_15" median="15.2" mn="5.0" mx="19.2" pr10th="7.2" pr25th="10.3" pr75th="16.68" pr90th="18.5" />
+   <dataSet lst="11/07_06" median="6.4" mn="-4.5" mx="11.5" pr10th="-3.05" pr25th="2.83" pr75th="9.63" pr90th="11.05" />
+  </stn>
+  <stn stnNo="47182" stnName="제주공항">
+   <dataSet lst="10/27_06" median="14.9" mn="14.1" mx="15.8" pr10th="14.3" pr25th="14.63" pr75th="15.2" pr90th="15.45" />
+   <dataSet lst="10/27_15" median="21.65" mn="20.6" mx="22.4" pr10th="21.05" pr25th="21.23" pr75th="21.98" pr90th="22.2" />
+   <dataSet lst="10/28_06" median="15.75" mn="14.5" mx="17.4" pr10th="14.9" pr25th="15.23" pr75th="16.48" pr90th="17.0" />
+   <dataSet lst="10/28_15" median="22.45" mn="18.8" mx="24.3" pr10th="20.35" pr25th="21.25" pr75th="23.58" pr90th="24.15" />
+   <dataSet lst="10/29_06" median="14.8" mn="13.2" mx="16.5" pr10th="14.0" pr25th="14.2" pr75th="15.48" pr90th="15.95" />
+   <dataSet lst="10/29_15" median="14.85" mn="13.1" mx="17.2" pr10th="13.25" pr25th="14.0" pr75th="15.95" pr90th="16.65" />
+   <dataSet lst="10/30_06" median="11.85" mn="9.9" mx="14.1" pr10th="10.0" pr25th="11.03" pr75th="12.73" pr90th="13.75" />
+   <dataSet lst="10/30_15" median="14.25" mn="12.8" mx="18.2" pr10th="13.05" pr25th="13.6" pr75th="14.8" pr90th="17.25" />
+   <dataSet lst="10/31_06" median="10.9" mn="9.2" mx="14.2" pr10th="9.6" pr25th="10.13" pr75th="11.5" pr90th="13.15" />
+   <dataSet lst="10/31_15" median="15.2" mn="13.2" mx="20.0" pr10th="13.55" pr25th="14.13" pr75th="16.5" pr90th="17.3" />
+   <dataSet lst="11/01_06" median="11.8" mn="7.5" mx="14.7" pr10th="8.25" pr25th="9.55" pr75th="13.15" pr90th="14.2" />
+   <dataSet lst="11/01_15" median="14.85" mn="10.2" mx="18.6" pr10th="10.7" pr25th="11.93" pr75th="16.33" pr90th="18.3" />
+   <dataSet lst="11/02_06" median="8.75" mn="6.8" mx="16.2" pr10th="6.9" pr25th="7.78" pr75th="10.35" pr90th="14.05" />
+   <dataSet lst="11/02_15" median="16.75" mn="11.1" mx="20.7" pr10th="12.1" pr25th="13.73" pr75th="18.88" pr90th="20.0" />
+   <dataSet lst="11/03_06" median="10.5" mn="5.8" mx="17.9" pr10th="7.05" pr25th="8.9" pr75th="12.48" pr90th="14.9" />
+   <dataSet lst="11/03_15" median="16.3" mn="12.1" mx="21.4" pr10th="13.25" pr25th="14.2" pr75th="18.98" pr90th="21.25" />
+   <dataSet lst="11/04_06" median="9.9" mn="6.0" mx="16.3" pr10th="6.6" pr25th="9.05" pr75th="11.78" pr90th="13.75" />
+   <dataSet lst="11/04_15" median="15.2" mn="11.6" mx="22.4" pr10th="12.1" pr25th="12.95" pr75th="17.6" pr90th="19.9" />
+   <dataSet lst="11/05_06" median="12.45" mn="5.9" mx="20.1" pr10th="9.65" pr25th="10.78" pr75th="14.4" pr90th="16.5" />
+   <dataSet lst="11/05_15" median="15.45" mn="10.8" mx="21.2" pr10th="13.3" pr25th="14.4" pr75th="18.65" pr90th="20.25" />
+   <dataSet lst="11/06_06" median="13.0" mn="6.1" mx="18.8" pr10th="9.15" pr25th="10.88" pr75th="14.3" pr90th="15.85" />
+   <dataSet lst="11/06_15" median="16.25" mn="10.7" mx="19.6" pr10th="11.3" pr25th="12.98" pr75th="17.4" pr90th="18.75" />
+   <dataSet lst="11/07_06" median="13.45" mn="7.8" mx="17.2" pr10th="8.95" pr25th="9.9" pr75th="15.15" pr90th="16.65" />
+  </stn>
+  <stn stnNo="47163" stnName="무안공항">
+   <dataSet lst="10/27_06" median="12.95" mn="12.6" mx="14.2" pr10th="12.65" pr25th="12.83" pr75th="13.3" pr90th="13.75" />
+   <dataSet lst="10/27_15" median="21.25" mn="19.0" mx="21.9" pr10th="19.95" pr25th="20.73" pr75th="21.7" pr90th="21.85" />
+   <dataSet lst="10/28_06" median="15.6" mn="14.4" mx="16.2" pr10th="14.8" pr25th="15.3" pr75th="15.88" pr90th="16.15" />
+   <dataSet lst="10/28_15" median="17.1" mn="15.6" mx="21.1" pr10th="15.7" pr25th="16.33" pr75th="18.68" pr90th="20.4" />
+   <dataSet lst="10/29_06" median="12.7" mn="10.5" mx="15.1" pr10th="11.05" pr25th="11.58" pr75th="13.8" pr90th="14.75" />
+   <dataSet lst="10/29_15" median="13.35" mn="11.1" mx="15.5" pr10th="11.4" pr25th="12.6" pr75th="14.08" pr90th="15.3" />
+   <dataSet lst="10/30_06" median="7.75" mn="5.3" mx="10.5" pr10th="6.1" pr25th="6.9" pr75th="8.75" pr90th="9.75" />
+   <dataSet lst="10/30_15" median="14.85" mn="12.7" mx="16.5" pr10th="13.6" pr25th="14.2" pr75th="15.35" pr90th="15.95" />
+   <dataSet lst="10/31_06" median="9.1" mn="7.8" mx="12.2" pr10th="8.0" pr25th="8.57" pr75th="10.23" pr90th="11.65" />
+   <dataSet lst="10/31_15" median="15.05" mn="11.2" mx="17.9" pr10th="11.75" pr25th="13.9" pr75th="16.18" pr90th="17.1" />
+   <dataSet lst="11/01_06" median="7.35" mn="3.3" mx="12.0" pr10th="3.7" pr25th="4.15" pr75th="8.28" pr90th="10.1" />
+   <dataSet lst="11/01_15" median="14.35" mn="9.2" mx="20.8" pr10th="9.8" pr25th="11.38" pr75th="15.2" pr90th="17.6" />
+   <dataSet lst="11/02_06" median="6.8" mn="3.2" mx="12.4" pr10th="4.15" pr25th="5.05" pr75th="8.15" pr90th="10.5" />
+   <dataSet lst="11/02_15" median="15.8" mn="11.7" mx="21.5" pr10th="12.1" pr25th="13.18" pr75th="16.95" pr90th="19.95" />
+   <dataSet lst="11/03_06" median="8.3" mn="3.8" mx="14.3" pr10th="4.25" pr25th="6.1" pr75th="10.95" pr90th="13.7" />
+   <dataSet lst="11/03_15" median="16.15" mn="12.7" mx="21.0" pr10th="13.35" pr25th="14.58" pr75th="17.48" pr90th="19.5" />
+   <dataSet lst="11/04_06" median="8.6" mn="4.2" mx="13.5" pr10th="4.85" pr25th="6.98" pr75th="10.35" pr90th="12.85" />
+   <dataSet lst="11/04_15" median="16.55" mn="12.4" mx="21.0" pr10th="13.1" pr25th="14.43" pr75th="17.75" pr90th="19.7" />
+   <dataSet lst="11/05_06" median="8.7" mn="5.0" mx="15.6" pr10th="5.5" pr25th="6.58" pr75th="11.73" pr90th="14.0" />
+   <dataSet lst="11/05_15" median="16.0" mn="10.8" mx="20.9" pr10th="13.6" pr25th="15.1" pr75th="19.17" pr90th="20.25" />
+   <dataSet lst="11/06_06" median="9.25" mn="3.3" mx="15.9" pr10th="5.2" pr25th="7.7" pr75th="10.93" pr90th="13.4" />
+   <dataSet lst="11/06_15" median="16.5" mn="10.3" mx="19.9" pr10th="11.75" pr25th="13.83" pr75th="18.4" pr90th="19.6" />
+   <dataSet lst="11/07_06" median="10.0" mn="3.5" mx="14.1" pr10th="4.9" pr25th="6.0" pr75th="12.18" pr90th="13.05" />
+  </stn>
+  <stn stnNo="47151" stnName="울산공항">
+   <dataSet lst="10/27_06" median="8.45" mn="7.2" mx="10.4" pr10th="7.9" pr25th="8.2" pr75th="9.1" pr90th="9.9" />
+   <dataSet lst="10/27_15" median="19.6" mn="18.5" mx="20.4" pr10th="18.6" pr25th="19.2" pr75th="19.77" pr90th="20.25" />
+   <dataSet lst="10/28_06" median="12.4" mn="9.8" mx="13.2" pr10th="10.15" pr25th="10.93" pr75th="12.88" pr90th="13.0" />
+   <dataSet lst="10/28_15" median="15.2" mn="13.9" mx="17.2" pr10th="14.2" pr25th="14.8" pr75th="15.7" pr90th="16.75" />
+   <dataSet lst="10/29_06" median="10.9" mn="8.4" mx="13.2" pr10th="8.75" pr25th="9.73" pr75th="11.85" pr90th="12.55" />
+   <dataSet lst="10/29_15" median="14.8" mn="12.6" mx="18.0" pr10th="13.15" pr25th="14.05" pr75th="15.4" pr90th="16.8" />
+   <dataSet lst="10/30_06" median="8.4" mn="4.3" mx="11.0" pr10th="4.55" pr25th="5.98" pr75th="9.17" pr90th="9.6" />
+   <dataSet lst="10/30_15" median="16.75" mn="14.7" mx="18.0" pr10th="15.55" pr25th="16.02" pr75th="17.58" pr90th="17.8" />
+   <dataSet lst="10/31_06" median="4.2" mn="0.7" mx="9.9" pr10th="1.45" pr25th="2.55" pr75th="7.1" pr90th="8.6" />
+   <dataSet lst="10/31_15" median="14.1" mn="11.1" mx="19.3" pr10th="12.05" pr25th="12.83" pr75th="15.58" pr90th="17.5" />
+   <dataSet lst="11/01_06" median="4.85" mn="-0.8" mx="10.9" pr10th="0.3" pr25th="2.2" pr75th="6.28" pr90th="8.05" />
+   <dataSet lst="11/01_15" median="15.25" mn="9.4" mx="18.7" pr10th="9.55" pr25th="11.8" pr75th="16.27" pr90th="17.4" />
+   <dataSet lst="11/02_06" median="0.95" mn="-4.2" mx="6.5" pr10th="-3.1" pr25th="-1.82" pr75th="2.68" pr90th="4.9" />
+   <dataSet lst="11/02_15" median="15.7" mn="11.2" mx="18.7" pr10th="11.8" pr25th="13.75" pr75th="17.08" pr90th="18.05" />
+   <dataSet lst="11/03_06" median="2.85" mn="-3.5" mx="10.8" pr10th="-2.1" pr25th="1.08" pr75th="6.07" pr90th="8.55" />
+   <dataSet lst="11/03_15" median="16.5" mn="10.9" mx="21.2" pr10th="13.65" pr25th="15.03" pr75th="17.98" pr90th="20.2" />
+   <dataSet lst="11/04_06" median="2.95" mn="-1.6" mx="10.9" pr10th="-1.1" pr25th="0.93" pr75th="5.1" pr90th="9.75" />
+   <dataSet lst="11/04_15" median="16.65" mn="10.9" mx="21.9" pr10th="12.65" pr25th="15.05" pr75th="19.08" pr90th="20.6" />
+   <dataSet lst="11/05_06" median="7.65" mn="-2.6" mx="16.1" pr10th="1.8" pr25th="4.43" pr75th="9.3" pr90th="12.65" />
+   <dataSet lst="11/05_15" median="16.8" mn="8.4" mx="23.4" pr10th="13.35" pr25th="14.95" pr75th="19.27" pr90th="20.7" />
+   <dataSet lst="11/06_06" median="7.5" mn="-3.1" mx="13.9" pr10th="2.75" pr25th="5.73" pr75th="9.85" pr90th="11.95" />
+   <dataSet lst="11/06_15" median="16.95" mn="12.7" mx="21.6" pr10th="14.55" pr25th="15.4" pr75th="18.63" pr90th="20.25" />
+   <dataSet lst="11/07_06" median="7.85" mn="-1.0" mx="13.9" pr10th="0.4" pr25th="3.48" pr75th="10.35" pr90th="12.45" />
+  </stn>
+  <stn stnNo="47153" stnName="김해공항">
+   <dataSet lst="10/27_06" median="12.5" mn="12.1" mx="13.9" pr10th="12.15" pr25th="12.3" pr75th="12.7" pr90th="13.7" />
+   <dataSet lst="10/27_15" median="19.4" mn="18.3" mx="20.0" pr10th="18.5" pr25th="19.0" pr75th="19.68" pr90th="19.95" />
+   <dataSet lst="10/28_06" median="14.5" mn="13.2" mx="15.2" pr10th="13.5" pr25th="14.03" pr75th="14.9" pr90th="15.05" />
+   <dataSet lst="10/28_15" median="17.05" mn="15.3" mx="19.5" pr10th="15.7" pr25th="16.27" pr75th="17.3" pr90th="18.1" />
+   <dataSet lst="10/29_06" median="13.05" mn="10.9" mx="15.5" pr10th="11.15" pr25th="11.95" pr75th="14.18" pr90th="14.95" />
+   <dataSet lst="10/29_15" median="15.95" mn="14.5" mx="18.4" pr10th="14.65" pr25th="15.33" pr75th="16.75" pr90th="17.6" />
+   <dataSet lst="10/30_06" median="9.55" mn="7.0" mx="11.6" pr10th="7.8" pr25th="8.95" pr75th="10.1" pr90th="10.9" />
+   <dataSet lst="10/30_15" median="17.3" mn="14.6" mx="18.8" pr10th="15.85" pr25th="16.52" pr75th="18.08" pr90th="18.55" />
+   <dataSet lst="10/31_06" median="7.45" mn="5.9" mx="11.2" pr10th="6.2" pr25th="7.1" pr75th="9.57" pr90th="10.65" />
+   <dataSet lst="10/31_15" median="15.4" mn="12.5" mx="20.1" pr10th="13.25" pr25th="14.3" pr75th="15.88" pr90th="17.9" />
+   <dataSet lst="11/01_06" median="7.85" mn="0.8" mx="11.6" pr10th="1.9" pr25th="4.1" pr75th="8.8" pr90th="10.75" />
+   <dataSet lst="11/01_15" median="15.85" mn="9.7" mx="18.8" pr10th="10.15" pr25th="13.2" pr75th="17.33" pr90th="18.3" />
+   <dataSet lst="11/02_06" median="6.3" mn="0.0" mx="13.6" pr10th="2.0" pr25th="4.0" pr75th="8.2" pr90th="9.2" />
+   <dataSet lst="11/02_15" median="16.9" mn="12.5" mx="20.3" pr10th="12.95" pr25th="15.63" pr75th="18.03" pr90th="19.3" />
+   <dataSet lst="11/03_06" median="8.55" mn="0.1" mx="12.7" pr10th="1.8" pr25th="4.65" pr75th="9.7" pr90th="10.85" />
+   <dataSet lst="11/03_15" median="16.95" mn="13.1" mx="20.0" pr10th="13.7" pr25th="14.58" pr75th="17.98" pr90th="19.4" />
+   <dataSet lst="11/04_06" median="7.0" mn="2.5" mx="18.1" pr10th="3.05" pr25th="5.25" pr75th="10.33" pr90th="12.1" />
+   <dataSet lst="11/04_15" median="16.55" mn="13.5" mx="21.3" pr10th="14.55" pr25th="15.35" pr75th="18.0" pr90th="19.9" />
+   <dataSet lst="11/05_06" median="8.85" mn="3.6" mx="20.4" pr10th="4.75" pr25th="7.03" pr75th="11.33" pr90th="14.6" />
+   <dataSet lst="11/05_15" median="17.65" mn="12.1" mx="21.1" pr10th="12.25" pr25th="15.35" pr75th="19.1" pr90th="20.0" />
+   <dataSet lst="11/06_06" median="8.95" mn="1.8" mx="23.4" pr10th="4.5" pr25th="7.2" pr75th="11.05" pr90th="12.95" />
+   <dataSet lst="11/06_15" median="16.75" mn="10.5" mx="20.0" pr10th="12.9" pr25th="15.55" pr75th="18.98" pr90th="19.8" />
+   <dataSet lst="11/07_06" median="9.8" mn="0.5" mx="14.4" pr10th="3.4" pr25th="5.95" pr75th="12.6" pr90th="13.9" />
+  </stn>
+  <stn stnNo="47092" stnName="양양공항">
+   <dataSet lst="10/27_06" median="10.85" mn="9.6" mx="12.8" pr10th="10.15" pr25th="10.4" pr75th="11.53" pr90th="11.7" />
+   <dataSet lst="10/27_15" median="16.1" mn="14.6" mx="17.2" pr10th="15.15" pr25th="15.63" pr75th="16.5" pr90th="16.95" />
+   <dataSet lst="10/28_06" median="12.4" mn="11.7" mx="13.4" pr10th="11.75" pr25th="12.13" pr75th="12.6" pr90th="13.3" />
+   <dataSet lst="10/28_15" median="15.6" mn="13.4" mx="17.4" pr10th="14.5" pr25th="15.2" pr75th="16.4" pr90th="17.0" />
+   <dataSet lst="10/29_06" median="9.55" mn="7.8" mx="12.8" pr10th="8.15" pr25th="8.73" pr75th="10.15" pr90th="11.7" />
+   <dataSet lst="10/29_15" median="10.45" mn="8.5" mx="13.4" pr10th="9.4" pr25th="9.8" pr75th="11.8" pr90th="12.6" />
+   <dataSet lst="10/30_06" median="7.35" mn="5.9" mx="10.3" pr10th="6.15" pr25th="6.83" pr75th="7.78" pr90th="8.5" />
+   <dataSet lst="10/30_15" median="12.9" mn="10.9" mx="14.2" pr10th="11.5" pr25th="12.3" pr75th="13.4" pr90th="14.15" />
+   <dataSet lst="10/31_06" median="8.35" mn="6.2" mx="9.6" pr10th="6.6" pr25th="7.8" pr75th="9.1" pr90th="9.35" />
+   <dataSet lst="10/31_15" median="12.65" mn="6.1" mx="15.5" pr10th="8.75" pr25th="10.38" pr75th="14.0" pr90th="14.95" />
+   <dataSet lst="11/01_06" median="6.5" mn="-0.8" mx="11.1" pr10th="0.65" pr25th="1.73" pr75th="7.68" pr90th="10.1" />
+   <dataSet lst="11/01_15" median="10.85" mn="5.7" mx="16.5" pr10th="6.45" pr25th="8.68" pr75th="13.15" pr90th="15.05" />
+   <dataSet lst="11/02_06" median="5.9" mn="2.0" mx="11.5" pr10th="2.1" pr25th="4.4" pr75th="7.55" pr90th="10.35" />
+   <dataSet lst="11/02_15" median="11.55" mn="7.3" mx="15.6" pr10th="7.75" pr25th="10.5" pr75th="12.7" pr90th="14.6" />
+   <dataSet lst="11/03_06" median="8.95" mn="1.7" mx="15.9" pr10th="4.15" pr25th="5.38" pr75th="11.38" pr90th="13.35" />
+   <dataSet lst="11/03_15" median="12.7" mn="8.8" mx="18.5" pr10th="10.5" pr25th="11.33" pr75th="14.88" pr90th="15.85" />
+   <dataSet lst="11/04_06" median="6.6" mn="2.8" mx="11.2" pr10th="3.05" pr25th="4.95" pr75th="9.53" pr90th="10.25" />
+   <dataSet lst="11/04_15" median="12.55" mn="8.6" mx="17.1" pr10th="9.2" pr25th="10.35" pr75th="14.23" pr90th="16.5" />
+   <dataSet lst="11/05_06" median="8.9" mn="4.1" mx="14.1" pr10th="4.8" pr25th="6.38" pr75th="11.58" pr90th="12.4" />
+   <dataSet lst="11/05_15" median="13.4" mn="7.3" mx="17.4" pr10th="8.75" pr25th="10.55" pr75th="15.45" pr90th="16.4" />
+   <dataSet lst="11/06_06" median="9.2" mn="1.9" mx="14.1" pr10th="3.25" pr25th="6.82" pr75th="11.45" pr90th="13.15" />
+   <dataSet lst="11/06_15" median="12.8" mn="5.8" mx="15.9" pr10th="7.25" pr25th="10.13" pr75th="14.18" pr90th="15.65" />
+   <dataSet lst="11/07_06" median="9.25" mn="-0.4" mx="11.9" pr10th="1.15" pr25th="5.6" pr75th="10.1" pr90th="11.45" />
+  </stn>
+  <stn stnNo="47167" stnName="여수공항">
+   <dataSet lst="10/27_06" median="13.25" mn="12.2" mx="15.2" pr10th="12.4" pr25th="12.9" pr75th="13.85" pr90th="14.35" />
+   <dataSet lst="10/27_15" median="20.35" mn="19.2" mx="20.8" pr10th="19.35" pr25th="19.6" pr75th="20.5" pr90th="20.7" />
+   <dataSet lst="10/28_06" median="17.2" mn="16.1" mx="18.0" pr10th="16.3" pr25th="16.8" pr75th="17.45" pr90th="17.7" />
+   <dataSet lst="10/28_15" median="16.35" mn="15.2" mx="20.1" pr10th="15.35" pr25th="15.93" pr75th="16.98" pr90th="18.25" />
+   <dataSet lst="10/29_06" median="14.0" mn="12.4" mx="15.8" pr10th="12.8" pr25th="13.5" pr75th="14.8" pr90th="15.55" />
+   <dataSet lst="10/29_15" median="15.8" mn="13.3" mx="18.0" pr10th="14.3" pr25th="15.43" pr75th="16.88" pr90th="17.8" />
+   <dataSet lst="10/30_06" median="10.85" mn="7.8" mx="13.6" pr10th="8.55" pr25th="9.73" pr75th="12.1" pr90th="13.0" />
+   <dataSet lst="10/30_15" median="15.9" mn="13.9" mx="18.9" pr10th="14.25" pr25th="15.3" pr75th="16.88" pr90th="17.5" />
+   <dataSet lst="10/31_06" median="8.4" mn="5.4" mx="11.8" pr10th="6.65" pr25th="7.73" pr75th="9.28" pr90th="10.75" />
+   <dataSet lst="10/31_15" median="14.95" mn="11.7" mx="18.3" pr10th="12.0" pr25th="13.5" pr75th="15.55" pr90th="17.6" />
+   <dataSet lst="11/01_06" median="7.7" mn="1.2" mx="13.0" pr10th="2.35" pr25th="4.18" pr75th="9.25" pr90th="10.95" />
+   <dataSet lst="11/01_15" median="15.05" mn="9.5" mx="19.5" pr10th="10.4" pr25th="13.0" pr75th="16.45" pr90th="18.1" />
+   <dataSet lst="11/02_06" median="5.95" mn="1.5" mx="11.6" pr10th="2.7" pr25th="4.5" pr75th="7.78" pr90th="11.2" />
+   <dataSet lst="11/02_15" median="16.7" mn="12.8" mx="20.1" pr10th="13.0" pr25th="14.65" pr75th="17.6" pr90th="19.6" />
+   <dataSet lst="11/03_06" median="9.15" mn="2.6" mx="16.2" pr10th="3.35" pr25th="5.45" pr75th="10.1" pr90th="13.25" />
+   <dataSet lst="11/03_15" median="16.5" mn="11.3" mx="19.1" pr10th="13.3" pr25th="14.48" pr75th="18.18" pr90th="18.9" />
+   <dataSet lst="11/04_06" median="8.05" mn="3.5" mx="14.2" pr10th="4.4" pr25th="5.98" pr75th="10.93" pr90th="12.25" />
+   <dataSet lst="11/04_15" median="16.0" mn="11.0" mx="21.8" pr10th="11.3" pr25th="15.1" pr75th="17.98" pr90th="19.0" />
+   <dataSet lst="11/05_06" median="8.6" mn="2.3" mx="19.0" pr10th="4.8" pr25th="6.68" pr75th="12.05" pr90th="14.35" />
+   <dataSet lst="11/05_15" median="17.8" mn="12.4" mx="22.9" pr10th="12.5" pr25th="14.48" pr75th="18.98" pr90th="21.2" />
+   <dataSet lst="11/06_06" median="10.0" mn="2.1" mx="18.0" pr10th="4.55" pr25th="8.5" pr75th="11.5" pr90th="13.65" />
+   <dataSet lst="11/06_15" median="16.7" mn="9.8" mx="22.1" pr10th="11.15" pr25th="13.7" pr75th="18.7" pr90th="19.75" />
+   <dataSet lst="11/07_06" median="10.5" mn="2.5" mx="15.3" pr10th="4.0" pr25th="6.03" pr75th="12.15" pr90th="14.4" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="9903" grName="평창올림픽">
+  <stn stnNo="2577" stnName="알펜시아-크로스컨트리-출발">
+   <dataSet lst="10/27_06" />
+   <dataSet lst="10/27_15" />
+   <dataSet lst="10/28_06" />
+   <dataSet lst="10/28_15" />
+   <dataSet lst="10/29_06" />
+   <dataSet lst="10/29_15" />
+   <dataSet lst="10/30_06" />
+   <dataSet lst="10/30_15" />
+   <dataSet lst="10/31_06" />
+   <dataSet lst="10/31_15" />
+   <dataSet lst="11/01_06" />
+   <dataSet lst="11/01_15" />
+   <dataSet lst="11/02_06" />
+   <dataSet lst="11/02_15" />
+   <dataSet lst="11/03_06" />
+   <dataSet lst="11/03_15" />
+   <dataSet lst="11/04_06" />
+   <dataSet lst="11/04_15" />
+   <dataSet lst="11/05_06" />
+   <dataSet lst="11/05_15" />
+   <dataSet lst="11/06_06" />
+   <dataSet lst="11/06_15" />
+   <dataSet lst="11/07_06" />
+  </stn>
+  <stn stnNo="2560" stnName="용평-알파인대회전-출발">
+   <dataSet lst="10/27_06" />
+   <dataSet lst="10/27_15" />
+   <dataSet lst="10/28_06" />
+   <dataSet lst="10/28_15" />
+   <dataSet lst="10/29_06" />
+   <dataSet lst="10/29_15" />
+   <dataSet lst="10/30_06" />
+   <dataSet lst="10/30_15" />
+   <dataSet lst="10/31_06" />
+   <dataSet lst="10/31_15" />
+   <dataSet lst="11/01_06" />
+   <dataSet lst="11/01_15" />
+   <dataSet lst="11/02_06" />
+   <dataSet lst="11/02_15" />
+   <dataSet lst="11/03_06" />
+   <dataSet lst="11/03_15" />
+   <dataSet lst="11/04_06" />
+   <dataSet lst="11/04_15" />
+   <dataSet lst="11/05_06" />
+   <dataSet lst="11/05_15" />
+   <dataSet lst="11/06_06" />
+   <dataSet lst="11/06_15" />
+   <dataSet lst="11/07_06" />
+  </stn>
+  <stn stnNo="2580" stnName="보광-크로스-출발">
+   <dataSet lst="10/27_06" />
+   <dataSet lst="10/27_15" />
+   <dataSet lst="10/28_06" />
+   <dataSet lst="10/28_15" />
+   <dataSet lst="10/29_06" />
+   <dataSet lst="10/29_15" />
+   <dataSet lst="10/30_06" />
+   <dataSet lst="10/30_15" />
+   <dataSet lst="10/31_06" />
+   <dataSet lst="10/31_15" />
+   <dataSet lst="11/01_06" />
+   <dataSet lst="11/01_15" />
+   <dataSet lst="11/02_06" />
+   <dataSet lst="11/02_15" />
+   <dataSet lst="11/03_06" />
+   <dataSet lst="11/03_15" />
+   <dataSet lst="11/04_06" />
+   <dataSet lst="11/04_15" />
+   <dataSet lst="11/05_06" />
+   <dataSet lst="11/05_15" />
+   <dataSet lst="11/06_06" />
+   <dataSet lst="11/06_15" />
+   <dataSet lst="11/07_06" />
+  </stn>
+  <stn stnNo="2584" stnName="정선-알파인활강-출발">
+   <dataSet lst="10/27_06" />
+   <dataSet lst="10/27_15" />
+   <dataSet lst="10/28_06" />
+   <dataSet lst="10/28_15" />
+   <dataSet lst="10/29_06" />
+   <dataSet lst="10/29_15" />
+   <dataSet lst="10/30_06" />
+   <dataSet lst="10/30_15" />
+   <dataSet lst="10/31_06" />
+   <dataSet lst="10/31_15" />
+   <dataSet lst="11/01_06" />
+   <dataSet lst="11/01_15" />
+   <dataSet lst="11/02_06" />
+   <dataSet lst="11/02_15" />
+   <dataSet lst="11/03_06" />
+   <dataSet lst="11/03_15" />
+   <dataSet lst="11/04_06" />
+   <dataSet lst="11/04_15" />
+   <dataSet lst="11/05_06" />
+   <dataSet lst="11/05_15" />
+   <dataSet lst="11/06_06" />
+   <dataSet lst="11/06_15" />
+   <dataSet lst="11/07_06" />
+  </stn>
+ </regionGroup>
+</MMX>

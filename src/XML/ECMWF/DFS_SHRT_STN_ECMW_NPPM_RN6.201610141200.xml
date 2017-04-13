@@ -1,0 +1,4730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RN6 issuedAt="12UTC 14 Oct 2016" basedOn="">
+ <regionGroup grCode="0" grName="수도권청(서울)">
+  <stn stnName="서울" stnNo="47108">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="1.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="강남" stnNo="400">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.5" />
+   <dataSet lst="1618" val="1.1" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="남양주" stnNo="541">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.9" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="성남" stnNo="572">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.6" />
+   <dataSet lst="1618" val="1.4" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="과천" stnNo="590">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.6" />
+   <dataSet lst="1618" val="1.3" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="1" grName="부산청(부산)">
+  <stn stnName="부산" stnNo="47159">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.8" />
+   <dataSet lst="1618" val="18.6" />
+   <dataSet lst="1700" val="5.4" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="김해시" stnNo="47253">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.0" />
+   <dataSet lst="1618" val="12.5" />
+   <dataSet lst="1700" val="3.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="진해" stnNo="908">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="4.9" />
+   <dataSet lst="1618" val="18.4" />
+   <dataSet lst="1700" val="3.5" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="기장" stnNo="923">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="4.1" />
+   <dataSet lst="1618" val="15.4" />
+   <dataSet lst="1700" val="10.5" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="동래구" stnNo="940">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.1" />
+   <dataSet lst="1618" val="15.0" />
+   <dataSet lst="1700" val="6.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="2" grName="부산청(울산)">
+  <stn stnName="울산" stnNo="47152">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.8" />
+   <dataSet lst="1618" val="16.2" />
+   <dataSet lst="1700" val="14.4" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="밀양" stnNo="47288">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="4.1" />
+   <dataSet lst="1618" val="15.8" />
+   <dataSet lst="1700" val="5.5" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="두서" stnNo="900">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.8" />
+   <dataSet lst="1618" val="16.4" />
+   <dataSet lst="1700" val="12.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="울기" stnNo="901">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.4" />
+   <dataSet lst="1618" val="15.8" />
+   <dataSet lst="1700" val="18.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="양산시" stnNo="47257">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.0" />
+   <dataSet lst="1618" val="12.2" />
+   <dataSet lst="1700" val="5.3" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="3" grName="부산청(통영)">
+  <stn stnName="통영" stnNo="47162">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="6.9" />
+   <dataSet lst="1618" val="18.7" />
+   <dataSet lst="1700" val="1.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="거제" stnNo="47294">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="6.0" />
+   <dataSet lst="1618" val="21.0" />
+   <dataSet lst="1700" val="2.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="남해" stnNo="47295">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="9.8" />
+   <dataSet lst="1618" val="10.8" />
+   <dataSet lst="1700" val="0.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="서이말" stnNo="909">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="5.3" />
+   <dataSet lst="1618" val="25.6" />
+   <dataSet lst="1700" val="2.3" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="고성" stnNo="918">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="5.9" />
+   <dataSet lst="1618" val="12.4" />
+   <dataSet lst="1700" val="1.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="4" grName="부산청(창원)">
+  <stn stnName="창원" stnNo="47155">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="5.3" />
+   <dataSet lst="1618" val="14.0" />
+   <dataSet lst="1700" val="2.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="북창원" stnNo="47255">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.9" />
+   <dataSet lst="1618" val="13.8" />
+   <dataSet lst="1700" val="1.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="창녕" stnNo="919">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="6.9" />
+   <dataSet lst="1618" val="19.4" />
+   <dataSet lst="1700" val="4.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="함안" stnNo="920">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="6.4" />
+   <dataSet lst="1618" val="14.6" />
+   <dataSet lst="1700" val="1.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="의령군" stnNo="47263">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="7.1" />
+   <dataSet lst="1618" val="16.0" />
+   <dataSet lst="1700" val="1.5" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="5" grName="부산청(진주)">
+  <stn stnName="진주" stnNo="47192">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="9.0" />
+   <dataSet lst="1618" val="17.2" />
+   <dataSet lst="1700" val="1.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="산청" stnNo="47289">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="8.0" />
+   <dataSet lst="1618" val="21.2" />
+   <dataSet lst="1700" val="0.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="삼천포" stnNo="907">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="9.8" />
+   <dataSet lst="1618" val="12.1" />
+   <dataSet lst="1700" val="0.9" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="사천" stnNo="917">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="9.7" />
+   <dataSet lst="1618" val="12.8" />
+   <dataSet lst="1700" val="0.9" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="하동" stnNo="932">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="12.4" />
+   <dataSet lst="1618" val="13.6" />
+   <dataSet lst="1700" val="0.5" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="6" grName="부산청(대구)">
+  <stn stnName="대구" stnNo="47143">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.9" />
+   <dataSet lst="1618" val="20.8" />
+   <dataSet lst="1700" val="7.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="고령" stnNo="812">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="7.7" />
+   <dataSet lst="1618" val="25.4" />
+   <dataSet lst="1700" val="3.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="청도" stnNo="813">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="4.2" />
+   <dataSet lst="1618" val="18.2" />
+   <dataSet lst="1700" val="6.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="경산" stnNo="827">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.6" />
+   <dataSet lst="1618" val="20.1" />
+   <dataSet lst="1700" val="7.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="달성" stnNo="828">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="6.1" />
+   <dataSet lst="1618" val="20.8" />
+   <dataSet lst="1700" val="4.5" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="신령" stnNo="826">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.8" />
+   <dataSet lst="1618" val="21.5" />
+   <dataSet lst="1700" val="8.5" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="팔공산" stnNo="853">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="4.0" />
+   <dataSet lst="1618" val="22.1" />
+   <dataSet lst="1700" val="6.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="7" grName="부산청(울진)">
+  <stn stnName="울진" stnNo="47130">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="11.2" />
+   <dataSet lst="1700" val="6.4" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="봉화" stnNo="47271">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.1" />
+   <dataSet lst="1618" val="12.3" />
+   <dataSet lst="1700" val="3.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="영덕" stnNo="47277">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.7" />
+   <dataSet lst="1618" val="15.5" />
+   <dataSet lst="1700" val="10.4" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="영양" stnNo="801">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.0" />
+   <dataSet lst="1618" val="15.0" />
+   <dataSet lst="1700" val="5.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="영덕읍" stnNo="844">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.1" />
+   <dataSet lst="1618" val="17.1" />
+   <dataSet lst="1700" val="12.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="봉화읍" stnNo="835">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.6" />
+   <dataSet lst="1618" val="12.8" />
+   <dataSet lst="1700" val="3.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="수비" stnNo="817">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.6" />
+   <dataSet lst="1618" val="12.9" />
+   <dataSet lst="1700" val="5.6" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="8" grName="부산청(안동)">
+  <stn stnName="안동" stnNo="47136">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.5" />
+   <dataSet lst="1618" val="16.5" />
+   <dataSet lst="1700" val="2.5" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="의성" stnNo="47278">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.1" />
+   <dataSet lst="1618" val="19.4" />
+   <dataSet lst="1700" val="3.4" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="청송군" stnNo="47276">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.3" />
+   <dataSet lst="1618" val="18.3" />
+   <dataSet lst="1700" val="6.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="안계" stnNo="832">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.5" />
+   <dataSet lst="1618" val="17.8" />
+   <dataSet lst="1700" val="2.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="현서" stnNo="836">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.8" />
+   <dataSet lst="1618" val="19.8" />
+   <dataSet lst="1700" val="8.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="9" grName="부산청(상주)">
+  <stn stnName="상주" stnNo="47137">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.2" />
+   <dataSet lst="1618" val="15.6" />
+   <dataSet lst="1700" val="2.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="영주" stnNo="47272">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.9" />
+   <dataSet lst="1618" val="12.2" />
+   <dataSet lst="1700" val="2.9" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="문경" stnNo="47273">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.6" />
+   <dataSet lst="1618" val="13.3" />
+   <dataSet lst="1700" val="2.4" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="예천" stnNo="815">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.8" />
+   <dataSet lst="1618" val="14.5" />
+   <dataSet lst="1700" val="2.3" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="화서" stnNo="834">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.7" />
+   <dataSet lst="1618" val="13.5" />
+   <dataSet lst="1700" val="2.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="10" grName="부산청(포항)">
+  <stn stnName="포항" stnNo="47138">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.6" />
+   <dataSet lst="1618" val="20.7" />
+   <dataSet lst="1700" val="16.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="영천" stnNo="47281">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.4" />
+   <dataSet lst="1618" val="22.0" />
+   <dataSet lst="1700" val="9.4" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="청하" stnNo="804">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.6" />
+   <dataSet lst="1618" val="20.0" />
+   <dataSet lst="1700" val="17.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="경주시" stnNo="47283">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.2" />
+   <dataSet lst="1618" val="19.9" />
+   <dataSet lst="1700" val="12.9" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="감포" stnNo="850">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.0" />
+   <dataSet lst="1618" val="18.7" />
+   <dataSet lst="1700" val="18.4" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="기계" stnNo="830">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.9" />
+   <dataSet lst="1618" val="20.7" />
+   <dataSet lst="1700" val="13.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="11" grName="부산청(구미)">
+  <stn stnName="구미" stnNo="47279">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="4.6" />
+   <dataSet lst="1618" val="20.0" />
+   <dataSet lst="1700" val="2.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="성주" stnNo="810">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="6.0" />
+   <dataSet lst="1618" val="22.3" />
+   <dataSet lst="1700" val="3.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="김천" stnNo="822">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="5.7" />
+   <dataSet lst="1618" val="17.9" />
+   <dataSet lst="1700" val="2.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="군위" stnNo="823">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.7" />
+   <dataSet lst="1618" val="20.5" />
+   <dataSet lst="1700" val="2.6" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="칠곡" stnNo="825">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="5.2" />
+   <dataSet lst="1618" val="21.7" />
+   <dataSet lst="1700" val="3.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="12" grName="부산청(거창)">
+  <stn stnName="거창" stnNo="47284">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="7.7" />
+   <dataSet lst="1618" val="23.4" />
+   <dataSet lst="1700" val="2.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="합천" stnNo="47285">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="7.4" />
+   <dataSet lst="1618" val="22.3" />
+   <dataSet lst="1700" val="2.3" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="함양군" stnNo="47264">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="7.7" />
+   <dataSet lst="1618" val="22.1" />
+   <dataSet lst="1700" val="1.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="삼가" stnNo="915">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="7.4" />
+   <dataSet lst="1618" val="19.5" />
+   <dataSet lst="1700" val="1.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="북상" stnNo="946">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="7.0" />
+   <dataSet lst="1618" val="21.5" />
+   <dataSet lst="1700" val="2.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="13" grName="광주청(광주)">
+  <stn stnName="광주" stnNo="47156">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="10.0" />
+   <dataSet lst="1618" val="20.4" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="담양" stnNo="706">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="9.5" />
+   <dataSet lst="1618" val="22.3" />
+   <dataSet lst="1700" val="0.6" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="나주" stnNo="710">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.5" />
+   <dataSet lst="1612" val="12.5" />
+   <dataSet lst="1618" val="17.3" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="이양" stnNo="711">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.5" />
+   <dataSet lst="1612" val="10.3" />
+   <dataSet lst="1618" val="9.7" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="화순" stnNo="741">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="9.7" />
+   <dataSet lst="1618" val="13.7" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="14" grName="광주청(목포)">
+  <stn stnName="목포" stnNo="47165">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="1.4" />
+   <dataSet lst="1612" val="17.6" />
+   <dataSet lst="1618" val="13.1" />
+   <dataSet lst="1700" val="0.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="흑산도" stnNo="47169">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="2.4" />
+   <dataSet lst="1612" val="21.0" />
+   <dataSet lst="1618" val="5.9" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="무안" stnNo="699">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="1.0" />
+   <dataSet lst="1612" val="15.5" />
+   <dataSet lst="1618" val="17.8" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="영암" stnNo="731">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="1.0" />
+   <dataSet lst="1612" val="13.7" />
+   <dataSet lst="1618" val="5.9" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="압해도" stnNo="789">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="1.5" />
+   <dataSet lst="1612" val="18.7" />
+   <dataSet lst="1618" val="15.2" />
+   <dataSet lst="1700" val="0.9" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="안좌" stnNo="771">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="2.3" />
+   <dataSet lst="1612" val="21.9" />
+   <dataSet lst="1618" val="11.9" />
+   <dataSet lst="1700" val="1.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="15" grName="광주청(여수)">
+  <stn stnName="여수" stnNo="47168">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="9.4" />
+   <dataSet lst="1618" val="8.2" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="고흥" stnNo="47262">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="1.3" />
+   <dataSet lst="1612" val="12.0" />
+   <dataSet lst="1618" val="6.8" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="보성" stnNo="732">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.9" />
+   <dataSet lst="1612" val="12.3" />
+   <dataSet lst="1618" val="7.8" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="벌교" stnNo="748">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.6" />
+   <dataSet lst="1612" val="12.4" />
+   <dataSet lst="1618" val="9.1" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="영남" stnNo="767">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="1.5" />
+   <dataSet lst="1612" val="11.8" />
+   <dataSet lst="1618" val="7.3" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="나로도" stnNo="790">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="1.8" />
+   <dataSet lst="1612" val="11.7" />
+   <dataSet lst="1618" val="7.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="16" grName="광주청(완도)">
+  <stn stnName="완도" stnNo="47170">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="3.0" />
+   <dataSet lst="1612" val="11.1" />
+   <dataSet lst="1618" val="2.4" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="장흥" stnNo="47260">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="1.5" />
+   <dataSet lst="1612" val="12.0" />
+   <dataSet lst="1618" val="6.1" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="해남" stnNo="47261">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="2.1" />
+   <dataSet lst="1612" val="13.3" />
+   <dataSet lst="1618" val="3.3" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="진도군" stnNo="47268">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="3.3" />
+   <dataSet lst="1612" val="16.7" />
+   <dataSet lst="1618" val="4.5" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="강진군" stnNo="47259">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="1.7" />
+   <dataSet lst="1612" val="12.4" />
+   <dataSet lst="1618" val="3.8" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="17" grName="광주청(순천)">
+  <stn stnName="순천" stnNo="47174">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="11.0" />
+   <dataSet lst="1618" val="9.6" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="구례" stnNo="709">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="10.0" />
+   <dataSet lst="1618" val="19.2" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="순천시" stnNo="712">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="10.4" />
+   <dataSet lst="1618" val="9.4" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="광양시" stnNo="47266">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="11.8" />
+   <dataSet lst="1618" val="10.6" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="곡성" stnNo="768">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="8.5" />
+   <dataSet lst="1618" val="23.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="18" grName="광주청(전주)">
+  <stn stnName="전주" stnNo="47146">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="5.3" />
+   <dataSet lst="1618" val="14.5" />
+   <dataSet lst="1700" val="2.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="무주" stnNo="701">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="6.5" />
+   <dataSet lst="1618" val="14.0" />
+   <dataSet lst="1700" val="2.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="진안" stnNo="703">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="8.4" />
+   <dataSet lst="1618" val="17.1" />
+   <dataSet lst="1700" val="2.4" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="완주" stnNo="734">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="5.0" />
+   <dataSet lst="1618" val="13.9" />
+   <dataSet lst="1700" val="2.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="주천" stnNo="757">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="6.2" />
+   <dataSet lst="1618" val="13.3" />
+   <dataSet lst="1700" val="2.4" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="19" grName="광주청(군산)">
+  <stn stnName="군산" stnNo="47140">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.3" />
+   <dataSet lst="1618" val="13.7" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="익산" stnNo="702">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.6" />
+   <dataSet lst="1618" val="14.6" />
+   <dataSet lst="1700" val="1.5" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="함라" stnNo="733">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.4" />
+   <dataSet lst="1618" val="14.5" />
+   <dataSet lst="1700" val="0.9" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="진봉" stnNo="736">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.6" />
+   <dataSet lst="1618" val="15.5" />
+   <dataSet lst="1700" val="1.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="김제" stnNo="737">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.6" />
+   <dataSet lst="1618" val="14.6" />
+   <dataSet lst="1700" val="1.6" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="20" grName="광주청(정읍)">
+  <stn stnName="정읍" stnNo="47245">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="6.6" />
+   <dataSet lst="1618" val="17.4" />
+   <dataSet lst="1700" val="1.3" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="부안" stnNo="47243">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="4.1" />
+   <dataSet lst="1618" val="16.8" />
+   <dataSet lst="1700" val="1.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="변산" stnNo="704">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="6.6" />
+   <dataSet lst="1618" val="17.2" />
+   <dataSet lst="1700" val="1.9" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="장성" stnNo="730">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="8.6" />
+   <dataSet lst="1618" val="20.5" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="줄포" stnNo="738">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="6.1" />
+   <dataSet lst="1618" val="16.6" />
+   <dataSet lst="1700" val="1.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="21" grName="광주청(남원)">
+  <stn stnName="남원" stnNo="47247">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="7.8" />
+   <dataSet lst="1618" val="24.8" />
+   <dataSet lst="1700" val="1.0" />
+   <dataSet lst="1706" val="0.5" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="임실" stnNo="47244">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="7.3" />
+   <dataSet lst="1618" val="21.4" />
+   <dataSet lst="1700" val="1.7" />
+   <dataSet lst="1706" val="0.5" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="장수" stnNo="47248">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="8.1" />
+   <dataSet lst="1618" val="22.1" />
+   <dataSet lst="1700" val="2.2" />
+   <dataSet lst="1706" val="0.6" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="순창군" stnNo="47254">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="8.4" />
+   <dataSet lst="1618" val="22.8" />
+   <dataSet lst="1700" val="0.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="강진면" stnNo="762">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="6.9" />
+   <dataSet lst="1618" val="22.1" />
+   <dataSet lst="1700" val="1.5" />
+   <dataSet lst="1706" val="0.7" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="22" grName="광주청(고창)">
+  <stn stnName="고창" stnNo="47172">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="9.2" />
+   <dataSet lst="1618" val="17.4" />
+   <dataSet lst="1700" val="0.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="영광" stnNo="47252">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="11.1" />
+   <dataSet lst="1618" val="15.0" />
+   <dataSet lst="1700" val="0.5" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="함평" stnNo="754">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.7" />
+   <dataSet lst="1612" val="13.9" />
+   <dataSet lst="1618" val="18.3" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="염산" stnNo="769">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="13.2" />
+   <dataSet lst="1618" val="15.2" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="월야" stnNo="775">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="11.0" />
+   <dataSet lst="1618" val="17.5" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="23" grName="대전청(대전)">
+  <stn stnName="대전" stnNo="47133">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.0" />
+   <dataSet lst="1618" val="12.9" />
+   <dataSet lst="1700" val="3.3" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="연기" stnNo="611">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.0" />
+   <dataSet lst="1618" val="11.5" />
+   <dataSet lst="1700" val="3.5" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="공주" stnNo="612">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.0" />
+   <dataSet lst="1618" val="12.1" />
+   <dataSet lst="1700" val="3.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="논산" stnNo="615">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.4" />
+   <dataSet lst="1618" val="13.7" />
+   <dataSet lst="1700" val="1.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="계룡" stnNo="636">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.0" />
+   <dataSet lst="1618" val="13.1" />
+   <dataSet lst="1700" val="2.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="문화" stnNo="642">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.4" />
+   <dataSet lst="1618" val="13.1" />
+   <dataSet lst="1700" val="3.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="세종시" stnNo="887">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.1" />
+   <dataSet lst="1618" val="12.4" />
+   <dataSet lst="1700" val="3.9" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="24" grName="수도권청(인천)">
+  <stn stnName="인천" stnNo="47112">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.8" />
+   <dataSet lst="1618" val="0.6" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="강화" stnNo="47201">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.7" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="부천" stnNo="433">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.7" />
+   <dataSet lst="1618" val="0.8" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="백령면" stnNo="528">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.6" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="시흥" stnNo="565">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.7" />
+   <dataSet lst="1618" val="0.8" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="25" grName="수도권청(동두천)">
+  <stn stnName="동두천" stnNo="47098">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="포천" stnNo="504">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.6" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="가평" stnNo="531">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.9" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="청평" stnNo="542">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="1.5" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="청산" stnNo="652">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="26" grName="수도권청(파주)">
+  <stn stnName="파주" stnNo="47099">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="김포" stnNo="441">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.6" />
+   <dataSet lst="1618" val="0.5" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="의정부" stnNo="532">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.7" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="고양" stnNo="540">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.7" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="양주" stnNo="598">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.5" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="27" grName="수도권청(수원)">
+  <stn stnName="수원" stnNo="47119">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.6" />
+   <dataSet lst="1618" val="1.9" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="안성" stnNo="516">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.7" />
+   <dataSet lst="1618" val="4.1" />
+   <dataSet lst="1700" val="2.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="용인" stnNo="549">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.8" />
+   <dataSet lst="1618" val="2.6" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="평택" stnNo="551">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.9" />
+   <dataSet lst="1618" val="4.5" />
+   <dataSet lst="1700" val="2.4" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="화성" stnNo="571">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.6" />
+   <dataSet lst="1618" val="1.5" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="28" grName="수도권청(이천)">
+  <stn stnName="이천" stnNo="47203">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.8" />
+   <dataSet lst="1618" val="4.1" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="양평" stnNo="47202">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="2.8" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="장호원" stnNo="534">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.7" />
+   <dataSet lst="1618" val="5.5" />
+   <dataSet lst="1700" val="2.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="광주읍" stnNo="546">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.5" />
+   <dataSet lst="1618" val="1.7" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="여주" stnNo="548">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.8" />
+   <dataSet lst="1618" val="5.2" />
+   <dataSet lst="1700" val="0.6" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="29" grName="대전청(서산)">
+  <stn stnName="서산" stnNo="47129">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.6" />
+   <dataSet lst="1618" val="3.5" />
+   <dataSet lst="1700" val="0.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="대산" stnNo="606">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.8" />
+   <dataSet lst="1618" val="3.5" />
+   <dataSet lst="1700" val="0.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="홍성" stnNo="610">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.1" />
+   <dataSet lst="1618" val="6.9" />
+   <dataSet lst="1700" val="1.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="당진" stnNo="616">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.7" />
+   <dataSet lst="1618" val="4.0" />
+   <dataSet lst="1700" val="1.3" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="태안" stnNo="627">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.7" />
+   <dataSet lst="1618" val="2.5" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="홍성(예)" stnNo="47177">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.0" />
+   <dataSet lst="1618" val="6.7" />
+   <dataSet lst="1700" val="1.6" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="홍북" stnNo="608">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.1" />
+   <dataSet lst="1618" val="6.9" />
+   <dataSet lst="1700" val="1.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="30" grName="대전청(천안)">
+  <stn stnName="천안" stnNo="47232">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.0" />
+   <dataSet lst="1618" val="7.4" />
+   <dataSet lst="1700" val="2.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="성거" stnNo="617">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.3" />
+   <dataSet lst="1618" val="5.6" />
+   <dataSet lst="1700" val="2.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="예산" stnNo="628">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.9" />
+   <dataSet lst="1618" val="5.8" />
+   <dataSet lst="1700" val="1.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="아산" stnNo="634">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.0" />
+   <dataSet lst="1618" val="5.4" />
+   <dataSet lst="1700" val="1.5" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="31" grName="대전청(보령)">
+  <stn stnName="보령" stnNo="47235">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.6" />
+   <dataSet lst="1618" val="11.2" />
+   <dataSet lst="1700" val="2.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="부여" stnNo="47236">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.2" />
+   <dataSet lst="1618" val="13.1" />
+   <dataSet lst="1700" val="1.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="서천" stnNo="614">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.8" />
+   <dataSet lst="1618" val="13.9" />
+   <dataSet lst="1700" val="0.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="청양" stnNo="618">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.2" />
+   <dataSet lst="1618" val="11.9" />
+   <dataSet lst="1700" val="2.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="양화" stnNo="635">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.5" />
+   <dataSet lst="1618" val="13.8" />
+   <dataSet lst="1700" val="1.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="32" grName="대전청(청주)">
+  <stn stnName="청주" stnNo="47131">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.8" />
+   <dataSet lst="1618" val="9.9" />
+   <dataSet lst="1700" val="3.5" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="진천" stnNo="602">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.2" />
+   <dataSet lst="1618" val="7.5" />
+   <dataSet lst="1700" val="2.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="괴산" stnNo="603">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.9" />
+   <dataSet lst="1618" val="9.9" />
+   <dataSet lst="1700" val="2.9" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="증평" stnNo="623">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.3" />
+   <dataSet lst="1618" val="8.5" />
+   <dataSet lst="1700" val="3.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="상당" stnNo="624">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.9" />
+   <dataSet lst="1618" val="11.1" />
+   <dataSet lst="1700" val="3.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="33" grName="대전청(충주)">
+  <stn stnName="충주" stnNo="47127">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.4" />
+   <dataSet lst="1618" val="7.2" />
+   <dataSet lst="1700" val="3.1" />
+   <dataSet lst="1706" val="0.7" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="제천" stnNo="47221">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.2" />
+   <dataSet lst="1618" val="6.5" />
+   <dataSet lst="1700" val="3.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="단양" stnNo="601">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.1" />
+   <dataSet lst="1618" val="8.8" />
+   <dataSet lst="1700" val="3.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="음성" stnNo="619">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.0" />
+   <dataSet lst="1618" val="6.7" />
+   <dataSet lst="1700" val="3.6" />
+   <dataSet lst="1706" val="0.7" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="노은" stnNo="630">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.8" />
+   <dataSet lst="1618" val="5.4" />
+   <dataSet lst="1700" val="3.6" />
+   <dataSet lst="1706" val="0.9" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="34" grName="대전청(추풍령)">
+  <stn stnName="추풍령" stnNo="47135">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="4.9" />
+   <dataSet lst="1618" val="14.4" />
+   <dataSet lst="1700" val="1.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="보은" stnNo="47226">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="2.1" />
+   <dataSet lst="1618" val="13.3" />
+   <dataSet lst="1700" val="2.9" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="금산" stnNo="47238">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="5.4" />
+   <dataSet lst="1618" val="13.0" />
+   <dataSet lst="1700" val="2.5" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="옥천" stnNo="604">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="3.8" />
+   <dataSet lst="1618" val="13.3" />
+   <dataSet lst="1700" val="2.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="영동" stnNo="605">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="5.0" />
+   <dataSet lst="1618" val="14.1" />
+   <dataSet lst="1700" val="2.6" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="35" grName="강원청(북강릉)">
+  <stn stnName="북강릉" stnNo="47104">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="2.5" />
+   <dataSet lst="1700" val="5.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="강릉" stnNo="47105">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="3.2" />
+   <dataSet lst="1700" val="8.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="주문진" stnNo="523">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="1.5" />
+   <dataSet lst="1700" val="2.9" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="연곡" stnNo="566">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="1.9" />
+   <dataSet lst="1700" val="3.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="옥계" stnNo="580">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="4.2" />
+   <dataSet lst="1700" val="6.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="구룡령" stnNo="498">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="1.7" />
+   <dataSet lst="1700" val="0.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="삽당령" stnNo="497">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="4.2" />
+   <dataSet lst="1700" val="3.9" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="진부" stnNo="560">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="4.1" />
+   <dataSet lst="1700" val="1.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="36" grName="강원청(속초)">
+  <stn stnName="속초" stnNo="47090">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="간성" stnNo="517">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="현내" stnNo="661">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="양양" stnNo="670">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="청호" stnNo="671">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="진부령" stnNo="595">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="설악산" stnNo="875">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="양양영덕" stnNo="593">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.6" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="서화" stnNo="594">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="37" grName="강원청(동해)">
+  <stn stnName="동해" stnNo="47106">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="6.5" />
+   <dataSet lst="1700" val="4.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="태백" stnNo="47216">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.6" />
+   <dataSet lst="1618" val="10.0" />
+   <dataSet lst="1700" val="5.3" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="원덕" stnNo="529">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="11.6" />
+   <dataSet lst="1700" val="7.3" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="하장" stnNo="579">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="6.7" />
+   <dataSet lst="1700" val="4.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="삼척" stnNo="876">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="8.1" />
+   <dataSet lst="1700" val="6.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="도계" stnNo="878">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="9.9" />
+   <dataSet lst="1700" val="6.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="38" grName="부산청(울릉도)">
+  <stn stnName="울릉도" stnNo="47115">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="7.1" />
+   <dataSet lst="1700" val="12.8" />
+   <dataSet lst="1706" val="1.4" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="천부" stnNo="319">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="6.9" />
+   <dataSet lst="1700" val="12.8" />
+   <dataSet lst="1706" val="1.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="태하" stnNo="530">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="7.0" />
+   <dataSet lst="1700" val="12.4" />
+   <dataSet lst="1706" val="0.7" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="독도" stnNo="96">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="1.9" />
+   <dataSet lst="1700" val="22.2" />
+   <dataSet lst="1706" val="7.1" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="39" grName="강원청(철원)">
+  <stn stnName="철원" stnNo="47095">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="사내" stnNo="519">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="김화" stnNo="552">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="화천" stnNo="555">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="양구" stnNo="556">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="광덕산" stnNo="695">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="외촌" stnNo="651">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="상서" stnNo="322">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="40" grName="강원청(대관령)">
+  <stn stnName="대관령" stnNo="47100">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="3.4" />
+   <dataSet lst="1700" val="4.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="봉평" stnNo="525">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.5" />
+   <dataSet lst="1618" val="4.2" />
+   <dataSet lst="1700" val="1.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="평창" stnNo="526">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.5" />
+   <dataSet lst="1618" val="5.6" />
+   <dataSet lst="1700" val="2.4" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="기린" stnNo="557">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.9" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="내면" stnNo="559">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.6" />
+   <dataSet lst="1618" val="2.2" />
+   <dataSet lst="1700" val="0.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="용평" stnNo="318">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="3.9" />
+   <dataSet lst="1700" val="2.9" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="면온[휘닉스파크]" stnNo="660">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="4.7" />
+   <dataSet lst="1700" val="1.1" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="스키점프[알펜시아]" stnNo="879">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="3.9" />
+   <dataSet lst="1700" val="2.9" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="41" grName="강원청(춘천)">
+  <stn stnName="춘천" stnNo="47101">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="1.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="인제" stnNo="47211">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.5" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="홍천" stnNo="47212">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="1.6" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="북산" stnNo="586">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.5" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="남산" stnNo="588">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="1.2" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="방산" stnNo="587">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="서석" stnNo="535">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.6" />
+   <dataSet lst="1618" val="2.1" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="화촌" stnNo="522">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="1.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="42" grName="강원청(원주)">
+  <stn stnName="원주" stnNo="47114">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.6" />
+   <dataSet lst="1618" val="4.6" />
+   <dataSet lst="1700" val="1.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="횡성" stnNo="536">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="3.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="청일" stnNo="561">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.5" />
+   <dataSet lst="1618" val="3.3" />
+   <dataSet lst="1700" val="0.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="안흥" stnNo="583">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.5" />
+   <dataSet lst="1618" val="4.0" />
+   <dataSet lst="1700" val="1.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="문막" stnNo="877">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.7" />
+   <dataSet lst="1618" val="5.7" />
+   <dataSet lst="1700" val="0.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="43" grName="강원청(영월)">
+  <stn stnName="영월" stnNo="47121">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.9" />
+   <dataSet lst="1618" val="6.9" />
+   <dataSet lst="1700" val="3.7" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="정선군" stnNo="47217">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.5" />
+   <dataSet lst="1618" val="6.4" />
+   <dataSet lst="1700" val="3.2" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="정선" stnNo="527">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.6" />
+   <dataSet lst="1618" val="7.7" />
+   <dataSet lst="1700" val="4.6" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="주천" stnNo="562">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.7" />
+   <dataSet lst="1618" val="5.5" />
+   <dataSet lst="1700" val="2.8" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="남면" stnNo="563">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.6" />
+   <dataSet lst="1618" val="5.6" />
+   <dataSet lst="1700" val="2.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="상동" stnNo="581">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="1.1" />
+   <dataSet lst="1618" val="10.1" />
+   <dataSet lst="1700" val="4.5" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="44" grName="제주청(제주)">
+  <stn stnName="제주" stnNo="47184">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="14.2" />
+   <dataSet lst="1618" val="1.4" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="고산" stnNo="47185">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.7" />
+   <dataSet lst="1612" val="6.8" />
+   <dataSet lst="1618" val="1.2" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="유수암" stnNo="727">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="12.3" />
+   <dataSet lst="1618" val="1.2" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="선흘" stnNo="751">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="26.3" />
+   <dataSet lst="1618" val="1.7" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="한림" stnNo="779">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.5" />
+   <dataSet lst="1612" val="6.4" />
+   <dataSet lst="1618" val="1.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="구좌" stnNo="781">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="36.5" />
+   <dataSet lst="1618" val="4.4" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="추자도" stnNo="724">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="1.1" />
+   <dataSet lst="1612" val="5.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="성판악" stnNo="782">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.9" />
+   <dataSet lst="1612" val="37.2" />
+   <dataSet lst="1618" val="1.8" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="윗세오름" stnNo="871">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="22.1" />
+   <dataSet lst="1618" val="1.6" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="45" grName="제주청(서귀포)">
+  <stn stnName="서귀포" stnNo="47189">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="1.1" />
+   <dataSet lst="1612" val="44.6" />
+   <dataSet lst="1618" val="1.9" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="성산" stnNo="47188">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.9" />
+   <dataSet lst="1612" val="51.3" />
+   <dataSet lst="1618" val="4.5" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="이어도" stnNo="47299">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="3.2" />
+   <dataSet lst="1612" val="1.8" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="중문" stnNo="328">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.9" />
+   <dataSet lst="1612" val="23.3" />
+   <dataSet lst="1618" val="1.7" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="서광" stnNo="752">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.7" />
+   <dataSet lst="1612" val="12.7" />
+   <dataSet lst="1618" val="1.3" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="남원" stnNo="780">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="2.3" />
+   <dataSet lst="1612" val="70.9" />
+   <dataSet lst="1618" val="2.2" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.6" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="46" grName="북한(평양)">
+  <stn stnName="평양" stnNo="47058">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="중강" stnNo="47014">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.8" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="개성" stnNo="47070">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="해주" stnNo="47069">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.7" />
+   <dataSet lst="1618" val="1.2" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="청진" stnNo="47008">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="함흥" stnNo="47041">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="47" grName="북한(선봉)">
+  <stn stnName="선봉" stnNo="47003">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="삼지연" stnNo="47005">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="혜산" stnNo="47016">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="강계" stnNo="47020">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.7" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="풍산" stnNo="47022">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="김책" stnNo="47025">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="48" grName="북한(수풍)">
+  <stn stnName="수풍" stnNo="47028">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="장진" stnNo="47031">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="신의주" stnNo="47035">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="구성" stnNo="47037">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.9" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="희천" stnNo="47039">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.6" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="신포" stnNo="47046">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="49" grName="북한(안주)">
+  <stn stnName="안주" stnNo="47050">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="양덕" stnNo="47052">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="원산" stnNo="47055">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="2.8" />
+  </stn>
+  <stn stnName="남포" stnNo="47060">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="사리원" stnNo="47065">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="장전" stnNo="47061">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+ <regionGroup grCode="50" grName="북한(신계)">
+  <stn stnName="신계" stnNo="47067">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="용연" stnNo="47068">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="2.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+  <stn stnName="평강" stnNo="47075">
+   <dataSet lst="1506" val="0.0" />
+   <dataSet lst="1512" val="0.0" />
+   <dataSet lst="1518" val="0.0" />
+   <dataSet lst="1600" val="0.0" />
+   <dataSet lst="1606" val="0.0" />
+   <dataSet lst="1612" val="0.0" />
+   <dataSet lst="1618" val="0.0" />
+   <dataSet lst="1700" val="0.0" />
+   <dataSet lst="1706" val="0.0" />
+   <dataSet lst="1712" val="0.0" />
+   <dataSet lst="1718" val="0.0" />
+   <dataSet lst="1800" val="0.0" />
+   <dataSet lst="1806" val="0.0" />
+   <dataSet lst="1812" val="0.0" />
+  </stn>
+ </regionGroup>
+</RN6>
+

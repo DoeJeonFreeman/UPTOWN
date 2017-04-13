@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml"  xmlns:local="*" styleName="">
+	<local:popupWindow width="750" height="570"/>
+</mx:Application>

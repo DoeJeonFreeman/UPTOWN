@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- http://blog.flexexamples.com/2007/11/16/taking-screenshots-in-flex-using-the-imagesnapshotcaptureimage-method/ -->
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml"
+				layout="vertical"
+				verticalAlign="middle"
+				backgroundColor="white">
+	
+	<mx:Script>
+		<![CDATA[
+			import mx.core.IUIComponent;
+			import mx.graphics.ImageSnapshot;
+			
+			private function takeSnapshot(source:IBitmapDrawable):void {
+				var imageSnap:ImageSnapshot = ImageSnapshot.captureImage(source);
+				var imageByteArray:ByteArray = imageSnap.data as ByteArray;
+				swfLoader.load(imageByteArray);
+			}
+		]]>
+	</mx:Script>
+	
+	<mx:Array id="arr">
+		<mx:Object col1="Row 1, Col 1" col2="Row 1, Col 2" />
+		<mx:Object col1="Row 2, Col 1" col2="Row 2, Col 2" />
+		<mx:Object col1="Row 3, Col 1" col2="Row 3, Col 2" />
+		<mx:Object col1="Row 4, Col 1" col2="Row 4, Col 2" />
+		<mx:Object col1="Row 5, Col 1" col2="Row 5, Col 2" />
+		<mx:Object col1="Row 6, Col 1" col2="Row 6, Col 2" />
+	</mx:Array>
+	
+	<mx:ApplicationControlBar dock="true">
+		<mx:Button label="Take snapshot of DataGrid"
+				   click="takeSnapshot(dataGrid);" />
+	</mx:ApplicationControlBar>
+	
+	<mx:HBox>
+		<mx:DataGrid id="dataGrid" dataProvider="{arr}" />
+		
+		<mx:SWFLoader id="swfLoader">
+			<mx:filters>
+				<mx:DropShadowFilter />
+			</mx:filters>
+		</mx:SWFLoader>
+	</mx:HBox>
+	
+</mx:Application>

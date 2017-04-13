@@ -1,0 +1,3771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml"
+				xmlns:preferences="components.preferences.*"
+				backgroundGradientColors="[0xFFFFFF,0xFFFFFF]" borderColor="0xFFFFFF"
+				creationComplete="creationCompleteHandler()" initialize="initApp()" paddingTop="5"
+				updateComplete="this.visible=true;" verticalGap="0" verticalScrollPolicy="off">
+	
+	<mx:Style source="asset/DFS/timeSeries/meteogram/CSS/meteogramStyle.css"/>
+	
+	<!--style=plain
+	initialize="getLatestStuff()"
+	-->
+	
+	<mx:Style>
+		.evnInfoSet{
+			upSkin:   Embed("asset/skin/btn_ssps.png");
+			overSkin: Embed("asset/skin/btn_ssps_downskin.png");
+			downSkin: Embed("asset/skin/btn_ssps_downskin.png");
+		}
+	</mx:Style>
+	
+	
+	<mx:Script>  
+		<![CDATA[
+			import com.doe.flex.ui.form.util.CheckBoxGroup2;
+			import com.doe.flex.ui.form.util.CheckBoxGroup_merged;
+			import com.doe.flex.ui.form.util.ImageCheckBox;
+			import com.maccherone.urlmultiloader.URLMultiLoader;
+			import comp.chart.DFS_MEDM_R12;
+			import comp.chart.DFS_MEDM_R12_Merged;
+			import comp.chart.DFS_MEDM_R12_ensemble;
+			import comp.chart.DFS_MEDM_S12;
+			import comp.chart.DFS_MEDM_S12_Merged;
+			import comp.chart.DFS_MEDM_SKY_ensemble_candleStick;
+			import comp.chart.DFS_MMX;
+			import comp.chart.DFS_MMX_Merged;
+			import comp.chart.DFS_MMX_ensemble;
+			import comp.chart.DFS_POP;
+			import comp.chart.DFS_POP_MergedModel;
+			import comp.chart.DFS_PTY;
+			import comp.chart.DFS_PTY_MergedMEDM;
+			import comp.chart.DFS_PTY_MergedModel;
+			import comp.chart.DFS_PTY_ensemble;
+			import comp.chart.DFS_REH;
+			import comp.chart.DFS_REH_MergedModel;
+			import comp.chart.DFS_RN3;
+			import comp.chart.DFS_RN3_Merged;
+			import comp.chart.DFS_SKY;
+			import comp.chart.DFS_SKY_MergedMEDM;
+			import comp.chart.DFS_SKY_MergedModel;
+			import comp.chart.DFS_SN3;
+			import comp.chart.DFS_SN6;
+			import comp.chart.DFS_SN6_MergedModel;
+			import comp.chart.DFS_T3H;
+			import comp.chart.DFS_T3H_MergedModel;
+			import comp.chart.DFS_VIS;
+			import comp.chart.DFS_WSD;
+			import comp.chart.DFS_WSD_MergedModel;
+			import comp.chart.DFS_ensemble_CLDnPTY;
+			import comp.chart.EPSG_MMX_single;
+			import comp.chart.EPSG_R12_single;
+			import comp.chart.PrcpTypeNCloud;
+			import comp.chart.WSD;
+			import comp.chart.WeightSeries_invisibleAxe;
+			import comp.chart.chartingTool.ByteArrayUtil;
+			import comp.chart.checkBox.EPSG_CLD;
+			import comp.chart.checkBox.EPSG_MMX;
+			import comp.chart.checkBox.EPSG_R12;
+			import comp.chart.checkBox.IMGCheckBox_ECMWF;
+			import comp.chart.checkBox.IMGCheckBox_GDPS;
+			import comp.chart.checkBox.IMGCheckBox_MergedMEDM;
+			import comp.chart.checkBox.IMGCheckBox_MergedMEDM_excludeS12;
+			import comp.chart.checkBox.IMGCheckBox_MergedModel;
+			import comp.chart.checkBox.IMGCheckBox_PMOS;
+			import comp.chart.checkBox.IMGCheckBox_SSPS;
+			import comp.chart.checkBox.IMGCheckBox_ensemble;
+			import comp.chart.checkBox.IMGCheckBox_theOthers;
+			import comp.chart.checkBox.WGHTStaticLegend;
+			import comp.chart.multiVars_GDPS;
+			import comp.chart.multivar3col_ECMWF;
+			import comp.chart.multivar3col_PMOS;
+			import comp.chart.multivar3col_SSPS;
+			import comp.chart.multivar3col_cartesian;
+			import comp.util.common.CommonUtil;
+			
+			import components.control.CustomTitleWindow;
+			import components.preferences.notConfiguredYet;
+			import components.preferences.userSharedObj.LSOHandler;
+			import components.util.BuildMyOwnQLoader;
+			import components.util.Constants;
+			
+			import mx.charts.AxisLabel;
+			import mx.charts.chartClasses.CartesianCanvasValue;
+			import mx.charts.chartClasses.CartesianChart;
+			import mx.charts.chartClasses.ChartBase;
+			import mx.charts.chartClasses.Series;
+			import mx.collections.ArrayCollection;
+			import mx.controls.Alert;
+			import mx.controls.Button;
+			import mx.controls.CheckBox;
+			import mx.controls.Label;
+			import mx.core.UIComponent;
+			import mx.formatters.NumberFormatter;
+			import mx.managers.PopUpManager;
+			import mx.utils.ObjectProxy;
+			import mx.utils.ObjectUtil;
+			
+//			private var isDebugEnabled:Boolean = false;
+			/**
+			 * 1.쓰잘제거
+			 * 쓸때없는바인딩
+			 * 중복되는플래그변수
+			 * 지겨운 .indexOf==-1
+			 * var t3h_chart:DFS_T3H_MergedModel = chart as DFS_T3H_MergedModel;
+			 * 2.펑션 리팩터링
+			 * drawTimeSeries() 특히.. 데이터핸들링부분이랑 차트스타일 분리.. 싱글변수 멀티차트 분리
+			 * 중뷁펑션 제거
+			 * getChartInstance랑 차트 캐스팅하는부분 수정
+			 * 3.다큐멘테이션
+			 * 
+			 * 4. PMOS2 MMX 데이터 그냥 GDAPS에 넣자 XMLOutputter 수정하긔 
+			 * */
+			
+			// Personalization Settings..
+//			private var preferencesPanel:notConfiguredYet
+			// Oct 14, 2013
+		 	[Bindable]
+	        public var configuredStations:ArrayCollection = new ArrayCollection();
+	        public var userDefined_isMEDM:String;
+			public var userDefined_baseModel:String;
+	        public var userDefined_grCode:String;
+	        public var userDefined_isOlympic:String;
+			
+	        [Bindable] 
+	        public var defaultPageSetter:LSOHandler; //defaultPageSO
+	        [Bindable]
+	        public var sObj_personalization_SHRT:LSOHandler; //SHRT
+	        [Bindable]
+	        public var sObj_personalization_MEDM:LSOHandler; //MEDM
+	        [Bindable]
+	        public var sObj_personalization_SSPS:LSOHandler; //SSPS
+	        
+	        //merged model, Dec 2013
+	        [Bindable]
+	        private var isMergedModel:Boolean = false;
+			
+			//my favorite
+			public function getSOConfiguration():void{
+				
+	            defaultPageSetter = new LSOHandler("setSpecifiedStuffAsMain",true);
+	            sObj_personalization_SHRT = new LSOHandler("userConfigured_SHRT");
+	            sObj_personalization_MEDM = new LSOHandler("userConfigured_MEDM");
+	            sObj_personalization_SSPS = new LSOHandler("userConfigured_SSPS");
+	            
+	            //다른데서 초기화하자잉
+//	            if (SO_userDefinedList.getObjects()) 
+//	                configuredStations = SO_userDefinedList.getObjects();
+				
+				userDefined_isMEDM = (defaultPageSetter.getIsMEDM()=='')?"false" :defaultPageSetter.getIsMEDM();
+				userDefined_baseModel = (defaultPageSetter.getBaseModel()=='')? "PMOS" : defaultPageSetter.getBaseModel();
+				//disableBest
+//				userDefined_baseModel = (defaultPageSetter.getBaseModel()=='')? "BEST" : defaultPageSetter.getBaseModel();
+				userDefined_grCode = (defaultPageSetter.getRegionCode()=='')? "8318" :defaultPageSetter.getRegionCode();	            
+				
+				userDefined_isOlympic = (defaultPageSetter.isOlympic()=='')? "false" :defaultPageSetter.isOlympic();	            
+
+				
+				if(!userDefined_isMEDM || !userDefined_baseModel || !userDefined_grCode){
+					userDefined_isMEDM='false';
+					//disableBest
+//					userDefined_baseModel='BEST';
+					userDefined_baseModel='PMOS';
+					userDefined_grCode='8318';
+					
+					userDefined_isOlympic='false';
+				}
+			}
+			
+			
+			private function printConfiguredDataOrder():String{
+					var str:String='';
+					var cnt:uint=0;
+					for each(var obj:Object in configuredStations){
+						str+= '[' + cnt + ']' +obj.stnName + ' (' + obj.stnCode + ')\n'
+						cnt++;
+					}
+					return str;
+				}	
+			
+			// Personalization Settings..
+			// Oct 14, 2013
+			
+			private function appCompletHandlerForDebug(localTest:Boolean=false):void{
+				if(localTest){
+					var cornerGutter:Number = 20; //haha
+					var topLeftCorner:Alert =Alert.show('check if ApplicationCompletEvent was triggered..\ninitApp(localTestTemporary:Boolean=false)','[TIME SERIES Activated..haha]');
+					topLeftCorner.width = 365;
+					PopUpManager.centerPopUp(topLeftCorner);
+					topLeftCorner.x =  0 ; //this.width - topRightCorner.width - cornerGutter;
+					topLeftCorner.y = 0 ;
+				}
+			}
+			
+			//Sep 02, 2013
+			//Sep 02, 2013
+			[Embed(source='asset/DFS/timeSeries/meteogram/symbol/btn_settings.png')] private var btn_settings:Class
+
+			private var isMainStation:Boolean = false;			
+			[Bindable]private var isUserConfigured:Boolean = false;			
+			[Bindable] private var isMultiSeries:Boolean = true;
+//			setAlternateFill(is00UTC,isOddNum,true) 끝에 isKWRF 이프엘스 주지말고 불린값으로 쓰자 ㅡ,.ㅡ 
+			
+			//adios 			
+			[Bindable]private var isEnsemble:Boolean = false;			
+			[Bindable]private var isSSPS:Boolean = false;			
+			[Bindable]private var isPYEONGCHANG:Boolean = false;			
+			
+			[Bindable]public var SSPSEnvInfo:XML;			
+			
+			[Bindable] private var xmlRoot:XML; 
+			[Bindable] private var stations:XML; 
+			//for multiVar charting
+			[Bindable] private var list_reh:XML; 
+			[Bindable] private var list_pop:XML; 
+			[Bindable] private var list_rn3:XML; 
+			[Bindable] private var list_sn3:XML; 
+			[Bindable] private var list_wsd:XML; 
+			[Bindable] private var list_sky:XML; 
+			[Bindable] private var list_pty:XML; 
+			[Bindable] private var list_t3h:XML; 
+			//meFine
+			[Bindable] private var list_vis:XML; 
+			//for multiVar charting
+			
+			[Bindable] private var dateOfIssue:String  = " "; 
+			[Bindable] private var basedOn:String  = " "; 
+			[Bindable] private var BESTModelList:String  = "";  //me2016
+			[Bindable] private var updatedOn:String  = " "; //me2016 
+	//		[Bindable] private var idx_tgBtn:int;
+			
+			[Bindable] private var str_typeOfChart:String;
+			[Bindable] private var grCode:int;
+			
+			[Bindable] private var str_urlReq:String;
+			[Bindable] private var XMLfolderPath:String;
+	
+			//multiChart Temperature..linearAxisRange
+			private var max_axisVal:Number;
+			private var min_axisVal:Number;
+			private var max_prcp:Number;
+			[Bindable]private var doesntNeedAxisRangeAdjust:Boolean;
+			[Bindable]private var isKindOfPrepitation:Boolean;
+			
+			
+			//PMOS.. exclude R12 n S12
+			[Bindable]
+			private var isPMOS:Boolean;
+			[Bindable]
+			public var isSHRT_KWRF_ACC:Boolean = false;
+			
+			////AUG 24, 2013///////////////////////////////
+			private var currDate:Date;
+			private var is00UTC:Boolean;
+			private var isOddNum:Boolean; //dayOfWeek % 2
+			///////////////////////////////////
+			[Bindable]public var isMEDM:Boolean=false;
+			[Bindable]private var baseModelName:String;
+			
+			//쓰잘인데 이미지 저장할때 쓰게
+			private var str_yyyymmddhhmm:String;		
+			
+			public var vSpacing:Number = 10;
+	
+			/**
+			 * padding.. peak나 nadir 위아래로 레이블 올리기 위함이여
+			 * */
+			 													//needMoreGutterTop
+			public function getMaxVal(roundInterval:Boolean=false, needMoreGutterTop:Boolean=false, paddingLevel:Number=0):Number{
+				if(!roundInterval){
+					return max_axisVal;
+				}else{
+					if(needMoreGutterTop){
+						return max_axisVal + ((max_axisVal-min_axisVal)*0.3)				
+					}else{
+						var defaultPad:int = Constants.INTERVAL_TEMPERATURE + 1 ; // 5는 넘넓어
+	//					CommonUtil.getInstance().showAlertDialogOnScreenTop(((max_axisVal-min_axisVal)/(Constants.INTERVAL_TEMPERATURE+add2interval))+'','paddingTop')
+						var peakPlusLabelHeight:Number = max_axisVal+((max_axisVal-min_axisVal)/(defaultPad-paddingLevel));
+						return CommonUtil.getInstance().computeVerticalAxisMinMax(peakPlusLabelHeight, Constants.INTERVAL_TEMPERATURE);
+					}
+				}
+			}
+			
+			public function getMinVal(roundInterval:Boolean=false,bottomPadding:Number=0):Number{
+				if(!roundInterval){
+					return min_axisVal;
+				}else{
+					if(bottomPadding==18){
+						return CommonUtil.getInstance().computeVerticalAxisMinMax(min_axisVal, Constants.INTERVAL_TEMPERATURE,false);
+					}else{
+						var paddingLevel:int = Constants.INTERVAL_TEMPERATURE + 1;
+	//					CommonUtil.getInstance().showAlertDialogOnScreenTop(((max_axisVal-min_axisVal)/(Constants.INTERVAL_TEMPERATURE+add2interval))+'','paddingBottom')
+						var nadirMinusLabelHeight:Number = min_axisVal-((max_axisVal-min_axisVal)/(paddingLevel-bottomPadding));
+						return CommonUtil.getInstance().computeVerticalAxisMinMax(nadirMinusLabelHeight, Constants.INTERVAL_TEMPERATURE ,false);
+					}
+				}
+			}
+			
+			public function getMaxPrcp(roundInterval:Boolean=false,needLabelGutter=false):Number{
+				if(!roundInterval)
+					return max_prcp;
+				else
+					if(!needLabelGutter) return (max_prcp % Constants.INTERVAL_PRECIPITATION != 0)? Math.ceil(max_prcp/10) * 10 : max_prcp;
+					else return Math.ceil((max_prcp*1.2)/10) * 10 
+			}
+	
+			public var cbGroup:CheckBoxGroup2;
+	
+			/**
+			 * appendContextMenu() save a timeseries in .png
+			 * mouseWhellAccelerator() for IE8
+			 * */
+			private function creationCompleteHandler():void{
+				appendContextMenu();
+				mouseWheelAccelerator();				
+			}
+				
+			public function mouseWheelAccelerator():void{
+				systemManager.addEventListener("mouseWheel", bumpDelta, true);
+			}	
+			
+			public function bumpDelta(e:MouseEvent):void{
+				e.delta*=15;   //30 is toooooo fast
+			}
+			
+			private function appendContextMenu():void{
+					var menu:ContextMenu = new ContextMenu();
+					var mItem:ContextMenuItem = new ContextMenuItem('차트 이미지 저장');
+					mItem.addEventListener(ContextMenuEvent.MENU_ITEM_SELECT, mItemSelectHandler);
+					menu.customItems.push(mItem);
+					menu.hideBuiltInItems();
+					this.contentsBox.contextMenu = menu;
+			}
+		
+			private function mItemSelectHandler(e:ContextMenuEvent):void{
+				saveAnImageInPNG();
+			}
+			
+			/**
+			 * Sep 02, 2013
+			 * 주요도시 멀티차트 추가 
+			 * 테스트 데이터
+			 * SHRT 2013 08 30 12UTC 부터 과거 3일자료
+			 * MEDM 2013 08 23 00UTC 부터 과거 3일자료
+			 * */	
+			private function initApp(localTestTemporary:Boolean=false):void{
+				if(!localTestTemporary){
+		            if (ExternalInterface.available) {
+		                try {
+		                    ExternalInterface.addCallback("sendMsgToFlexApp", messageFromJohn);
+		                    ExternalInterface.addCallback("getInitInfo", messageFromJohn);
+		                    if (checkJavaScriptReady()) {
+		                    	trace("check JS ready");
+		                    } else {
+		                        var readyTimer:Timer = new Timer(5000, 0);
+		                        readyTimer.addEventListener(TimerEvent.TIMER, timerHandler);
+		                        readyTimer.start();
+		                        
+		                    }
+		                } catch (error:SecurityError) {
+		                   Alert.show("A Security Error occurred: " + error.message) ;
+		                } catch (error:Error) {
+		                	Alert.show("An Error occurred: " + error.message);
+		                }
+		            } else {
+		            	Alert.show("External interface is not available for this container!!!!");
+		            }			
+					trace("initializing app.....");
+					
+					getSOConfiguration();
+					if(userDefined_isMEDM !='' || ! userDefined_isMEDM){
+						if(userDefined_baseModel !='' || ! userDefined_baseModel)
+							if(userDefined_grCode !='' || ! userDefined_grCode)
+//			           			initChart(ExternalInterface.call("getInitInfo" ,userDefined_grCode, userDefined_baseModel, userDefined_isMEDM));//수개처리
+			           			initChart(ExternalInterface.call("getInitInfo" ,userDefined_grCode, userDefined_baseModel, userDefined_isMEDM, userDefined_isOlympic));//수개처리
+					}else{
+			           	initChart(ExternalInterface.call("getInitInfo","8318","PMOS","false"));
+					}
+				}else{
+					getSOConfiguration();
+					
+					
+					initChart('DFS_SHRT_STN_BEST_MERG T3H 201603220000 0 isMulti');
+//					initChart('DFS_MEDM_STN_ECMW_NPPM R12 201602140000 0');
+//					initChart('DFS_SHRT_STN_RDPS_PMOS SN6 201602140000 0');
+//					CommonUtil.getInstance().showAlertDialogOnScreenTop('alt. me. 20160316','affected');				
+
+					
+//					initChart('DFS_SHRT_STN_RDPS_NPPM POP 201510160000 50'); // oo  색상변경 파일 일부만 있는거는 테스트 못함  //모델 합성장 모델 레이블!!! BEST(UM 12km L70)
+					
+//					initChart('DFS_SHRT_STN_BEST_MERG T3H 201510160000 0 isMulti'); // oo  색상변경 파일 일부만 있는거는 테스트 못함  //모델 합성장 모델 레이블!!! BEST(UM 12km L70)
+//					initChart('DFS_SHRT_STN_BEST_MERG T3H 201510160000 0'); // oo  색상변경 파일 일부만 있는거는 테스트 못함  //모델 합성장 모델 레이블!!! BEST(UM 12km L70)
+//					initChart('DFS_SHRT_STN_BEST_MERG RN3 201510160000 0'); // oo  색상변경 파일 일부만 있는거는 테스트 못함
+//					initChart('DFS_SHRT_STN_BEST_MERG POP 201510160000 0'); // oo  색상변경 파일 일부만 있는거는 테스트 못함
+//					initChart('DFS_SHRT_STN_BEST_MERG SKY 201510160000 0'); // oo
+//					initChart('DFS_SHRT_STN_BEST_MERG REH 201510160000 0'); // ㅇㅇ  색상변경 파일 일부만 있는거는 테스트 못함
+//					initChart('DFS_SHRT_STN_BEST_MERG PTY 201510160000 0'); // oo 
+//					initChart('DFS_SHRT_STN_BEST_MERG WSD 201510160000 0'); // oo
+//					initChart('DFS_SHRT_STN_BEST_MERG SN3 201510160000 0'); //  ㅇㅇ  색상변경 파일 일부만 있는거는 테스트 못함
+					
+//					initChart('DFS_MEDM_STN_EPSG_PMOS MMX 201510160000 0'); // 
+//					initChart('DFS_MEDM_STN_ECMW_NPPM R12 201510160000 0'); // 
+//					initChart('DFS_MEDM_STN_GDPS_PMOS MMX 201510160000 0'); // 
+//					initChart('DFS_MEDM_STN_BEST_MERG MMX 201510160000 0'); // 
+					
+					
+//					initChart('DFS_SHRT_STN_BEST_MERG REH 201511060000 8318'); //oo
+//					initChart('DFS_SHRT_STN_BEST_MERG RN3 201312221200 0'); //oo
+//					initChart('DFS_SHRT_STN_BEST_MERG POP 201312221200 0'); //oo
+//					initChart('DFS_SHRT_STN_BEST_MERG SKY 201312221200 0'); //oo
+//					initChart('DFS_SHRT_STN_BEST_MERG PTY 201312221200 0');// 강수설명 레이블 지워야 겠다 !!!!!
+
+//	'); 
+//					initChart('DFS_SHRT_STN_SSPS SKY 201408110000 3501');  //claer
+//					initChart('DFS_SHRT_STN_SSPS PTY 201408110000 0');  //clear
+//					initChart('DFS_SHRT_STN_SSPS REH 201408110000 0');  //precision = 0 
+					
+					//============================================================================
+//					initChart('DFS_SHRT_STN_SSPS T3H 201510160000 9902 isMulti');  //clear 
+					
+//					initChart('DFS_SHRT_STN_SSPS T3H 201510160000 0103');  //clear (min max 없음)
+//					initChart('DFS_SHRT_STN_SSPS RN3 201510160000 0103');  //clear
+					
+//					initChart('DFS_SHRT_STN_SSPS VIS 201510160000 0103');   // meFine DFS_VIS . 근데 T3H 카피했듬.  
+					
+//					initChart('DFS_SHRT_STN_SSPS SKY 201510160000 0103');  //clear
+//					initChart('DFS_SHRT_STN_SSPS REH 201510160000 0103');  //clear
+//					initChart('DFS_SHRT_STN_SSPS PTY 201510160000 0103');  //clear
+//					initChart('DFS_SHRT_STN_SSPS WSD 201510160000 0103');  //clear
+//					initChart('DFS_SHRT_STN_SSPS SN3 201510160000 0103');  //clear
+					this.verticalScrollPolicy = "on";
+				}
+			}
+			
+			private function checkJavaScriptReady():Boolean {
+	            var isReady:Boolean = ExternalInterface.call("isReady");
+	            return isReady;
+	        }
+	
+	
+			private function timerHandler(event:TimerEvent):void {
+	            trace("checking JavaScript status... interval:5000m Sec");
+	            var isReady:Boolean = checkJavaScriptReady();
+	            if (isReady) {
+	                Timer(event.target).stop();
+	            }
+	        }
+			
+			/**
+			 * urlReq 호출해서 varible에 시리즈요소어레이 받아서 모델별로 거시기여 
+			 * 뻑 일곱시네 아침 일곱시ㅋㅋㅋㅋㅋㅋ
+			 * */
+			[Bindable]private var str_msgFromJohn:String;
+			
+			private function initChart(someInfo:String,viaPersonalizationSetting:Boolean=false):void{
+				messageFromJohn(someInfo);
+			}
+			
+			[Bindable]private var grCodeNum:int;
+			[Bindable]private var currDateStr:String;
+	        private var chartType:String;
+			private function messageFromJohn(value:String, viaPersonalizationSetting:Boolean=false):void {
+				removePreferencePanel();
+				popupEIDialog(); //remove popup
+
+  	 			str_msgFromJohn = value;
+				if(viaPersonalizationSetting){
+//					getSOConfiguration();//첨 이닛할때 초기화하는데 여기서 또할 필요가 있는지 확인해봐!!!!! aiods
+	  	 			trace("via personalizationSettings: " + value +"\n AND THEN invoke function getSOConfiguration()",'[메세지프롬좐]');
+				}else{
+	  	 			trace("[paramsInfo] sent from Sugay-z: " + value);
+				}				
+	
+	            var receivedFileName:String;
+				
+	            if(value.indexOf("SHRT_STN_RDPS_NPPM") != -1){
+					XMLfolderPath = "XML/RDPS/";
+					baseModelName = 'RDPS'; 
+				}else if(value.indexOf("BEST_MERG") != -1){ //doejeon oct2015 //BEST_MERG 2016
+					XMLfolderPath = "XML/BEST/";
+					baseModelName = 'BEST';
+				}else if(value.indexOf("SHRT_STN_RDPS_PMOS") != -1){
+					XMLfolderPath = "XML/PMOS/";
+					baseModelName = "PMOS";
+				}else if(value.indexOf("MEDM_STN_GDPS_NPPM") != -1){
+					XMLfolderPath = "XML/GDPS/";
+					baseModelName = "GDPS";
+				}else if(value.indexOf("MEDM_STN_GDPS_PMOS") != -1){
+					XMLfolderPath = "XML/PMOS2/";	
+					baseModelName ='PMOS2';
+				}else if(value.indexOf("ECMW_NPPM") != -1){
+					XMLfolderPath = "XML/ECMWF/";
+					baseModelName = "ECMWF";
+				//adios 
+				}else if(value.indexOf("MEDM_STN_EPSG_PMOS") != -1){
+					XMLfolderPath = "XML/ensembleMOS/";
+					baseModelName = "EPSG";
+					//adios
+//				}else if(value.indexOf("SHRT_STN_SSPS") != -1){
+				}else if(value.indexOf("_SSPS") != -1){
+					XMLfolderPath = "XML/SSPS/";
+					baseModelName = "SSPS";
+				}
+				
+				//May 2013
+				isEnsemble = (value.indexOf("MEDM_STN_EPSG_PMOS") != -1)? true : false;
+				//SSPS
+				isSSPS = (value.indexOf("_SSPS") != -1)? true : false; 
+				isMEDM = (value.indexOf("_MEDM_") != -1)? true:false; 
+				isSHRT_KWRF_ACC = (baseModelName=="KWRF")? true:false;
+				
+				//이거 일단 여기 두는데 나중에 다른데로 꼭 빼라 시부엉
+				//이거 일단 여기 두는데 나중에 다른데로 꼭 빼라 시부엉
+				//이거 일단 여기 두는데 나중에 다른데로 꼭 빼라 시부엉
+				if(isMEDM){
+					if(sObj_personalization_MEDM.getObjects()){
+						configuredStations = sObj_personalization_MEDM.getObjects();
+					}else{
+						configuredStations.removeAll();
+					}
+				//SSPS					
+				}else if(isSSPS){
+					
+					if(sObj_personalization_SSPS.getObjects()){
+						configuredStations = sObj_personalization_SSPS.getObjects();	
+					}else{
+						configuredStations.removeAll();
+					}
+					
+				}else{
+					if(sObj_personalization_SHRT.getObjects()){
+						configuredStations = sObj_personalization_SHRT.getObjects();
+					}else{
+						configuredStations.removeAll();
+					}
+				}
+				//이거 일단 여기 두는데 나중에 다른데로 꼭 빼라 시부엉
+				//이거 일단 여기 두는데 나중에 다른데로 꼭 빼라 시부엉
+				//이거 일단 여기 두는데 나중에 다른데로 꼭 빼라 시부엉
+				
+				//merged model, Dec 2013
+				//merged model, Dec 2013
+				//일단 걍 트루로 하고 개발
+	            var params:Array = value.split(" ");
+	            //AUG 24, 2013
+	            var dStr:String = params[2].toString();
+	            currDateStr = dStr;
+	            
+	            currDate = new Date(Number(dStr.substr(0,4)),Number(dStr.substr(4,2))-1,Number(dStr.substr(6,2)));
+	            isOddNum = (currDate.getDay()%2 != 0)? true : false;
+				is00UTC = (dStr.substr(8,2)=='00')? true:false;	            
+				
+	        	if(params.length >=5){  			//multi vars   
+	        		isMultiSeries = true;
+		            receivedFileName = params[0] + "_" + "ALL" + "." + params[2] + ".xml" ; //DFS_SHRT_STN_RDPS_NPPM,  ALL,  201106120000, grCode, isMulti  루프안에서 ALL을 변수명으로 리플레이스해서 로드하자
+		            chartType = params[4];
+		            isPMOS = (baseModelName=="PMOS")? true : false;
+					if(params.length == 6){
+						if(params[5]=='isPYEONGCHANG2018'){
+//							CommonUtil.getInstance().showAlertDialogOnScreenTop(value+'\n\nviaPersonalizationSetting=='+viaPersonalizationSetting.toString()+'\n\ncb_mergedModel.selected=='+ cb_mergedModel.selected,'messageFromFCKNJSJ');				
+							isPYEONGCHANG = true;
+						}
+					}else{
+							isPYEONGCHANG = false;
+					}
+	        	}else if(params.length == 4){   //single var
+	        		isMultiSeries = false;
+		            receivedFileName = params[0] + "_" + params[1] + "." + params[2] + ".xml" ;
+		            chartType = params[1];
+		            if(baseModelName=='PMOS' && params[1]=='SN3'){ //PMOS 신적설은 3시간 신적설 아니고 6시간 신적설로 변경
+						receivedFileName = params[0] + "_" + "SN6" + "." + params[2] + ".xml" ;
+			            chartType = 'SN6';
+		            }
+	        	} 
+	        	str_yyyymmddhhmm = params[2];
+	            grCodeNum = params[3];
+	            
+	            
+	            //30 Dec 2013
+	            //30 Dec 2013
+	            if(isMultiSeries){
+	            	if(cb_mergedModel.selected){
+	            		cb_mergedModel.selected = false;
+	            		isMergedModel = false;
+	            	}
+	            }
+	            //30 Dec 2013
+	            //30 Dec 2013
+	            
+	            //adios
+	            /*
+	            */
+				isMainStation = (grCodeNum==8318)? true : false;	
+				isUserConfigured = (grCodeNum==555)? true : false;	
+				
+	            //바인딩되어 있는 파일 변경 필요 없다면 ..같은날짜 같은차트 타입일 경우
+//	            if(str_urlReq==receivedFileName){
+//		            grCode = grCodeNum;
+//		        	drawTimeseries();
+//	            }else{ //초기화 할 때 str_urlReq
+		            str_urlReq = receivedFileName;
+		            grCode = grCodeNum;
+		            str_typeOfChart = chartType;
+	            	LoadXML();
+//	            }
+	        }
+	
+			private function loadSSPSEnvInfo():void{
+				if(!SSPSEnvInfo){
+					var loader:URLLoader = new URLLoader();
+					loader.dataFormat = URLLoaderDataFormat.TEXT;
+					loader.addEventListener(Event.COMPLETE, SSPSEnvInfoLoaded);
+					loader.load(new URLRequest("Stations_mountain.xml"));
+				}
+			}
+	
+			private function LoadXML():void{
+				loadSSPSEnvInfo();
+				//adios
+				if(isMultiSeries) (isEnsemble)? getEnsembleMemberData() : LoadMultipleXML();
+//				else (isEnsemble)? getEnsembleMemberData() : LoadSingleXML();
+				else LoadSingleXML();
+			}
+			
+			private function getEnsembleMemberData():void{
+				trace(baseModelName+"\nisEnsemble:"+isEnsemble+"\nisMutiseries:"+isMultiSeries);	
+				var runnersHigh:Array = new Array();
+				runnersHigh.push(XMLfolderPath+"DFS_MEDM_STN_EPSG_PMOS_MMX."+currDateStr+".xml"); //MMX
+				runnersHigh.push(XMLfolderPath+"DFS_MEDM_STN_EPSG_PMOS_SKY."+currDateStr+".xml"); //SKY
+				runnersHigh.push(XMLfolderPath+"DFS_MEDM_STN_EPSG_PMOS_PTY."+currDateStr+".xml"); //PTY
+				runnersHigh.push(XMLfolderPath+"DFS_MEDM_STN_EPSG_PMOS_R12."+currDateStr+".xml");//R12 
+				BuildMyOwnQLoader.getInstance().getMergedModelData(runnersHigh,isEnsemble);
+			}
+			
+			/**
+			 * 
+			 * T3H MergedModel..
+			 * 
+			 * */
+			private function LoadSingleXML():void{
+				if(isMergedModel){
+					var runnersHigh:Array = new Array();
+					if(!isMEDM){
+						if(str_typeOfChart=='SN3'){
+							str_typeOfChart='SN6';
+							chartType='SN6';
+						}
+						runnersHigh.push("XML/PMOS/DFS_SHRT_STN_RDPS_PMOS_"+chartType+"."+currDateStr+".xml"); 
+						runnersHigh.push("XML/RDPS/DFS_SHRT_STN_RDPS_NPPM_"+chartType+"."+currDateStr+".xml"); 
+						//disableBest
+						//2016 BEST_MERG
+						runnersHigh.push("XML/BEST/DFS_SHRT_STN_BEST_MERG_"+chartType+"."+currDateStr+".xml");  //doejeon Oct2015   
+						runnersHigh.push("XML/ECMWF/DFS_SHRT_STN_ECMW_NPPM_"+chartType+"."+currDateStr+".xml"); 
+						
+					}else{ // 중기 머지드 모델일 경우
+						if(str_typeOfChart=='MMX'){
+							runnersHigh.push("XML/ECMWF/DFS_MEDM_STN_ECMW_NPPM_MMX."+currDateStr+".xml"); 
+							runnersHigh.push("XML/PMOS2/DFS_MEDM_STN_GDPS_PMOS_MMX."+currDateStr+".xml"); 
+							//disableBest			   
+//							runnersHigh.push("XML/BEST/DFS_MEDM_STN_BEST_MERG_MMX."+currDateStr+".xml"); //doeJeon Oct2015
+							//ensemble
+							runnersHigh.push("XML/ensembleMOS/DFS_MEDM_STN_EPSG_PMOS_MMX."+currDateStr+".xml"); 
+						}else{
+							runnersHigh.push("XML/ECMWF/DFS_MEDM_STN_ECMW_NPPM_"+chartType+"."+currDateStr+".xml"); 
+							runnersHigh.push("XML/GDPS/DFS_MEDM_STN_GDPS_NPPM_"+chartType+"."+currDateStr+".xml"); 
+							//disableBest
+//							runnersHigh.push("XML/BEST/DFS_MEDM_STN_BEST_MERG_"+chartType+"."+currDateStr+".xml"); //doeJeon Oct2015 
+							//ensemble EPSG는 신적설데이터 없음!!!
+							if(chartType != 'S12'){
+								runnersHigh.push("XML/ensembleMOS/DFS_MEDM_STN_EPSG_PMOS_"+chartType+"."+currDateStr+".xml"); 
+							}
+						}
+					}
+					
+					BuildMyOwnQLoader.getInstance().getMergedModelData(runnersHigh);
+					
+				}else{
+					var loader:URLLoader = new URLLoader();
+					loader.dataFormat = URLLoaderDataFormat.TEXT;
+					loader.addEventListener(Event.COMPLETE, xmlLoaded);
+					loader.addEventListener(IOErrorEvent.IO_ERROR, xmlLoadFailed); 
+					trace(XMLfolderPath+str_urlReq);
+					loader.load(new URLRequest(XMLfolderPath+str_urlReq));
+				}
+			}
+			
+			[Bindable]public var mDictionary:Dictionary;
+			[Bindable]public var isExistOnlyKWRF:Boolean = false;
+			[Bindable]public var isExistOnlyECMWF:Boolean = false;
+			public function setExistModelData(existData:Dictionary):void{
+				if(mDictionary){
+					mDictionary = null;
+				}
+				mDictionary = existData;
+				isExistOnlyKWRF = (mDictionary['KWRF'] && (!mDictionary['BEST'] && !mDictionary['PMOS'] && !mDictionary['RDPS'] && !mDictionary['ECMWF']))? true:false;
+				isExistOnlyECMWF =(isMEDM && mDictionary['ECMWF'] && !mDictionary['BEST'] && !mDictionary['EPSG'] && (!mDictionary['PMOS2'] && !mDictionary['GDPS']))? true:false; //doejeon Oct2015
+				
+				var baseXML:XML = CommonUtil.getInstance().getBaseXML(mDictionary,baseModelName,isMEDM); //doejeon Oct2015 BEST 추가
+//CommonUtil.getInstance().showAlertDialogOnScreenTop(baseModelName,"setExistModelData(existData:Dictionary)");
+//				try{
+					if(isMainStation)
+						xmlRoot = getMainStations(baseXML);
+					else if(isUserConfigured)
+						xmlRoot = getUserConfiguredStations(baseXML);
+					else
+						xmlRoot = baseXML;
+					
+					//adios
+					changeGroupCodeAsIndex();
+					
+				//adios 디버깅할때는 타입에러 저거 받지마 젠장ㅋㅋㅋㅋㅋㅋ
+					
+//					Alert.show(xmlRoot.regionGroup[grCode].toXMLString())
+					
+					
+					dateOfIssue = xmlRoot.@issuedAt;
+					basedOn = xmlRoot.@basedOn;
+					
+					//me2016
+					if(mDictionary['BEST']){
+						var mdls:String =  XML(mDictionary['BEST']).@mdls + '';
+						BESTModelList = 'BEST(' + mdls + ')';
+//						CommonUtil.getInstance().showAlertDialogOnScreenTop('haha1')
+						if(mdls.length==0){
+//							CommonUtil.getInstance().showAlertDialogOnScreenTop('haha2')
+							BESTModelList = "BEST";
+						}
+					}
+					//me2016
+					
+					//얘는 drawTimeSeries에도 있음
+//					stations = xmlRoot.regionGroup[grCode];  
+					drawTimeseries();
+//				}catch(err:TypeError){
+//					Alert.show(err.message,"ERROR WHILE LOADING MERGED MODEL DATA");
+//				}
+			}
+			
+			
+			//adios
+			public function setExistEnsembleMember(ensembleData:Dictionary):void{
+				if(mDictionary){
+					mDictionary = null;
+				}
+				mDictionary = ensembleData;
+				var baseXML:XML = reorderListByVariables(new XML(mDictionary['MMX']));
+				try{
+					xmlRoot = baseXML;
+					//adios
+//				Alert.show(grCode+' gRcode','before changeGroupCodeAsIndex()')
+					changeGroupCodeAsIndex();
+//				Alert.show(grCode+' grCode','after changeGroupCodeAsIndex()')
+					
+					dateOfIssue = xmlRoot.@issuedAt;
+//					basedOn = xmlRoot.@basedOn;
+					basedOn = getBasalModel();
+					drawEnsembleMultiChart();
+				}catch(err:TypeError){
+					Alert.show(err.message,"ERROR WHILE DRAWING ENSEMBLE TIMESERIES");
+				}
+			}
+
+			private function pad2(index:uint):String{
+				var idx:String = index+'';
+				if(idx.length < 2){
+					idx = '0'+idx;
+				}
+				return '_'+idx+'_';
+			}
+			
+			private function adjustChartVisibilityBeforeDrawing():void{
+				if(isUserConfigured &&configuredStations.length==0){ //personalization
+					openPersonalizationSettingDialog();
+					return;
+				}else if((isUserConfigured &&configuredStations.length > 0) || !isUserConfigured){
+					contentsBox.includeInLayout = true;
+					contentsBox.visible = true; 
+				}
+			}
+			
+			private function drawEnsembleMultiChart():void{
+				adjustChartVisibilityBeforeDrawing();
+				trace("drawEnsembleMultiChart()")
+				
+				list_t3h = reorderListByVariables(new XML(mDictionary['MMX']));
+				list_rn3 = reorderListByVariables(new XML(mDictionary['R12']));
+				list_sky = reorderListByVariables(new XML(mDictionary['SKY']));
+				list_pty = reorderListByVariables(new XML(mDictionary['PTY']));
+				
+				stations = list_t3h.regionGroup[grCode];
+				dateOfIssue = list_t3h.@issuedAt;
+//				basedOn = getBaseModel();
+				basedOn = getBasalModel();
+				
+				chartArea.removeAllChildren();
+				var lbl:Label; 
+				
+//	민맥스 뽑기  Jan 2013			  모든 지점간 최고 최저 뽑는건데 일단 패쓰!!!!!!!!
+//	민맥스 뽑기  Jan 2013			  모든 지점간 최고 최저 뽑는건데 일단 패쓰!!!!!!!!
+//				if(isMultiSeries){
+					// 기온 강수 민맥스 초기화.. commonUtil이 싱글톤이라 그래잉
+					CommonUtil.getInstance().initPeakAndNadir();
+					
+					for(var i:int = 0; i<stations.children().length(); i++){
+						CommonUtil.getInstance().xmlListToObjectArray(list_t3h.regionGroup[grCode].stn[i].dataSet , true);
+						if(list_rn3){
+							CommonUtil.getInstance().xmlListToObjectArray(list_rn3.regionGroup[grCode].stn[i].dataSet,false,true);
+						}
+//						if(list_sn3){
+////							xmlListToObjectArray(list_sn3.regionGroup[grCode].stn[i].dataSet,false,false,false,true);
+//						}
+					}
+//				}	
+////				
+				lbl_baseModel.alpha = 1;
+				
+				var is12UTC:Boolean = (!is00UTC)? true : false;
+				var is279hrs:Boolean = (isEnsemble && isMultiSeries)? true : false; //ECMWF는 20판 나머지 기상청중기는 23판(279hrs)
+				
+				for(var i:int = 0; i<stations.children().length(); i++){
+					lbl = new Label();
+					lbl.setStyle("width","300");
+					lbl.setStyle("height","20");
+					lbl.setStyle("fontSize",15);
+					lbl.setStyle("fontWeight","bold");
+					lbl.truncateToFit = true;
+					lbl.text = (stations.stn[i].@stnName+ " (" + stations.stn[i].@stnNo + ")" );
+//					var chart:* = (isMEDM && isMultiSeries)? new DFS_MMX_proposal :getChartInstance();
+					var chart:DFS_MMX_ensemble = new DFS_MMX_ensemble();
+					
+					if(isMultiSeries){
+						if(isMEDM){
+							////////////////////////////중기 앙상블 /////////////////////////////////////
+							chart.minMaxArr = CommonUtil.getInstance().xmlListToObjectArray(list_t3h.regionGroup[grCode].stn[i].dataSet,true);	//차트안에서 민맥스 분리하자 복잡해져 메인엡이 ㅠ					
+							chart.seperateMinMaxFromSeries(is12UTC);
+							//컴퓨티드피크나더는 루프 태울 필요 없으니까 밖으로 빼라 강수도 마찬가지임
+							//컴퓨티드피크나더는 루프 태울 필요 없으니까 밖으로 빼라 강수도 마찬가지임
+							var computedPeak:Number = CommonUtil.getInstance().computeVerticalAxisMinMax(CommonUtil.getInstance().getPeak_temperature(), chart.axis_ver.interval);
+							var computedNadir:Number = CommonUtil.getInstance().computeVerticalAxisMinMax(CommonUtil.getInstance().getNadir_temperature(), chart.axis_ver.interval,false);
+							chart.peak_90th = computedPeak;
+							chart.nadir_10th= computedNadir;
+							if(!is12UTC){ 
+//									chart.vGridLine.visible = false;
+								chart.set00UTC_gridLines(isOddNum,is279hrs);
+							}else{ // 12 UTC
+								chart.set12UTC_gridLines(isOddNum);
+							}
+							////////////////////////////주간 종합 차트 /////////////////////////////////////
+						}
+						//Precipitation TYpe + CLOUD COVER
+						//Precipitation TYpe + CLOUD COVER
+						var cld_n_pty:DFS_ensemble_CLDnPTY = new DFS_ensemble_CLDnPTY();
+						
+						var prcp12hrs:DFS_MEDM_R12_ensemble = new DFS_MEDM_R12_ensemble();
+						//set data !!!!!!!!
+						//set data !!!!!!!!
+						cld_n_pty.dataProvider = CommonUtil.getInstance().xmlListToObjectArray(list_sky.regionGroup[grCode].stn[i].dataSet);
+						cld_n_pty.setCLD_n_PTYGraphics(CommonUtil.getInstance().xmlListToObjectArray(list_sky.regionGroup[grCode].stn[i].dataSet),
+														CommonUtil.getInstance().xmlListToObjectArray(list_pty.regionGroup[grCode].stn[i].dataSet),is12UTC);
+														
+						prcp12hrs.dataProvider = CommonUtil.getInstance().xmlListToObjectArray(list_rn3.regionGroup[grCode].stn[i].dataSet,false,true);	
+						var peak_prcp:Number = CommonUtil.getInstance().getPeak_Prcp();
+						var computedPrcpMaximum:Number = (peak_prcp % prcp12hrs.axis_ver.interval != 0)? Math.ceil(int(peak_prcp)/10) * 10 : peak_prcp;
+						//컴퓨티드맥시멈이 10이면 인터벌 2로 변경
+						//peak_prcp가 5mm 미만이면 축값5, 인터벌1
+						if(computedPrcpMaximum==10){
+							if(peak_prcp < 5){
+								computedPrcpMaximum = 5;
+								prcp12hrs.axis_ver.interval = 1;
+							}else{
+								prcp12hrs.axis_ver.interval = 2;
+							}
+						}
+						prcp12hrs.maxPrcp = computedPrcpMaximum;
+						prcp12hrs.prcp90th = peak_prcp;
+						//컴퓨티드맥시멈이 10이면 인터벌 2로 변경
+//						if(computedPrcpMaximum==10) prcp12hrs.axis_ver.interval = 2;
+						
+						if(isMEDM){
+							if(!is12UTC){ //00 UTC 이면 ..    0425, 2013  수정   12랑 00이랑 체인지여
+//								cld_n_pty.vGridLine.visible = false;
+								cld_n_pty.set00UTC_gridLines(isOddNum,is279hrs);
+								prcp12hrs.set00UTC_gridLines(isOddNum,is279hrs);
+								//요런거 내부펑션 혹은 액션스크립트 클래스로 조져 ㅡ,.ㅡ 
+								cld_n_pty.axis_hor.labelFunction = cld_n_pty.defineLabel_00UTC; 
+								cld_n_pty.topAxisRenderer.setStyle("labelAlign","right");
+								cld_n_pty.bottomAxisRenderer.setStyle("labelAlign","right");
+								//요런거 내부펑션 혹은 액션스크립트 클래스로 조져 ㅡ,.ㅡ 
+								//요런거 내부펑션 혹은 액션스크립트 클래스로 조져 ㅡ,.ㅡ 
+								
+								chart.axis_hor.labelFunction = chart.defineLabel_00UTC; 
+								chart.topAxisRenderer.setStyle("labelAlign","right");
+								chart.bottomAxisRenderer.setStyle("labelAlign","right");
+								
+								prcp12hrs.axis_hor.labelFunction = prcp12hrs.defineLabel_00UTC; 
+								prcp12hrs.topAxisRenderer.setStyle("labelAlign","right");
+								prcp12hrs.bottomAxisRenderer.setStyle("labelAlign","right");
+							}else{ //12 UTC
+								cld_n_pty.set12UTC_gridLines(isOddNum);//adios 
+								prcp12hrs.set12UTC_gridLines(isOddNum);//adios 
+								
+								cld_n_pty.topAxisRenderer.setStyle("labelAlign","right");
+								cld_n_pty.bottomAxisRenderer.setStyle("labelAlign","right");
+								
+								chart.topAxisRenderer.setStyle("labelAlign","right");
+								chart.bottomAxisRenderer.setStyle("labelAlign","right");
+							}
+							
+						}
+					}
+					// set top n bottom lable visiblity  + calc gutterTop(bottom)
+					// set top n bottom lable visiblity  + calc gutterTop(bottom)
+					//is Multi
+					if(isMultiSeries){
+						lbl.setStyle("paddingBottom",-10);
+						if(stations.children().length()==1){
+							//지점하나밖에없을때  상단 하늘상태 하단 기온 레이블 비저블 트루
+							lbl.setStyle("paddingBottom",-20);
+							cld_n_pty.topAxisRenderer.setStyle("showLabels",true);
+							cld_n_pty.setStyle("gutterTop",45);
+							cld_n_pty.topAxisRenderer.setStyle("labelGap",-20);
+							cld_n_pty.height+= 45;
+							chart.bottomAxisRenderer.setStyle("showLabels",true);
+//							chart.setStyle("gutterBottom", 45);
+							chart.height+= 25;
+						////멀티 첨이랑 끝
+						////첨이랑 끝
+						}else if(i==0 || i%3==0){
+							lbl.setStyle("paddingBottom",-20);
+							cld_n_pty.topAxisRenderer.setStyle("showLabels",true);
+							cld_n_pty.setStyle("gutterTop",45);
+							cld_n_pty.topAxisRenderer.setStyle("labelGap",-20);
+							cld_n_pty.height+= 41;
+						}else if(i==(stations.children().length()-1)){
+							chart.bottomAxisRenderer.setStyle("showLabels",true);
+//							chart.setStyle("gutterBottom", 45);
+							chart.height+= 25;
+						}
+						// 강수 기온 끌어올려잉						
+						// 강수 기온 끌어올려잉						
+						if(isMEDM && isEnsemble){
+							prcp12hrs.setStyle("paddingTop",-13);
+							chart.setStyle("paddingTop",-13); 
+						}
+						////첨이랑 끝
+						////첨이랑 끝
+						// set top n bottom lable visiblity  + calc gutterTop(bottom)
+						// set top n bottom lable visiblity  + calc gutterTop(bottom)
+						
+						//single var
+					}
+					
+					if(isMultiSeries){
+						chartArea.addChild(lbl);
+						chartArea.addChild(cld_n_pty);
+						chartArea.addChild(prcp12hrs);
+						chartArea.addChild(chart);
+						lbl.setStyle("paddingLeft",chart.getStyle("gutterLeft")-3);		
+						if(i==(stations.children().length()-1)){
+							var box:HBox = new HBox();
+							box.setStyle("width","100%");
+							box.setStyle("paddingLeft",25);
+	//						box.setStyle("paddingTop",-10);
+							var legend:Image = new Image();
+							legend.source = new Legend_ensemble();
+							legend.setStyle("paddingLeft",20);
+							box.addChild(legend);
+							chartArea.addChild(box);
+						}
+					}
+					
+				} // for
+				
+				//리젠드 체크박스 선택 at load
+				addCheckBoxLegendWithPrevStates();
+			}
+			
+			private function peak_n_nadir_seeker(xmlRoot:XML, isTemperature:Boolean=true):void{
+				CommonUtil.getInstance().initPeakAndNadir(); // 얘가 여기 
+				for(var i:int = 0; i<stations.children().length(); i++){
+					if(isTemperature){
+						CommonUtil.getInstance().xmlListToObjectArray(xmlRoot.regionGroup[grCode].stn[i].dataSet , true);
+					}else{
+						CommonUtil.getInstance().xmlListToObjectArray(xmlRoot.regionGroup[grCode].stn[i].dataSet,false,true);
+					}
+				}
+/*				
+CommonUtil.getInstance().showAlertDialogOnScreenTop(CommonUtil.getInstance().getPeak_temperature() + ' .vs. ' + CommonUtil.getInstance().getNadir_temperature()+'\nPrcp. '
+																	+CommonUtil.getInstance().getPeak_Prcp());
+*/																	
+			}
+			
+			private function drawEnsembleSingleVariable():void{
+				adjustChartVisibilityBeforeDrawing();
+				
+				stations = xmlRoot.regionGroup[grCode]; 
+				
+				if(str_typeOfChart=="MMX")peak_n_nadir_seeker(xmlRoot);
+				if(str_typeOfChart=="R12")peak_n_nadir_seeker(xmlRoot,false);
+				
+				chartArea.removeAllChildren();
+				var lbl:Label; 
+				
+				lbl_baseModel.alpha = 1;
+				for(var i:int = 0; i<stations.children().length(); i++){
+					lbl = new Label();
+					lbl.setStyle("width","300");
+					lbl.setStyle("height","20");
+					lbl.setStyle("fontSize",15);
+					lbl.setStyle("fontWeight","bold");
+					lbl.truncateToFit = true;
+					lbl.text = (stations.stn[i].@stnName+ " (" + stations.stn[i].@stnNo + ")" );
+					
+					var chart:*; // = (isMEDM && isMultiSeries)? new multiVars_GDPS():getChartInstance();
+					switch(str_typeOfChart){
+						case  "MMX" : chart = new EPSG_MMX_single(); chart.height = 150; break;
+						case  "R12" : chart = new EPSG_R12_single(); chart.height = 150; break;
+						case  "SKY" : chart = new DFS_MEDM_SKY_ensemble_candleStick(); chart.height = 120;   break;
+						case  "PTY" : chart = new DFS_PTY_ensemble(); chart.height = 120; break;
+					}
+//					chart.height += 40;
+						//GDAPS gildLines n labelAlign
+						//April 25, 2013 이제 MMX도 그리드 00,12 틀려
+						// 최저최고 기온이 아닌 주간 요소들 (하늘상태랑 강수형태)      
+//						if((str_typeOfChart!="MMX" && baseModelName=='GDPS') || (str_typeOfChart!="MMX" && baseModelName=='ECMWF')){ ///단기 ECMWF애들까지 전부 이거 탐 !! 주간 ECMWF 정상 표
+						if(str_typeOfChart=="R12"){
+							
+							chart.dataProvider = CommonUtil.getInstance().xmlListToObjectArray(stations.stn[i].dataSet,false,true);	
+//							chart.ls_median.dataProvider = chart.dataProvider; 소용없음
+							var peak_prcp:Number = CommonUtil.getInstance().getPeak_Prcp();
+							var computedPrcpMaximum:Number = (peak_prcp % chart.axis_ver.interval != 0)? Math.ceil(int(peak_prcp)/10) * 10 : peak_prcp;
+							//컴퓨티드맥시멈이 10이면 인터벌 2로 변경
+							//peak_prcp가 5mm 미만이면 축값5, 인터벌1
+							if(computedPrcpMaximum==10){
+								if(peak_prcp < 5){
+									computedPrcpMaximum = 5;
+									chart.axis_ver.interval = 1;
+								}else{
+									chart.axis_ver.interval = 2;
+								}
+							}
+							chart.maxPrcp = computedPrcpMaximum;
+							chart.prcp90th = peak_prcp;
+							
+//							var peak_prcp:Number = CommonUtil.getInstance().getPeak_Prcp();
+//							var computedPrcpMaximum:Number = (peak_prcp % chart.axis_ver.interval != 0)? Math.ceil(int(peak_prcp)/10) * 10 : peak_prcp;
+//							chart.maxPrcp = computedPrcpMaximum;
+//							//컴퓨티드맥시멈이 10이면 인터벌 2로 변경
+//							if(computedPrcpMaximum==10) chart.axis_ver.interval = 2;
+							
+//							chart.dataProvider = stations.stn[i].dataSet;
+							chart.topAxisRenderer.setStyle("labelAlign","right");////////////////////////////////////// left -->right   April 25, 2013
+							chart.bottomAxisRenderer.setStyle("labelAlign","right");////////////////////////////////// left -->right   April 25, 2013
+							
+							if(!is00UTC){ //12 UTC
+								chart.set12UTC_gridLines(isOddNum,true);
+							}else{ //00 UTC
+								chart.axis_hor.labelFunction = chart.defineLabel_00UTC; 
+								chart.set00UTC_gridLines(isOddNum,true,true);									
+							}
+						}else if(str_typeOfChart=="PTY"){
+							chart.dataProvider = CommonUtil.getInstance().xmlListToObjectArray(stations.stn[i].dataSet);	
+							chart.setPTYGraphics(CommonUtil.getInstance().xmlListToObjectArray(stations.stn[i].dataSet),!is00UTC);
+//							chart.dataProvider = stations.stn[i].dataSet;
+							
+							chart.topAxisRenderer.setStyle("labelAlign","right");////////////////////////////////////// left -->right   April 25, 2013
+							chart.bottomAxisRenderer.setStyle("labelAlign","right");////////////////////////////////// left -->right   April 25, 2013
+							if(!is00UTC){ //12 UTC
+								chart.set12UTC_gridLines(isOddNum);
+							}else{ //00 UTC
+								chart.axis_hor.labelFunction = chart.defineLabel_00UTC; 
+								chart.set00UTC_gridLines(isOddNum,true);									
+							}
+						}else if(str_typeOfChart=="SKY"){
+							chart.dataProvider = CommonUtil.getInstance().xmlListToObjectArray(stations.stn[i].dataSet);	
+//							chart.dataProvider = stations.stn[i].dataSet;
+							
+							chart.topAxisRenderer.setStyle("labelAlign","right");////////////////////////////////////// left -->right   April 25, 2013
+							chart.bottomAxisRenderer.setStyle("labelAlign","right");////////////////////////////////// left -->right   April 25, 2013
+							
+							if(!is00UTC){ //12 UTC
+								chart.set12UTC_gridLines(isOddNum);
+							}else{ //00 UTC
+								chart.axis_hor.labelFunction = chart.defineLabel_00UTC; 
+								chart.set00UTC_gridLines(isOddNum,true);									
+							}
+						// MMX	
+						// MMX	
+						// MMX	
+						// MMX	Dec 2013
+						}else if(str_typeOfChart=="MMX"){ 
+							chart.minMaxArr = CommonUtil.getInstance().xmlListToObjectArray(stations.stn[i].dataSet,true);	//차트안에서 민맥스 분리하자 복잡해져 메인엡이 ㅠ					
+							chart.seperateMinMaxFromSeries(!is00UTC);
+					
+							var computedPeak:Number = CommonUtil.getInstance().computeVerticalAxisMinMax(CommonUtil.getInstance().getPeak_temperature(), chart.axis_ver.interval);
+							var computedNadir:Number = CommonUtil.getInstance().computeVerticalAxisMinMax(CommonUtil.getInstance().getNadir_temperature(), chart.axis_ver.interval,false);
+							chart.peak_90th = computedPeak;
+							chart.nadir_10th= computedNadir;
+//							Alert.show(computedPeak + " .vs. " + computedNadir)
+							
+							if(is00UTC){ //00 UTC
+								chart.axis_hor.labelFunction = chart.defineLabel_00UTC; 
+								chart.set00UTC_gridLines(isOddNum,true,true);
+							}else{ // 12 UTC
+								chart.set12UTC_gridLines(isOddNum,true);
+							}
+							chart.topAxisRenderer.setStyle("labelAlign","right");
+							chart.bottomAxisRenderer.setStyle("labelAlign","right");
+						// MMX	Dec 2013
+						// MMX	
+						// MMX	
+						// adios
+						}
+					// set top n bottom lable visiblity  + calc gutterTop(bottom)
+						//one station in regionGroup
+						if(stations.children().length()==1){
+							chart.height += chart.height * 0.4;
+							chart.topAxisRenderer.setStyle("showLabels",true);
+							chart.bottomAxisRenderer.setStyle("showLabels",true);
+						}else if(i==0 || i%3==0){
+							chart.topAxisRenderer.setStyle("showLabels",true);
+							chart.height += chart.height * 0.25;
+						}else if(i==(stations.children().length()-1)){
+							chart.bottomAxisRenderer.setStyle("showLabels",true);
+							chart.height += chart.height * 0.25;
+						}
+					
+						chartArea.addChild(lbl);
+						chartArea.addChild(chart);
+						//////////////////////////////////////////////////////////////////
+						lbl.setStyle("paddingLeft",chart.getStyle("gutterLeft")-3);		
+						chart.setStyle("paddingTop", -vSpacing);	
+				//adios
+				}
+				addCheckBoxLegendWithPrevStates();
+			}
+			//adios
+			//adios
+			//adios
+
+			private function SSPSEnvInfoLoaded(e:Event):void{
+				SSPSEnvInfo = new XML(e.target.data);
+			}
+			
+			private function xmlLoaded(e:Event):void{
+//				try{
+					if(isMainStation){
+						xmlRoot = getMainStations(new XML(e.target.data));
+//						Alert.show(xmlRoot.toXMLString())
+					}else if(isUserConfigured){
+						xmlRoot = getUserConfiguredStations(new XML(e.target.data));
+					}else{
+						xmlRoot = new XML(e.target.data)
+					}
+					
+					
+					
+					//me2016
+					if(xmlRoot.hasOwnProperty('@updatedOn')){
+						updatedOn = xmlRoot.@updatedOn;
+					}
+					
+					
+					
+					
+					dateOfIssue = xmlRoot.@issuedAt;
+//					basedOn = xmlRoot.@basedOn;
+					basedOn = (baseModelName=="BEST")? xmlRoot.@basedOn : getBasalModel(); //me2016
+					/*
+					if(baseModelName!='SSPS' && baseModelName!='PMOS' && baseModelName!='ECMWF' && !isEnsemble){ //adios
+						if(str_typeOfChart.toUpperCase()=='POP' || str_typeOfChart.toUpperCase()=='PTY' || str_typeOfChart.toUpperCase()=='SKY'){
+							basedOn = 'PPM/'+xmlRoot.@basedOn;
+						}
+					}else if(baseModelName=="ECMWF"){
+						basedOn = getBaseModel();
+					}
+					if(isEnsemble){
+						if(str_typeOfChart=='R12') basedOn = 'EPSG(UM N320 L70)';
+						else basedOn = 'MOS(EPSG N320 L70)'
+					}
+					*/
+					changeGroupCodeAsIndex();
+					//adios
+					stations = xmlRoot.regionGroup[grCode];  //grCode 전역변수로 바인딩해서 차트 타입 바뀌어도 유지되게
+//					(isEnsemble)? drawEnsembleSingleVariable() : drawTimeseries(); 
+					(isEnsemble)? drawEnsembleSingleVariable() : (baseModelName=="BEST"&&!isMEDM)? drawTimeseriesWithWeightInfo(): drawTimeseries(); //me2016 일단 단기만 처리!!!!
+					trace("xmlLoaded(e:Event)  xml loaded successfully!!");
+//				}catch(err:TypeError){
+//					Alert.show(err.message,"FILE TYPE ERROR");
+//				}
+			}
+	
+			/**
+			 * xmlRoot값 제대로 어싸인하기전에 이펑션 호출하면 인덱스 꼬임(단기중기메뉴전환간)
+			 * 2014-08-17 SSPS도 
+			 * 
+			 * */
+			private function changeGroupCodeAsIndex():void{
+				
+				if(baseModelName == "SSPS"){
+					if(grCode == 555){
+					}else if(grCode == 8318){
+						Alert.show('8318')
+					}else{
+						grCode = XML(xmlRoot.regionGroup.(Number(@grCode) == grCode)).childIndex();
+					}
+				}
+				
+				if(isMEDM){
+//					var grCodeStr = grCode+'';
+					if(grCode == 555){
+					}else if(grCode == 8318){
+					}else{
+//						var str:String = grCode+'';
+						grCode = XML(xmlRoot.regionGroup.(@grCode == grCode+'')).childIndex();
+//						CommonUtil.getInstance().showAlertDialogOnScreenTop(str+'-->'+grCode,'changeGroupCodeAsIndex');
+					}
+				}
+			}
+	
+			/**
+			 * async token 날려서 파일체킹을 하던지 할까나 ㅡ,.ㅡ 
+			 * */
+			private function LoadMultipleXML():void{
+				var multiLoader:URLMultiLoader = new URLMultiLoader();
+//				if(baseModelName!='PMOS2'){
+				//단기 종합차트
+				//단기 종합차트
+				if(!isMEDM){
+					var req_REH:URLRequest =  new URLRequest(XMLfolderPath + str_urlReq.replace("ALL","REH"));			
+					var req_POP:URLRequest =  new URLRequest(XMLfolderPath + str_urlReq.replace("ALL","POP"));			
+					var req_WSD:URLRequest = new URLRequest(XMLfolderPath + str_urlReq.replace("ALL","WSD"));			
+					var req_T3H:URLRequest =  new URLRequest(XMLfolderPath + str_urlReq.replace("ALL","T3H"));			
+					multiLoader.addURLRequest("reh",req_REH); //param3: dataProcessor, param4:fileTYpe
+					if(baseModelName != 'ECMWF' && baseModelName != 'SSPS' && baseModelName != 'BEST' ){ //BEST_MERG 2016
+						multiLoader.addURLRequest("pop",req_POP); 
+					}
+					
+					//meFine
+					if(baseModelName == 'SSPS'){
+						multiLoader.addURLRequest("vis",new URLRequest(XMLfolderPath + str_urlReq.replace("ALL","VIS"))); 
+					}
+					
+					multiLoader.addURLRequest("wsd",req_WSD); 
+					multiLoader.addURLRequest("t3h",req_T3H); 
+//				}else if(baseModelName=='PMOS2'){
+				//중기 종합차트 GDAPS, ECMWF
+				//중기 종합차트 GDAPS, ECMWF
+				}else{
+					var req_MMX:URLRequest =  new URLRequest(XMLfolderPath + str_urlReq.replace("ALL","MMX"));			
+					multiLoader.addURLRequest("mmx",req_MMX); 
+				}
+				
+				// 기온은 PMOS2 그대로 쓰는데 나머지 요소는 GPDS꺼 써야함 !!
+				if(baseModelName=='PMOS2') {XMLfolderPath = 'XML/GDPS/';str_urlReq = str_urlReq.replace("_PMOS_","_NPPM_")}
+				// 기온은 PMOS2 그대로 쓰는데 나머지 요소는 GPDS꺼 써야함 !!
+				
+				if(!isPMOS){
+					var req_RN3:URLRequest =  new URLRequest(XMLfolderPath + str_urlReq.replace("ALL","RN6"));			
+					
+					//temporary May 14, 2013
+					if(isMEDM){
+						req_RN3 = 	new URLRequest(XMLfolderPath + str_urlReq.replace("ALL","R12"));					
+					}
+					//temporary May 14, 2013
+					multiLoader.addURLRequest("rn3",req_RN3); 
+				}
+				
+				var req_SN3:URLRequest =  new URLRequest(XMLfolderPath + str_urlReq.replace("ALL","SN6"));			
+//temporary May 14, 2013
+					if(isMEDM){
+						req_SN3 = 	new URLRequest(XMLfolderPath + str_urlReq.replace("ALL","S12"));					
+					}
+//temporary May 14, 2013
+				multiLoader.addURLRequest("sn3",req_SN3); 
+				
+				var req_SKY:URLRequest =  new URLRequest(XMLfolderPath + str_urlReq.replace("ALL","SKY"));			
+				var req_PTY:URLRequest =  new URLRequest(XMLfolderPath + str_urlReq.replace("ALL","PTY"));			
+				multiLoader.addURLRequest("sky",req_SKY); 
+				multiLoader.addURLRequest("pty",req_PTY); 
+				
+				multiLoader.addEventListener(Event.COMPLETE, multipleXMLLoadedAtOnce);
+				multiLoader.addEventListener(IOErrorEvent.IO_ERROR, xmlLoadFailed);
+				multiLoader.load();			
+			}	
+	
+	
+	
+			private function getBaseModel():String{
+				var modelStr:String='';
+				if(baseModelName=='PMOS2' && isMultiSeries){
+					modelStr = 'MOS/PPM/GDAPS(UM N512 L70)';
+				}else if(baseModelName == "ECMWF"){
+					modelStr = 'PPM/ECMWF(ECMWF 0.25 º)';
+//				}else if(baseModelName == "EPSG(UM N320 L70)"){
+				}else if(baseModelName == "EPSG"){
+//					modelStr = 'MOS/EPSG(UM N320 L70)';
+					modelStr = 'MOS(EPSG N320 L70)';
+				}else{
+					modelStr =  list_t3h.@basedOn;
+				}
+				return modelStr;
+			}
+
+
+			//adios
+			private function nullifyAllVariables():void{
+				if(list_reh)list_reh = null;
+				if(list_pop)list_pop = null;
+				if(list_rn3)list_rn3 = null;
+				if(list_sn3)list_sn3 = null;
+				if(list_wsd)list_wsd = null;
+				if(list_sky)list_sky = null;
+				if(list_pty)list_pty = null;
+				if(list_t3h)list_t3h = null;
+				//meFine
+				if(list_vis)list_vis = null;
+			}
+			//adios
+			//nullifyAllVariables 추가
+			//앙상블 종합에서 단기  클릭시  디폴트 모델(PMOS) 종합 넘어가는데 PMOS에는 강수가 엄써!!!!
+			//일단 nullfy~ 펑션으로 비우자 ㅡ,.ㅡ
+			private var ARR_BASED_ON:Array;
+			private function multipleXMLLoadedAtOnce(e:Event):void{
+				trace("multipleXMLLoadedAtOnce()");
+				//adios				
+				nullifyAllVariables();
+				//adios				
+				
+				//BEST_MERG 2016 
+				var is_shrt_best_multi:Boolean = (isMultiSeries && !isMEDM && baseModelName == 'BEST')? true:false; //BEST_MERG 2016
+				ARR_BASED_ON = new Array();
+				//BEST_MERG 2016 
+								
+				var seriesData:Object = (e.target as URLMultiLoader).data;
+				if(!isMEDM){
+					list_reh = reorderListByVariables(new XML(seriesData['reh']),is_shrt_best_multi); //BEST_MERG 2016
+					if(baseModelName != 'ECMWF'  && baseModelName != 'SSPS' && baseModelName != 'BEST'){ //BEST_MERG 2016z
+						list_pop = reorderListByVariables(new XML(seriesData['pop']));
+					}
+					//meFine
+					if(baseModelName == 'SSPS'){
+						list_vis = reorderListByVariables(new XML(seriesData['vis']));
+					}
+					list_wsd = reorderListByVariables(new XML(seriesData['wsd']),is_shrt_best_multi); //BEST_MERG 2016
+					list_t3h = reorderListByVariables(new XML(seriesData['t3h']),is_shrt_best_multi); //BEST_MERG 2016
+				}else{
+					list_t3h = reorderListByVariables(new XML(seriesData['mmx']));
+				}
+				if(!isPMOS){
+					list_rn3 = reorderListByVariables(new XML(seriesData['rn3']),is_shrt_best_multi); //BEST_MERG 2016
+				}
+				
+				list_sn3 = reorderListByVariables(new XML(seriesData['sn3']),is_shrt_best_multi); //BEST_MERG 2016
+				list_sky = reorderListByVariables(new XML(seriesData['sky']),is_shrt_best_multi); //BEST_MERG 2016
+				list_pty = reorderListByVariables(new XML(seriesData['pty']),is_shrt_best_multi); //BEST_MERG 2016
+				
+				//adios
+				//그룹코드 인덱스변경시 xmlRoot로 찾음.
+				xmlRoot = list_t3h;
+				
+				//me2016
+				if(xmlRoot.hasOwnProperty('@updatedOn')){
+					updatedOn = xmlRoot.@updatedOn;
+				}
+				
+//				if(isMEDM){
+					changeGroupCodeAsIndex();
+//				}
+				//adios
+				stations = list_t3h.regionGroup[grCode];
+				dateOfIssue = list_t3h.@issuedAt;
+//				basedOn = getBaseModel();
+				
+				
+				
+				//BEST_MERG 2016  단기BEST종합 베이스모델.
+				//BEST_MERG 2016  단기BEST종합 베이스모델.
+				//RDPS, GDPS, EPSG, ECMW  이 순서니까 그냥 sort alphabetically + 리버스오더
+				ARR_BASED_ON.sort(Array.DESCENDING | Array.CASEINSENSITIVE);
+				
+				var lbl_bestMdl:String = "BEST";
+				if(is_shrt_best_multi){
+					lbl_bestMdl = CommonUtil.getInstance().getBaseModelLabel_SHRT_BEST_MULTI(ARR_BASED_ON,lbl_bestMdl);
+				}
+				
+//				basedOn = (baseModelName=="BEST")? list_t3h.@basedOn : getBasalModel(); //me2016
+				basedOn = (is_shrt_best_multi)? lbl_bestMdl : getBasalModel(); //BEST_MERG 2016
+				
+				////////////////
+				////////////////
+				drawTimeseries();
+				////////////////
+				////////////////
+			}
+			
+			
+			/** BEST_MERG 2016 
+			 *  hasownproperty("@mdls") => mdl+mdl2+mdln...  
+			 * */
+			private function reorderListByVariables(obj:XML, isBestSHRTMulti:Boolean=false):XML{
+//				seekMinMaxVal_singleElement(obj);
+				
+				//BEST_MERG 2016
+				if(isBestSHRTMulti && obj.hasOwnProperty("@mdls")){
+					CommonUtil.getInstance().insertModel(ARR_BASED_ON,obj.@mdls);
+				}
+				//BEST_MERG 2016
+				
+				if(isMainStation){
+					return getMainStations(obj);
+				}else if(isUserConfigured){
+					return getUserConfiguredStations(obj);
+				}else{
+					return obj;
+				}
+			}
+
+			private function getMainStations(xmlObj:XML):XML{
+				trace('getMainStations(xmlObj):return XML')
+				grCode = (!isSSPS)? 0 : 3501;
+				xmlObj.regionGroup[0].@grName = (!isSSPS)? '주요 도시' : '주요 지점';
+				if(!isMEDM && !isSSPS){
+					xmlObj.regionGroup[0].stn[0] = xmlObj.regionGroup[0].stn[0] //본청 서울 
+					xmlObj.regionGroup[0].stn[1] = xmlObj.regionGroup[41].stn[0] //강원청 춘천
+					xmlObj.regionGroup[0].stn[2] = xmlObj.regionGroup[35].stn[1] //강원청 강릉
+					xmlObj.regionGroup[0].stn[3] = xmlObj.regionGroup[23].stn[0] //대전청 대전
+					xmlObj.regionGroup[0].stn[4] = xmlObj.regionGroup[32].stn[0] //대전청 청주
+					xmlObj.regionGroup[0].stn[5] = xmlObj.regionGroup[18].stn[0] //광주청 전주
+					xmlObj.regionGroup[0].stn[6] = xmlObj.regionGroup[13].stn[0] //광주청 광주
+					xmlObj.regionGroup[0].stn[7] = xmlObj.regionGroup[6].stn[0] // 부산청 대구
+					xmlObj.regionGroup[0].stn[8] = xmlObj.regionGroup[1].stn[0] // 부산청 부산
+					xmlObj.regionGroup[0].stn[9] = xmlObj.regionGroup[44].stn[0] //제주청 제주
+				}else if(isSSPS){		
+					xmlObj.regionGroup[0].stn[0] = xmlObj.regionGroup[3].stn[0] //서울 북한산
+					xmlObj.regionGroup[0].stn[1] = xmlObj.regionGroup[13].stn[3] //부산 소백산
+					xmlObj.regionGroup[0].stn[2] = xmlObj.regionGroup[14].stn[5] //부산 가야산	
+					xmlObj.regionGroup[0].stn[3] = xmlObj.regionGroup[7].stn[0] //광주 무둥산
+					xmlObj.regionGroup[0].stn[4] = xmlObj.regionGroup[9].stn[0] //전주 덕유산
+					xmlObj.regionGroup[0].stn[5] = xmlObj.regionGroup[5].stn[0] //대전 계룡산
+					xmlObj.regionGroup[0].stn[6] = xmlObj.regionGroup[6].stn[0] //청주 월악산
+					xmlObj.regionGroup[0].stn[7] = xmlObj.regionGroup[1].stn[2] //강원 오대산
+					xmlObj.regionGroup[0].stn[8] = xmlObj.regionGroup[2].stn[3] //춘천 치악산
+					xmlObj.regionGroup[0].stn[9] = xmlObj.regionGroup[15].stn[0] //제주 한라산
+				}else{
+					xmlObj.regionGroup[0].stn[0] = xmlObj.regionGroup[0].stn[0] // 본청  서울이
+					xmlObj.regionGroup[0].stn[1] = xmlObj.regionGroup[7].stn[0] // 춘천이
+					xmlObj.regionGroup[0].stn[2] = xmlObj.regionGroup[8].stn[0] // 북강릉(47104)
+					xmlObj.regionGroup[0].stn[3] = xmlObj.regionGroup[5].stn[0] // 대전이
+					xmlObj.regionGroup[0].stn[4] = xmlObj.regionGroup[6].stn[0] // 청주
+					xmlObj.regionGroup[0].stn[5] = xmlObj.regionGroup[3].stn[0] //광주
+					xmlObj.regionGroup[0].stn[6] = xmlObj.regionGroup[4].stn[0] //전주
+					xmlObj.regionGroup[0].stn[7] = xmlObj.regionGroup[1].stn[0] // 부산
+					xmlObj.regionGroup[0].stn[8] = xmlObj.regionGroup[2].stn[0] // 대구
+					xmlObj.regionGroup[0].stn[9] = xmlObj.regionGroup[9].stn[0] //제주청 제주
+				}
+				return xmlObj;
+			}
+			
+			private function getUserConfiguredStations(xmlObj:XML):XML{
+				grCode = (!isSSPS)? 0 : 3501;
+				xmlObj.regionGroup[0].@grName = (!isSSPS)? '관심 지역' : '관심 지점';
+				var str:String='';
+				var length_groupX:int = XML(xmlObj.regionGroup[0]).children().length();
+				var xmlObjCopy:XML = xmlObj.copy()
+				for(var j:int=length_groupX-1; j >=0;j--){
+					str+= 'remove ['+ j + ']'+ XML(xmlObj.regionGroup[0].stn[j]).@stnName+ '!! \n';
+					delete xmlObj.regionGroup[0].stn[j];
+				}
+				for(var i:int=0; i<configuredStations.length; i++){
+					var groupNum:uint = configuredStations[i].grCode;
+					var stnNum:String = configuredStations[i].stnCode;
+					if(isMEDM && !isSSPS){ //adios~ 개인화저장할때 스테이션코드만 저장하는게 아니라 지역코드도 같이함 중기는 인덱스로 조지면 안되고 그룹넘버로 뒤져야함!@!!!!!
+						xmlObj.regionGroup[0].stn[i] = xmlObjCopy.regionGroup.(@grCode==groupNum+'').stn.(@stnNo==stnNum); //본청 서울 
+					}else if(isSSPS){ //adios~ 개인화저장할때 스테이션코드만 저장하는게 아니라 지역코드도 같이함 중기는 인덱스로 조지면 안되고 그룹넘버로 뒤져야함!@!!!!!
+						xmlObj.regionGroup[0].stn[i] = xmlObjCopy.regionGroup.(Number(@grCode)==groupNum).stn.(@stnNo==stnNum); //본청 서울 
+					}else{
+						xmlObj.regionGroup[0].stn[i] = xmlObjCopy.regionGroup[groupNum].stn.(@stnNo==stnNum); //본청 서울 
+					}
+				}
+				
+				return xmlObj;
+				
+			}
+			
+			private function setSelectedItemAsMainStation():void{
+//				var grCodeStr:String = grCodeNum.toString();
+				var currItem:Object = new Object();
+				currItem.isMEDM = isMEDM;
+				currItem.isSSPS = isSSPS;
+				currItem.isPYEONGCHANG = isPYEONGCHANG; //
+				currItem.baseModel = baseModelName;//.substr(0,4);
+				currItem.regionCode = (!isSSPS)?grCodeNum.toString() : iPad4(grCodeNum,4);
+				defaultPageSetter.storeRegionCode(currItem,cb_setAsMain.selected);
+			}
+		
+			public function iPad4(regionCodeNum:int, padDigit:int):String {
+				if(regionCodeNum == 8318 || regionCodeNum==555){
+						return regionCodeNum+"";
+				}else{
+					var ret:String = ""+regionCodeNum;
+					while( ret.length < padDigit )
+						ret="0" + ret;
+					return ret;
+				}
+			}
+			
+			private function xmlLoadFailed(e:Event):void{
+				var cornerGutter:Number = 20; //haha
+				var topRightCorner:Alert =Alert.show("해당 XML 파일이 존재하지 않습니다. ","Failed to load timeseries XML data.");
+				topRightCorner.width = 270;
+				PopUpManager.centerPopUp(topRightCorner);
+				topRightCorner.x = this.width - topRightCorner.width - cornerGutter;
+	//			topRightCorner.y = cornerGutter
+				topRightCorner.y = 0;
+			}	
+	
+			private function sliceXMLLIst(list:XMLList, beginIdx:int, endIdx:int){
+				return list.(childIndex()>=beginIdx && childIndex() <=endIdx);
+			}
+			
+			private function sliceXMLList2(list:XMLList, beginIdx:int, endIdx:int){
+				var newXMLList:XMLList = new XMLList();
+				var currIdx:int=0;
+				for(var i:int = beginIdx; i<=endIdx; i++){
+					newXMLList[currIdx++] =  XMLList[i];
+				}	
+				return newXMLList;
+			}
+ 
+			/**
+			 * Sep 02, 2013
+			 * getMainStations()추가 
+			 * 
+			 * */
+			 
+			private function nullifyPeakAndNadir():void{
+				max_axisVal = NaN;
+				min_axisVal = NaN;
+//				if(isMultiSeries) max_prcp = NaN;
+				max_prcp = NaN;
+			}
+			 
+			private function resetPeak_n_nadir4DrawTimeseries():void{
+				//set NaN
+				nullifyPeakAndNadir();
+				if(isMultiSeries){
+					for(var i:int = 0; i<stations.children().length(); i++){
+						xmlListToObjectArray(list_t3h.regionGroup[grCode].stn[i].dataSet , true);
+						if(list_rn3) xmlListToObjectArray(list_rn3.regionGroup[grCode].stn[i].dataSet,false,false,false,true);
+						if(list_sn3) xmlListToObjectArray(list_sn3.regionGroup[grCode].stn[i].dataSet,false,false,false,true);
+					}
+				}else{
+					if(isMergedModel){
+						for(var key:Object in mDictionary){
+							var modelData:XML = new XML(reorderListByVariables(mDictionary[key]));							
+							if(key == 'EPSG'){
+								modelData = CommonUtil.getInstance().renameDscendantAttributes(modelData,str_typeOfChart,grCode); //MMX R12 SKY PTY
+								//mDictionary[key] = modelData.copy(); 이게 어싸인이 안되 ㅡ,.ㅡ 밑에서 다시함!!!
+								//딕셔너리에있는애들 reorderList~ 하고나서 다시 딕셔너리 넣고 밑에서는 같은 짓거리 다시하말자 ㅡ,.ㅡ
+//								if(str_typeOfChart=='MMX')CommonUtil.getInstance().showAlertDialogOnScreenTop(XML(modelData.regionGroup[grCode].stn[0]).toXMLString(),'resetPeak_n_nadir4DrawTimeseries()')
+							}
+//CommonUtil.getInstance().showAlertDialogOnScreenTop('resetPeak_n_nadir4DrawTimeseries',grCode+'');							
+							seekMinMaxVal_singleElement(modelData.regionGroup[grCode]);
+						}
+					}else{
+						seekMinMaxVal_singleElement(stations);
+					}
+					stations = xmlRoot.regionGroup[grCode]; 
+				}
+			} 
+			 
+			 
+			private function drawTimeseries():void{
+				/* if personalization panel is activated.. timeSeries.includeInLayout=false */
+				adjustChartVisibilityBeforeDrawing();
+				/* seeking Peak n Nadir.. */
+				resetPeak_n_nadir4DrawTimeseries();
+				
+//CommonUtil.getInstance().showAlertDialogOnScreenTop(getMaxVal()+' .vs. '+getMinVal()
+//													+ '\n[Diff.]'+(getMaxVal()-getMinVal())+'\n'+getMaxVal(true)
+//													+ ' .vs. '+ getMinVal(true),'computed Peak and Nadir..' + ((getMaxVal()-getMinVal())/6));
+				
+				var is279hrs:Boolean = ((baseModelName=='PMOS2' || baseModelName=='GDPS'|| baseModelName=='BEST') && isMEDM)? true : false; //doeJeon Oct2015
+				
+				/* draw timeSeries(excludes ensemble..) */
+				chartArea.removeAllChildren();
+//				var lbl:Label; 
+				lbl_baseModel.alpha = 1;
+				for(var i:int = 0; i<stations.children().length(); i++){
+					var lbl:Label = new Label();
+//					lbl = new Label();
+					lbl.setStyle("width","300");
+					lbl.setStyle("height","20");
+					lbl.setStyle("fontSize",15);
+					lbl.setStyle("fontWeight","bold");
+					lbl.truncateToFit = true;
+					var lbl_stnName:String = stations.stn[i].@stnName;
+					if(lbl_stnName.indexOf("-")!=-1){
+						lbl_stnName = lbl_stnName.replace("-"," ");
+					}
+					lbl.text = (lbl_stnName+ " (" + stations.stn[i].@stnNo + ")" );
+					
+					
+					var lblBox:HBox = new HBox();
+					lblBox.height = 20;
+//					lblBox.setStyle("borderStyle","outset");
+					lblBox.setStyle("verticalAlign","middle");
+					lblBox.setStyle("horizontalGap",0);
+					lblBox.addChild(lbl);
+					
+					if(isSSPS){
+						lbl.buttonMode = true;
+						lbl.useHandCursor = true;
+						lbl.mouseChildren = false;
+						var str_stnCode:String = stations.stn[i].@stnNo + "";
+						lbl.id = 'lbl'+str_stnCode;
+						//btn_stnInfo.styleName = "evnInfoSet"
+						lbl.addEventListener(MouseEvent.CLICK, function(e:MouseEvent){
+							var param:String = str_stnCode;
+							popupEIDialog(new Point(lbl.parent.x + lbl.width, lbl.parent.y), e)
+						});
+					}
+					
+					var btn_stnInfo:Button;
+					if(isSSPS){
+						var btn_stnInfo= new Button();
+						btn_stnInfo.useHandCursor = true;
+						btn_stnInfo.buttonMode = true;
+						btn_stnInfo.mouseChildren = false;
+						
+						btn_stnInfo.width = 15;
+						btn_stnInfo.height = 15;
+						var str_stnCode:String = stations.stn[i].@stnNo + "";
+						btn_stnInfo.id = 'btn'+str_stnCode;
+						btn_stnInfo.styleName = "evnInfoSet"
+						btn_stnInfo.addEventListener(MouseEvent.CLICK, function(e:MouseEvent){
+							var param:String = str_stnCode;
+							popupEIDialog(new Point(btn_stnInfo.parent.x + lbl.width, btn_stnInfo.parent.y), e)
+						});
+						
+						lblBox.addChild(btn_stnInfo);
+					}
+					
+					var chart:* = (isMEDM && isMultiSeries)? new multiVars_GDPS():getChartInstance();
+
+					//add temporary
+					//pop 데이터 나옴 날려버려 ㅋㅋㅋㅋㅋㅋㅋ
+					/////////////////////////////////////////////////////////////////////
+					if(!isMEDM && isMultiSeries){
+						if(baseModelName=='ECMWF' || baseModelName=='BEST'){ //BEST_MERG 2016 
+							chart = new multivar3col_ECMWF();
+						}else if(baseModelName=='SSPS'){//meFine
+							chart = new multivar3col_SSPS();
+						}
+					}
+					/////////////////////////////////////////////////////////////////////
+					if(isMultiSeries){
+						if(isMEDM){
+							////////////////////////////주간 종합 차트 /////////////////////////////////////
+							var is12UTC:Boolean = (dateOfIssue.indexOf("12UTC")!=-1)? true : false;
+							multiVars_GDPS(chart).minMaxArr = xmlListToObjectArray(list_t3h.regionGroup[grCode].stn[i].dataSet,true);	
+							multiVars_GDPS(chart).isolatesMinMaxSeries(is12UTC);
+//							multiVars_GDPS(chart).axis_ver.interval = int((getMaxVal()-getMinVal())/5);
+							multiVars_GDPS(chart).axis_ver.interval =Constants.INTERVAL_TEMPERATURE;
+							/*							
+							하단 내부펑션으로 대체
+							*/
+							//adios
+							if(!is12UTC){ 
+								multiVars_GDPS(chart).set00UTC_gridLines(isOddNum,is279hrs);
+							}else{ // 12 UTC
+								multiVars_GDPS(chart).set12UTC_gridLines(isOddNum,is279hrs);
+							}
+							
+//							multiVars_GDPS(chart).axis_ver.maximum = getMaxVal() + Math.round(  (getMaxVal()-getMinVal() )*0.4);
+//							multiVars_GDPS(chart).axis_ver.minimum = getMinVal() - Math.round((getMaxVal()-getMinVal())*0.4);
+							//adios
+							multiVars_GDPS(chart).axis_ver.maximum = getMaxVal(true) ;
+							multiVars_GDPS(chart).axis_ver.minimum = getMinVal(true);
+							//adios
+							
+							//xmlListToObjectArray(3번째 파라미터 수정 ㅡ,.ㅡ  true --> false  얘가 데이터 첫번째값 0으로 강제로 바꿈.. 주간 차팅은 인터폴레이션 필요없음 컬럼차트임!!!) Apr 2013
+							multiVars_GDPS(chart).rn3Column.dataProvider = xmlListToObjectArray(list_rn3.regionGroup[grCode].stn[i].dataSet,false,false,false,true);
+							multiVars_GDPS(chart).sn3Column.dataProvider = xmlListToObjectArray(list_sn3.regionGroup[grCode].stn[i].dataSet,false,false,false,true);
+							//adios
+							multiVars_GDPS(chart).axis_ver_mMetres.maximum = getMaxPrcp(true);
+							multiVars_GDPS(chart).axis_ver_mMetres.interval = Constants.INTERVAL_PRECIPITATION;
+							////////////////////////////주간 종합 차트 /////////////////////////////////////
+						}else{ 
+							if(isPMOS){ //단기 PMOS
+								multivar3col_PMOS(chart).t3hLine.dataProvider = xmlListToObjectArray(list_t3h.regionGroup[grCode].stn[i].dataSet );
+								multivar3col_PMOS(chart).axis_ver.maximum = getMaxVal(true,false,4);
+								multivar3col_PMOS(chart).axis_ver.minimum = getMinVal(true,-1);
+								multivar3col_PMOS(chart).axis_ver.interval = Constants.INTERVAL_TEMPERATURE;
+								multivar3col_PMOS(chart).rehColumn.dataProvider = xmlListToObjectArray(list_reh.regionGroup[grCode].stn[i].dataSet);
+								//column series
+								multivar3col_PMOS(chart).popColumn.dataProvider = xmlListToObjectArray(list_pop.regionGroup[grCode].stn[i].dataSet);
+								//area series 추가됨 Nov26, 2012
+								multivar3col_PMOS(chart).sn3Column.dataProvider = xmlListToObjectArray(list_sn3.regionGroup[grCode].stn[i].dataSet,false,true,false,true);
+								multivar3col_PMOS(chart).axis_ver_mMetres.maximum = getMaxPrcp(true);
+								multivar3col_PMOS(chart).axis_ver_mMetres.interval = Constants.INTERVAL_PRECIPITATION;
+								//area series 추가됨 Nov26, 2012
+								multivar3col_PMOS(chart).setAlternateFill(is00UTC,isOddNum);
+							}else if((baseModelName=='ECMWF' || baseModelName=='BEST') && !isMEDM){ //단기 ECMWF // BEST_MERG 2016
+								multivar3col_ECMWF(chart).t3hLine.dataProvider = xmlListToObjectArray(list_t3h.regionGroup[grCode].stn[i].dataSet );
+								multivar3col_ECMWF(chart).axis_ver.maximum= getMaxVal(true,false,4);
+								multivar3col_ECMWF(chart).axis_ver.minimum = getMinVal(true,-1);
+								multivar3col_ECMWF(chart).axis_ver.interval = Constants.INTERVAL_TEMPERATURE;
+								multivar3col_ECMWF(chart).rehColumn.dataProvider = xmlListToObjectArray(list_reh.regionGroup[grCode].stn[i].dataSet);
+								multivar3col_ECMWF(chart).rn3Column.dataProvider = xmlListToObjectArray(list_rn3.regionGroup[grCode].stn[i].dataSet,false,true,false,true); //6시간 강수
+								multivar3col_ECMWF(chart).sn3Column.dataProvider = xmlListToObjectArray(list_sn3.regionGroup[grCode].stn[i].dataSet,false,true,false,true);//6시간 강수이므로 첫번째 데이터 0 필요없삼
+								multivar3col_ECMWF(chart).axis_ver_mMetres.maximum = getMaxPrcp(true);
+								multivar3col_ECMWF(chart).axis_ver_mMetres.interval = Constants.INTERVAL_PRECIPITATION;
+								multivar3col_ECMWF(chart).setAlternateFill(is00UTC,isOddNum); //AUG, 2013
+							//meFine vis 여기서 상대습도처럼 걍 데이터 프로바이더에 바인딩해서 테스트
+							}else if(baseModelName=='SSPS'  && !isMEDM){ //단기 SSPS
+								//line series
+								multivar3col_SSPS(chart).t3hLine.dataProvider = xmlListToObjectArray(list_t3h.regionGroup[grCode].stn[i].dataSet );
+								multivar3col_SSPS(chart).axis_ver.maximum= getMaxVal(true,false,4);
+								multivar3col_SSPS(chart).axis_ver.minimum = getMinVal(true,-1);
+								multivar3col_SSPS(chart).axis_ver.interval = Constants.INTERVAL_TEMPERATURE;
+								//meFine
+//								multivar3col_SSPS(chart).popColumn.dataProvider = xmlListToObjectArray_VIS(list_vis.regionGroup[grCode].stn[i].dataSet);
+								multivar3col_SSPS(chart).visLine.dataProvider = xmlListToObjectArray(list_vis.regionGroup[grCode].stn[i].dataSet);
+								//meFine
+								multivar3col_SSPS(chart).rehColumn.dataProvider = xmlListToObjectArray(list_reh.regionGroup[grCode].stn[i].dataSet);
+								multivar3col_SSPS(chart).rn3Column.dataProvider = xmlListToObjectArray(list_rn3.regionGroup[grCode].stn[i].dataSet,false,true,false,true); //6시간 강수
+								multivar3col_SSPS(chart).sn3Column.dataProvider = xmlListToObjectArray(list_sn3.regionGroup[grCode].stn[i].dataSet,false,true,false,true);//6시간 강수이므로 첫번째 데이터 0 필요없삼
+								multivar3col_SSPS(chart).axis_ver_mMetres.maximum = getMaxPrcp(true);
+								multivar3col_SSPS(chart).axis_ver_mMetres.interval = Constants.INTERVAL_PRECIPITATION;
+								multivar3col_SSPS(chart).setAlternateFill(is00UTC,isOddNum); //AUG, 2013
+							}else{ //단기 RDPS F
+								//line series
+	//							multivar3col_cartesian(chart).t3hLine.dataProvider = xmlListToObjectArray(list_t3h.regionGroup[grCode].stn[i].dataSet , true);
+								multivar3col_cartesian(chart).t3hLine.dataProvider = xmlListToObjectArray(list_t3h.regionGroup[grCode].stn[i].dataSet );
+									multivar3col_cartesian(chart).axis_ver.maximum = getMaxVal(true,false,4);
+									multivar3col_cartesian(chart).axis_ver.minimum = getMinVal(true,-1);
+									multivar3col_cartesian(chart).axis_ver.interval = Constants.INTERVAL_TEMPERATURE;
+								multivar3col_cartesian(chart).rehColumn.dataProvider = xmlListToObjectArray(list_reh.regionGroup[grCode].stn[i].dataSet);
+								//column series
+								multivar3col_cartesian(chart).popColumn.dataProvider = xmlListToObjectArray(list_pop.regionGroup[grCode].stn[i].dataSet);
+								//area series
+								multivar3col_cartesian(chart).rn3Column.dataProvider = xmlListToObjectArray(list_rn3.regionGroup[grCode].stn[i].dataSet,false,true,false,true);
+								multivar3col_cartesian(chart).sn3Column.dataProvider = xmlListToObjectArray(list_sn3.regionGroup[grCode].stn[i].dataSet,false,true,false,true);
+								multivar3col_cartesian(chart).axis_ver_mMetres.maximum = getMaxPrcp(true);
+								multivar3col_cartesian(chart).axis_ver_mMetres.interval =Constants.INTERVAL_PRECIPITATION;
+	//							multivar3col_cartesian(chart).adjustVAxes();
+	//							callLater(multivar3col_cartesian(chart).adjustVAxes)
+								if(baseModelName != 'KWRF'){ //RDAPS
+									multivar3col_cartesian(chart).setAlternateFill(is00UTC,isOddNum);
+								}else{ // KWRF
+									multivar3col_cartesian(chart).setAlternateFill(is00UTC,isOddNum,true);
+								}
+							}
+						
+						}
+//Alert.show("4")
+						
+						//Precipitation TYpe + CLOUD COVER
+						//Precipitation TYpe + CLOUD COVER
+						//Precipitation TYpe + CLOUD COVER
+						var prcp:PrcpTypeNCloud = new PrcpTypeNCloud();
+						prcp.dataProvider = xmlListToObjectArray(list_pty.regionGroup[grCode].stn[i].dataSet);
+						prcp.axis_hor_bottom.dataProvider = xmlListToObjectArray(list_sky.regionGroup[grCode].stn[i].dataSet);
+						prcp.addPTYSymbol();
+						
+						if(isMEDM){
+							prcp.canvas.removeAllChildren();
+							prcp.addPTYSymbol(true);
+							prcp.setStyle("gutterRight",35);
+							var is12UTC:Boolean = (dateOfIssue.indexOf("12UTC")!=-1)? true : false;
+							
+							//adios
+//							var is279hrs:Boolean = (baseModelName=='PMOS2' && isMultiSeries)? true : false; //ECMWF는 20판 나머지 기상청중기는 23판(279hrs)
+							
+							if(!is12UTC){ //00 UTC 이면 ..    0425, 2013  수정   12랑 00이랑 체인지여
+								//adios
+								prcp.set00UTC_gridLines(isOddNum,is279hrs);
+								//adios
+								prcp.axis_hor.labelFunction = prcp.defineLabel_00UTC; 
+								chart.axis_hor.labelFunction = chart.defineLabel_00UTC; 
+								prcp.topAxisRenderer.setStyle("labelAlign","right");
+								chart.topAxisRenderer.setStyle("labelAlign","right");
+								prcp.bottomAxisRenderer.setStyle("labelAlign","right");
+								chart.bottomAxisRenderer.setStyle("labelAlign","right");
+							}else{ //12 UTC
+								//adios
+								prcp.set12UTC_gridLines(isOddNum,is279hrs);
+								//adios
+
+								prcp.topAxisRenderer.setStyle("labelAlign","right");
+								prcp.bottomAxisRenderer.setStyle("labelAlign","right");
+								chart.topAxisRenderer.setStyle("labelAlign","right");
+								chart.bottomAxisRenderer.setStyle("labelAlign","right");
+							}
+							
+						}else{
+							if(baseModelName != 'KWRF'){
+								prcp.setAlternateFill(is00UTC,isOddNum);
+							}else{
+								prcp.setAlternateFill(is00UTC,isOddNum,true);
+							}
+						}
+//						if(baseModelName!='PMOS2' || baseModelName!='ECMWF' ){
+						if(!isMEDM){
+							var wind:WSD = new WSD();
+							wind.dataProvider = xmlListToObjectArray(list_wsd.regionGroup[grCode].stn[i].dataSet,false);
+							if(baseModelName !='KWRF'){
+								wind.setAlternateFill(is00UTC,isOddNum);
+							}else{
+								wind.setAlternateFill(is00UTC,isOddNum,true);
+							}
+						}
+//Alert.show("5")						
+					//single variable charting	
+					//single variable charting	
+					//single variable charting	
+					//single variable charting	
+					//single variable charting	
+					}else {
+						//GDAPS gildLines n labelAlign
+						//April 25, 2013 이제 MMX도 그리드 00,12 틀려
+						// 최저최고 기온이 아닌 주간 요소들 (하늘상태랑 강수형태)      
+//						if((str_typeOfChart!="MMX" && baseModelName=='GDPS') || (str_typeOfChart!="MMX" && baseModelName=='ECMWF')){ ///단기 ECMWF애들까지 전부 이거 탐 !! 주간 ECMWF 정상 표
+						if(str_typeOfChart!="MMX" && isMEDM ){
+							chart.dataProvider = stations.stn[i].dataSet;
+							//Dec 2013
+							//Dec 2013
+							//Dec 2013
+							//Dec 2013
+							//Dec 2013
+							if(isMergedModel){ 
+								///EPSG MEDM merged model
+								if(mDictionary['EPSG']){
+//CommonUtil.getInstance().showAlertDialogOnScreenTop("mDictionary['EPSG']");
+									if(isMainStation || isUserConfigured){
+										var ele:XML = new XML(reorderListByVariables(mDictionary['EPSG']));
+										ele = CommonUtil.getInstance().renameDscendantAttributes(ele,str_typeOfChart,grCode); //위에서 peak nadir 뽑을때 이짓또함. 근데 mDictionary[key] = xml.copy() 해도 어싸인이 안되네
+										var curr_stn:XML = XML(ele).regionGroup[grCode].stn[i];
+//		CommonUtil.getInstance().showAlertDialogOnScreenTop(curr_stn.toXMLString(),'lineNo 1667')
+										chart.series_epsg.dataProvider = curr_stn.dataSet;
+									}else{
+//										chart.series_epsg.dataProvider = new XML(mDictionary['EPSG']).regionGroup[grCode].stn[i].dataSet;
+										chart.series_epsg.dataProvider = CommonUtil.getInstance().renameDscendantAttributes(XML(mDictionary['EPSG']),str_typeOfChart,grCode).regionGroup[grCode].stn[i].dataSet; //20160217 강수형태 모델비교시 50%미만값 표출에러 정정
+									}
+								}else{
+									//신적설 모델 비교 시.. series_epsg없어서 에러날수도  
+									if(chart.hasOwnProperty("series_epsg")){
+										chart.series_epsg.visible = false;
+									}
+								}
+								
+								//doejeon Oct2015 
+								//disableBest
+								if(mDictionary['BEST']){
+									if(isMainStation || isUserConfigured){
+										var ele:XML = new XML(reorderListByVariables(mDictionary['BEST']));
+										var curr_stn:XML = XML(ele).regionGroup[grCode].stn[i];
+										chart.series_best.dataProvider = curr_stn.dataSet;
+									}else{
+										chart.series_best.dataProvider = new XML(mDictionary['BEST']).regionGroup[grCode].stn[i].dataSet;
+									}
+								}else{
+									if(chart.hasOwnProperty("series_best")){
+										chart.series_best.visible = false;
+									}	
+								}
+								
+								if(mDictionary['GDPS']){
+									if(isMainStation || isUserConfigured){
+										var ele:XML = new XML(reorderListByVariables(mDictionary['GDPS']));
+										var curr_stn:XML = XML(ele).regionGroup[grCode].stn[i];
+										chart.series_gdps.dataProvider = curr_stn.dataSet;
+									}else{
+										chart.series_gdps.dataProvider = new XML(mDictionary['GDPS']).regionGroup[grCode].stn[i].dataSet;
+									}
+								}else{
+										chart.series_gdps.visible = false;
+								}
+								///ECMWF MEDM merged model
+								if(mDictionary['ECMWF']){
+									if(isMainStation || isUserConfigured){
+										var ele:XML = new XML(reorderListByVariables(mDictionary['ECMWF']));
+										var curr_stn:XML = XML(ele).regionGroup[grCode].stn[i];
+										chart.series_ecmw.dataProvider = curr_stn.dataSet;
+									}else{
+										chart.series_ecmw.dataProvider = new XML(mDictionary['ECMWF']).regionGroup[grCode].stn[i].dataSet;
+									}
+								}else{
+										chart.series_ecmw.visible = false;
+								}
+							}
+							//Dec 2013
+							//Dec 2013
+							//Dec 2013
+							//Dec 2013
+							//Dec 2013
+							
+//							if(dateOfIssue.indexOf("12UTC")!=-1){ //12 UTC
+							if(! is00UTC){ //12 UTC
+							
+								if(isMergedModel){
+									chart.set12UTC_gridLines(isOddNum,!isExistOnlyECMWF);									
+								}else{
+									chart.set12UTC_gridLines(isOddNum,is279hrs);
+								}	
+								
+								if(str_typeOfChart=="PTY"){
+									chart.topAxisRenderer.setStyle("labelAlign","right");////////////////////////////////////// left -->right   April 25, 2013
+									chart.bottomAxisRenderer.setStyle("labelAlign","right");////////////////////////////////// left -->right   April 25, 2013
+								}else{
+									chart.topAxisRenderer.setStyle("labelAlign","right");
+									chart.bottomAxisRenderer.setStyle("labelAlign","right");
+								}
+							}else{ //00 UTC
+								chart.topAxisRenderer.setStyle("labelAlign","right");
+								chart.bottomAxisRenderer.setStyle("labelAlign","right");
+								chart.axis_hor.labelFunction = chart.defineLabel_00UTC; 
+								//Dec 2013
+								if(isMergedModel){
+									chart.set00UTC_gridLines(isOddNum,!isExistOnlyECMWF);									
+								}else{
+									var is279hrs:Boolean = (baseModelName=='GDPS')? true : false;
+									chart.set00UTC_gridLines(isOddNum,is279hrs);								
+								}
+							}
+							
+							
+							if(isMergedModel){
+								if(str_typeOfChart=='SKY'){
+									chart.setCloudAmount();
+								}else if(str_typeOfChart=='PTY'){
+									chart.addPTYSymbol();
+								}else if(str_typeOfChart=='WSD'){
+									chart.drawWindSymbol();
+								}
+							}
+							//여기까지가 MMX아닌 주간 단일요소
+							//여기까지가 MMX아닌 주간 단일요소
+							//여기까지가 MMX아닌 주간 단일요소
+							
+						// MMX	
+						// MMX	
+						// MMX	
+						// MMX	Dec 2013
+						}else if(str_typeOfChart=="MMX" && isMEDM){  //(baseModelName=='PMOS2'|| baseModelName=='ECMWF'|| baseModelName=='EPSG') ){ 
+							
+							if(dateOfIssue.indexOf("12UTC")!=-1){ //12 UTC
+//								chart.set12UTC_gridLines(isOddNum,is279hrs);
+								chart.set12UTC_gridLines(isOddNum,!isExistOnlyECMWF);
+//CommonUtil.getInstance().showAlertDialogOnScreenTop('isExistOnlyECMWF ' + isExistOnlyECMWF, 'MMX 12UTC');									
+								chart.axis_hor.labelFunction = chart.defineLabel_00UTC; 
+							}else{ // 00 UTC
+								chart.axis_hor.labelFunction = chart.defineLabel_00UTC; 
+								if(isMergedModel){
+//CommonUtil.getInstance().showAlertDialogOnScreenTop('isExistOnlyECMWF ' + isExistOnlyECMWF, 'MMX');									
+									chart.set00UTC_gridLines(isOddNum,!isExistOnlyECMWF);
+								}else{
+//									var is279hrs:Boolean = (baseModelName=='PMOS2')? true : false;
+									chart.set00UTC_gridLines(isOddNum,is279hrs);
+								}
+							}
+							chart.topAxisRenderer.setStyle("labelAlign","right");
+							chart.bottomAxisRenderer.setStyle("labelAlign","right");
+							
+							var is12UTC:Boolean = (dateOfIssue.indexOf("12UTC")!=-1)? true : false;
+							
+							
+							if(! isMergedModel){
+								chart.minMaxArr = xmlListToObjectArray(stations.stn[i].dataSet);	//차트안에서 민맥스 분리하자 복잡해져 메인엡이 ㅠ					
+								chart.seperateMinMaxFromSeries(is12UTC);
+								//Mar 2014
+								chart.axis_ver.maximum = getMaxVal(true)// + Math.round(  (getMaxVal()-getMinVal() )*0.4);
+								chart.axis_ver.minimum = getMinVal(true)// - Math.round((getMaxVal()-getMinVal())*0.4);
+							}else{	
+								trace("isMEDM + isMergedModel + MMX haha");
+								
+								///EPSG  Merged MEDM MMX
+								if(mDictionary['EPSG']){
+									if(isMainStation || isUserConfigured){
+										var ele:XML = new XML(reorderListByVariables(mDictionary['EPSG']));
+										ele = CommonUtil.getInstance().renameDscendantAttributes(ele,str_typeOfChart,grCode); //위에서 peak nadir 뽑을때 이짓또함. 근데 mDictionary[key] = xml.copy() 해도 어싸인이 안되네
+										var curr_stn:XML = XML(ele).regionGroup[grCode].stn[i];
+//CommonUtil.getInstance().showAlertDialogOnScreenTop(curr_stn.toXMLString(),'EPSG_renameDscendantAttributes..')
+										chart.minMaxArr_epsg = xmlListToObjectArray(curr_stn.dataSet);
+									}else{
+										chart.minMaxArr_epsg = xmlListToObjectArray(CommonUtil.getInstance().renameDscendantAttributes(XML(mDictionary['EPSG']),str_typeOfChart,grCode).regionGroup[grCode].stn[i].dataSet);
+//CommonUtil.getInstance().showAlertDialogOnScreenTop(XML(CommonUtil.getInstance().renameDscendantAttributes(XML(mDictionary['EPSG']),str_typeOfChart,grCode).regionGroup[grCode].stn[i]).toXMLString(),'!main !userConfigured')
+									}
+									chart.seperateMinMaxFromSeries(is12UTC,false,'EPSG');
+								}else{
+									if(chart.hasOwnProperty("series_epsg_min")){
+										chart.series_epsg_min.visible = false;
+										chart.series_epsg_max.visible = false;
+									}
+								}
+								///doejeon Oct2015
+								//disableBest
+								
+								if(mDictionary['BEST']){
+									if(isMainStation || isUserConfigured){
+										var ele:XML = new XML(reorderListByVariables(mDictionary['BEST']));
+										var curr_stn:XML = XML(ele).regionGroup[grCode].stn[i];
+										chart.minMaxArr_best = xmlListToObjectArray(curr_stn.dataSet);
+									}else{//doejeon Oct2015 minMaxArr_best 어레이 추가 
+										chart.minMaxArr_best =  xmlListToObjectArray(new XML(mDictionary['BEST']).regionGroup[grCode].stn[i].dataSet);
+									}
+									chart.seperateMinMaxFromSeries(is12UTC,false,'BEST');
+								}else{
+									if(chart.hasOwnProperty("series_best_min")){
+										chart.series_best_min.visible = false;
+										chart.series_best_max.visible = false;
+									}
+								}
+								///MOS(GDAPS) MEDM merged model
+								if(mDictionary['PMOS2']){
+									if(isMainStation || isUserConfigured){
+										var ele:XML = new XML(reorderListByVariables(mDictionary['PMOS2']));
+										var curr_stn:XML = XML(ele).regionGroup[grCode].stn[i];
+										chart.minMaxArr = xmlListToObjectArray(curr_stn.dataSet);
+									}else{
+										chart.minMaxArr =  xmlListToObjectArray(new XML(mDictionary['PMOS2']).regionGroup[grCode].stn[i].dataSet);
+									}
+//									chart.seperateMinMaxFromSeries(is12UTC,false,baseModelName);
+									chart.seperateMinMaxFromSeries(is12UTC,false,'PMOS2');
+								}else{
+									if(chart.hasOwnProperty("series_mos2_min")){
+										chart.series_mos2_min.visible = false;
+										chart.series_mos2_max.visible = false;
+									}
+								}
+								///ECMWF MEDM merged model
+								if(mDictionary['ECMWF']){
+									if(isMainStation || isUserConfigured){
+										var ele:XML = new XML(reorderListByVariables(mDictionary['ECMWF']));
+										var curr_stn:XML = XML(ele).regionGroup[grCode].stn[i];
+										chart.minMaxArr_anotherOne =  xmlListToObjectArray(curr_stn.dataSet);
+									}else{
+										trace('ECMWF MEDM merged model')
+										chart.minMaxArr_anotherOne =  xmlListToObjectArray(new XML(mDictionary['ECMWF']).regionGroup[grCode].stn[i].dataSet);
+									}
+									if(isExistOnlyECMWF){
+										chart.minMaxArr = ObjectUtil.copy(chart.minMaxArr_anotherOne);
+//										chart.seperateMinMaxFromSeries(is12UTC,false,baseModelName);
+										chart.seperateMinMaxFromSeries(is12UTC,false,'ECMWF');
+									}
+//									chart.seperateMinMaxFromSeries(is12UTC,true,baseModelName);
+									chart.seperateMinMaxFromSeries(is12UTC,true,'ECMWF');
+									chart.series_ecmw_min.visible = true;
+									chart.series_ecmw_max.visible = true;
+								}else{
+									if(chart.hasOwnProperty("series_ecmw_min")){
+										chart.series_ecmw_min.visible = false;
+										chart.series_ecmw_max.visible = false;
+									}
+								}
+							}
+							
+						// MMX	Dec 2013
+						// MMX	
+						// MMX	
+						// adios
+						}else if(baseModelName=='PMOS' && str_typeOfChart=='SN6' && !isMergedModel){	
+							chart.dataProvider = xmlListToObjectArray(stations.stn[i].dataSet,false,true,true);
+						//Dec 2013
+						//Dec 2013
+						//Dec 2013
+						//Dec 2013
+						//Dec 2013
+						}else if(!isMEDM){
+							var isKWRAF:Boolean = (baseModelName=='KWRF')? true : false;
+							if(isMergedModel){
+								chart.setAlternateFill(is00UTC,isOddNum,isExistOnlyKWRF);
+							}else{
+								chart.setAlternateFill(is00UTC,isOddNum,isKWRAF);
+							}
+							chart.dataProvider = stations.stn[i].dataSet;
+							if(isMergedModel){
+								//disableBest
+								if(mDictionary['BEST']){ //doejeon Oct2015
+									if(isMainStation || isUserConfigured){
+										var ele:XML = new XML(reorderListByVariables(mDictionary['BEST']));
+										var curr_stn:XML = XML(ele).regionGroup[grCode].stn[i];
+										chart.series_best.dataProvider = curr_stn.dataSet;
+									}else{
+										chart.series_best.dataProvider = new XML(mDictionary['BEST']).regionGroup[grCode].stn[i].dataSet;
+									}
+								}else{
+									if(chart.hasOwnProperty("series_best"))//? 얘 이거 series_kwrf 였네 
+										chart.series_best.visible = false;
+								}
+								//ECMWF
+								//ECMWF
+								if(mDictionary['ECMWF']){
+									if(isMainStation || isUserConfigured){
+										var ele:XML = new XML(reorderListByVariables(mDictionary['ECMWF']));
+										var curr_stn:XML = XML(ele).regionGroup[grCode].stn[i];
+										chart.series_ecmw.dataProvider = curr_stn.dataSet;
+									}else{
+										chart.series_ecmw.dataProvider = new XML(mDictionary['ECMWF']).regionGroup[grCode].stn[i].dataSet;
+									}
+								}else{
+									if(chart.hasOwnProperty("series_ecmw"))
+										chart.series_ecmw.visible = false;
+								}
+								//RDPS
+								//RDPS
+								if(mDictionary['RDPS']){
+									if(isMainStation || isUserConfigured){
+										var ele:XML = new XML(reorderListByVariables(mDictionary['RDPS']));
+										var curr_stn:XML = XML(ele).regionGroup[grCode].stn[i];
+										chart.series_rdps.dataProvider = curr_stn.dataSet;
+									}else{
+										chart.series_rdps.dataProvider = new XML(mDictionary['RDPS']).regionGroup[grCode].stn[i].dataSet;
+									}
+								}else{
+									if(chart.hasOwnProperty("series_rdps"))
+										chart.series_rdps.visible = false;
+								}
+								//PMOS
+								//PMOS
+								if(mDictionary['PMOS']){
+									if(isMainStation || isUserConfigured){
+										var ele:XML = new XML(reorderListByVariables(mDictionary['PMOS']));
+										var curr_stn:XML = XML(ele).regionGroup[grCode].stn[i];
+										chart.series_pmos.dataProvider = curr_stn.dataSet;
+									}else{
+										chart.series_pmos.dataProvider = new XML(mDictionary['PMOS']).regionGroup[grCode].stn[i].dataSet;
+									}
+								}else{
+									if(chart.hasOwnProperty("series_pmos"))
+										chart.series_pmos.visible = false;
+								}					
+								
+								
+								if(str_typeOfChart=='SKY'){
+									chart.setCloudAmount();
+								}else if(str_typeOfChart=='PTY'){
+									chart.addPTYSymbol();
+								}else if(str_typeOfChart=='WSD'){
+									chart.drawWindSymbol();
+								}else if(str_typeOfChart=='SN6' ){//|| str_typeOfChart=='RN3'){
+									chart.moveAxisRenderer(isSHRT_KWRF_ACC)
+								}
+								
+							}	
+						//Nov 26, 2012	
+						}
+					}
+					
+					// set top n bottom lable visiblity  + calc gutterTop(bottom)
+					// set top n bottom lable visiblity  + calc gutterTop(bottom)
+					// set top n bottom lable visiblity  + calc gutterTop(bottom)
+					//is Multi
+					if(isMultiSeries){
+						if(isSSPS){
+							lblBox.setStyle("paddingBottom",-15);
+							prcp.setStyle("gutterLeft",70);
+							wind.setStyle("gutterLeft",70);
+						}else{
+							lbl.setStyle("paddingBottom",-10);
+						}
+//						lbl.setStyle("paddingBottom",-10);
+						lblBox.setStyle("paddingBottom",-15);
+						if(stations.children().length()==1){
+//							lbl.setStyle("paddingBottom",-20);
+//							lblBox.setStyle("paddingBottom",-20);
+							prcp.topAxisRenderer.setStyle("showLabels",true);
+							prcp.setStyle("gutterTop",25);// like a cirrus
+							prcp.topAxisRenderer.setStyle("labelGap",-10);
+							prcp.height+= 25;//prcp.getStyle("gutterTop");
+							if(!isMEDM){
+								wind.bottomAxisRenderer.setStyle("showLabels",true);
+								wind.setStyle("gutterBottom", 45);
+								wind.height+= 45;//wind.getStyle("gutterBottom");
+							}else{
+								chart.bottomAxisRenderer.setStyle("showLabels",true);
+								chart.height+=45;
+							}
+							
+						////멀티 첨이랑 끝
+						////첨이랑 끝
+						}else if(i==0 || i%3==0){
+//							if(isSSPS){
+//								lblBox.setStyle("paddingBottom",-20);
+//							}else{
+//								lbl.setStyle("paddingBottom",-20);
+//							}
+							prcp.topAxisRenderer.setStyle("showLabels",true);
+							prcp.setStyle("gutterTop",25);// like a cirrus
+							prcp.topAxisRenderer.setStyle("labelGap",-10);
+							prcp.height+= 25;//prcp.getStyle("gutterTop");
+						}else if(i==(stations.children().length()-1)){
+							if(!isMEDM){
+								wind.bottomAxisRenderer.setStyle("showLabels",true);
+								wind.setStyle("gutterBottom", 45);
+								wind.height+= 45;//wind.getStyle("gutterBottom");
+//								wind.setStyle("paddingBottom", -10);
+							}else{
+								chart.bottomAxisRenderer.setStyle("showLabels",true);
+								chart.setStyle("gutterBottom", 45);
+								chart.bottomAxisRenderer.setStyle("labelGap",-20);
+								chart.height+=45;
+							}
+						}
+						chart.setStyle("paddingTop",-13);// like a cirrus
+						if(!isMEDM){
+							wind.setStyle("paddingTop",-13); //Mar2014
+						}
+						////첨이랑 끝
+						////첨이랑 끝
+						
+						// set top n bottom lable visiblity  + calc gutterTop(bottom)
+						// set top n bottom lable visiblity  + calc gutterTop(bottom)
+						// set top n bottom lable visiblity  + calc gutterTop(bottom)
+						
+						//single var
+					}else{
+						//one station in regionGroup
+						if(stations.children().length()==1){
+							chart.height += chart.height * 0.4;
+							chart.topAxisRenderer.setStyle("showLabels",true);
+							chart.bottomAxisRenderer.setStyle("showLabels",true);
+						}else if(i==0 || i%3==0){
+							chart.topAxisRenderer.setStyle("showLabels",true);
+							chart.height += chart.height * 0.25;
+						}else if(i==(stations.children().length()-1)){
+							chart.bottomAxisRenderer.setStyle("showLabels",true);
+							chart.height += chart.height * 0.25;
+						}
+					}
+					
+					
+					if(! isMultiSeries){
+						//201409
+						if(isSSPS){
+							chartArea.addChild(lblBox);
+						}else{
+							chartArea.addChild(lbl);
+						}
+						
+						//201409
+							
+						chartArea.addChild(chart);
+						
+						//////////////////////////////////////////////////////////////////
+						//////////////////////////////////////////////////////////////////
+						lbl.setStyle("paddingLeft",chart.getStyle("gutterLeft")-3);		
+//						chart.setStyle("paddingTop", -vSpacing -5);	
+						chart.setStyle("paddingTop",  -10);	
+				//adios
+//						if(! isMergedModel && !doesntNeedAxisRangeAdjust){
+						if(!doesntNeedAxisRangeAdjust){
+							if( isKindOfPrepitation ){
+								if(getMaxPrcp(false)==0){
+									chart.axis_ver.maximum = 1;
+									chart.axis_ver.interval = 1;
+								}else if(getMaxPrcp(false)<5){
+									chart.axis_ver.maximum = 6;
+									chart.axis_ver.interval = 1;
+								}else if(getMaxPrcp(false)<10){
+									chart.axis_ver.maximum = 12;
+									chart.axis_ver.interval = 2;
+								}else if(getMaxPrcp(false)<20){
+									chart.axis_ver.maximum = 25;
+									chart.axis_ver.interval = 5;
+								}else{
+									chart.axis_ver.interval=Constants.INTERVAL_PRECIPITATION;
+									chart.axis_ver.maximum = getMaxPrcp(true,true);
+								}											
+//								chart.axis_ver.maximum = Math.ceil(getMaxVal() * 1.2);
+//								if(chart.axis_ver.maximum > 6){
+//									chart.axis_ver.interval =Math.ceil(getMaxVal() / 5);
+//								}else{
+//									chart.axis_ver.interval = Math.round(getMaxVal() / 5);
+//									if(getMaxVal()== 0){
+//										chart.axis_ver.maximum = 1.0;		
+//										chart.axis_ver.interval = 0.2;
+//									}
+//								}
+							}else{ // Temperature.. T3H n MMX
+//								var paddingTop:Boolean = (isMEDM)? false: true;
+//								chart.axis_ver.maximum = getMaxVal(true,(isMEDM)? false: true);
+								var paddingTop:Number = (isMEDM)? 0: 4;
+								var paddingBottom:Number = (isMEDM)? 0 : -1;
+								chart.axis_ver.maximum = getMaxVal(true,false,paddingTop);
+								chart.axis_ver.minimum = getMinVal(true,paddingBottom);
+								chart.axis_ver.interval = Constants.INTERVAL_TEMPERATURE;
+							}
+						}
+				//adios
+						//////////////////////////////////////////////////////////////////
+						//////////////////////////////////////////////////////////////////
+						
+					}else if(isMultiSeries){
+							if(isSSPS){
+								chartArea.addChild(lblBox);
+							}else{
+								chartArea.addChild(lbl);
+							}
+							
+							chartArea.addChild(prcp);
+							chartArea.addChild(chart);
+							if(!isMEDM){
+								chartArea.addChild(wind);
+							}
+							lbl.setStyle("paddingLeft",chart.getStyle("gutterLeft")-3);		
+					}
+					
+				}
+				//리젠드 체크박스 선택 at load
+				addCheckBoxLegendWithPrevStates();
+			}
+			
+			
+			
+			private function checkWhetherVeticalTicksOnWeightChartAreProperlyAligned(typeStr:String):Boolean{
+				return (typeStr=="T3H" || typeStr=="SKY" || typeStr=="REH")? false : true
+			}
+			
+			private function drawTimeseriesWithWeightInfo():void{
+				/* if personalization panel is activated.. timeSeries.includeInLayout=false */
+				adjustChartVisibilityBeforeDrawing();
+				/* seeking Peak n Nadir.. */
+				resetPeak_n_nadir4DrawTimeseries();
+				
+				var is279hrs:Boolean = ((baseModelName=='PMOS2' || baseModelName=='GDPS'|| baseModelName=='BEST') && isMEDM)? true : false; //doeJeon Oct2015
+				
+				/* draw timeSeries(excludes ensemble..) */
+				chartArea.removeAllChildren();
+//				var lbl:Label; 
+				lbl_baseModel.alpha = 1;
+				for(var i:int = 0; i<stations.children().length(); i++){
+					var lbl:Label = new Label();
+//					lbl = new Label();
+					lbl.setStyle("width","300");
+					lbl.setStyle("height","20");
+					lbl.setStyle("fontSize",15);
+					lbl.setStyle("fontWeight","bold");
+					lbl.truncateToFit = true;
+					var lbl_stnName:String = stations.stn[i].@stnName;
+					if(lbl_stnName.indexOf("-")!=-1){
+						lbl_stnName = lbl_stnName.replace("-"," ");
+					}
+					lbl.text = (lbl_stnName+ " (" + stations.stn[i].@stnNo + ")" );
+					
+					
+					var lblBox:HBox = new HBox();
+					lblBox.height = 20;
+//					lblBox.setStyle("borderStyle","outset");
+					lblBox.setStyle("verticalAlign","middle");
+					lblBox.setStyle("horizontalGap",0);
+					lblBox.addChild(lbl);
+					
+					
+					var chart:* = getChartInstance();
+					if(isMultiSeries){
+		
+					//single variable charting	
+					//single variable charting	
+					//single variable charting	
+					}else {
+						if(str_typeOfChart!="MMX" && isMEDM ){
+						// MMX	Dec 2013
+						}else if(str_typeOfChart=="MMX" && isMEDM){  //(baseModelName=='PMOS2'|| baseModelName=='ECMWF'|| baseModelName=='EPSG') ){ 
+						// adios
+						}else if(baseModelName=='PMOS' && str_typeOfChart=='SN6' && !isMergedModel){	
+						//Dec 2013
+						}else if(!isMEDM){
+//							if(isMergedModel){
+//								chart.setAlternateFill(is00UTC,isOddNum,isExistOnlyKWRF);
+//							}else{
+								chart.setAlternateFill(is00UTC,isOddNum,false); //kwarf 없다 이제 디폴트가 false
+//							}
+							
+							chart.dataProvider = stations.stn[i].dataSet;
+							
+//							
+						}
+					}
+					
+					
+					//BEST_MERG 2016 
+					//급하게 만들었나 변수가 wind고 가중치그래픽드로잉펑션명이 setCLD_n_PTYGraphics ㅎㅎ 
+					//
+					if(stations.stn[i].hasOwnProperty("@hasWeightData")){
+						if(!isMEDM){
+//							var wind:WeightSeries = new WeightSeries();
+							var wind:WeightSeries_invisibleAxe = new WeightSeries_invisibleAxe();
+							//							wind.dataProvider = xmlListToObjectArray(list_wsd.regionGroup[grCode].stn[i].dataSet,false);
+							var isVerticalTickAligned:Boolean = checkWhetherVeticalTicksOnWeightChartAreProperlyAligned(str_typeOfChart);
+							wind.setAlternateFill(is00UTC,isOddNum,isVerticalTickAligned);
+//							if(str_typeOfChart=='PTY'){
+//								if(chart.hasOwnProperty("bottomLabelAxisRenderer")){
+//									chart.bottomLabelAxisRenderer.setStyle('showLabels',false);
+////									chart.bottomLabelAxisRenderer.setStyle('showLine',false);
+//									chart.bottomLabelAxisRenderer.setStyle('visible',false);
+//									chart.bottomLabelAxisRenderer.setStyle('includeInLayout',false);
+////									chart.bottomLabelAxisRenderer.setStyle('labelGap',0);
+////									chart.bottomLabelAxisRenderer.setStyle('fontSize',0);
+//									chart.height = chart.height - 8;
+//								}
+//							}
+							wind.setStyle("paddingTop", (str_typeOfChart!='PTY')?-13:-20); //Mar2014
+							
+						}	
+					
+						//set data !!!!!!!!
+						//set data !!!!!!!!
+						
+						wind.dataProvider =  CommonUtil.getInstance().xmlListToObjectArray(stations.stn[i].dataSet);//얘있어야 함!!!
+						wind.setCLD_n_PTYGraphics(CommonUtil.getInstance().xmlListToObjectArray(stations.stn[i].dataSet));
+					}
+					
+					
+					
+					
+					//is Multi
+					if(isMultiSeries){
+						
+					}else{
+						//one station in regionGroup
+						if(stations.children().length()==1){
+							chart.height += chart.height * 0.4;
+							//weight chart gutterLeftRight
+							chart.topAxisRenderer.setStyle("showLabels",true);
+							chart.bottomAxisRenderer.setStyle("showLabels",true);
+							
+							if(stations.stn[i].hasOwnProperty("@hasWeightData")){
+//								wind.bottomAxisRenderer.setStyle("showLabels",true);
+								wind.setStyle("gutterBottom", 45);
+								wind.height+= 45;//wind.getStyle("gutterBottom");
+							}
+							
+						}else if(i==0 || i%3==0){
+							chart.topAxisRenderer.setStyle("showLabels",true);
+							chart.height += chart.height * 0.25;
+						}else if(i==(stations.children().length()-1)){
+							chart.bottomAxisRenderer.setStyle("showLabels",true);
+							chart.height += chart.height * 0.25;
+							
+							if(stations.stn[i].hasOwnProperty("@hasWeightData")){
+//								wind.bottomAxisRenderer.setStyle("showLabels",true);
+								wind.setStyle("gutterBottom", 45);
+								wind.height+= 45;//wind.getStyle("gutterBottom");
+							}	
+							
+							
+						}
+					}
+					
+					
+					if(! isMultiSeries){
+						chartArea.addChild(lbl);
+						
+							
+						chartArea.addChild(chart);
+						
+						if(stations.stn[i].hasOwnProperty("@hasWeightData")){
+							wind.setStyle("gutterLeft",chart.getStyle("gutterLeft"));
+//							wind.setStyle("gutterRight",chart.getStyle("gutterRight")); //MERG_BEST 2016 
+							
+							///////////////////////////////////////////MERG_BEST 2016 
+							//MERG_BEST 2016 
+							if(chart.getStyle("gutterRight") <= 45){
+								chart.setStyle("gutterRight", 45);
+								wind.setStyle("gutterRight", 45);
+							}else{
+								wind.setStyle("gutterRight",chart.getStyle("gutterRight")); 
+							}
+							//MERG_BEST 2016 
+							///////////////////////////////////////////MERG_BEST 2016 
+							
+							chartArea.addChild(wind);
+						}
+						//////////////////////////////////////////////////////////////////
+						//////////////////////////////////////////////////////////////////
+						lbl.setStyle("paddingLeft",chart.getStyle("gutterLeft")-3);		
+						chart.setStyle("paddingTop",  -10);	
+						
+						if(!doesntNeedAxisRangeAdjust){
+							if( isKindOfPrepitation ){
+								if(getMaxPrcp(false)==0){
+									chart.axis_ver.maximum = 1;
+									chart.axis_ver.interval = 1;
+								}else if(getMaxPrcp(false)<5){
+									chart.axis_ver.maximum = 6;
+									chart.axis_ver.interval = 1;
+								}else if(getMaxPrcp(false)<10){
+									chart.axis_ver.maximum = 12;
+									chart.axis_ver.interval = 2;
+								}else if(getMaxPrcp(false)<20){
+									chart.axis_ver.maximum = 25;
+									chart.axis_ver.interval = 5;
+								}else{
+									chart.axis_ver.interval=Constants.INTERVAL_PRECIPITATION;
+									chart.axis_ver.maximum = getMaxPrcp(true,true);
+								}											
+							}else{ // Temperature.. T3H n MMX
+								var paddingTop:Number = (isMEDM)? 0: 4;
+								var paddingBottom:Number = (isMEDM)? 0 : -1;
+								chart.axis_ver.maximum = getMaxVal(true,false,paddingTop);
+								chart.axis_ver.minimum = getMinVal(true,paddingBottom);
+								chart.axis_ver.interval = Constants.INTERVAL_TEMPERATURE;
+							}
+						}
+				//adios
+						//////////////////////////////////////////////////////////////////
+					}
+//						else if(isMultiSeries){
+//							if(isSSPS){
+//								chartArea.addChild(lblBox);
+//							}else{
+//								chartArea.addChild(lbl);
+//							}
+							
+//							chartArea.addChild(prcp);
+//							chartArea.addChild(chart);
+								
+//							if(!isMEDM){
+								
+//							}
+//							lbl.setStyle("paddingLeft",chart.getStyle("gutterLeft")-3);		
+							
+//					}
+					
+				}
+				addCheckBoxLegendWithPrevStates();
+				
+			}
+			
+			
+			private var somePopup:CustomTitleWindow;
+			
+			private function popupEIDialog(labelCoordinates:Point=null, e:MouseEvent=null):void{
+//			private function popupEIDialog(e:MouseEvent=null):void{
+				if(!labelCoordinates && !e ){
+					if(somePopup){
+						PopUpManager.removePopUp(somePopup);
+//						Alert.show("mouseEvt is null && somePopup was deactivated");
+					}	
+					return;
+				}
+				var sCode:String = String(e.currentTarget.id).substring(3,String(e.currentTarget.id).length);
+//				Alert.show(str_stnId,sCode) // str_stnId 거지같이 넘어와서 id파싱해서 씀 ㅡ,.ㅡ
+				if(SSPSEnvInfo){
+//					var somePopup:CustomTitleWindow = new CustomTitleWindow();
+//					somePopup.stationEnvInfo = XML(SSPSEnvInfo.regionGroup.station.(@stnCode == sCode));
+					if(somePopup){
+						somePopup.setStationEnv(XML(SSPSEnvInfo.regionGroup.station.(@stnCode == sCode)));
+						PopUpManager.addPopUp(somePopup, this, false) ;
+					}else{
+						somePopup = PopUpManager.createPopUp(this,CustomTitleWindow,false) as CustomTitleWindow;
+						somePopup.setStationEnv(XML(SSPSEnvInfo.regionGroup.station.(@stnCode == sCode)));
+						PopUpManager.centerPopUp(somePopup);
+					}
+//					somePopup.stationEnvInfo = XML(SSPSEnvInfo.regionGroup.station.(@stnCode == sCode));
+//					PopUpManager.addPopUp(somePopup, this, false) ;
+					
+					var p:Point = (String(e.currentTarget.id).substring(0,3)=='lbl')? new Point(labelCoordinates.x, e.localY -10) : new Point(e.localX + 15, e.localY -10)
+//					var p:Point = new Point(e.localX + 15, e.localY -10); //it works
+//					var p:Point = new Point(labelCoordinates.x, e.localY -10); //it works
+					p = e.target.localToGlobal(p);
+					somePopup.x = p.x;//- somePopup.width;
+					somePopup.y = p.y;
+					
+//					PopUpManager.centerPopUp(somePopup);
+					/**
+						somePopup = PopUpManager.createPopUp(this,CustomTitleWindow,false) as CustomTitleWindow;
+						PopUpManager.centerPopUp(somePopup);
+					 * */
+				}
+			}
+			
+			//이건 시리즈 데이터 레이블 비저빌리티 제어
+			private function selectSeriesAllorNone(chart:Object, have2remove:Boolean):void{
+				if(have2remove){
+					if(chart.hasOwnProperty("canvas_max")) chart.canvas_max.removeAllChildren();	
+					if(chart.hasOwnProperty("canvas_min")) chart.canvas_min.removeAllChildren();	
+					if(chart.hasOwnProperty("canvas_t3h")) chart.canvas_t3h.removeAllChildren();	
+					if(chart.hasOwnProperty("canvas_reh")) chart.canvas_reh.removeAllChildren();	
+					if(chart.hasOwnProperty("canvas_pop")) chart.canvas_pop.removeAllChildren();	
+					if(chart.hasOwnProperty("canvas_r12")) chart.canvas_r12.removeAllChildren();	
+					if(chart.hasOwnProperty("canvas_s12")) chart.canvas_s12.removeAllChildren();	
+					if(chart.hasOwnProperty("canvas_vis")) chart.canvas_vis.removeAllChildren();	
+				}
+			}
+			
+	//		private function dynamicallyChangeSeriesRenderer2(prevItem:String, currItem:String,  isVisible:Boolean):void{
+			public function dynamicallyChangeSeriesRenderer2(currItem:String,  isVisible:Boolean):void{
+				trace('dynamicallyChangeSeriesRenderer2(currItem, isVisible)  ' + currItem + ' / ' + isVisible)
+				//앙상블 	
+			   if(isEnsemble && !isMergedModel){
+					if(currItem=="cb_max" || currItem=="cb_min" ){
+						var isMax:Boolean = (currItem=="cb_max")? true:false;
+						for each(var obj:DisplayObject in this.chartArea.getChildren()){
+							if(obj instanceof ChartBase){
+								if(obj instanceof DFS_MMX_ensemble){
+									if(isVisible)DFS_MMX_ensemble(obj).showMinMaxLabels(isMax);
+									else DFS_MMX_ensemble(obj).removeMinMaxLables(isMax);
+								}else if(obj instanceof EPSG_MMX_single){
+									if(isVisible)EPSG_MMX_single(obj).showMinMaxLabels();
+									else EPSG_MMX_single(obj).removeMinMaxLables();
+								}
+							}
+						}
+					}else if(currItem=="cb_sky" || currItem=="cb_pty"){
+						var isSky:Boolean = (currItem=="cb_sky")? true:false;
+						for each(var obj:DisplayObject in this.chartArea.getChildren()){
+							if(obj instanceof ChartBase){
+								if(obj instanceof DFS_ensemble_CLDnPTY){
+									DFS_ensemble_CLDnPTY(obj).replaceGraphicsWithAlternatives(isSky,isVisible);
+								}else if(obj instanceof DFS_MEDM_SKY_ensemble_candleStick){
+									DFS_MEDM_SKY_ensemble_candleStick(obj).addAnnotationElements(isVisible);
+								}
+							}
+						}
+					}else if(currItem=="cb_r12"){
+						for each(var obj:DisplayObject in this.chartArea.getChildren()){
+							if(obj instanceof ChartBase){
+								if(obj instanceof DFS_MEDM_R12_ensemble){
+									DFS_MEDM_R12_ensemble(obj).addAnnotationElements(isVisible);
+								}else if(obj instanceof EPSG_R12_single){
+									EPSG_R12_single(obj).addAnnotationElements(isVisible);
+								}
+							}
+						}
+					}else if(currItem=="cb_all"){ //select all or none
+//CommonUtil.getInstance().showAlertDialogOnScreenTop('cb_all',isVisible.toString())
+						for each(var obj:DisplayObject in this.chartArea.getChildren()){
+							if(obj instanceof ChartBase){
+								if(obj instanceof DFS_MMX_ensemble){
+									if(isVisible){
+										DFS_MMX_ensemble(obj).showMinMaxLabels(true);
+										DFS_MMX_ensemble(obj).showMinMaxLabels(false);
+									}else {
+										DFS_MMX_ensemble(obj).removeMinMaxLables(true);
+										DFS_MMX_ensemble(obj).removeMinMaxLables(false);
+									}
+								}else if(obj instanceof EPSG_MMX_single){
+									if(isVisible){
+										EPSG_MMX_single(obj).showMinMaxLabels();
+//										EPSG_MMX_single(obj).showMinMaxLabels(false);
+									}else {
+										EPSG_MMX_single(obj).removeMinMaxLables();
+//										EPSG_MMX_single(obj).removeMinMaxLables(false);
+									}
+								
+								}else if(obj instanceof DFS_ensemble_CLDnPTY){
+									DFS_ensemble_CLDnPTY(obj).replaceGraphicsWithAlternatives(true,isVisible);
+									DFS_ensemble_CLDnPTY(obj).replaceGraphicsWithAlternatives(false,isVisible);
+								}else if(obj instanceof DFS_MEDM_R12_ensemble){
+									DFS_MEDM_R12_ensemble(obj).addAnnotationElements(isVisible);
+								}
+							}
+						}
+					}
+					
+				//앙상블 외에	
+				}else if(!isEnsemble && isMultiSeries){
+					var str:String='';
+					for each(var obj:DisplayObject in this.chartArea.getChildren()){
+						var multi:*;
+						if(obj is multivar3col_cartesian ){
+							
+							multi = multivar3col_cartesian(obj);
+	
+							if(currItem=='cb_all'){
+								selectSeriesAllorNone(multi, true)
+								if(isVisible){
+									addAnnotationElements_T3H(multivar3col_cartesian(multi).t3hLine, multi);
+									addAnnotationElements(multivar3col_cartesian(multi).rehColumn, multi);
+									addAnnotationElements(multivar3col_cartesian(multi).popColumn, multi);
+									addAnnotationElements(multivar3col_cartesian(multi).rn3Column, multi ,true);
+									addAnnotationElements(multivar3col_cartesian(multi).sn3Column, multi ,true);
+								}
+							  	
+							}else if(currItem=='cb_t3h'){
+								addAnnotationElements_T3H(multivar3col_cartesian(multi).t3hLine, multi, isVisible);
+							}else if(currItem=='cb_reh'){
+								if(isVisible){
+									addAnnotationElements(multivar3col_cartesian(multi).rehColumn, multi);
+								}else{
+									multi.canvas_reh.removeAllChildren();
+								}
+							}else if(currItem=='cb_pop'){
+								if(isVisible){
+									addAnnotationElements(multivar3col_cartesian(multi).popColumn, multi);
+								}else{
+									multi.canvas_pop.removeAllChildren();
+								}
+							}else if(currItem=='cb_r12'){
+								if(isVisible){
+									addAnnotationElements(multivar3col_cartesian(multi).rn3Column, multi, true);
+								}else{
+									multi.canvas_r12.removeAllChildren();
+								}
+							}else if(currItem=='cb_s12'){
+								if(isVisible){
+									addAnnotationElements(multivar3col_cartesian(multi).sn3Column, multi, true);
+								}else{
+									multi.canvas_s12.removeAllChildren();
+								}
+							}
+								
+						}else if(obj is multivar3col_ECMWF){ //ECMWF 단기
+							multi = multivar3col_ECMWF(obj);
+	
+							if(currItem=='cb_all'){
+								selectSeriesAllorNone(multi, true)
+								if(isVisible){
+									addAnnotationElements_T3H(multivar3col_ECMWF(multi).t3hLine, multi);
+									addAnnotationElements(multivar3col_ECMWF(multi).rehColumn, multi);
+									addAnnotationElements(multivar3col_ECMWF(multi).rn3Column, multi ,true);
+									addAnnotationElements(multivar3col_ECMWF(multi).sn3Column, multi ,true);
+								}
+							  	
+							}else if(currItem=='cb_t3h'){
+								addAnnotationElements_T3H(multivar3col_ECMWF(multi).t3hLine, multi, isVisible);
+							}else if(currItem=='cb_reh'){
+								if(isVisible){
+									addAnnotationElements(multivar3col_ECMWF(multi).rehColumn, multi);
+								}else{
+									multi.canvas_reh.removeAllChildren();
+								}
+							}else if(currItem=='cb_r12'){
+								if(isVisible){
+									addAnnotationElements(multivar3col_ECMWF(multi).rn3Column, multi, true);
+								}else{
+									multi.canvas_r12.removeAllChildren();
+								}
+							}else if(currItem=='cb_s12'){
+								if(isVisible){
+									addAnnotationElements(multivar3col_ECMWF(multi).sn3Column, multi, true);
+								}else{
+									multi.canvas_s12.removeAllChildren();
+								}
+							}
+						//meFine							
+						}else if(obj is multivar3col_SSPS){ //ECMWF 단기
+							multi = multivar3col_SSPS(obj);
+	
+							if(currItem=='cb_all'){
+								selectSeriesAllorNone(multi, true)
+								if(isVisible){
+									addAnnotationElements_T3H(multivar3col_SSPS(multi).t3hLine, multi);
+									addAnnotationElements(multivar3col_SSPS(multi).rehColumn, multi);
+									addAnnotationElements(multivar3col_SSPS(multi).visLine, multi);
+									addAnnotationElements(multivar3col_SSPS(multi).rn3Column, multi ,true);
+									addAnnotationElements(multivar3col_SSPS(multi).sn3Column, multi ,true);
+								}
+							  	
+							}else if(currItem=='cb_t3h'){
+								addAnnotationElements_T3H(multivar3col_SSPS(multi).t3hLine, multi, isVisible);
+							}else if(currItem=='cb_reh'){
+								if(isVisible){
+									addAnnotationElements(multivar3col_SSPS(multi).rehColumn, multi);
+								}else{
+									multi.canvas_reh.removeAllChildren();
+								}
+							}else if(currItem=='cb_pop'){
+								if(isVisible){
+									addAnnotationElements(multivar3col_SSPS(multi).visLine, multi);
+								}else{
+									multi.canvas_vis.removeAllChildren();
+								}	
+							}else if(currItem=='cb_r12'){
+								if(isVisible){
+									addAnnotationElements(multivar3col_SSPS(multi).rn3Column, multi, true);
+								}else{
+									multi.canvas_r12.removeAllChildren();
+								}
+							}else if(currItem=='cb_s12'){
+								if(isVisible){
+									addAnnotationElements(multivar3col_SSPS(multi).sn3Column, multi, true);
+								}else{
+									multi.canvas_s12.removeAllChildren();
+								}
+							}
+									
+								
+						}else if(obj is multivar3col_PMOS){
+							multi = multivar3col_PMOS(obj);
+							if(currItem=='cb_all'){
+								trace('hi there')
+								selectSeriesAllorNone(multi, true)
+								if(isVisible){
+									addAnnotationElements_T3H(multivar3col_PMOS(multi).t3hLine, multi);
+									addAnnotationElements(multivar3col_PMOS(multi).rehColumn, multi);
+									addAnnotationElements(multivar3col_PMOS(multi).popColumn, multi);
+									addAnnotationElements(multivar3col_PMOS(multi).sn3Column, multi);
+								}
+							  	
+							}else if(currItem=='cb_t3h'){
+								addAnnotationElements_T3H(multivar3col_PMOS(multi).t3hLine, multi, isVisible);
+							}else if(currItem=='cb_reh'){
+								if(isVisible){
+									addAnnotationElements(multivar3col_PMOS(multi).rehColumn, multi);
+								}else{
+									multi.canvas_reh.removeAllChildren();
+								}
+							}else if(currItem=='cb_pop'){
+								if(isVisible){
+									addAnnotationElements(multivar3col_PMOS(multi).popColumn, multi);
+								}else{
+									multi.canvas_pop.removeAllChildren();
+								}
+							}else if(currItem=='cb_s12'){
+								if(isVisible){
+									addAnnotationElements(multivar3col_PMOS(multi).sn3Column, multi, true);
+								}else{
+									multi.canvas_s12.removeAllChildren();
+								}
+							}
+							
+						}else if(obj is multiVars_GDPS){
+							multi = multiVars_GDPS(obj);
+							if(currItem=='cb_all'){
+								trace('hi there')
+								selectSeriesAllorNone(multi, true)
+								if(isVisible){
+									addAnnotationElements(multiVars_GDPS(multi).minLine, multi, false,  multiVars_GDPS(multi).rn3Column);
+									addAnnotationElements(multiVars_GDPS(multi).maxLine, multi, false,  multiVars_GDPS(multi).rn3Column);
+									addAnnotationElements(multiVars_GDPS(multi).rn3Column, multi);
+									addAnnotationElements(multiVars_GDPS(multi).sn3Column, multi);
+								}
+							  	
+							}else if(currItem=='cb_max'){
+								if(isVisible){
+									addAnnotationElements(multiVars_GDPS(multi).maxLine, multi, false,  multiVars_GDPS(multi).rn3Column);
+								}else{
+									multi.canvas_max.removeAllChildren();
+								}
+							}else if(currItem=='cb_min'){
+								if(isVisible){
+									addAnnotationElements(multiVars_GDPS(multi).minLine, multi, false,  multiVars_GDPS(multi).rn3Column);
+								}else{
+									multi.canvas_min.removeAllChildren();
+								}
+							}else if(currItem=='cb_r12'){
+								if(isVisible){
+									addAnnotationElements(multiVars_GDPS(multi).rn3Column, multi);
+								}else{
+									multi.canvas_r12.removeAllChildren();
+								}
+							}else if(currItem=='cb_s12'){
+								if(isVisible){
+									addAnnotationElements(multiVars_GDPS(multi).sn3Column, multi);
+								}else{
+									multi.canvas_s12.removeAllChildren();
+								}
+							}
+							
+						}
+					}
+				//MergedModel	
+				}else{
+					//Jan 2014
+					if(isMergedModel){ // && !isMEDM){
+						for each(var obj:DisplayObject in this.chartArea.getChildren()){
+							if(obj instanceof ChartBase){
+								var chart:* = getMergedModelChartInstance(obj);	
+								if(chart instanceof DFS_MMX_Merged){
+									var currModelStr:String; // = (currItem=='cb_gdps')? 'gdps' : 'ecmw' ;
+									switch(currItem){
+										case "cb_best" : currModelStr = 'best' ; break;
+										case "cb_gdps" : currModelStr = 'gdps' ; break;
+										case "cb_ecmw" : currModelStr = 'ecmw' ; break;
+										case "cb_epsg" : currModelStr = 'epsg' ; break;
+									}
+									chart.showMinMaxLabels(currModelStr,isVisible);
+								}else{
+									chart.addAnnotationElements(getSeriesByID(chart,currItem), isVisible);
+								}					
+							}
+						}
+					}
+				}
+			}
+			
+			
+			private function getSeriesByID(chartInstance:Object,cBoxID:String):Series{
+				var series:Series;
+				trace('getSeriesByID():: ' + cBoxID);
+				if(cBoxID=='cb_pmos'){
+					series = chartInstance.series_pmos;
+				}else if(cBoxID=='cb_rdps'){
+					series = chartInstance.series_rdps;
+				}else if(cBoxID=='cb_best'){
+					series = chartInstance.series_best; //doejeon Oct2015
+				}else if(cBoxID=='cb_kwrf'){
+					series = chartInstance.series_kwrf;
+				}else if(cBoxID=='cb_ecmw'){
+					series = chartInstance.series_ecmw;
+				}else if(cBoxID=='cb_gdps'){
+					series = chartInstance.series_gdps;
+				}else if(cBoxID=='cb_epsg'){
+					series = chartInstance.series_epsg;
+				}
+				return series;
+			}
+			
+			private function getMergedModelChartInstance(obj:Object):Object{
+				var instance:*;
+				//SHRT
+				if(obj is DFS_T3H_MergedModel){
+					instance = DFS_T3H_MergedModel(obj);
+				}else if(obj  is DFS_RN3_Merged){
+					instance = DFS_RN3_Merged(obj);
+				}else if(obj  is DFS_POP_MergedModel){
+					instance = DFS_POP_MergedModel(obj);
+				}else if(obj  is DFS_REH_MergedModel){
+					instance = DFS_REH_MergedModel(obj);
+				}else if(obj  is DFS_SN6_MergedModel){
+					instance = DFS_SN6_MergedModel(obj);
+				//MEDM	
+				}else if(obj  is DFS_MEDM_R12_Merged){
+					instance = DFS_MEDM_R12_Merged(obj);
+				}else if(obj  is DFS_MEDM_S12_Merged){
+					instance = DFS_MEDM_S12_Merged(obj);
+				}else if(obj  is DFS_MMX_Merged){ //MMX
+					instance = DFS_MMX_Merged(obj);
+				//Else	
+				}else{
+					trace('[unkown obj]')
+				}
+				return instance;
+			}
+			
+			
+			private function getChartInstance():*{
+				var chart:*;
+				switch(str_typeOfChart){
+					case  "VIS" : chart = new DFS_VIS();  break; //meFine
+					case  "T3H" : chart = (isMergedModel)? new DFS_T3H_MergedModel() : new DFS_T3H();  break;
+					case  "MMX" : chart = (isMergedModel)? new DFS_MMX_Merged() : new DFS_MMX(); break;
+					case  "RN3" : chart = (isMergedModel)? new DFS_RN3_Merged() : new DFS_RN3();   break;
+					case  "POP" : chart = (isMergedModel)? new DFS_POP_MergedModel() : new DFS_POP(); break;
+					case  "SKY" : chart = (isMergedModel)? ((isMEDM)? new DFS_SKY_MergedMEDM() : new DFS_SKY_MergedModel()) : new DFS_SKY(); break; 
+					case  "REH" : chart = (isMergedModel)? new DFS_REH_MergedModel() : new DFS_REH(); break;
+					case  "PTY" : chart = (isMergedModel)? ((isMEDM)? new DFS_PTY_MergedMEDM() : new DFS_PTY_MergedModel()) : new DFS_PTY(); break;
+					case  "WSD" : chart = (isMergedModel)? new DFS_WSD_MergedModel() : new DFS_WSD(); break;
+					case  "SN3" : chart = (isMergedModel)? new DFS_SN6_MergedModel() : new DFS_SN3(); break;
+					case  "SN6" : chart = (isMergedModel)? new DFS_SN6_MergedModel() : new DFS_SN6(); break;
+					case  "S12" : chart = (isMergedModel)? new DFS_MEDM_S12_Merged() : new DFS_MEDM_S12(); break;
+					case  "R12" : chart = (isMergedModel)? new DFS_MEDM_R12_Merged() : new DFS_MEDM_R12(); break;
+					case  "isMulti" : chart = (isPMOS)? new multivar3col_PMOS() : new multivar3col_cartesian();  break;
+				}
+				
+//				if(chart instanceof DFS_SN6_MergedModel)
+//					Alert.show('SN6');
+				return chart;
+			}
+			
+			
+		  	private function iPad2(num:Number):String{
+	  			return (num < 10)? '0'+num : num+'';
+		  	}
+		
+			
+			private function seekMinMaxVal_singleElement(currList:XML):void{
+				//meFine
+				if(str_typeOfChart!='VIS' && str_typeOfChart!='T3H' && str_typeOfChart!='MMX' && str_typeOfChart!='RN3' && str_typeOfChart!='SN3' && str_typeOfChart!='RN6' && str_typeOfChart!='SN6' && str_typeOfChart!='R12' && str_typeOfChart!='S12'){
+//Alert.show(str_typeOfChart,'seekMinMaxVal_singleElement()')
+					doesntNeedAxisRangeAdjust = true;
+					return ;
+				}else{
+					doesntNeedAxisRangeAdjust = false;
+					isKindOfPrepitation = (str_typeOfChart=='T3H' || str_typeOfChart=='MMX')? false : true;
+				}
+				var arr_4assignMaxMin:Array = new Array();
+				for each(var element:XML in currList..@val){
+//					trace(element+'')
+					arr_4assignMaxMin.push(Number(element));
+				}
+		    	var maxVal:Number =  Math.max.apply(null, arr_4assignMaxMin)
+		    	var minVal:Number =   Math.min.apply(null, arr_4assignMaxMin)
+//Alert.show(maxVal + ' max .vs. min ' + minVal)
+				if(!isNaN(maxVal) && !isNaN(minVal) && !isKindOfPrepitation){ // != Infinity  && minVal != Infinity
+				    assignMaxMin(maxVal, minVal);
+				}else if(!isNaN(maxVal) && !isNaN(minVal) && isKindOfPrepitation){
+//				    assignMaxMin(maxVal, 0);
+				    assignMaxPrcp(maxVal);
+//					do something
+				}
+			}
+			
+			
+			//isKindOfPrcp 추가 Mar 2014  강수 적설 맥스값 뽑아서 지점간 축 맥스 민 인터벌 모두 동일하게 
+			public  function xmlListToObjectArray(xmlList:XMLList, isTemperature:Boolean = false, is6Hrs_accumulated=false, isSN6inPMOS:Boolean=false,isKindOfPrcp:Boolean=false):Array{
+				//				trace("[is6Hrs_accumulated]"+is6Hrs_accumulated +'\n[isSN6inPMOS]'+isSN6inPMOS)
+				var arr:Array = new Array();
+				var arr_4assignMaxMin:Array = new Array();
+				var cnt:Number = 0; // 0~20 .. 0일 떄 미싱밸류 들어오면 에어리어 시리즈 인터폴레이션 땜에 nodeValue=0 할당
+				for each(var xml:XML in xmlList){
+					var childs:XMLList = xml.attributes(); 
+					var obj:Object = new Object();
+					for each(var child:XML in childs){
+						var nodeName:String = child.name().toString();
+						var nodeValue:Number =  Number(child.(nodeName));//R12, S12 에어리어 시리즈 인터폴레이션 땜에 데이터를 뉴메릭으로 랩핑
+						var nodeVal_str:String = child.(nodeName).toString();
+						obj[nodeName] =(nodeName=='lst')? nodeVal_str:nodeValue;			            	
+						
+						//멀티차트 기온 민맥스 및 최고 강수 뽑기					
+						if((isTemperature || isKindOfPrcp) && nodeName=='val'){
+							arr_4assignMaxMin.push(nodeValue);
+						}
+						//멀티차트 기온 민맥스 뽑기					
+					}
+					if(is6Hrs_accumulated && cnt==0){
+						var pseudoData_pre:Object = new Object();
+						pseudoData_pre.lst = (obj.lst).substring(0,2) + iPad2(Number((obj.lst).substring(2,4)) -3);
+						pseudoData_pre.val = 0;
+						arr.push(new ObjectProxy(pseudoData_pre));
+					}
+					
+					arr.push(new ObjectProxy(obj));
+					//////May 22, 2013//////////////////////////////////////////////////////////////////////////////////////////
+					///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+					//PMOS 12시간 신적설에서 6시간으로 변경됨. 단일 요소 신적설은  데이터 첨이랑 끝에 가라 데이터 삽입
+					//종합 단일 에어리어 시리즈는  lst 밸류(첫번째데이터 인터폴레이션땜에) 명시해야 지만 마지막 데이터는 걍 lst 말고 val만 마이너스 밸류 때려넣었음. baseAtZero=true 라서 마이너스 밸류는 표출 X
+					if(is6Hrs_accumulated && cnt==xmlList.length()-1 && isSN6inPMOS){
+						var pseudoData_sur:Object = new Object();
+						//			        	pseudoData_sur.lst = (obj.lst).substring(0,2) + iPad2(Number((obj.lst).substring(2,4)) +1);
+						pseudoData_sur.val = -1;
+						//			        	Alert.show(pseudoData_sur.lst +' / '+pseudoData_sur.val);
+						arr.push(new ObjectProxy(pseudoData_sur));
+					}
+					///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+					///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+					cnt++;
+				}
+				//멀티차트 기온 민맥스 뽑기					
+				if(isTemperature){
+					var maxVal:Number =  Math.max.apply(null, arr_4assignMaxMin)
+					var minVal:Number =   Math.min.apply(null, arr_4assignMaxMin)
+					//			    	Infinity
+					if(maxVal != Infinity  && minVal != Infinity){
+						assignMaxMin(maxVal, minVal);
+					}else{
+					}
+				}
+				//멀티차트 기온 민맥스 뽑기					
+				
+				if(isKindOfPrcp){
+					var maxPrcp:Number =  Math.max.apply(null, arr_4assignMaxMin);
+					if(maxPrcp != Infinity){
+						assignMaxPrcp(maxPrcp);
+					}else{
+					}
+				}
+				
+				return arr;
+			}			
+			
+			//isKindOfPrcp 추가 Mar 2014  강수 적설 맥스값 뽑아서 지점간 축 맥스 민 인터벌 모두 동일하게 
+			public  function xmlListToObjectArray_VIS(xmlList:XMLList):Array{
+				var arr:Array = new Array();
+				var arr_4assignMaxMin:Array = new Array();
+				for each(var xml:XML in xmlList){
+					var childs:XMLList = xml.attributes(); 
+					var obj:Object = new Object();
+					for each(var child:XML in childs){
+						var nodeName:String = child.name().toString();
+						var nodeValue:Number =  Number(child.(nodeName));//R12, S12 에어리어 시리즈 인터폴레이션 땜에 데이터를 뉴메릭으로 랩핑
+						var nodeVal_str:String = child.(nodeName).toString();
+						obj[nodeName] =(nodeName=='lst')? nodeVal_str:nodeValue;			            	
+						if(nodeName=='val'){
+							var visibilityLevel:Number = 0;
+							if(nodeValue < 0.5){
+//								barColour = 0xB22222;
+								visibilityLevel = 1;
+							}else if(0.5 <= nodeValue && nodeValue < 1.0){
+								visibilityLevel = 2;
+//								barColour = 0xFF1500;
+							}else if(1.0 <= nodeValue && nodeValue < 5.0){
+								visibilityLevel = 3;
+//								barColour = 0xADFF2F;
+							}else if(5.0 <= nodeValue && nodeValue < 10.0 ){//|| 10.0 < nodeValue){
+								visibilityLevel = 4;
+//								barColour = 0x00FA9A;
+							}else if (10 <=	 nodeValue){
+								visibilityLevel = 5;
+							}
+							trace('[visibility value]'+nodeValue + ' [lvl] ' + visibilityLevel)
+							obj[nodeName] = visibilityLevel;
+//							obj['visInKm'] = nodeValue;
+						}
+					}
+				
+					arr.push(new ObjectProxy(obj));
+				}
+				return arr;
+			}
+
+			
+			private function assignMaxMin(max:Number, min:Number){
+				if(isNaN(max_axisVal) && isNaN(min_axisVal)){
+					max_axisVal = max;
+					min_axisVal = min;
+				}else{
+					if(max > max_axisVal){
+						max_axisVal = max;
+					}
+					if(min < min_axisVal){
+						min_axisVal = min;
+					}
+				}
+			}
+			
+			private function assignMaxPrcp(prcp:Number){
+				if(isNaN(max_prcp)){
+					max_prcp = prcp;
+				}else{
+					if(prcp > max_prcp){
+						max_prcp = prcp;
+//						trace("[Prcp.] "+prcp)
+					}
+				}
+			}
+			
+			
+			private function saveAnImageInPNG():void {
+	    		var fileRef:FileReference = new FileReference();
+	    		fileRef.save(ByteArrayUtil.getByteArrayFrom(contentsBox), baseModelName + '_' + str_typeOfChart + '_' + lbl_region.text + '_' + str_yyyymmddhhmm + ".png" );
+	   		}
+	   		
+	   		
+	   		public static function computeGutterSize(chart:CartesianChart): int {
+				 var labels:Array = chart.horizontalAxis.getLabels(0).labels;
+				 var maxWidth:int = 100;
+				 var font:String = chart.getStyle("fontFamily");
+				 var size:int = chart.getStyle("fontSize") + 4;
+				 var textField:TextField = new TextField ();
+				 textField.defaultTextFormat = new TextFormat(font, size, null, true);
+				 for each (var axisLabel:AxisLabel in labels) {
+				 textField.text = axisLabel.text;
+				 var metrics:TextLineMetrics = textField.getLineMetrics(0);
+				 var textWidth: int = metrics.width;
+					 if (textWidth > maxWidth) {
+					 	maxWidth = textWidth;
+					 }
+				 }
+				 return maxWidth;
+	 		}
+	
+	
+	   		 private function legendCheckBox_changeHandler(e:Event):void{
+//	   		 	Alert.show('legendCheckBox_changeHandler(e:Event)');
+		 		for each(var obj:DisplayObject in legendBox.getChildren()){
+					var cb:CheckBox = obj as CheckBox;
+					if(cb.id != e.currentTarget.id){
+						cb.selected = false;
+					}
+		 		}
+		 		dynamicallyChangeSeriesRenderer2(e.currentTarget.id, e.currentTarget.selected);
+			 }
+	   		
+	   			/**
+	   			 * May 5, 2013
+	   			 * 주간 종합 차트의 경우 기온빼고는 다 누적이라고 그러고 00/12UTC 모두 기온은 데이터 하나씩 더 있음
+	   			 * 가라로 GDPS 최저/최고 기온은 신적설 LST 받아서 그 위치에 올리게 수정 했는데 소스 정리좀 하자 ㅡ,.ㅡ 
+	   			 * addAnnotationElements 호출하는 부분(selectAllorNone이랑 최저,최고 선택하는 	부분 바꿨쌈)
+	   			 * 끝에 파람 하나 추가됨  addAnnotationElements(multiVars_GDPS(multi).maxLine, multi, false,  multiVars_GDPS(multi).rn3Column);
+	   			 * is12Hrs도 날려 쓰지도 않는구만 ㅡ,.ㅡ 
+	   			 * */
+	   			private function addAnnotationElements(seriesData:Series, chartObj:Object,  is6Hrs:Boolean = false, seriesData2:Series=null):void{
+	   				var whichSeries:Series = seriesData ;
+	   				var isFirstAttempt:Boolean = is6Hrs;
+		   			var cnt:Number=0;
+					if( whichSeries.dataProvider != null){
+						for each(var item:Object in whichSeries.dataProvider){
+							if(isFirstAttempt){
+								isFirstAttempt = false;
+								continue;
+							}	
+							if(whichSeries.id=="maxLine" ||whichSeries.id=="minLine"){
+								var gdpsItem:Object = seriesData2.dataProvider[cnt];
+								addLabelsToColumn(gdpsItem.lst, item.val, chartObj,whichSeries);
+								cnt+=1;
+							}else{
+								addLabelsToColumn(item.lst, item.val, chartObj,whichSeries);
+							}
+						}
+					}
+				}
+			
+			
+			
+	   			private function addAnnotationElements_T3H(seriesData:Series, chartObj:Object, addElement:Boolean=true):void{
+	   				
+	   				if(!addElement){
+	   					chartObj.canvas_t3h.removeAllChildren();
+	   					return;
+	   				}
+	   				var whichSeries:Series = seriesData ;
+	   				var count:int = 1;
+					if(whichSeries.dataProvider != null){
+						for each(var item:Object in whichSeries.dataProvider){
+							if(item.hasOwnProperty("max")){
+								//AUG 2013 코멘트처리
+	//							Alert.show('item.hasOwnProperty(max)');
+								//date of issue HH==12 이면 마지막 맥스값은 표출  X
+//								if(count<21){
+									addLabelsToColumn_T3H(chartObj,item.lst, item.val, "max", item.max );
+//								}
+								addLabelsToColumn_T3H(chartObj,item.lst, item.val);
+							}else if(item.hasOwnProperty("min")){
+								addLabelsToColumn_T3H(chartObj,item.lst, item.val, "min", item.min);
+							}else{
+								addLabelsToColumn_T3H(chartObj,item.lst, item.val);
+							}
+							count++;
+						}
+					}
+	   			}
+			
+				//params lst:String, val:Number, minMaxFlag:String, minMaxVal:Number
+				private function addLabelsToColumn_T3H(...params):void{
+					var chartObj:Object = params[0];
+					var lst:String = params[1];
+					var val:Number = params[2];					
+					var lbl:Label = new Label();
+					lbl.width = 40; lbl.height = 20;
+					lbl.setStyle("fontSize","12");
+					lbl.setStyle("textAlign","center");
+					lbl.setStyle("paddingTop",-20);
+					
+							var currFormat:NumberFormatter = new NumberFormatter();
+							currFormat.precision = 1;
+							currFormat.rounding = "nearest";
+					
+					lbl.text =currFormat.format(val)+'' ;
+					lbl.setActualSize(lbl.getExplicitOrMeasuredWidth(),lbl.getExplicitOrMeasuredHeight());	
+					chartObj.canvas_t3h.verticalAxis = chartObj.axis_ver;
+					chartObj.canvas_t3h.addDataChild(lbl, new CartesianCanvasValue(lst,-(lbl.width / 2)), val);
+					
+					if(params.length > 3){ // ㅣlegnth==5
+						var _minMax:TextField = new TextField();
+						var flag:String = params[3];
+						var minMaxVal:String = params[4];
+						var textColor:uint = (flag=="max")? 0xFF0000 : 0x0055EE;
+						_minMax.text = currFormat.format(minMaxVal);
+						_minMax.textColor = textColor;
+						_minMax.autoSize = TextFieldAutoSize.CENTER;
+						var tfStyle:TextFormat = new TextFormat(); 
+						tfStyle.size = 12;
+						tfStyle.bold = true;
+						tfStyle.font = "Verdana";
+						_minMax.setTextFormat(tfStyle);
+						
+						_minMax.x = 0; 
+						_minMax.y = 0;
+						
+						var mySprite:Sprite = new Sprite();
+						mySprite.graphics.lineStyle(1,0x000000,.3); //invisible border
+						mySprite.graphics.beginFill(0xFFFFFF,0.8);
+						mySprite.graphics.drawRect(0,0,_minMax.width,_minMax.height);
+						
+						mySprite.y = -35;
+						
+						mySprite.addChild(_minMax);
+						var uic:UIComponent = new UIComponent();
+						uic.addChild(mySprite); 
+						
+						chartObj.canvas_t3h.addDataChild(uic, new CartesianCanvasValue(lst,-(mySprite.width / 2)), val);
+					
+					}
+				}
+			
+				private function addLabelsToColumn(lst:String, val:Number, instance:Object, whichSeries:Series):void{
+					// lineSeries REH, T3H.
+					// If no axis is specified, the  canvas uses the primary axes of the chart as its bounds.
+					var lbl:Label = new Label();
+					
+					lbl.setActualSize(lbl.getExplicitOrMeasuredWidth(),lbl.getExplicitOrMeasuredHeight());	
+					lbl.width = 40; lbl.height = 20;
+					lbl.truncateToFit = true;
+					lbl.setStyle("fontSize","12");
+					lbl.setStyle("fontWeight","normal");
+					lbl.setStyle("textAlign","center");
+					lbl.setStyle("paddingTop",-20);
+	//				instance.canvas.in
+					//labelPrecison =1 로 
+					var currFormat:NumberFormatter = new NumberFormatter();
+					currFormat.rounding = "nearest";
+					
+					if(whichSeries.id =="rehColumn"){
+						currFormat.precision = 0; ///
+						lbl.text = currFormat.format(val);
+						instance.canvas_reh.addDataChild(lbl, new CartesianCanvasValue(lst,-(lbl.width / 2)), val);
+					}else if(whichSeries.id =="popColumn"){
+						currFormat.precision = 0; ///
+						lbl.text = currFormat.format(val);
+						instance.canvas_pop.addDataChild(lbl, new CartesianCanvasValue(lst,-(lbl.width / 2)), val);
+					}else if(whichSeries.id =="visLine"){
+						currFormat.precision = 1; ///
+						lbl.text = currFormat.format(val);
+						if(val > 12.5){
+							lbl.setStyle("color","#222222");
+						}
+						instance.canvas_vis.addDataChild(lbl, new CartesianCanvasValue(lst,-(lbl.width / 2)), (val>12.5 )? 12.5 : val);
+					}else if(whichSeries.id =="rn3Column"){	
+						currFormat.precision = 1; ///
+						currFormat.rounding ="none"; 
+						lbl.text = currFormat.format(val);
+						instance.canvas_r12.addDataChild(lbl, new CartesianCanvasValue(lst,-(lbl.width / 2)), val);
+					}else if(whichSeries.id =="sn3Column"){	
+						currFormat.precision = 1; ///
+						currFormat.rounding ="none"; 
+						lbl.text = currFormat.format(val);
+						instance.canvas_s12.addDataChild(lbl, new CartesianCanvasValue(lst,-(lbl.width / 2)), val);
+					//GDPS Multi(PMOS2)
+					}else if(whichSeries.id =="maxLine"){
+						currFormat.precision = 1; ///
+//						trace(val+' vs '+lbl.text)
+						lbl.text = currFormat.format(val);
+//						trace('[formattedVal] '+currFormat.format(val))
+						instance.canvas_max.addDataChild(lbl, new CartesianCanvasValue(lst,-(lbl.width/2)), val);
+					}else if(whichSeries.id =="minLine"){
+						lbl.setStyle("paddingTop",0);
+						currFormat.precision = 1; ///
+						lbl.text = currFormat.format(val);
+						instance.canvas_min.addDataChild(lbl, new CartesianCanvasValue(lst,-(lbl.width/2)), val);
+																//,수평높이,레이블수직높이값
+					}
+					
+				}
+   		
+   			[Bindable]
+   			public var _prevModelName:String;
+//   			[Bindable]
+//   			public function set prevModelName(value:String):void{
+//   				prevModelName = value;
+//   				Alert.show(value,'_prevModelName setter')
+//   			}
+
+   			private function addCheckBoxLegendWithPrevStates():void{
+   				legendBox.removeAllChildren();
+   				
+				//me2016
+//				<mx:HBox id="updatedOnBox" width="50%"  horizontalAlign="right" borderStyle="solid" visible="{baseModelName=='BEST' &amp;&amp;!isMultiSeries}" includeInLayout="{updatedOnBox.visible}">
+//					<mx:Label  textAlign="right" text="{updatedOn}"  fontSize="18" fontWeight="bold"/> 
+//				</mx:HBox>	
+				//me2016
+				if(baseModelName=='BEST'){
+					if(!isMergedModel){
+						updatedOnContainer.includeInLayout = true;
+						updatedOnContainer.visible = true;
+						
+						updateOnLabel.text = "updated on " + updatedOn;
+////					updatedOnContainer.setStyle("horizontalAlign","right");
+//						var meLabel:Label = new Label();
+//						meLabel.text = "Update on " + updatedOn;
+//						meLabel.setStyle("fontWeight","bold");
+//						meLabel.setStyle("textAlign","right");
+//						meLabel.setStyle("width","100%");
+//						meLabel.setStyle("fontSize",17);
+//						updatedOnContainer.addChild(meLabel);
+						if(!isMultiSeries){
+							legendBox.addChild(new WGHTStaticLegend());
+						}
+					}else{
+						updatedOnContainer.includeInLayout = false;
+						updatedOnContainer.visible = false;
+					}
+				}else{
+					updatedOnContainer.includeInLayout = false;
+					updatedOnContainer.visible = false;
+				}
+				
+   				var selections_PMOS:Array = [false,true,false,false,false]; //5  					includes cb_all 				//excludes cb_all
+   				var selections_GDPS:Array = [false,true,true,false,false]; //5 
+   				var selections_theOthers:Array = [false,true,false,false,false,false]; //6
+   				var selections_ECMWF:Array = [false,true,false,false,false]; //5
+   				
+				//disableBest
+				//disableBest
+//   				var selections_mergedModel:Array = [false,true,false,false]; //
+   				var selections_mergedModel:Array = [false,true,false,false,false]; //pseudo, best, pmos, rdaps, ecmwf //doejeon Oct05
+//   				var selections_mergedMEDM:Array =  [false,true,false,false,false]; //pseudoMaster ,best, ensemble, gdpas, ecmwf //doejeon Oct05
+   				var selections_mergedMEDM:Array =  [false,true,false,false]; //pseudoMaster,  ensemble, gdpas, ecmwf //doejeon Oct05
+				//disableBest
+				//disableBest
+				
+   				var selections_ensemble:Array = [false,false,false,true,true,false]; //5 
+   				
+   				var baseModel_selected:Array; // = selections_PMOS;
+				
+				var box:HBox;
+				
+				if(isMultiSeries){
+					if(baseModelName=='PMOS'){
+						box = new  IMGCheckBox_PMOS();
+						baseModel_selected = selections_PMOS;
+					//meFine	
+					}else if(baseModelName=='SSPS' && ! isMEDM){
+						box = new  IMGCheckBox_SSPS();
+						baseModel_selected = selections_theOthers;
+					}else if((baseModelName=='ECMWF' || baseModelName=='BEST') && ! isMEDM){ //BEST_MERG 2016
+						box = new  IMGCheckBox_ECMWF();
+						baseModel_selected = selections_ECMWF;
+					}else if(isMEDM){
+						if(isEnsemble){
+							//일단 급해서 위로뺌
+							box = new IMGCheckBox_ensemble();
+							baseModel_selected = selections_ensemble;							
+						}else{
+							box = new  IMGCheckBox_GDPS();
+							baseModel_selected = selections_GDPS;
+						}
+					}else{// baseModel is RDPS(or KWRF)
+						box = new  IMGCheckBox_theOthers();
+						baseModel_selected = selections_theOthers;
+					}
+					
+					legendBox.addChild(box);
+//					Alert.show(box.getChildren().length+'')
+					
+					var cbArray:Array = new Array();
+					var cb_all:ImageCheckBox;
+					
+	   				for(var i:int=0; i<baseModel_selected.length; i++){
+	   					var cb:ImageCheckBox = box.getChildAt(i) as ImageCheckBox;
+	   					if(i==0){
+	   						cb_all = cb;
+	   					}else{
+		   					cb.selected = baseModel_selected[i];
+		   					cbArray.push(cb);
+		   					//set properties..	
+	   					}
+	   				}
+					
+//					var cbGroup:CheckBoxGroup2 = new CheckBoxGroup2(cb_all, cbArray); doesnt work
+					cbGroup =  new CheckBoxGroup2(cb_all, cbArray);
+					
+//					if(baseModelName=='PMOS2'||baseModelName=='ECMWF'){
+					if(isMEDM){
+						dynamicallyChangeSeriesRenderer2('cb_max', true);						
+						dynamicallyChangeSeriesRenderer2('cb_min', true);						
+					}else{
+						dynamicallyChangeSeriesRenderer2('cb_t3h', true);						
+					}
+				//Jan 2014	
+				//Jan 2014	
+				//Jan 2014	
+				//Jan 2014	
+				}else if(!isMultiSeries && isMergedModel ){
+					if(str_typeOfChart=='SKY'|| str_typeOfChart=='PTY'|| str_typeOfChart=='WSD'){
+						lbl_baseModel.alpha = 0;
+//						lbl_baseModel.text='';
+						basedOn = '  ';
+						return;
+					}						
+					
+//					//disableBest //comp.chart.checkBox.subtract_mdl_best_temporary 디렉터리에 베스트 있는 체크박스 카피해뒀음!!!
+//					//disableBest //comp.chart.checkBox.subtract_mdl_best_temporary 디렉터리에 베스트 있는 체크박스 카피해뒀음!!!
+//					//disableBest //comp.chart.checkBox.subtract_mdl_best_temporary 디렉터리에 베스트 있는 체크박스 카피해뒀음!!!
+//					box = (isMEDM)? new IMGCheckBox_MergedMEDM() : new IMGCheckBox_MergedModel(); //doejeon Oct05
+					box = (isMEDM)? new IMGCheckBox_MergedMEDM() : new IMGCheckBox_MergedModel(); //doejeon Oct05
+					
+					baseModel_selected = (isMEDM)? selections_mergedMEDM:selections_mergedModel;
+					
+					//adios S12 필요음써젠장 
+					if(str_typeOfChart=='S12'){
+//						IMGCheckBox_MergedMEDM(box).getChildAt(1).visible = false
+						box = new IMGCheckBox_MergedMEDM_excludeS12();
+						//disableBest
+//						baseModel_selected = [false,true,false,false];
+						baseModel_selected = [false,true,false];
+					}
+					
+					legendBox.addChild(box);
+					
+					var cbArray:Array = new Array();
+					var cb_all:ImageCheckBox;
+					
+					//Jan 2014
+					// 베이스모델네임으로  인덱스 받아와서 체크박스 체킹함
+					//com.doe.flex.ui.form.util.CheckBoxGroup_merged selectSome 이벤트 디스패치 (dynamicallyChangeSeriesRenderer2)
+					// 
+					// 체크박스 가감 시 글로벌 변수에 모델네임 참조 걸고.. 
+					// 해당 모델 데이터 존재하는지 검사 후 있으면 모델인덱스 받아서 체킹..
+					// 없으면 모델 우선수윈에 따라 체크하는 펑션타게해서 체킹하도록 수정
+					
+//					Alert.show(_prevModelName,'_prevModelName')
+					var baseModelIndex:int;
+					var basalModel:String;
+					if(mDictionary[_prevModelName]){ //disableBest  getBaseModelIndex 1씩 빼줔ㅋㅋㅋㅋㅋㅋ
+						baseModelIndex = CommonUtil.getInstance().getBaseModelIndex(_prevModelName,isMEDM,str_typeOfChart); //doejeon Oct2015
+						basalModel = _prevModelName;
+					}else{
+						baseModelIndex = CommonUtil.getInstance().getBaseModelIndex(baseModelName,isMEDM,str_typeOfChart); //doejeon Oct2015
+						basalModel = baseModelName;
+					}
+					
+					
+					
+					
+					
+//					if(baseModelName){
+						setBasedOnStr(basalModel ); 
+//					}else{
+//						setBasedOnStr(basalModel);
+//					}
+					
+					
+					var cBoxID:String ='';
+	   				for(var i:int=0; i<baseModel_selected.length; i++){
+	   					var cb:ImageCheckBox = box.getChildAt(i) as ImageCheckBox;
+	   					if(i==0){
+	   						cb_all = cb;
+	   					}else{
+//		   					cb.selected = baseModel_selected[i];
+		   					cb.selected = (i == baseModelIndex)? true:false;
+		   					if(cb.selected){
+		   						cBoxID = cb.id;
+		   					}
+		   					cbArray.push(cb);
+	   					}
+	   				}
+	   				
+					if(!isMEDM){
+						if(str_typeOfChart=='RN3'){
+							IMGCheckBox_MergedModel(box).cb_pmos.visible = false;
+							IMGCheckBox_MergedModel(box).cb_pmos.includeInLayout = false;
+						}else if(str_typeOfChart=='POP'){ //BEST_MERG 2016
+							IMGCheckBox_MergedModel(box).cb_best.visible = false; //BEST_MERG 2016
+							IMGCheckBox_MergedModel(box).cb_best.includeInLayout = false; //BEST_MERG 2016
+							IMGCheckBox_MergedModel(box).cb_ecmw.visible = false;
+							IMGCheckBox_MergedModel(box).cb_ecmw.includeInLayout = false;
+						}
+					}
+					
+					var cbGroup:CheckBoxGroup_merged =  new CheckBoxGroup_merged(cb_all, cbArray);
+					
+					if(cBoxID!=''){
+						dynamicallyChangeSeriesRenderer2(cBoxID,true);
+					}
+				}else if(!isMultiSeries && isMEDM && isEnsemble && !isMergedModel){ //앙상블 단기
+					if(str_typeOfChart=='MMX' || str_typeOfChart=='R12' || str_typeOfChart=='SKY'){
+						if(str_typeOfChart=='MMX'){
+							box = new EPSG_MMX();
+							var selections_mmx:Array = [true,true];							
+							baseModel_selected = selections_mmx
+//							dynamicallyChangeSeriesRenderer2('cb_max', true);						
+//							dynamicallyChangeSeriesRenderer2('cb_min', true);	
+						}else if(str_typeOfChart=='R12'){
+							box = new EPSG_R12();
+							var selections_r12:Array = [true,true];							
+							baseModel_selected = selections_r12;
+							//데이터프로바이더는 null이 아닌데 ls_median.items는 초기화가 안 되었삼
+							//EPSG_R12_single creationCompleteHandler에서 calllater(addAnnotations..) 처리함.
+							//차트 로드되면 디폴트로 레이블 나타나얗마
+//							dynamicallyChangeSeriesRenderer2('cb_r12', true);						
+						}else if(str_typeOfChart=='SKY'){
+							box = new EPSG_CLD();
+							var selections_cld:Array = [true,true];							
+							baseModel_selected = selections_cld;
+//							dynamicallyChangeSeriesRenderer2('cb_sky', true);						
+						}
+						legendBox.addChild(box);
+						
+						var cbArray:Array = new Array();
+						var cb_all:ImageCheckBox;
+						
+		   				for(var i:int=0; i<baseModel_selected.length; i++){
+		   					var cb:ImageCheckBox = box.getChildAt(i) as ImageCheckBox;
+		   					if(i==0){
+		   						cb_all = cb;
+		   					}else{
+			   					cb.selected = baseModel_selected[i];
+			   					cbArray.push(cb);
+			   					//set properties..	
+		   					}
+		   				}
+						var EPSSingleLabelVisibilityController:CheckBoxGroup2 =  new CheckBoxGroup2(cb_all, cbArray);
+						}
+				}   				
+   			}
+   			
+   			
+   			public function setBasedOnStr(basalModel:String):void{
+   				var isMMX:Boolean = (str_typeOfChart=='MMX')? true : false;
+   				var isR12:Boolean = (str_typeOfChart=='R12')? true : false;
+				
+				//2015-11-27 백업서버 시계열은  현재 MOS 데이터 임 haha 현업은 아니고!!
+//				if(basalModel=="ECMWF" && !isMEDM && (str_typeOfChart=="T3H" || str_typeOfChart=="REH")){
+//					isMMX = true;
+//					isR12 = true;
+//				}
+				
+   				if(basalModel){
+					if(basalModel=="BEST"){ //me2016
+						//DO NOTHING
+						basedOn = BESTModelList;
+					}else{
+						basedOn = CommonUtil.getInstance().getBasedOnStr(basalModel,isMEDM,isMMX,isR12); //me2016 best 이하는 날림
+					}
+   				}else{
+   					basedOn = '';
+   				}
+			}
+   			
+   			
+   			
+   			[Embed(source="asset/DFS/timeSeries/meteogram/symbol/LegendSymbolItem/temp_legend.png")]
+   			public static const legendSource:Class;
+   			
+//   		[Embed(source="asset/DFS/timeSeries/meteogram/symbol/LegendSymbolItem/legend_ensemble.png")]
+   			[Embed(source="asset/DFS/timeSeries/meteogram/symbol/LegendSymbolItem/legend_ensemble2.png")]
+   			public var Legend_ensemble:Class;
+   			
+   			private function removePreferencePanel():void{
+  				if(justBox.getChildren().length > 0){
+					justBox.removeAllChildren();	  					
+	   				//trace("if(vBox.getChildAt(1) instanceof notConfiguredYet)..removeChild(preferencesPanel)");
+  				}
+   			}
+   			private function openPersonalizationSettingDialog():void{
+   				 /* 현업
+					contentsBox.includeInLayout = false;
+					contentsBox.visible = false; 
+					notYet.includeInLayout = true;
+					notYet.visible = true;			
+				  */
+
+				removePreferencePanel();				
+				  
+				contentsBox.includeInLayout = false;
+				contentsBox.visible = false; 
+				  chartArea.removeAllChildren();
+				  var preferencesPanel:notConfiguredYet = new notConfiguredYet();
+				  preferencesPanel.loadStationInfo(isMEDM,isSSPS);
+				  preferencesPanel.addEventListener(notConfiguredYet.configuredStationChanged,applyChanges_personalizationSettings); 
+				  justBox.addChild(preferencesPanel);
+
+			}
+   			
+   			private function applyChanges_personalizationSettings(e:Event):void{
+   				removePreferencePanel();
+   				messageFromJohn(str_msgFromJohn,true);
+   			}
+   			
+			
+			private function getVisibility():Boolean{
+				return (isUserConfigured && configuredStations.length==0)? true : false;
+			}
+			
+			
+			private function drawMergedModelOrNot():void{
+				if(cb_mergedModel.selected)
+					isMergedModel = true
+				else
+					isMergedModel = false;
+					
+				//30 Dec 2013 
+				//30 Dec 2013 
+//				var cornerGutter:Number = 20; //haha
+//				var topRightCorner:Alert =Alert.show("checkWhetherMergedModelCheckboxIs\nCheckedOrNot("+cb_mergedModel.selected+")","ExternalInterface.call");
+//				topRightCorner.width = 400;
+//				PopUpManager.centerPopUp(topRightCorner);
+//				topRightCorner.x = this.width - topRightCorner.width - cornerGutter;
+//				topRightCorner.y = 0;
+				
+				ExternalInterface.call("checkWhetherMergedModelCheckboxIsCheckedOrNot",cb_mergedModel.selected);				
+				//30 Dec 2013 
+				//30 Dec 2013 
+				
+				messageFromJohn(str_msgFromJohn);		
+			}
+   			
+//			public function getBasalModelStr(isMulti:Boolean, isMEDM:Boolean, baseModel:String, varName:String)
+			
+			private function getBasalModel():String{
+				return CommonUtil.getInstance().getBasalModelStr(isMultiSeries, isMEDM, baseModelName, str_typeOfChart);
+			}
+		]]>
+		
+		
+	</mx:Script>
+	
+		
+
+	<mx:VBox id="vBox" width="1100" height="100%" verticalScrollPolicy="off" 
+		backgroundColor="0xFFFFFF"  verticalGap="0" 
+		borderStyle="none">
+		<!--
+		<preferences:notConfiguredYet id="notYet" redrawConfiguredStations="{messageFromJohn(str_msgFromJohn,true)}"
+			visible="false" includeInLayout="false"/>
+		-->
+		<mx:VBox id="justBox" width="100%"/>
+	
+		<mx:VBox width="100%" id="contentsBox" verticalGap="0">
+		    <mx:HBox width="100%" verticalAlign="middle">
+		    	<mx:HBox width="50%" verticalAlign="middle">
+		    		<mx:HBox width="100%" horizontalAlign="left" verticalAlign="middle">
+						<mx:Label id="lbl_region" text="{stations.@grName}" fontSize="18" fontWeight="bold" />
+						<mx:Spacer width="10"/>
+						<!-- 평창올림픽 지점그룹에는 애트리뷰트 usePersonalizationSetting=false 주고 막아 
+					    	visible="{&amp;&amp;!isSSPS}" includeInLayout="{lbl_region.visible}"
+						-->
+					    <mx:CheckBox id="cb_setAsMain"  label="시작 페이지로" labelPlacement="right" fontSize="12"
+					    	click="{setSelectedItemAsMainStation();}" 
+					    	visible="{isMultiSeries}" includeInLayout="{lbl_region.visible}"
+					    	selected="{(defaultPageSetter.getRegionCode()==((!isSSPS)? grCodeNum.toString() : iPad4(grCodeNum,4)) &amp;&amp; defaultPageSetter.getBaseModel()==baseModelName &amp;&amp; defaultPageSetter.getIsMEDM()==isMEDM.toString())?true:false}"/>
+					    	<!--adios
+					    	cb_setAsMain visible="{isMultiSeries && !isEnsemble }"
+					    	-->
+					    <mx:Spacer width="10"/>
+					    <mx:HBox horizontalAlign="center" verticalAlign="middle" horizontalGap="2">
+						    <mx:Image id="btn_setting" width="28" height="24" source="{btn_settings}" 
+						    	includeInLayout="{true}" 
+						    	visible="{isUserConfigured &amp;&amp; isMultiSeries}" 
+						    	useHandCursor="true" buttonMode="true" mouseChildren="false" 
+						    	click="openPersonalizationSettingDialog()"/>
+						    <mx:Label text="관심지역 설정" fontSize="12"
+						    	includeInLayout="{true}" 
+						    	visible="{isUserConfigured &amp;&amp; isMultiSeries }" 
+						    	useHandCursor="true" buttonMode="true" mouseChildren="false" 
+						    	click="openPersonalizationSettingDialog()"/>	
+					    </mx:HBox>
+					 <!--
+					 -->   	
+		    		</mx:HBox>
+		    	</mx:HBox>
+				<mx:HBox id="legendBox" width="50%" />
+		    	<!--
+				<mx:HBox id="legendBox" width="50%"  visible="{isMultiSeries}" includeInLayout="{isMultiSeries}" borderStyle="none"/>
+				<mx:HBox id="legendBox_temp" width="50%"  visible="{legendBox_temp.includeInLayout}" includeInLayout="{isMergedModel  &amp;&amp; cb_mergedModel.visible}"
+					horizontalAlign="right" borderStyle="none"/>
+		    	-->
+		    </mx:HBox>
+			<mx:HBox width="100%">
+				<mx:Label  text="Issued for {dateOfIssue}" width="50%" fontSize="18" fontWeight="bold" /> <!--color="#768082"-->
+				<mx:HBox width="50%" horizontalAlign="right" verticalAlign="middle">
+					<mx:CheckBox id="cb_mergedModel"  label="모델 비교" labelPlacement="right" fontSize="12" 
+				    	click="{drawMergedModelOrNot();}" 
+				    	visible="{!isMultiSeries &amp;&amp; baseModelName!='SSPS'}" includeInLayout="{true}"
+				    	selected="{(isMergedModel)?true:false}"
+				    	/>
+						<!--
+						-->    	
+					<mx:Label  id="lbl_baseModel" textAlign="right" text="{basedOn}" fontSize="18" fontWeight="bold" includeInLayout="{lbl_region.visible}"/> <!--color="#768082"-->
+				</mx:HBox>
+			</mx:HBox>
+			<!--Update On HH:mm LST-->
+			<mx:HBox id="updatedOnContainer" width="1100" paddingBottom="-5"  horizontalAlign="right"><!--visible="{baseModelName=='BEST' &amp;&amp; !isMergedModel}" includeInLayout="{updatedOnContainer.visible}"-->
+				<mx:Label id="updateOnLabel" text="" width="100%" textAlign="right" fontSize="16" fontWeight="bold" /> 
+				<!--color="#768082"-->
+			</mx:HBox>
+			<!--Update On HH:mm LST-->
+			
+			<mx:HBox width="100%">
+			    <mx:VBox id="chartArea" width="100%" />
+			</mx:HBox>
+		</mx:VBox>
+	</mx:VBox>
+
+	
+</mx:Application>

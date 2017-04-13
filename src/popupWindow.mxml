@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" width="100%" height="100%" 
+		   backgroundAlpha="1.0" backgroundColor="#FFFFFF" borderColor="#1B86D1" 
+		   borderStyle="solid" creationComplete="DrowLine()">
+	<mx:Script>
+		<![CDATA[
+			import mx.containers.Canvas;
+			import mx.controls.Alert;
+			import mx.core.Application;
+			import mx.managers.PopUpManager;
+			private function OnClose():void{
+				PopUpManager.removePopUp(this);
+			}
+//			private function DrowLine():void{
+//				var pt:Point = new Point(0, -13);
+//				var global:Point = Application.application.localToGlobal(pt);
+//				var origin:Point =global;
+//				var destination:Point = new Point(150,0);
+//				var destination1:Point = new Point(50,0);
+//				var lineThickness:Number = 1;
+//				var lineColor:Number = 0x1B86D1;
+//				var lineAlpha:Number = 1;
+//				//Alert.show(global.toString());
+//				
+//				var tip:Canvas = new Canvas();
+//				
+//				tip.graphics.clear();
+//				tip.graphics.beginFill(0xffffff,1);
+//				
+//				tip.graphics.lineStyle(lineThickness,lineColor,lineAlpha);
+//				tip.graphics.moveTo(origin.x,origin.y);
+//				tip.graphics.lineTo(destination.x,destination.y);
+//				tip.graphics.lineStyle(1,0xffffff,lineAlpha);
+//				tip.graphics.lineTo(50,0);
+//				tip.graphics.lineStyle(1,0x1B86D1,1);
+//				tip.graphics.lineTo(origin.x,origin.y);
+//				tip.graphics.endFill();
+//				addChild(tip);
+//				
+//			}
+			private function DrowLine():void{
+//				var pt:Point = new Point(0, -13);
+				var pt:Point = new Point(-20, 20); //왼쪽 뾰족이 스타트 포인트
+				var global:Point = Application.application.localToGlobal(pt);
+				var origin:Point =global;
+//				var destination:Point = new Point(150,0);
+				var destination:Point = new Point(0,10);
+//				var destination1:Point = new Point(350,0); doesnt need anymore haha
+				var lineThickness:Number = 1;
+				var lineColor:Number = 0x1B86D1;
+				var lineAlpha:Number = 1;
+				//Alert.show(global.toString());
+				
+				var tip:Canvas = new Canvas();
+				
+				tip.graphics.clear();
+				tip.graphics.beginFill(0xffffff,1);
+				
+				tip.graphics.lineStyle(lineThickness,lineColor,lineAlpha);
+				tip.graphics.moveTo(origin.x,origin.y);
+				tip.graphics.lineTo(destination.x,destination.y);
+				tip.graphics.lineStyle(1,0xffffff,lineAlpha);
+//				tip.graphics.lineTo(50,0);
+				tip.graphics.lineTo(0,30);
+				tip.graphics.lineStyle(1,0x1B86D1,1);
+				tip.graphics.lineTo(origin.x,origin.y);
+				tip.graphics.endFill();
+				addChild(tip);
+				
+			}
+		]]>
+	</mx:Script>
+	<mx:Image x="10" y="10" width="600" height="550" id="map_stn" source="testEI.png" />
+	<mx:Label x="10" y="75" text="Attach:" width="54" fontWeight="bold" color="#000000"/>
+	<mx:Button x="58" y="73" label="Browse" cornerRadius="0" borderColor="#288ACF" color="#4DB111"/>
+	<mx:Button x="219" y="73" label="Save" id="btn_save" name="btn_save" cornerRadius="0" color="#15AE11" borderColor="#308FD1"/>
+	<mx:Image x="272" y="2" width="18" height="18" source="image/imgPlayer/full.png" click="OnClose()"/>
+	
+</mx:Canvas>
